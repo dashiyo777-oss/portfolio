@@ -1,559 +1,1087 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ryuzaburo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本を彩る女性の偉人20人 | 歴史分析ポートフォリオ</title>
+<meta name="description" content="日本歴史に影響を与えた女性20人を徹底分析。シニアアナリストによる学術的視点からのプロフィールと選出ロジック。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+/* ─── Custom Properties ─── */
+:root {
+  --bg:          #fdf8f0;
+  --bg2:         #f5ede0;
+  --bg-card:     #fffaf3;
+  --text:        #2c1810;
+  --text-m:      #7a5c4a;
+  --text-f:      #b09080;
+  --ac1:         #b5451b;
+  --ac2:         #c8860a;
+  --ac3:         #8b4513;
+  --bd:          rgba(181,69,27,0.14);
+  --bd2:         rgba(181,69,27,0.28);
+  --sh:          0 4px 20px rgba(50,20,10,0.08);
+  --sh2:         0 14px 40px rgba(50,20,10,0.16);
+  --nav-bg:      rgba(253,248,240,0.90);
+  --modal-bg:    rgba(28,14,6,0.78);
+  --hero-ov:     rgba(18,8,3,0.38);
+  --transition:  0.4s ease;
+}
+[data-theme="dark"] {
+  --bg:          #100d09;
+  --bg2:         #17120d;
+  --bg-card:     #1d1710;
+  --text:        #ede5d8;
+  --text-m:      #a89070;
+  --text-f:      #6a5040;
+  --ac1:         #e06840;
+  --ac2:         #d4a030;
+  --ac3:         #c07840;
+  --bd:          rgba(200,140,60,0.14);
+  --bd2:         rgba(200,140,60,0.28);
+  --sh:          0 4px 20px rgba(0,0,0,0.30);
+  --sh2:         0 14px 40px rgba(0,0,0,0.50);
+  --nav-bg:      rgba(16,13,9,0.90);
+  --modal-bg:    rgba(5,3,1,0.88);
+  --hero-ov:     rgba(5,3,1,0.52);
+}
 
-    :root {
-      --white: #fdf6ec;
-      --gold: #c8860a;
-      --amber: #d4863a;
-      --brown: #c47a3a;
-      --dark-brown: #8b5e2a;
-      --gray: #a08060;
-    }
+/* ─── Reset ─── */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:var(--bg);color:var(--text);font-family:'Noto Serif JP',serif;font-weight:400;line-height:1.8;overflow-x:hidden;transition:background var(--transition),color var(--transition)}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--ac2);border-radius:3px}
+img{display:block;max-width:100%}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:inherit}
+ul{list-style:none}
 
-    html { scroll-behavior: smooth; }
+/* ─── Reveal ─── */
+.rv{opacity:0;transform:translateY(36px);transition:opacity .9s cubic-bezier(.4,0,.2,1),transform .9s cubic-bezier(.4,0,.2,1)}
+.rv.on{opacity:1;transform:translateY(0)}
+.rl{opacity:0;transform:translateX(-36px);transition:opacity .9s cubic-bezier(.4,0,.2,1),transform .9s cubic-bezier(.4,0,.2,1)}
+.rl.on{opacity:1;transform:translateX(0)}
+.rr{opacity:0;transform:translateX(36px);transition:opacity .9s cubic-bezier(.4,0,.2,1),transform .9s cubic-bezier(.4,0,.2,1)}
+.rr.on{opacity:1;transform:translateX(0)}
+.d1{transition-delay:.10s}.d2{transition-delay:.20s}.d3{transition-delay:.30s}.d4{transition-delay:.40s}.d5{transition-delay:.50s}.d6{transition-delay:.60s}
 
-    body {
-      color: var(--white);
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
-      overflow-x: hidden;
-    }
+/* ─── Navigation ─── */
+nav{position:fixed;top:0;left:0;right:0;z-index:900;height:60px;background:var(--nav-bg);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--bd);display:flex;align-items:center;justify-content:space-between;padding:0 2rem;transition:background var(--transition),border-color var(--transition)}
+.nav-logo{font-family:'Shippori Mincho',serif;font-weight:700;font-size:1rem;color:var(--ac1);letter-spacing:.06em}
+.nav-links{display:flex;gap:1.8rem;align-items:center}
+.nav-links a{font-size:.72rem;letter-spacing:.12em;color:var(--text-m);transition:color .3s}
+.nav-links a:hover{color:var(--ac1)}
+.nav-r{display:flex;align-items:center;gap:.8rem}
+.theme-btn{background:none;border:1px solid var(--bd2);border-radius:50px;padding:.28rem .9rem;font-size:.68rem;letter-spacing:.12em;color:var(--text-m);display:flex;align-items:center;gap:.4rem;transition:all .3s}
+.theme-btn:hover{background:var(--ac1);border-color:var(--ac1);color:#fff}
+.ham{display:none;background:none;border:none;flex-direction:column;gap:5px;padding:4px}
+.ham span{display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:all .3s}
 
-    /* ── Reveal animations ── */
-    .reveal {
-      opacity: 0;
-      transform: translateY(40px);
-      transition: opacity 0.9s cubic-bezier(0.4,0,0.2,1), transform 0.9s cubic-bezier(0.4,0,0.2,1);
-    }
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    .reveal-delay-1 { transition-delay: 0.15s; }
-    .reveal-delay-2 { transition-delay: 0.30s; }
-    .reveal-delay-3 { transition-delay: 0.45s; }
-    .reveal-delay-4 { transition-delay: 0.60s; }
+/* ─── Hero ─── */
+.hero{height:100vh;min-height:640px;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 2rem;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-ov{position:absolute;inset:0;z-index:1;background:var(--hero-ov)}
+.hero-c{position:relative;z-index:2;max-width:820px}
+.hero-eye{font-family:'Cormorant Garamond',serif;font-size:.65rem;letter-spacing:.55em;text-transform:uppercase;color:var(--ac2);margin-bottom:1.4rem;opacity:0;animation:fd .9s ease forwards .4s}
+@keyframes fd{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+.hero-title{font-family:'Shippori Mincho',serif;font-size:clamp(2.4rem,7vw,5.8rem);font-weight:800;line-height:1.15;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.28);opacity:0;animation:fs 1.2s cubic-bezier(.4,0,.2,1) forwards .7s}
+@keyframes fs{from{opacity:0;transform:scale(.94) translateY(22px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.hero-title em{font-style:normal;background:linear-gradient(130deg,#ffd060,#e08030);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{margin-top:1.4rem;font-size:clamp(.88rem,1.8vw,1.1rem);color:rgba(255,255,255,.82);line-height:2;font-weight:300;opacity:0;animation:fu .9s ease forwards 1.1s}
+@keyframes fu{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.hero-badges{margin-top:2.2rem;display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;opacity:0;animation:fu .9s ease forwards 1.4s}
+.hero-badge{background:rgba(255,255,255,.10);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.2);padding:.35rem 1.1rem;border-radius:50px;font-size:.68rem;letter-spacing:.14em;color:rgba(255,255,255,.88)}
+.hero-scroll{position:absolute;bottom:2.4rem;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:.5rem;color:rgba(255,255,255,.55);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;opacity:0;animation:fu .9s ease forwards 1.8s}
+.hero-scroll::after{content:'';display:block;width:1px;height:3rem;background:linear-gradient(to bottom,rgba(255,200,100,.7),transparent);animation:sp 2s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:0;transform:scaleY(.3);transform-origin:top}50%{opacity:1;transform:scaleY(1)}}
+/* Petal */
+.petal{position:absolute;border-radius:60% 10% 60% 10%;opacity:0;animation:pf linear infinite;z-index:1;pointer-events:none}
+@keyframes pf{0%{opacity:0;transform:translateY(-40px) rotate(0deg) translateX(0)}8%{opacity:.75}90%{opacity:.3}100%{opacity:0;transform:translateY(105vh) rotate(600deg) translateX(60px)}}
 
-    /* ── Hero ── */
-    .hero {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      text-align: center;
-      padding: 0 2rem;
-      overflow: hidden;
-    }
+/* ─── Section Base ─── */
+.sec{padding:7rem 2rem}
+.si{max-width:1100px;margin:0 auto}
+.sh{text-align:center;margin-bottom:3.5rem}
+.s-label{font-family:'Cormorant Garamond',serif;font-size:.64rem;letter-spacing:.52em;text-transform:uppercase;color:var(--ac1);margin-bottom:.6rem;display:block}
+.s-title{font-family:'Shippori Mincho',serif;font-size:clamp(1.7rem,3.8vw,2.8rem);font-weight:700;color:var(--text);line-height:1.25}
+.s-title span{color:var(--ac1)}
+.s-bar{width:52px;height:2px;background:linear-gradient(to right,var(--ac1),var(--ac2));margin:1.2rem auto;border-radius:2px}
+.s-desc{color:var(--text-m);font-size:.9rem;line-height:2;max-width:580px;margin:0 auto}
+.wave-div{height:1px;background:linear-gradient(to right,transparent,var(--bd2),transparent)}
 
-    .hero-bg {
-      position: absolute;
-      inset: 0;
-      z-index: 0;
-    }
+/* ─── Selection Logic ─── */
+.logic-sec{background:var(--bg2)}
+.criteria-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1.4rem;margin-top:2.5rem}
+.c-card{background:var(--bg-card);border:1px solid var(--bd);border-radius:12px;padding:1.6rem 1.3rem;text-align:center;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative;overflow:hidden}
+.c-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(to right,var(--ac1),var(--ac2));transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.c-card:hover{transform:translateY(-6px);box-shadow:var(--sh2);border-color:var(--bd2)}
+.c-card:hover::before{transform:scaleX(1)}
+.c-icon{font-size:2rem;margin-bottom:.7rem}
+.c-title{font-family:'Shippori Mincho',serif;font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:.45rem}
+.c-desc{font-size:.78rem;color:var(--text-m);line-height:1.75}
+.pop-stats{margin-top:2.5rem;background:var(--bg-card);border:1px solid var(--bd);border-radius:14px;padding:1.8rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1.2rem}
+.stat{text-align:center}
+.stat-n{font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:300;color:var(--ac1);line-height:1}
+.stat-l{font-size:.72rem;color:var(--text-m);margin-top:.35rem;letter-spacing:.05em}
 
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        to bottom,
-        rgba(30,15,5,0.25) 0%,
-        rgba(20,10,3,0.10) 40%,
-        rgba(10,5,2,0.55) 100%
-      );
-      z-index: 1;
-    }
+/* ─── TOP3 ─── */
+.top3-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+.t3c{position:relative;border-radius:16px;overflow:hidden;cursor:pointer;transition:transform .4s,box-shadow .4s;border:1px solid var(--bd);background:var(--bg-card)}
+.t3c:hover{transform:translateY(-10px);box-shadow:var(--sh2)}
+.t3-badge{position:absolute;top:1rem;left:1rem;z-index:2;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:.95rem;font-weight:600;color:#fff}
+.b1{background:linear-gradient(135deg,#a07800,#e8c020)}
+.b2{background:linear-gradient(135deg,#606060,#b0b0b0)}
+.b3{background:linear-gradient(135deg,#a05820,#d09030)}
+.t3-vis{height:190px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.t3-vis svg{position:absolute;inset:0;width:100%;height:100%}
+.t3-mono{position:relative;z-index:1;font-family:'Shippori Mincho',serif;font-size:4.5rem;font-weight:800;color:rgba(255,255,255,.88);text-shadow:0 2px 14px rgba(0,0,0,.25)}
+.t3-body{padding:1.4rem}
+.t3-era{font-family:'Cormorant Garamond',serif;font-size:.63rem;letter-spacing:.22em;color:var(--ac1);margin-bottom:.35rem}
+.t3-name{font-family:'Shippori Mincho',serif;font-size:1.4rem;font-weight:700;color:var(--text);margin-bottom:.25rem;line-height:1.2}
+.t3-name small{font-size:.65rem;font-family:'Cormorant Garamond',serif;font-weight:300;color:var(--text-f);display:block;letter-spacing:.1em;margin-top:.15rem}
+.t3-desc{font-size:.8rem;color:var(--text-m);line-height:1.75;margin-bottom:1rem}
+.pop-row{display:flex;align-items:center;gap:.7rem}
+.pop-bar-w{flex:1;height:4px;background:var(--bd);border-radius:2px;overflow:hidden}
+.pop-bar{height:100%;background:linear-gradient(to right,var(--ac1),var(--ac2));border-radius:2px;width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+.pop-pct{font-family:'Cormorant Garamond',serif;font-size:.78rem;color:var(--ac2);min-width:3rem;text-align:right}
 
-    .hero-content {
-      position: relative;
-      z-index: 2;
-    }
+/* ─── Women Grid ─── */
+.women-sec{background:var(--bg2)}
+.filter-bar{display:flex;gap:.65rem;flex-wrap:wrap;justify-content:center;margin-bottom:2.5rem}
+.f-btn{background:none;border:1px solid var(--bd2);border-radius:50px;padding:.4rem 1.1rem;font-size:.72rem;letter-spacing:.1em;color:var(--text-m);transition:all .3s}
+.f-btn:hover,.f-btn.active{background:var(--ac1);border-color:var(--ac1);color:#fff}
+.women-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1.4rem}
+.wcard{background:var(--bg-card);border:1px solid var(--bd);border-radius:12px;overflow:hidden;cursor:pointer;transition:transform .35s,box-shadow .35s,border-color .35s}
+.wcard:hover{transform:translateY(-8px);box-shadow:var(--sh2);border-color:var(--bd2)}
+.wcard.hide{display:none}
+.w-vis{height:130px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.w-vis svg{position:absolute;inset:0;width:100%;height:100%}
+.w-mono{position:relative;z-index:1;font-family:'Shippori Mincho',serif;font-size:3rem;font-weight:800;color:rgba(255,255,255,.9);text-shadow:0 2px 8px rgba(0,0,0,.22)}
+.w-rank{position:absolute;top:.5rem;right:.5rem;background:rgba(0,0,0,.32);backdrop-filter:blur(4px);border-radius:50px;padding:.18rem .55rem;font-size:.58rem;color:rgba(255,255,255,.9);letter-spacing:.1em;font-family:'Cormorant Garamond',serif}
+.w-body{padding:1.1rem}
+.w-era{font-family:'Cormorant Garamond',serif;font-size:.6rem;letter-spacing:.2em;color:var(--ac1);margin-bottom:.28rem}
+.w-name{font-family:'Shippori Mincho',serif;font-size:1.1rem;font-weight:600;color:var(--text);margin-bottom:.4rem;line-height:1.2}
+.w-name small{font-size:.62rem;font-family:'Cormorant Garamond',serif;color:var(--text-f);display:block;letter-spacing:.08em;margin-top:.1rem}
+.w-desc{font-size:.76rem;color:var(--text-m);line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.w-tags{margin-top:.7rem;display:flex;gap:.35rem;flex-wrap:wrap}
+.w-tag{font-size:.58rem;padding:.18rem .55rem;border-radius:50px;background:var(--bd);color:var(--text-m)}
 
-    /* Floating light particles */
-    .particles {
-      position: absolute;
-      inset: 0;
-      z-index: 1;
-      pointer-events: none;
-    }
-    .particle {
-      position: absolute;
-      border-radius: 50%;
-      background: rgba(220,170,80,0.6);
-      animation: floatParticle linear infinite;
-    }
+/* ─── Timeline ─── */
+.tl-wrap{position:relative;padding:1rem 0}
+.tl-line{position:absolute;left:50%;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,var(--ac2) 10%,var(--ac1) 90%,transparent);transform:translateX(-50%)}
+.tl-item{display:grid;grid-template-columns:1fr 50px 1fr;gap:1rem;margin-bottom:2.2rem;align-items:start}
+.tl-item:nth-child(odd) .tl-content{grid-column:1;text-align:right}
+.tl-item:nth-child(odd) .tl-dot{grid-column:2}
+.tl-item:nth-child(odd) .tl-empty{grid-column:3}
+.tl-item:nth-child(even) .tl-empty{grid-column:1}
+.tl-item:nth-child(even) .tl-dot{grid-column:2}
+.tl-item:nth-child(even) .tl-content{grid-column:3}
+.tl-dot{width:40px;height:40px;border-radius:50%;background:var(--bg-card);border:2px solid var(--ac2);display:flex;align-items:center;justify-content:center;font-size:1.1rem;box-shadow:0 0 0 5px var(--bg),0 0 0 7px var(--bd);margin:0 auto;transition:background .3s,transform .3s}
+.tl-item:hover .tl-dot{background:var(--ac1);transform:scale(1.14)}
+.tl-content{background:var(--bg-card);border:1px solid var(--bd);border-radius:10px;padding:1.1rem 1.3rem;transition:box-shadow .3s}
+.tl-item:hover .tl-content{box-shadow:var(--sh)}
+.tl-era{font-family:'Cormorant Garamond',serif;font-size:.62rem;letter-spacing:.22em;color:var(--ac1);margin-bottom:.35rem}
+.tl-period{font-family:'Shippori Mincho',serif;font-size:1.05rem;font-weight:600;color:var(--text);margin-bottom:.35rem}
+.tl-names{font-size:.78rem;color:var(--text-m);line-height:1.7}
+.tl-names strong{color:var(--ac1);font-weight:600}
 
-    @keyframes floatParticle {
-      0%   { transform: translateY(100vh) scale(0); opacity: 0; }
-      10%  { opacity: 1; }
-      90%  { opacity: 0.6; }
-      100% { transform: translateY(-10vh) scale(1); opacity: 0; }
-    }
+/* ─── Comments ─── */
+.cmt-sec{background:var(--bg2)}
+.cmt-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}
+.cmt-form-wrap{background:var(--bg-card);border:1px solid var(--bd);border-radius:16px;padding:1.8rem}
+.cmt-form-title{font-family:'Shippori Mincho',serif;font-size:1.05rem;font-weight:600;color:var(--text);margin-bottom:1.2rem}
+.fg{margin-bottom:.9rem}
+.fl{font-size:.72rem;color:var(--text-m);letter-spacing:.1em;display:block;margin-bottom:.35rem}
+.fi,.fta{width:100%;background:var(--bg);border:1px solid var(--bd2);border-radius:8px;padding:.65rem .95rem;color:var(--text);font-size:.875rem;font-family:'Noto Serif JP',serif;transition:border-color .3s,box-shadow .3s;resize:vertical}
+.fi:focus,.fta:focus{outline:none;border-color:var(--ac1);box-shadow:0 0 0 3px rgba(181,69,27,.1)}
+.fta{min-height:95px}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.sbtn{background:linear-gradient(135deg,var(--ac1),var(--ac3));color:#fff;border:none;border-radius:8px;padding:.7rem 1.8rem;font-size:.875rem;letter-spacing:.1em;transition:opacity .3s,transform .3s;margin-top:.4rem}
+.sbtn:hover{opacity:.86;transform:translateY(-2px)}
+.cmt-list-wrap{background:var(--bg-card);border:1px solid var(--bd);border-radius:16px;padding:1.8rem}
+.cmt-list-hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.2rem;flex-wrap:wrap;gap:.5rem}
+.cmt-list-title{font-family:'Shippori Mincho',serif;font-size:1.05rem;font-weight:600;color:var(--text)}
+.show-all-btn{background:none;border:1px solid var(--bd2);border-radius:50px;padding:.28rem .8rem;font-size:.68rem;color:var(--text-m);transition:all .3s}
+.show-all-btn:hover{background:var(--ac1);border-color:var(--ac1);color:#fff}
+.pwd-box{background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:.8rem 1rem;margin-bottom:1rem;display:none}
+.pwd-box.open{display:block}
+.pwd-row{display:flex;gap:.5rem}
+.pwd-in{flex:1;background:var(--bg-card);border:1px solid var(--bd2);border-radius:6px;padding:.45rem .8rem;color:var(--text);font-size:.8rem;font-family:'Noto Serif JP',serif}
+.pwd-in:focus{outline:none;border-color:var(--ac1)}
+.pwd-btn{background:var(--ac1);color:#fff;border:none;border-radius:6px;padding:.45rem .95rem;font-size:.72rem;transition:opacity .3s}
+.pwd-btn:hover{opacity:.85}
+.cmt-card{background:var(--bg);border:1px solid var(--bd);border-radius:10px;padding:1.3rem;margin-bottom:.9rem;transition:box-shadow .3s}
+.cmt-card:hover{box-shadow:var(--sh)}
+.cmt-card.new{border-color:var(--ac2);animation:ca .5s ease}
+@keyframes ca{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.cmt-meta{display:flex;align-items:center;gap:.8rem;margin-bottom:.7rem;flex-wrap:wrap}
+.cmt-av{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--ac1),var(--ac2));display:flex;align-items:center;justify-content:center;font-family:'Shippori Mincho',serif;font-size:.85rem;color:#fff;flex-shrink:0}
+.cmt-info{flex:1}
+.cmt-name{font-family:'Shippori Mincho',serif;font-size:.88rem;font-weight:600;color:var(--text)}
+.cmt-date{font-size:.62rem;color:var(--text-f);margin-top:.08rem}
+.cmt-role-badge{font-size:.62rem;padding:.18rem .6rem;border-radius:50px;background:rgba(181,69,27,.1);color:var(--ac1)}
+.cmt-text{font-size:.85rem;color:var(--text-m);line-height:1.85}
+.no-cmt{text-align:center;color:var(--text-f);font-size:.85rem;padding:2rem;font-style:italic}
 
-    /* Mountain parallax */
-    .mountain-layer {
-      transform-origin: bottom center;
-      transition: transform 0.1s linear;
-    }
+/* ─── Modal ─── */
+.modal-ov{position:fixed;inset:0;background:var(--modal-bg);z-index:2000;display:flex;align-items:center;justify-content:center;padding:2rem;opacity:0;pointer-events:none;transition:opacity .35s ease}
+.modal-ov.open{opacity:1;pointer-events:all}
+.modal{background:var(--bg);border:1px solid var(--bd2);border-radius:20px;max-width:660px;width:100%;max-height:86vh;overflow-y:auto;position:relative;transform:scale(.9) translateY(28px);transition:transform .4s cubic-bezier(.4,0,.2,1)}
+.modal-ov.open .modal{transform:scale(1) translateY(0)}
+.modal-close{position:absolute;top:1rem;right:1rem;background:rgba(0,0,0,.18);border:none;border-radius:50%;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;color:#fff;z-index:1;transition:background .3s}
+.modal-close:hover{background:var(--ac1)}
+.modal-vis{height:180px;position:relative;overflow:hidden;border-radius:20px 20px 0 0;display:flex;align-items:center;justify-content:center}
+.modal-vis svg{position:absolute;inset:0;width:100%;height:100%}
+.modal-mono{position:relative;z-index:1;font-family:'Shippori Mincho',serif;font-size:5.5rem;font-weight:800;color:rgba(255,255,255,.88);text-shadow:0 3px 16px rgba(0,0,0,.28)}
+.modal-body{padding:1.8rem}
+.modal-era{font-family:'Cormorant Garamond',serif;font-size:.63rem;letter-spacing:.28em;color:var(--ac1);margin-bottom:.45rem}
+.modal-name{font-family:'Shippori Mincho',serif;font-size:2rem;font-weight:800;color:var(--text);line-height:1.15;margin-bottom:.2rem}
+.modal-name-en{font-family:'Cormorant Garamond',serif;font-size:.88rem;color:var(--text-f);letter-spacing:.12em;margin-bottom:.9rem}
+.modal-yrs{display:inline-block;background:rgba(181,69,27,.08);border:1px solid rgba(181,69,27,.2);border-radius:50px;padding:.18rem .85rem;font-size:.68rem;color:var(--ac1);margin-bottom:1.3rem;font-family:'Cormorant Garamond',serif;letter-spacing:.1em}
+.modal-div{height:1px;background:var(--bd);margin:1.2rem 0}
+.modal-st{font-family:'Shippori Mincho',serif;font-size:.88rem;font-weight:600;color:var(--ac1);margin-bottom:.65rem;display:flex;align-items:center;gap:.45rem}
+.modal-st::before{content:'';display:inline-block;width:3px;height:1em;background:var(--ac1);border-radius:2px}
+.modal-txt{font-size:.85rem;color:var(--text-m);line-height:1.95}
+.modal-quote{border-left:3px solid var(--ac2);padding:.9rem 1.3rem;margin:1.2rem 0;background:rgba(200,134,10,.06);border-radius:0 8px 8px 0}
+.modal-quote p{font-family:'Shippori Mincho',serif;font-size:.9rem;color:var(--text);font-style:italic;line-height:1.85}
+.modal-tags{display:flex;gap:.45rem;flex-wrap:wrap;margin-top:1.3rem}
+.modal-tag{font-size:.68rem;padding:.25rem .75rem;border-radius:50px;border:1px solid var(--bd2);color:var(--text-m)}
+.modal-pop{display:flex;align-items:center;gap:1rem;margin-top:1rem;padding:.75rem 1rem;background:var(--bg2);border-radius:8px}
+.modal-pop-l{font-size:.68rem;color:var(--text-m);white-space:nowrap}
+.modal-pop-bw{flex:1;height:6px;background:var(--bd);border-radius:3px;overflow:hidden}
+.modal-pop-b{height:100%;background:linear-gradient(to right,var(--ac1),var(--ac2));border-radius:3px;width:0;transition:width 1s cubic-bezier(.4,0,.2,1) .2s}
+.modal-pop-p{font-family:'Cormorant Garamond',serif;font-size:1.15rem;color:var(--ac1);min-width:3rem;text-align:right}
 
-    .hero-label {
-      font-size: 0.65rem;
-      letter-spacing: 0.4em;
-      text-transform: uppercase;
-      color: var(--amber);
-      margin-bottom: 2rem;
-      opacity: 0;
-      animation: fadeSlideDown 1s ease forwards 0.3s;
-    }
+/* ─── Footer ─── */
+footer{background:var(--bg);border-top:1px solid var(--bd);padding:2.8rem 2rem;text-align:center}
+.ft-logo{font-family:'Shippori Mincho',serif;font-size:1.1rem;font-weight:700;color:var(--ac1);margin-bottom:.4rem}
+.ft-txt{font-size:.7rem;color:var(--text-f);letter-spacing:.1em;line-height:1.9}
+.ft-kamon{margin:1rem auto;opacity:.3}
 
-    @keyframes fadeSlideDown {
-      from { opacity: 0; transform: translateY(-20px); }
-      to   { opacity: 0.85; transform: translateY(0); }
-    }
-
-    .hero-name {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(4rem, 12vw, 10rem);
-      font-weight: 300;
-      line-height: 0.9;
-      letter-spacing: -0.02em;
-      opacity: 0;
-      animation: fadeScaleIn 1.2s cubic-bezier(0.4,0,0.2,1) forwards 0.6s;
-    }
-
-    @keyframes fadeScaleIn {
-      from { opacity: 0; transform: scale(0.92) translateY(20px); }
-      to   { opacity: 1; transform: scale(1) translateY(0); }
-    }
-
-    .hero-name em {
-      font-style: italic;
-      background: linear-gradient(135deg, var(--gold) 0%, var(--brown) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .hero-roles {
-      margin-top: 2.5rem;
-      display: flex;
-      gap: 2rem;
-      align-items: center;
-      font-size: 0.7rem;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--gray);
-      opacity: 0;
-      animation: fadeSlideUp 1s ease forwards 1.0s;
-    }
-
-    @keyframes fadeSlideUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    .hero-roles span {
-      width: 1px;
-      height: 1rem;
-      background: var(--gray);
-      display: inline-block;
-      opacity: 0.5;
-    }
-
-    .scroll-hint {
-      position: absolute;
-      bottom: 2.5rem;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-      color: var(--gray);
-      font-size: 0.6rem;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      z-index: 2;
-      opacity: 0;
-      animation: fadeSlideUp 1s ease forwards 1.5s;
-    }
-
-    .scroll-hint::after {
-      content: '';
-      display: block;
-      width: 1px;
-      height: 3rem;
-      background: linear-gradient(to bottom, var(--gold), transparent);
-      animation: scrollLine 1.8s ease-in-out infinite;
-    }
-
-    @keyframes scrollLine {
-      0%, 100% { opacity: 0; transform: scaleY(0); transform-origin: top; }
-      50%       { opacity: 1; transform: scaleY(1); }
-    }
-
-    /* ── About ── */
-    .about-wrap {
-      background:
-        radial-gradient(ellipse at 80% 50%, rgba(200,140,50,0.15) 0%, transparent 55%),
-        linear-gradient(160deg, #3a2510 0%, #2e1d0a 60%, #352010 100%);
-      padding: 9rem 2rem;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .about-wrap::before {
-      content: '';
-      position: absolute;
-      top: -2px;
-      left: 0; right: 0;
-      height: 80px;
-      background: linear-gradient(to bottom, #2e1c0a, transparent);
-    }
-
-    .about-inner {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .section-label {
-      font-size: 0.6rem;
-      letter-spacing: 0.45em;
-      text-transform: uppercase;
-      margin-bottom: 3rem;
-      position: relative;
-      display: inline-block;
-    }
-
-    .section-label::after {
-      content: '';
-      position: absolute;
-      bottom: -6px;
-      left: 0;
-      width: 0;
-      height: 1px;
-      background: currentColor;
-      transition: width 0.8s ease;
-    }
-
-    .section-label.visible::after {
-      width: 100%;
-    }
-
-    .about-wrap .section-label { color: var(--amber); }
-
-    .about-text {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.7rem, 3vw, 2.5rem);
-      font-weight: 300;
-      line-height: 1.65;
-    }
-
-    .about-text em {
-      font-style: italic;
-      color: var(--amber);
-    }
-
-    /* ── Divider ── */
-    .divider {
-      height: 1px;
-      background: linear-gradient(to right, transparent, rgba(200,134,10,0.25), rgba(180,110,30,0.25), transparent);
-    }
-
-    /* ── Skills ── */
-    .skills-wrap {
-      background:
-        radial-gradient(ellipse at 10% 40%, rgba(180,110,30,0.15) 0%, transparent 50%),
-        radial-gradient(ellipse at 90% 70%, rgba(210,150,60,0.10) 0%, transparent 50%),
-        linear-gradient(150deg, #261508 0%, #2e1a0a 50%, #3a2210 100%);
-      padding: 9rem 2rem;
-    }
-
-    .skills-inner {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .skills-wrap .section-label { color: var(--dark-brown); }
-
-    .skills-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3.5rem 5rem;
-      margin-top: 1rem;
-    }
-
-    .skill-item {
-      transition: transform 0.4s ease;
-      cursor: default;
-    }
-
-    .skill-item:hover {
-      transform: translateY(-6px);
-    }
-
-    .skill-item h3 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.6rem;
-      font-weight: 300;
-      margin-bottom: 0.75rem;
-      color: var(--white);
-      transition: color 0.3s ease;
-    }
-
-    .skill-item:hover h3 {
-      color: var(--gold);
-    }
-
-    .skill-item p {
-      font-size: 0.74rem;
-      line-height: 1.9;
-      color: var(--gray);
-      letter-spacing: 0.04em;
-    }
-
-    .skill-line {
-      width: 2.5rem;
-      height: 2px;
-      margin-bottom: 1.2rem;
-      border-radius: 2px;
-      transition: width 0.5s ease;
-    }
-
-    .skill-item:hover .skill-line {
-      width: 4rem;
-    }
-
-    .skill-item:nth-child(1) .skill-line { background: var(--amber); }
-    .skill-item:nth-child(2) .skill-line { background: var(--brown); }
-    .skill-item:nth-child(3) .skill-line { background: var(--dark-brown); }
-    .skill-item:nth-child(4) .skill-line { background: var(--gold); }
-
-    /* ── Footer ── */
-    footer {
-      background: linear-gradient(160deg, #1e1005 0%, #261508 100%);
-      border-top: 1px solid rgba(200,134,10,0.15);
-      padding: 2.5rem 2rem;
-      text-align: center;
-      font-size: 0.6rem;
-      letter-spacing: 0.25em;
-      color: #6b5030;
-      text-transform: uppercase;
-    }
-
-    @media (max-width: 600px) {
-      .skills-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+/* ─── Responsive ─── */
+@media(max-width:900px){
+  .top3-grid{grid-template-columns:repeat(2,1fr)}
+  .cmt-grid{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  nav{padding:0 1rem}
+  .nav-links{display:none;flex-direction:column;position:fixed;top:60px;left:0;right:0;background:var(--nav-bg);padding:1rem;border-bottom:1px solid var(--bd);backdrop-filter:blur(14px)}
+  .nav-links.open{display:flex}
+  .ham{display:flex}
+  .sec{padding:5rem 1.2rem}
+  .top3-grid{grid-template-columns:1fr}
+  .tl-line{left:20px}
+  .tl-item{grid-template-columns:40px 1fr;gap:.6rem}
+  .tl-item:nth-child(odd) .tl-content,.tl-item:nth-child(even) .tl-content{grid-column:2;text-align:left}
+  .tl-item:nth-child(odd) .tl-dot,.tl-item:nth-child(even) .tl-dot{grid-column:1}
+  .tl-item:nth-child(odd) .tl-empty,.tl-item:nth-child(even) .tl-empty{display:none}
+  .fr{grid-template-columns:1fr}
+  .women-grid{grid-template-columns:repeat(auto-fill,minmax(155px,1fr))}
+  .modal-ov{padding:.8rem;align-items:flex-end}
+  .modal{border-radius:16px 16px 0 0;max-height:90vh}
+}
+@media(max-width:480px){
+  .criteria-grid{grid-template-columns:1fr 1fr}
+  .women-grid{grid-template-columns:repeat(2,1fr)}
+  .top3-grid{grid-template-columns:1fr}
+}
+</style>
 </head>
 <body>
 
-  <!-- Hero -->
-  <div class="hero">
-    <!-- SVG Mountain Background -->
-    <svg class="hero-bg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%"   stop-color="#1a0c04"/>
-          <stop offset="35%"  stop-color="#3d1f08"/>
-          <stop offset="65%"  stop-color="#7a3d12"/>
-          <stop offset="85%"  stop-color="#c47030"/>
-          <stop offset="100%" stop-color="#e8a048"/>
-        </linearGradient>
-        <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%"  stop-color="#ffcc66" stop-opacity="0.4"/>
-          <stop offset="100%" stop-color="#ff8800" stop-opacity="0"/>
-        </linearGradient>
-        <radialGradient id="sunGlow" cx="50%" cy="72%" r="28%">
-          <stop offset="0%"  stop-color="#ffe0a0" stop-opacity="0.55"/>
-          <stop offset="40%" stop-color="#e8903a" stop-opacity="0.25"/>
-          <stop offset="100%" stop-color="#c05010" stop-opacity="0"/>
-        </radialGradient>
-        <radialGradient id="sunCore" cx="50%" cy="72%" r="5%">
-          <stop offset="0%"  stop-color="#fff4cc" stop-opacity="0.9"/>
-          <stop offset="100%" stop-color="#ffaa44" stop-opacity="0"/>
-        </radialGradient>
-        <!-- Mist / atmospheric haze -->
-        <linearGradient id="mist1" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%"  stop-color="#c87830" stop-opacity="0"/>
-          <stop offset="50%" stop-color="#d4924a" stop-opacity="0.18"/>
-          <stop offset="100%" stop-color="#e0a060" stop-opacity="0"/>
-        </linearGradient>
-        <linearGradient id="mist2" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%"  stop-color="#b06020" stop-opacity="0"/>
-          <stop offset="50%" stop-color="#c07838" stop-opacity="0.22"/>
-          <stop offset="100%" stop-color="#c88040" stop-opacity="0"/>
-        </linearGradient>
-        <filter id="blur1">
-          <feGaussianBlur stdDeviation="6"/>
-        </filter>
-        <filter id="blur2">
-          <feGaussianBlur stdDeviation="3"/>
-        </filter>
-      </defs>
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a class="nav-logo" href="#hero">歴史偉人 / Women of History</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">選出ロジック</a></li>
+    <li><a href="#top3">TOP 3</a></li>
+    <li><a href="#women">偉人20人</a></li>
+    <li><a href="#timeline">時代年表</a></li>
+    <li><a href="#comments">監修者コメント</a></li>
+  </ul>
+  <div class="nav-r">
+    <button class="theme-btn" id="themeBtn">
+      <span id="themeIcon">🌙</span><span id="themeLabel">ダーク</span>
+    </button>
+    <button class="ham" id="ham" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
 
-      <!-- Sky -->
-      <rect width="1440" height="900" fill="url(#sky)"/>
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="hero">
+  <svg class="hero-bg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0e0605"/>
+        <stop offset="28%" stop-color="#3a1408"/>
+        <stop offset="55%" stop-color="#8a3510"/>
+        <stop offset="78%" stop-color="#c86020"/>
+        <stop offset="100%" stop-color="#e89040"/>
+      </linearGradient>
+      <radialGradient id="hglow" cx="50%" cy="66%" r="30%">
+        <stop offset="0%" stop-color="#ffd880" stop-opacity=".55"/>
+        <stop offset="40%" stop-color="#e07020" stop-opacity=".22"/>
+        <stop offset="100%" stop-color="#c04010" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="hsun" cx="50%" cy="66%" r="5%">
+        <stop offset="0%" stop-color="#fff8e0" stop-opacity=".9"/>
+        <stop offset="100%" stop-color="#ffb040" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="hblur"><feGaussianBlur stdDeviation="5"/></filter>
+      <filter id="hblur2"><feGaussianBlur stdDeviation="2.5"/></filter>
+      <linearGradient id="hwater" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#6a3010" stop-opacity=".55"/>
+        <stop offset="100%" stop-color="#1a0804" stop-opacity=".85"/>
+      </linearGradient>
+    </defs>
+    <!-- Sky -->
+    <rect width="1440" height="900" fill="url(#hsky)"/>
+    <!-- Sun glows -->
+    <ellipse cx="720" cy="594" rx="400" ry="260" fill="url(#hglow)"/>
+    <ellipse cx="720" cy="594" rx="80" ry="55" fill="url(#hsun)"/>
+    <!-- Far mountains -->
+    <g filter="url(#hblur)" opacity=".5">
+      <path d="M0,620 L120,490 L230,545 L370,420 L490,500 L610,448 L730,490 L830,418 L960,472 L1090,406 L1220,455 L1340,420 L1440,440 L1440,900 L0,900Z" fill="#7a3d14"/>
+    </g>
+    <!-- Mist -->
+    <rect y="450" width="1440" height="100" fill="rgba(200,110,40,.12)" filter="url(#hblur)"/>
+    <!-- Mid mountains -->
+    <g filter="url(#hblur2)" opacity=".78">
+      <path d="M0,680 L100,560 L200,620 L320,500 L440,570 L540,515 L660,555 L780,468 L900,528 L1020,478 L1160,522 L1280,476 L1440,510 L1440,900 L0,900Z" fill="#4a2208"/>
+    </g>
+    <!-- Fuji silhouette -->
+    <path d="M540,580 L720,270 L900,580Z" fill="#2e140a" opacity=".9"/>
+    <path d="M660,340 L720,270 L780,340 L750,355 L720,348 L690,355Z" fill="rgba(255,252,248,.82)"/>
+    <!-- Torii gate -->
+    <g opacity=".72">
+      <rect x="672" y="560" width="10" height="160" fill="#b03010" rx="2"/>
+      <rect x="758" y="560" width="10" height="160" fill="#b03010" rx="2"/>
+      <path d="M662,580 Q720,558 778,580 L778,568 Q720,545 662,568Z" fill="#c84018"/>
+      <rect x="666" y="592" width="108" height="8" fill="#b03010" rx="2"/>
+    </g>
+    <!-- Water reflection -->
+    <rect y="700" width="1440" height="200" fill="url(#hwater)"/>
+    <ellipse cx="720" cy="704" rx="300" ry="14" fill="rgba(255,180,80,.18)" filter="url(#hblur2)"/>
+    <!-- Torii reflection (blurred) -->
+    <g opacity=".25" filter="url(#hblur2)" transform="translate(0,1400) scale(1,-1)">
+      <rect x="672" y="560" width="10" height="160" fill="#c04010" rx="2"/>
+      <rect x="758" y="560" width="10" height="160" fill="#c04010" rx="2"/>
+      <rect x="666" y="592" width="108" height="8" fill="#c04010" rx="2"/>
+    </g>
+    <!-- Foreground -->
+    <path d="M0,900 L0,820 L90,790 L200,830 L310,770 L420,808 L520,758 L640,795 L760,748 L880,782 L1000,745 L1120,775 L1240,748 L1360,768 L1440,752 L1440,900Z" fill="#1a0a04"/>
+    <!-- Sakura circles -->
+    <g opacity=".55" fill="rgba(255,210,220,.8)">
+      <circle cx="180" cy="320" r="3"/><circle cx="250" cy="280" r="2"/><circle cx="320" cy="350" r="2.5"/>
+      <circle cx="1100" cy="300" r="2.5"/><circle cx="1200" cy="260" r="2"/><circle cx="1260" cy="340" r="3"/>
+      <circle cx="150" cy="450" r="2"/><circle cx="1300" cy="420" r="2.5"/>
+    </g>
+  </svg>
+  <div class="hero-ov"></div>
+  <div id="petals"></div>
+  <div class="hero-c">
+    <p class="hero-eye">Senior Analyst Portfolio · 歴史分析</p>
+    <h1 class="hero-title">歴史偉人との<em>出会い</em></h1>
+    <p class="hero-sub">日本の歴史を彩った<strong style="color:rgba(255,220,100,.9)">影響力ある女性20人</strong><br>
+      政治・文学・芸術・教育・社会運動──多彩な時代を生き抜いた先人たちの軌跡</p>
+    <div class="hero-badges">
+      <span class="hero-badge">弥生〜現代</span>
+      <span class="hero-badge">20名 精選</span>
+      <span class="hero-badge">5項目 総合評価</span>
+      <span class="hero-badge">40名以上 候補</span>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
 
-      <!-- Sun glow -->
-      <ellipse cx="720" cy="648" rx="420" ry="300" fill="url(#sunGlow)"/>
-      <ellipse cx="720" cy="648" rx="90"  ry="60"  fill="url(#sunCore)"/>
+<div class="wave-div"></div>
 
-      <!-- Far mountains (layer 4 — very hazy, lightest) -->
-      <g class="mountain-layer" data-speed="0.1" filter="url(#blur1)" opacity="0.55">
-        <path d="M0,620 L100,490 L200,540 L330,430 L460,510 L560,460 L660,490 L760,420 L860,475 L980,415 L1100,460 L1220,395 L1340,445 L1440,410 L1440,900 L0,900 Z"
-              fill="#7a4520"/>
-      </g>
+<!-- ═══ SELECTION LOGIC ═══ -->
+<section class="sec logic-sec" id="about">
+  <div class="si">
+    <div class="sh">
+      <span class="s-label rv">Selection Methodology</span>
+      <h2 class="s-title rv d1">選出ロジック<span>──</span>5つの評価軸</h2>
+      <div class="s-bar rv d2"></div>
+      <p class="s-desc rv d3">「歴史的影響力」と「現代の認知度」を重視し、40名以上の候補者から5項目の総合スコアで上位20名を選出しました。</p>
+    </div>
 
-      <!-- Mist band 1 -->
-      <rect y="430" width="1440" height="120" fill="url(#mist1)" filter="url(#blur1)"/>
-
-      <!-- Mid mountains (layer 3) -->
-      <g class="mountain-layer" data-speed="0.2" filter="url(#blur2)" opacity="0.8">
-        <path d="M0,680 L80,560 L180,620 L290,510 L400,580 L500,520 L610,560 L720,480 L830,540 L940,490 L1060,530 L1180,470 L1300,520 L1440,480 L1440,900 L0,900 Z"
-              fill="#5a3015"/>
-      </g>
-
-      <!-- Mist band 2 -->
-      <rect y="510" width="1440" height="100" fill="url(#mist2)" filter="url(#blur1)"/>
-
-      <!-- Near mountains (layer 2) -->
-      <g class="mountain-layer" data-speed="0.35">
-        <path d="M0,760 L120,640 L230,700 L360,610 L480,680 L580,630 L700,670 L810,590 L930,650 L1060,605 L1170,640 L1300,590 L1440,620 L1440,900 L0,900 Z"
-              fill="#3d1f08"/>
-      </g>
-
-      <!-- Foreground silhouette (layer 1 — darkest) -->
-      <g class="mountain-layer" data-speed="0.5">
-        <path d="M0,900 L0,810 L80,780 L160,820 L260,760 L360,800 L460,750 L560,790 L660,740 L780,775 L880,735 L980,765 L1080,730 L1180,760 L1280,745 L1380,770 L1440,755 L1440,900 Z"
-              fill="#200e04"/>
-      </g>
-
-      <!-- Subtle golden light shimmer on horizon -->
-      <rect y="600" width="1440" height="60" fill="url(#glow)" filter="url(#blur1)" opacity="0.6"/>
-    </svg>
-
-    <!-- Overlay gradient -->
-    <div class="hero-overlay"></div>
-
-    <!-- Floating particles -->
-    <div class="particles" id="particles"></div>
-
-    <!-- Content -->
-    <div class="hero-content">
-      <p class="hero-label">Portfolio</p>
-      <h1 class="hero-name">Ryu<em>zaburo</em></h1>
-      <div class="hero-roles">
-        <p>Writer</p>
-        <span></span>
-        <p>AI Creative</p>
-        <span></span>
-        <p>Designer</p>
+    <div class="criteria-grid">
+      <div class="c-card rv d1">
+        <div class="c-icon">🏛️</div>
+        <div class="c-title">政治・文化的業績</div>
+        <div class="c-desc">国家・社会・文化に与えた客観的インパクト。統治・文学・芸術・教育各分野での達成度を評価。</div>
+      </div>
+      <div class="c-card rv d2">
+        <div class="c-icon">📚</div>
+        <div class="c-title">史料・研究言及度</div>
+        <div class="c-desc">学術論文・教科書・歴史書での引用回数と研究量。一次資料の保存状況も加味。</div>
+      </div>
+      <div class="c-card rv d3">
+        <div class="c-icon">📊</div>
+        <div class="c-title">一般認知度</div>
+        <div class="c-desc">PHPオンライン等の世論調査結果。卑弥呼16.1%・紫式部9.9%・北条政子7.4%が上位を占める。</div>
+      </div>
+      <div class="c-card rv d4">
+        <div class="c-icon">🖼️</div>
+        <div class="c-title">博物館展示状況</div>
+        <div class="c-desc">国立国会図書館・各地の博物館・記念館での展示・資料所在と充実度。</div>
+      </div>
+      <div class="c-card rv d5">
+        <div class="c-icon">📰</div>
+        <div class="c-title">メディア報道頻度</div>
+        <div class="c-desc">NHK大河ドラマ・映画・文学作品への登場回数と現代メディアでの取り上げられ方。</div>
       </div>
     </div>
 
-    <div class="scroll-hint">Scroll</div>
-  </div>
-
-  <div class="divider"></div>
-
-  <!-- About -->
-  <div class="about-wrap">
-    <div class="about-inner">
-      <p class="section-label reveal">About</p>
-      <p class="about-text reveal reveal-delay-1">
-        言葉とビジュアルの境界で仕事をする。<br>
-        <em>AIを使って</em>書くことと<em>デザインすること</em>は、<br>
-        私の仕事です。
-      </p>
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <!-- Skills -->
-  <div class="skills-wrap">
-    <div class="skills-inner">
-      <p class="section-label reveal">What I Do</p>
-      <div class="skills-grid">
-        <div class="skill-item reveal reveal-delay-1">
-          <div class="skill-line"></div>
-          <h3>Writing</h3>
-          <p>コピーライティング、シナリオ、ブランドストーリー。読む人の感情を動かす言葉を丁寧に選ぶ。</p>
-        </div>
-        <div class="skill-item reveal reveal-delay-2">
-          <div class="skill-line"></div>
-          <h3>Visual Design</h3>
-          <p>UI/UX、グラフィック、ブランドアイデンティティ。余白と線でものを語るデザインを追求する。</p>
-        </div>
-        <div class="skill-item reveal reveal-delay-3">
-          <div class="skill-line"></div>
-          <h3>Brand Direction</h3>
-          <p>ブランドのトーン・アンド・マナーを言語化し、一貫したビジョンへと落とし込む。</p>
-        </div>
-        <div class="skill-item reveal reveal-delay-4">
-          <div class="skill-line"></div>
-          <h3>Editorial</h3>
-          <p>雑誌・Webメディア・冊子のエディトリアルデザインと編集ディレクション。</p>
-        </div>
+    <div class="pop-stats rv d1">
+      <div class="stat">
+        <div class="stat-n">40+</div>
+        <div class="stat-l">候補者数</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">5</div>
+        <div class="stat-l">評価軸</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">20</div>
+        <div class="stat-l">最終選出数</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">16.1%</div>
+        <div class="stat-l">最高人気（卑弥呼）</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">1,300</div>
+        <div class="stat-l">年超の歴史スパン</div>
       </div>
     </div>
   </div>
+</section>
 
-  <footer>
-    &copy; 2026 Ryuzaburo — All rights reserved
-  </footer>
+<div class="wave-div"></div>
 
-  <script>
-    // ── Floating particles ──
-    const container = document.getElementById('particles');
-    for (let i = 0; i < 22; i++) {
-      const p = document.createElement('div');
-      p.className = 'particle';
-      const size = Math.random() * 3 + 1;
-      p.style.cssText = `
-        width:${size}px; height:${size}px;
-        left:${Math.random()*100}%;
-        animation-duration:${8 + Math.random()*12}s;
-        animation-delay:${Math.random()*10}s;
-        opacity:${0.3 + Math.random()*0.5};
-      `;
-      container.appendChild(p);
+<!-- ═══ TOP 3 ═══ -->
+<section class="sec" id="top3">
+  <div class="si">
+    <div class="sh">
+      <span class="s-label rv">Featured</span>
+      <h2 class="s-title rv d1">総合評価<span>TOP 3</span></h2>
+      <div class="s-bar rv d2"></div>
+    </div>
+    <div class="top3-grid" id="top3Grid">
+      <!-- Generated by JS -->
+    </div>
+  </div>
+</section>
+
+<div class="wave-div"></div>
+
+<!-- ═══ WOMEN GRID ═══ -->
+<section class="sec women-sec" id="women">
+  <div class="si">
+    <div class="sh">
+      <span class="s-label rv">All Profiles</span>
+      <h2 class="s-title rv d1">厳選<span>女性偉人20人</span></h2>
+      <div class="s-bar rv d2"></div>
+      <p class="s-desc rv d3">カードをクリックすると詳細プロフィール・名言・関連文物をご覧いただけます</p>
+    </div>
+    <div class="filter-bar rv">
+      <button class="f-btn active" data-filter="all">すべて</button>
+      <button class="f-btn" data-filter="政治">政治</button>
+      <button class="f-btn" data-filter="文学">文学</button>
+      <button class="f-btn" data-filter="教育">教育</button>
+      <button class="f-btn" data-filter="芸術">芸術</button>
+      <button class="f-btn" data-filter="軍事">軍事</button>
+      <button class="f-btn" data-filter="社会運動">社会運動</button>
+    </div>
+    <div class="women-grid" id="womenGrid">
+      <!-- Generated by JS -->
+    </div>
+  </div>
+</section>
+
+<div class="wave-div"></div>
+
+<!-- ═══ TIMELINE ═══ -->
+<section class="sec" id="timeline">
+  <div class="si">
+    <div class="sh">
+      <span class="s-label rv">Chronology</span>
+      <h2 class="s-title rv d1">時代別<span>年表</span></h2>
+      <div class="s-bar rv d2"></div>
+      <p class="s-desc rv d3">弥生時代から現代まで、各時代を彩った女性たちの足跡をたどる</p>
+    </div>
+    <div class="tl-wrap">
+      <div class="tl-line"></div>
+      <!-- Timeline items generated by JS -->
+      <div id="tlItems"></div>
+    </div>
+  </div>
+</section>
+
+<div class="wave-div"></div>
+
+<!-- ═══ COMMENTS ═══ -->
+<section class="sec cmt-sec" id="comments">
+  <div class="si">
+    <div class="sh">
+      <span class="s-label rv">Supervisor Note</span>
+      <h2 class="s-title rv d1">監修者<span>コメント</span></h2>
+      <div class="s-bar rv d2"></div>
+      <p class="s-desc rv d3">監修者・専門家からのご意見をお寄せください。最新3件を公開表示します。</p>
+    </div>
+    <div class="cmt-grid rv">
+      <!-- Form -->
+      <div class="cmt-form-wrap">
+        <div class="cmt-form-title">コメントを投稿する</div>
+        <div class="fg">
+          <div class="fr">
+            <div>
+              <label class="fl" for="cmtName">お名前 *</label>
+              <input class="fi" type="text" id="cmtName" placeholder="監修者氏名">
+            </div>
+            <div>
+              <label class="fl" for="cmtRole">役職・肩書き</label>
+              <input class="fi" type="text" id="cmtRole" placeholder="例：歴史学研究員">
+            </div>
+          </div>
+        </div>
+        <div class="fg">
+          <label class="fl" for="cmtText">コメント *</label>
+          <textarea class="fta" id="cmtText" placeholder="選出基準・人物評価・調査に関するご意見など..."></textarea>
+        </div>
+        <button class="sbtn" id="cmtSubmit">投稿する</button>
+      </div>
+
+      <!-- Comment list -->
+      <div class="cmt-list-wrap">
+        <div class="cmt-list-hd">
+          <div class="cmt-list-title">最新コメント</div>
+          <button class="show-all-btn" id="showAllBtn">全件表示（管理者）</button>
+        </div>
+        <div class="pwd-box" id="pwdBox">
+          <div class="pwd-row">
+            <input class="pwd-in" type="password" id="pwdInput" placeholder="管理者パスワードを入力">
+            <button class="pwd-btn" id="pwdSubmit">確認</button>
+          </div>
+          <p style="font-size:.68rem;color:var(--text-f);margin-top:.4rem">管理者のみ全コメント履歴を閲覧できます</p>
+        </div>
+        <div id="cmtList"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wave-div"></div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="ft-logo">日本を彩る女性の偉人20人</div>
+  <svg class="ft-kamon" width="30" height="30" viewBox="0 0 60 60">
+    <circle cx="30" cy="30" r="28" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+    <line x1="30" y1="2" x2="30" y2="58" stroke="currentColor" stroke-width="1"/>
+    <line x1="2" y1="30" x2="58" y2="30" stroke="currentColor" stroke-width="1"/>
+  </svg>
+  <div class="ft-txt">
+    シニアアナリスト ポートフォリオサイト<br>
+    調査・分析・デザイン ─ 日本女性史研究 2024<br>
+    <span style="opacity:.55">画像は著作権フリー・パブリックドメイン素材を使用</span>
+  </div>
+</footer>
+
+<!-- ═══ MODAL ═══ -->
+<div class="modal-ov" id="modalOv" role="dialog" aria-modal="true">
+  <div class="modal" id="modalBox">
+    <button class="modal-close" id="modalClose" aria-label="閉じる">✕</button>
+    <div class="modal-vis" id="modalVis">
+      <div class="modal-mono" id="modalMono"></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-era" id="modalEra"></div>
+      <div class="modal-name" id="modalName"></div>
+      <div class="modal-name-en" id="modalNameEn"></div>
+      <span class="modal-yrs" id="modalYrs"></span>
+      <div class="modal-div"></div>
+      <div class="modal-st">生涯と業績</div>
+      <p class="modal-txt" id="modalAchieve"></p>
+      <div class="modal-div"></div>
+      <div class="modal-st">歴史的意義</div>
+      <p class="modal-txt" id="modalSig"></p>
+      <div class="modal-quote"><p id="modalQuote"></p></div>
+      <div class="modal-st">関連文物・資料</div>
+      <p class="modal-txt" id="modalArtifacts"></p>
+      <div class="modal-pop">
+        <span class="modal-pop-l">世論調査人気</span>
+        <div class="modal-pop-bw"><div class="modal-pop-b" id="modalPopBar"></div></div>
+        <span class="modal-pop-p" id="modalPopPct"></span>
+      </div>
+      <div class="modal-tags" id="modalTags"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SCRIPT ═══ -->
+<script>
+/* ── Data ── */
+const W = [
+  {rank:1,name:"卑弥呼",nameEn:"Himiko",era:"弥生時代",field:"政治",years:"生没年不詳（～約250年頃）",pop:16.1,c1:"#8b1800",c2:"#d04818",
+   short:"邪馬台国の女王。『魏志倭人伝』に登場し「親魏倭王」の称号を得た謎多き支配者。",
+   achieve:"邪馬台国を統治し30余国の連合を主導。中国・魏朝から「親魏倭王」の金印と銅鏡100枚を授与される。巫女政治で神の意志を代弁し、国内の政治紛争を収拾した。",
+   sig:"日本最古の女性統治者として、古代国家形成期における「女王統治」の原型を示す。その神秘的な人物像は考古学・歴史学の恒久的テーマであり続けている。",
+   quote:"「鬼道を事とし、能く衆を惑わす」── 魏志倭人伝に記された卑弥呼の統治。神の意を体して国を治めた、日本最古の女王。",
+   artifacts:"三角縁神獣鏡・金印（推定）・邪馬台国遺構・魏志倭人伝関連資料",
+   tags:["政治","弥生時代","古代","女王","神道"]},
+
+  {rank:2,name:"紫式部",nameEn:"Murasaki Shikibu",era:"平安時代",field:"文学",years:"978頃～1014年以降",pop:9.9,c1:"#3a1060",c2:"#7a30a8",
+   short:"『源氏物語』の作者。世界最古の長編小説とも称される不朽の名作を書いた宮廷女官。",
+   achieve:"平安宮廷で藤原彰子に仕えながら『源氏物語』54帖を執筆。人間心理の機微を描いた世界文学史上の金字塔を打ち立てた。日記『紫式部日記』も現存する。",
+   sig:"日本文学の基礎を築き後世に多大な影響を与えた。ユネスコ「世界の記憶」登録作品の作者として、2024年より新5000円札図柄に採用予定。",
+   quote:"「あはれなることを見聞くにつけても、ただ思ひやり深し」── 繊細な観察眼と深い共感が世界最古の長編小説を生んだ。",
+   artifacts:"源氏物語絵巻・紫式部日記絵巻・狩野探幽筆肖像画（国立国会図書館蔵）",
+   tags:["文学","平安時代","作家","宮廷","源氏物語"]},
+
+  {rank:3,name:"北条政子",nameEn:"Hōjō Masako",era:"鎌倉時代",field:"政治",years:"1157～1225",pop:7.4,c1:"#0e2e0e",c2:"#285028",
+   short:"「尼将軍」と称された鎌倉幕府の実権者。頼朝没後も幕府を掌握し承久の乱を制した。",
+   achieve:"源頼朝の正室として幕府創設を支え、頼朝没後は出家して「尼将軍」として幕政を主導。1221年の承久の乱では武士団を激励し朝廷軍を撃破、幕府の優位を確立した。",
+   sig:"武家政権の基盤確立に貢献した女性政治家の先駆者。強靭なリーダーシップと政治的決断は以降の武家社会における女性の政治参与のモデルとなった。",
+   quote:"「故右大臣家の御恩は、山よりも高く、海よりも深し」── 承久の乱前夜、武士たちを鼓舞した歴史的演説より。",
+   artifacts:"鎌倉幕府関係文書・吾妻鏡・北条氏系譜資料・鶴岡八幡宮関係史料",
+   tags:["政治","鎌倉時代","武家","尼将軍","承久の乱"]},
+
+  {rank:4,name:"ねね（北政所）",nameEn:"Nene / Kita-no-Mandokoro",era:"安土桃山時代",field:"政治",years:"1549～1624",pop:4.6,c1:"#6a4800",c2:"#b87818",
+   short:"豊臣秀吉の正室。天下人を支えた賢妻として知られ、高台寺を建立した。",
+   achieve:"豊臣秀吉の正室として天下統一事業を内助の功で支え「北政所」の称号を得る。秀吉没後は出家して「高台院」を名乗り京都・高台寺を建立。茶道・文化の守護者となった。",
+   sig:"「賢妻」の理想像として後世に語り継がれる女性。秀吉のカリスマを支えた献身と、晩年の文化的貢献が高く評価される。",
+   quote:"「誰よりも早く起き、誰よりも遅く眠る」── 秀吉の成功を支えた献身と品格の象徴。",
+   artifacts:"高台寺・北政所像・豊臣家関係書状・茶道具",
+   tags:["政治","安土桃山","豊臣家","茶道","賢妻"]},
+
+  {rank:5,name:"天璋院篤姫",nameEn:"Tenshōin Atsuhime",era:"幕末",field:"政治",years:"1836～1883",pop:4.1,c1:"#121240",c2:"#283888",
+   short:"薩摩藩出身の13代将軍正室。幕末の動乱を生き抜き、徳川家を守った女性。",
+   achieve:"島津斉彬の養女として江戸に入り13代将軍家定の御台所となる。大奥での政治的影響力を保ちながら幕末の激動を乗り越え、明治維新後も徳川家の再興に尽力した。",
+   sig:"幕末から明治への橋渡しをした女性として、その柔軟な政治的判断と品格が高く評価される。大河ドラマ『篤姫』で広く知られるようになった。",
+   quote:"「どのような境遇においても、女は品格を失ってはならない」── 激動の時代を生きた女性の信念。",
+   artifacts:"篤姫書状・大奥関係資料・仙巌園所蔵資料・篤姫像",
+   tags:["政治","幕末","大奥","薩摩藩","徳川家"]},
+
+  {rank:6,name:"小野小町",nameEn:"Ono no Komachi",era:"平安時代",field:"文学",years:"生没年不詳（9〜10世紀頃）",pop:4.1,c1:"#5a1038",c2:"#a82870",
+   short:"平安時代の歌人。絶世の美女として伝説化され六歌仙・三十六歌仙に名を連ねる。",
+   achieve:"『古今和歌集』に18首が収録される著名な歌人。恋愛と無常を歌った繊細な和歌で平安文化の美意識を体現。「絶世の美女」の代名詞となり、能・歌舞伎・現代文学の題材となり続けている。",
+   sig:"「美と才能の両立」の象徴として日本の美意識・芸術表現に深く刻まれた女性。その伝説は千年を超えて語り継がれている。",
+   quote:"「花の色はうつりにけりないたづらに　わが身世にふるながめせしまに」── 老いと無常を詠んだ代表作より。",
+   artifacts:"古今和歌集・小野小町伝説関連絵画・歌仙絵図",
+   tags:["文学","平安時代","和歌","歌人","六歌仙"]},
+
+  {rank:7,name:"巴御前",nameEn:"Tomoe Gozen",era:"平安末〜鎌倉初期",field:"軍事",years:"生没年不詳（12世紀頃）",pop:3.9,c1:"#2a1806",c2:"#5a3412",
+   short:"源義仲に仕えた女武者。弓馬に優れ男性武士と並んで戦場で活躍したとされる。",
+   achieve:"木曽義仲の愛妾にして女武者として知られる。「吾妻鏡」「平家物語」に登場し、義仲の最後の戦いまで共にした逸話が伝わる。弓・刀・馬術に卓越し男性武士に引けを取らない武勇を誇った。",
+   sig:"日本の女性武将の代名詞として現代まで人気が高い人物。実在の確認は難しいが女性の勇気と忠義の象徴として文化に深く刻まれている。",
+   quote:"「鬼にも神にも立ち向かいし女武者」── 平家物語に描かれた逸話より。",
+   artifacts:"平家物語写本・源平合戦絵巻・巴御前像・義仲寺関係資料",
+   tags:["軍事","平安末期","女武者","源平","伝説"]},
+
+  {rank:8,name:"新島八重",nameEn:"Niijima Yae",era:"幕末〜明治",field:"教育",years:"1845～1932",pop:3.4,c1:"#102238",c2:"#284878",
+   short:"会津の女傑。戊辰戦争で銃をとって戦い後に同志社の女子教育に貢献した。",
+   achieve:"戊辰戦争では会津城籠城戦に参加しスペンサー銃で敵に抵抗した。維新後は夫・新島襄を支えて同志社を設立し女性教育・看護事業に生涯を捧げた。日清・日露両戦争では従軍看護に参加。",
+   sig:"「日本のジャンヌ・ダルク」とも評される女性。武人としての勇敢さと教育者・看護師としての献身が融合した稀有な存在。",
+   quote:"「私には二つの天職がある。一つは教育、もう一つは看護だ」── 生涯を社会奉仕に捧げた信念。",
+   artifacts:"新島八重関連写真（同志社大学史料館蔵）・使用したスペンサー銃・書状",
+   tags:["教育","軍事","幕末","明治","キリスト教"]},
+
+  {rank:9,name:"お市の方",nameEn:"Oichi no Kata",era:"戦国時代",field:"政治",years:"1547～1583",pop:3.3,c1:"#3e0e0e",c2:"#8a2020",
+   short:"織田信長の妹。三人の娘（淀殿・江・初）の母として戦国の歴史に深く関わった。",
+   achieve:"織田信長の妹として浅井長政に嫁ぎ浅井家滅亡後は三人の娘を抱えて波乱の人生を歩む。後に柴田勝家に再嫁し賤ヶ岳の戦いで夫と共に壮絶な最期を遂げた。三姉妹は豊臣・徳川の要人の妻となり歴史を動かした。",
+   sig:"その美貌と波乱万丈の生涯が多くの文学・映像作品の題材となり戦国時代の女性の宿命を象徴する存在として語り継がれる。",
+   quote:"「されば我が身もかくこそあらめ」── 夫と共に炎の中に消えた最期。",
+   artifacts:"浅井氏関係資料・お市の方肖像画・小谷城跡・長浜市博物館蔵品",
+   tags:["政治","戦国時代","織田家","浅井家","三姉妹"]},
+
+  {rank:10,name:"細川ガラシャ",nameEn:"Hosokawa Gracia",era:"安土桃山時代",field:"文化",years:"1563～1600",pop:3.3,c1:"#0e0e3e",c2:"#282888",
+   short:"明智光秀の娘。キリスト教信仰を貫き関ヶ原前哨戦で壮烈な最期を遂げた。",
+   achieve:"明智光秀の三女として生まれ細川忠興に嫁ぐ。本能寺の変後に幽閉されるが1587年に秘密洗礼を受けキリシタンとなる。関ヶ原の前哨戦で石田三成に人質に取られそうになり家臣に命じて自害させた。",
+   sig:"信仰のために自らの命を選んだ女性として、キリシタン文化・日欧交流史において重要な位置を占める。ドイツの作曲家によるオペラの主人公にもなった。",
+   quote:"「散りぬべき　時知りてこそ　世の中の　花も花なれ　人も人なれ」── 辞世の句。",
+   artifacts:"細川ガラシャ像（清水寺）・キリシタン関係資料・細川家文書",
+   tags:["文化","安土桃山","キリシタン","武家","殉教"]},
+
+  {rank:11,name:"津田梅子",nameEn:"Tsuda Umeko",era:"明治〜大正",field:"教育",years:"1864～1929",pop:3.0,c1:"#0e3a0e",c2:"#287828",
+   short:"日本人最初の女子留学生。帰国後に津田英学塾（現・津田塾大学）を創立した先駆者。",
+   achieve:"明治政府派遣の女子留学生第一号として6歳で渡米し11年間米国で学ぶ。帰国後1900年に女子英学塾（現・津田塾大学）を創立。国際感覚を持つ女性の育成に尽力し女子高等教育の道を開いた。",
+   sig:"女性の学問的可能性を証明し高等教育への扉を開いた先駆者。2024年に新5000円札の図柄として採用され現代でも高く評価される。",
+   quote:"「女性が自立するためには、まず教育が必要だ」── 生涯をかけた教育への信念。",
+   artifacts:"津田梅子資料室（津田塾大学）・留学関係書状・学校設立記念資料・ブリンマー大学留学時写真",
+   tags:["教育","明治時代","留学","大学創立","女子教育"]},
+
+  {rank:12,name:"与謝野晶子",nameEn:"Yosano Akiko",era:"明治〜昭和",field:"文学",years:"1878～1942",pop:2.8,c1:"#4a0e1e",c2:"#982040",
+   short:"浪漫派の女性歌人。『みだれ髪』や反戦詩『君死にたまふことなかれ』で女性の声を代弁した。",
+   achieve:"1901年情熱的な短歌集『みだれ髪』を発表し文壇に衝撃を与える。日露戦争期には弟の出征に反対する反戦詩を発表。与謝野鉄幹との激しい恋愛・協働も有名。源氏物語の現代語訳にも挑んだ。",
+   sig:"女性の感情・官能・社会的主張を公に詩として表現した革新者。明治・大正の女性解放思想に大きな影響を与えた文学者。",
+   quote:"「君死にたまふことなかれ　旅順口包囲軍の中に　弟を喪いたまへる女として」── 反戦詩の冒頭より。",
+   artifacts:"みだれ髪初版本・国立国会図書館蔵直筆原稿・与謝野晶子記念館（堺市）",
+   tags:["文学","明治時代","歌人","反戦","浪漫派"]},
+
+  {rank:13,name:"樋口一葉",nameEn:"Higuchi Ichiyō",era:"明治時代",field:"文学",years:"1872～1896",pop:2.6,c1:"#2e1e06",c2:"#5e3e10",
+   short:"明治の天才女性小説家。『たけくらべ』など庶民の悲哀を描き24歳で夭逝した。",
+   achieve:"1872年東京生まれ。貧困と闘いながら『たけくらべ』『にごりえ』『十三夜』などを執筆。庶民・女性の視点から明治社会の矛盾を鋭く描いた。24歳で結核のため早世したが作品は教科書にも収録される文学遺産となった。",
+   sig:"女性初の近代小説家として日本文学史に名を刻む。2004年から5000円札の図柄に採用され最も広く知られる女性文学者の一人。",
+   quote:"「世に出でて恥ずることなきよう、精一杯生きよ」── その短くも輝かしい生涯から。",
+   artifacts:"たけくらべ初版本・樋口一葉記念館（東京・台東区）・5000円札旧図版",
+   tags:["文学","明治時代","小説家","庶民文学","夭逝"]},
+
+  {rank:14,name:"清少納言",nameEn:"Sei Shōnagon",era:"平安時代",field:"文学",years:"966頃～1025頃",pop:2.5,c1:"#2e1048",c2:"#602090",
+   short:"『枕草子』の著者。機知に富む観察眼で宮廷生活を綴り平安文化の息吹を伝える。",
+   achieve:"一条天皇の皇后・定子に仕えながら『枕草子』を執筆。自然・人・事物への鋭い観察と独自の美的感覚で宮廷生活を記録した。「をかし」の文学として紫式部の「あはれ」と並び平安文学の双璧をなす。",
+   sig:"随筆文学の開拓者として日本文学の散文表現を豊かにした。『枕草子』は現代に至るまで日本の随筆の原点として読み継がれている。",
+   quote:"「春はあけぼの。やうやう白くなりゆく山際、少し明かりて…」── 枕草子冒頭の名文より。",
+   artifacts:"枕草子写本・清少納言関連肖像画・平安宮廷関係史料",
+   tags:["文学","平安時代","随筆","宮廷","枕草子"]},
+
+  {rank:15,name:"推古天皇",nameEn:"Empress Suiko",era:"飛鳥時代",field:"政治",years:"554～628",pop:2.2,c1:"#1e2e0e",c2:"#385020",
+   short:"日本初の女帝。聖徳太子を摂政に任命し遣隋使・冠位十二階・憲法十七条を整備した。",
+   achieve:"592年に即位した日本最初の女性天皇。甥の聖徳太子を摂政に任命し冠位十二階・憲法十七条の制定、遣隋使の派遣など日本の国家体制整備を主導。仏教興隆にも大きく貢献した。",
+   sig:"「天皇」の称号が最初に使われた可能性がある時代の統治者として日本の国家形成史において極めて重要な位置を占める。女性が国家最高位に就けることを示した先例。",
+   quote:"「和を以て貴しと為す」── 聖徳太子が推古天皇の統治下で定めた憲法十七条第一条より。",
+   artifacts:"推古天皇陵（大阪府）・法隆寺関係資料・古事記・日本書紀の記述",
+   tags:["政治","飛鳥時代","女帝","仏教","聖徳太子"]},
+
+  {rank:16,name:"川島芳子",nameEn:"Kawashima Yoshiko",era:"大正〜昭和",field:"諜報",years:"1907～1948",pop:2.0,c1:"#141414",c2:"#383838",
+   short:"清朝の王女として生まれ日本に帰化。「東洋のマタ・ハリ」と呼ばれた謎の女性。",
+   achieve:"清朝粛親王の第14王女として北京で生まれ日本人の川島浪速の養女となる。男装で上海の社交界に登場し満洲国建国に関与したとされる。敗戦後は国民党政府に捕らえられスパイ罪で処刑された。",
+   sig:"日中間の激動の時代を生きた女性として、その二重生活と謎めいた最期は現代も多くの研究者・作家を魅了し続けている。",
+   quote:"「私は中国人か日本人か、それとも何者でもないのか」── アイデンティティの狭間に生きた女性の苦悩。",
+   artifacts:"川島芳子関係写真・満洲国関連資料・小説「男装の麗人」",
+   tags:["諜報","昭和","満洲国","清朝","男装"]},
+
+  {rank:17,name:"市川房枝",nameEn:"Ichikawa Fusae",era:"大正〜昭和",field:"社会運動",years:"1893～1981",pop:1.8,c1:"#0e0e30",c2:"#282870",
+   short:"日本の婦人参政権運動指導者。女性解放運動の推進役として戦前戦後を通じて活躍した。",
+   achieve:"1921年に平塚らいてうと共に新婦人協会を創立。婦人参政権運動を牽引し戦後は参議院議員として長年活躍。1980年代まで現役で活動し女性の政治参加の道を切り開いた。",
+   sig:"日本の女性参政権実現に最も大きく貢献した人物の一人。政治家としても清廉で政界浄化運動にも取り組んだ。",
+   quote:"「選挙権は権利ではなく義務だ」── 女性の政治参加の意義を説き続けた言葉。",
+   artifacts:"新婦人協会関係資料・参議院活動記録・市川房枝記念会女性と政治センター資料",
+   tags:["社会運動","大正昭和","参政権","政治家","女性解放"]},
+
+  {rank:18,name:"石牟礼道子",nameEn:"Ishimure Michiko",era:"昭和〜平成",field:"文学",years:"1927～2018",pop:1.5,c1:"#082020",c2:"#104040",
+   short:"水俣病を告発した小説家・詩人。環境・人権問題を文学の力で世界に伝えた。",
+   achieve:"熊本・水俣を拠点に水俣病被害者の声を記録した『苦海浄土』を1969年に発表。文学の力で公害問題を世界に問いかけ環境文学の先駆者となった。国際的にも高く評価された。",
+   sig:"社会問題に向き合った文学の可能性を示した作家。水俣病の記録・告発は世界の環境運動にも影響を与えた。",
+   quote:"「患者さんたちの体の中に、海がある」── 苦海浄土の核心を貫く言葉。",
+   artifacts:"苦海浄土初版本・水俣病資料館・石牟礼道子文学碑・国際環境文学賞関係資料",
+   tags:["文学","昭和","環境","水俣病","社会派"]},
+
+  {rank:19,name:"草間彌生",nameEn:"Kusama Yayoi",era:"昭和〜現代",field:"芸術",years:"1929～",pop:1.5,c1:"#300030",c2:"#880088",
+   short:"世界的現代美術家。水玉・無限の網模様で国際的評価を獲得した前衛アートの先駆者。",
+   achieve:"幼少期から続く幻覚体験を芸術に昇華。ニューヨークで前衛芸術家として活躍後帰国し精力的に制作を継続。水玉・カボチャをモチーフにした作品が世界中で高い人気を誇る。",
+   sig:"日本人女性アーティストとして世界的な地位を確立した先駆者。作品は世界各地の美術館に収蔵され現代アートシーンに多大な影響を与え続けている。",
+   quote:"「私の人生は一つの芸術作品だ」── 90年以上に渡るアーティスト人生を貫く信念。",
+   artifacts:"無限鏡の部屋・カボチャ彫刻・国立新美術館収蔵作品・草間彌生美術館（東京・新宿）",
+   tags:["芸術","現代","前衛","水玉","国際的"]},
+
+  {rank:20,name:"大山捨松",nameEn:"Ōyama Sutematsu",era:"明治時代",field:"教育",years:"1860～1919",pop:1.2,c1:"#102030",c2:"#284858",
+   short:"津田梅子と共に渡米した女性留学生。ヴァッサー大学を卒業し女子教育に尽力した。",
+   achieve:"岩倉使節団に随行して渡米しヴァッサー大学を優秀な成績で卒業した日本人女性初の大学卒業者の一人。帰国後は大山巌元帥と結婚し西洋文化の紹介と女子教育振興に取り組んだ。看護・慈善事業にも尽力。",
+   sig:"明治初期における「国際的女性」の先駆者として日本の女性教育・国際化に貢献した人物。津田梅子と並ぶ明治期女子留学生の象徴的存在。",
+   quote:"「学んだことは必ず祖国の役に立てねばならない」── 11年間の留学を経て帰国した女性の使命感。",
+   artifacts:"大山捨松関係写真（津田塾大学資料室）・岩倉使節団関係資料・ヴァッサー大学卒業証書",
+   tags:["教育","明治時代","留学","岩倉使節団","国際化"]}
+];
+
+/* ── Timeline data ── */
+const TL = [
+  {era:"弥生時代",period:"〜3世紀",icon:"⛩️",names:["卑弥呼（邪馬台国女王）"]},
+  {era:"飛鳥時代",period:"6〜7世紀",icon:"👑",names:["推古天皇（日本初の女帝）"]},
+  {era:"平安時代",period:"8〜12世紀",icon:"📜",names:["小野小町（六歌仙の歌人）","清少納言（枕草子著者）","紫式部（源氏物語著者）"]},
+  {era:"平安末〜鎌倉",period:"12〜13世紀",icon:"⚔️",names:["巴御前（女武者・源義仲に仕える）","北条政子（尼将軍・鎌倉幕府実権者）"]},
+  {era:"戦国〜安土桃山",period:"16世紀",icon:"🏯",names:["お市の方（織田信長の妹）","ねね・北政所（豊臣秀吉正室）","細川ガラシャ（キリシタン武将妻）"]},
+  {era:"幕末",period:"19世紀",icon:"🌸",names:["新島八重（会津の女傑）","天璋院篤姫（13代将軍正室）"]},
+  {era:"明治〜大正",period:"19〜20世紀初",icon:"🎓",names:["樋口一葉（5000円札の文学者）","与謝野晶子（浪漫歌人）","津田梅子（女子英学塾創立）","大山捨松（最初の女性大学卒業者）"]},
+  {era:"大正〜昭和",period:"20世紀",icon:"✊",names:["川島芳子（東洋のマタ・ハリ）","市川房枝（婦人参政権運動家）","石牟礼道子（水俣病告発の文学者）","草間彌生（世界的現代美術家）"]}
+];
+
+/* ── SVG generators ── */
+const fieldPat = {
+  "政治": (id)=>`<path d="M0,${80} Q${360*0.25},${55} ${360*0.5},${80} Q${360*0.75},${105} ${360},${80}" stroke="rgba(255,255,255,.12)" stroke-width="2" fill="none"/><path d="M0,${100} Q${360*0.25},${75} ${360*0.5},${100} Q${360*0.75},${125} ${360},${100}" stroke="rgba(255,255,255,.08)" stroke-width="2" fill="none"/>`,
+  "文学": (id)=>`<line x1="0" y1="50" x2="360" y2="50" stroke="rgba(255,255,255,.10)" stroke-width="1" stroke-dasharray="12,8"/><line x1="0" y1="80" x2="360" y2="80" stroke="rgba(255,255,255,.07)" stroke-width="1" stroke-dasharray="12,8"/><line x1="0" y1="110" x2="360" y2="110" stroke="rgba(255,255,255,.06)" stroke-width="1" stroke-dasharray="12,8"/>`,
+  "軍事": (id)=>`<line x1="0" y1="0" x2="360" y2="140" stroke="rgba(255,255,255,.10)" stroke-width="1.5"/><line x1="0" y1="40" x2="360" y2="180" stroke="rgba(255,255,255,.07)" stroke-width="1"/><line x1="40" y1="0" x2="400" y2="140" stroke="rgba(255,255,255,.06)" stroke-width="1"/>`,
+  "教育": (id)=>[...Array(5)].map((_,i)=>`<circle cx="${i*80+40}" cy="70" r="20" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1"/>`).join(""),
+  "芸術": (id)=>`<circle cx="180" cy="70" r="55" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1.5"/><circle cx="180" cy="70" r="35" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/><circle cx="180" cy="70" r="18" fill="none" stroke="rgba(255,255,255,.06)" stroke-width="1"/>`,
+  "社会運動": (id)=>[...Array(5)].map((_,i)=>`<path d="M${i*80},${50+i*5} L${i*80+60},${50+i*5}" stroke="rgba(255,255,255,.12)" stroke-width="2"/>`).join(""),
+  "文化": (id)=>`<path d="M90,0 L180,70 L270,0 M90,140 L180,70 L270,140" stroke="rgba(255,255,255,.12)" stroke-width="1.5" fill="none"/><path d="M0,70 L180,0 L360,70 M0,70 L180,140 L360,70" stroke="rgba(255,255,255,.07)" stroke-width="1" fill="none"/>`,
+  "諜報": (id)=>`<path d="M0,140 L180,0 L360,140Z" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1.5"/><path d="M60,140 L180,40 L300,140Z" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="1"/>`
+};
+
+function mkSVG(w,h,c1,c2,field,id){
+  const p = (fieldPat[field]||fieldPat["政治"])(id);
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">
+    <defs><linearGradient id="g${id}" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="${c1}"/>
+      <stop offset="100%" stop-color="${c2}"/>
+    </linearGradient></defs>
+    <rect width="${w}" height="${h}" fill="url(#g${id})"/>
+    ${p}
+    <text x="${w-8}" y="${h+8}" font-size="${h*1.1}" fill="rgba(255,255,255,.07)" font-family="serif" text-anchor="end" dominant-baseline="auto">${String.fromCodePoint(w.name?w.name.codePointAt(0):0x5973)}</text>
+  </svg>`;
+}
+
+function cardSVG(w){ return mkSVG(360,130,w.c1,w.c2,w.field,w.rank); }
+function top3SVG(w){ return mkSVG(400,190,w.c1,w.c2,w.field,"t"+w.rank); }
+function modalSVG(w){ return mkSVG(660,180,w.c1,w.c2,w.field,"m"+w.rank); }
+
+/* ── Build TOP3 ── */
+function buildTop3(){
+  const g = document.getElementById("top3Grid");
+  W.slice(0,3).forEach((w,i)=>{
+    const bc = ["b1","b2","b3"][i];
+    const html = `<div class="t3c rv d${i+1}" data-rank="${w.rank}">
+      <div class="t3-badge ${bc}">${i+1}</div>
+      <div class="t3-vis">${top3SVG(w)}<div class="t3-mono">${w.name[0]}</div></div>
+      <div class="t3-body">
+        <div class="t3-era">${w.era} · ${w.field}</div>
+        <div class="t3-name">${w.name}<small>${w.nameEn}</small></div>
+        <div class="t3-desc">${w.short}</div>
+        <div class="pop-row">
+          <div class="pop-bar-w"><div class="pop-bar" data-pop="${w.pop}"></div></div>
+          <span class="pop-pct">${w.pop}%</span>
+        </div>
+      </div>
+    </div>`;
+    g.insertAdjacentHTML("beforeend",html);
+  });
+}
+
+/* ── Build Women Grid ── */
+function buildGrid(){
+  const g = document.getElementById("womenGrid");
+  W.forEach((w,i)=>{
+    const html = `<div class="wcard rv d${(i%4)+1}" data-rank="${w.rank}" data-field="${w.field}">
+      <div class="w-vis">${cardSVG(w)}<div class="w-mono">${w.name[0]}</div>
+        <div class="w-rank">第${w.rank}位</div>
+      </div>
+      <div class="w-body">
+        <div class="w-era">${w.era} · ${w.field}</div>
+        <div class="w-name">${w.name}<small>${w.nameEn}</small></div>
+        <div class="w-desc">${w.short}</div>
+        <div class="w-tags">${w.tags.slice(0,3).map(t=>`<span class="w-tag">${t}</span>`).join("")}</div>
+      </div>
+    </div>`;
+    g.insertAdjacentHTML("beforeend",html);
+  });
+}
+
+/* ── Build Timeline ── */
+function buildTimeline(){
+  const c = document.getElementById("tlItems");
+  TL.forEach((t,i)=>{
+    const isOdd = i%2===0;
+    const content = `<div class="tl-content">
+      <div class="tl-era">${t.era}</div>
+      <div class="tl-period">${t.period}</div>
+      <div class="tl-names">${t.names.map(n=>n.includes("（")?`<strong>${n.split("（")[0]}</strong>（${n.split("（")[1]}`:n).join("<br>")}</div>
+    </div>`;
+    const empty = `<div class="tl-empty"></div>`;
+    const dot = `<div class="tl-dot">${t.icon}</div>`;
+    c.insertAdjacentHTML("beforeend",`<div class="tl-item rv d${(i%3)+1}">
+      ${isOdd ? content+dot+empty : empty+dot+content}
+    </div>`);
+  });
+}
+
+/* ── Modal ── */
+function openModal(rank){
+  const w = W.find(x=>x.rank===rank);
+  if(!w) return;
+  document.getElementById("modalVis").querySelector("svg")?.remove();
+  document.getElementById("modalVis").insertAdjacentHTML("afterbegin",modalSVG(w));
+  document.getElementById("modalMono").textContent = w.name[0];
+  document.getElementById("modalEra").textContent  = `${w.era}  ·  ${w.field}`;
+  document.getElementById("modalName").textContent  = w.name;
+  document.getElementById("modalNameEn").textContent= w.nameEn;
+  document.getElementById("modalYrs").textContent   = w.years;
+  document.getElementById("modalAchieve").textContent=w.achieve;
+  document.getElementById("modalSig").textContent   = w.sig;
+  document.getElementById("modalQuote").textContent = w.quote;
+  document.getElementById("modalArtifacts").textContent=w.artifacts;
+  document.getElementById("modalPopPct").textContent= w.pop+"%";
+  document.getElementById("modalTags").innerHTML    = w.tags.map(t=>`<span class="modal-tag">${t}</span>`).join("");
+  const bar = document.getElementById("modalPopBar");
+  bar.style.width="0";
+  const ov = document.getElementById("modalOv");
+  ov.classList.add("open");
+  document.body.style.overflow="hidden";
+  requestAnimationFrame(()=>{ bar.style.width=(w.pop/20*100)+"%"; });
+}
+function closeModal(){
+  document.getElementById("modalOv").classList.remove("open");
+  document.body.style.overflow="";
+}
+document.getElementById("modalClose").addEventListener("click",closeModal);
+document.getElementById("modalOv").addEventListener("click",e=>{if(e.target===e.currentTarget)closeModal();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+
+/* ── Filter ── */
+document.querySelector(".filter-bar").addEventListener("click",e=>{
+  const btn = e.target.closest(".f-btn");
+  if(!btn) return;
+  document.querySelectorAll(".f-btn").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+  const f = btn.dataset.filter;
+  document.querySelectorAll(".wcard").forEach(c=>{
+    c.classList.toggle("hide", f!=="all" && c.dataset.field!==f);
+  });
+});
+
+/* ── Card clicks ── */
+document.getElementById("womenGrid").addEventListener("click",e=>{
+  const c = e.target.closest(".wcard");
+  if(c) openModal(+c.dataset.rank);
+});
+document.getElementById("top3Grid").addEventListener("click",e=>{
+  const c = e.target.closest(".t3c");
+  if(c) openModal(+c.dataset.rank);
+});
+
+/* ── Theme toggle ── */
+function applyTheme(dark){
+  document.documentElement.setAttribute("data-theme",dark?"dark":"light");
+  document.getElementById("themeIcon").textContent = dark?"☀️":"🌙";
+  document.getElementById("themeLabel").textContent = dark?"ライト":"ダーク";
+  localStorage.setItem("theme",dark?"dark":"light");
+}
+const savedTh = localStorage.getItem("theme");
+const sysDark = window.matchMedia("(prefers-color-scheme:dark)").matches;
+const initDark = savedTh==="dark"||(savedTh===null&&sysDark);
+applyTheme(initDark);
+document.getElementById("themeBtn").addEventListener("click",()=>{
+  applyTheme(document.documentElement.getAttribute("data-theme")==="light");
+});
+
+/* ── Hamburger ── */
+const ham = document.getElementById("ham");
+const nl  = document.getElementById("navLinks");
+ham.addEventListener("click",()=>{
+  nl.classList.toggle("open");
+  const spans = ham.querySelectorAll("span");
+  spans[0].style.transform = nl.classList.contains("open")?"rotate(45deg) translate(5px,5px)":"";
+  spans[1].style.opacity   = nl.classList.contains("open")?"0":"1";
+  spans[2].style.transform = nl.classList.contains("open")?"rotate(-45deg) translate(5px,-5px)":"";
+});
+nl.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nl.classList.remove("open")));
+
+/* ── Petals ── */
+const pc = document.getElementById("petals");
+for(let i=0;i<18;i++){
+  const p = document.createElement("div");
+  p.className = "petal";
+  const sz = Math.random()*8+5;
+  const hue = Math.random()*20+340;
+  p.style.cssText=`width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:-20px;
+    background:hsla(${hue},90%,85%,.7);
+    animation-duration:${10+Math.random()*12}s;animation-delay:${Math.random()*14}s;`;
+  pc.appendChild(p);
+}
+
+/* ── Comments ── */
+const CMT_KEY  = "portfolio_comments";
+const CMT_PASS = "kanshunin2024";
+let showAll    = false;
+
+function getComments(){ try{return JSON.parse(localStorage.getItem(CMT_KEY)||"[]");}catch(e){return[];} }
+function saveComments(a){ localStorage.setItem(CMT_KEY,JSON.stringify(a)); }
+
+function renderComments(){
+  const all  = getComments().slice().reverse();
+  const show = showAll ? all : all.slice(0,3);
+  const list = document.getElementById("cmtList");
+  if(!show.length){
+    list.innerHTML=`<div class="no-cmt">まだコメントはありません</div>`;
+    return;
+  }
+  list.innerHTML = show.map((c,i)=>`
+    <div class="cmt-card${i===0&&c._new?" new":""}">
+      <div class="cmt-meta">
+        <div class="cmt-av">${c.name[0]}</div>
+        <div class="cmt-info">
+          <div class="cmt-name">${esc(c.name)}</div>
+          <div class="cmt-date">${c.date}</div>
+        </div>
+        ${c.role?`<span class="cmt-role-badge">${esc(c.role)}</span>`:""}
+      </div>
+      <div class="cmt-text">${esc(c.text)}</div>
+    </div>`).join("");
+  if(!showAll&&all.length>3){
+    list.insertAdjacentHTML("beforeend",`<p style="text-align:center;font-size:.72rem;color:var(--text-f);margin-top:.5rem">他 ${all.length-3} 件（管理者のみ閲覧可）</p>`);
+  }
+}
+
+function esc(s){ const d=document.createElement("div");d.textContent=s;return d.innerHTML; }
+
+document.getElementById("cmtSubmit").addEventListener("click",()=>{
+  const name = document.getElementById("cmtName").value.trim();
+  const role = document.getElementById("cmtRole").value.trim();
+  const text = document.getElementById("cmtText").value.trim();
+  if(!name||!text){alert("お名前とコメントは必須です");return;}
+  const now  = new Date();
+  const date = now.toLocaleDateString("ja-JP",{year:"numeric",month:"long",day:"numeric",hour:"2-digit",minute:"2-digit"});
+  const cmts = getComments();
+  cmts.unshift({id:Date.now(),name,role,text,date,_new:true});
+  saveComments(cmts);
+  document.getElementById("cmtName").value="";
+  document.getElementById("cmtRole").value="";
+  document.getElementById("cmtText").value="";
+  renderComments();
+  document.getElementById("comments").scrollIntoView({behavior:"smooth",block:"nearest"});
+});
+
+document.getElementById("showAllBtn").addEventListener("click",()=>{
+  if(showAll){showAll=false;renderComments();document.getElementById("pwdBox").classList.remove("open");return;}
+  document.getElementById("pwdBox").classList.toggle("open");
+});
+
+document.getElementById("pwdSubmit").addEventListener("click",()=>{
+  const v = document.getElementById("pwdInput").value;
+  if(v===CMT_PASS){showAll=true;document.getElementById("pwdBox").classList.remove("open");document.getElementById("pwdInput").value="";renderComments();}
+  else{document.getElementById("pwdInput").style.borderColor="var(--ac1)";setTimeout(()=>document.getElementById("pwdInput").style.borderColor="",1200);}
+});
+document.getElementById("pwdInput").addEventListener("keydown",e=>{if(e.key==="Enter")document.getElementById("pwdSubmit").click();});
+
+/* ── Animate pop bars on scroll ── */
+const popObs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.querySelectorAll(".pop-bar[data-pop]").forEach(b=>{
+        const p = parseFloat(b.dataset.pop);
+        b.style.width=(p/20*100)+"%";
+      });
+      popObs.unobserve(e.target);
     }
+  });
+},{threshold:0.3});
+document.querySelectorAll(".t3c").forEach(c=>popObs.observe(c));
 
-    // ── Mountain parallax on scroll ──
-    const layers = document.querySelectorAll('.mountain-layer');
-    window.addEventListener('scroll', () => {
-      const y = window.scrollY;
-      layers.forEach(layer => {
-        const speed = parseFloat(layer.dataset.speed || 0);
-        layer.style.transform = `translateY(${y * speed}px)`;
-      });
-    }, { passive: true });
+/* ── Scroll reveal ── */
+const revObs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add("on"); });
+},{threshold:0.12});
+document.querySelectorAll(".rv,.rl,.rr").forEach(el=>revObs.observe(el));
 
-    // ── Scroll reveal (Intersection Observer) ──
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.15 });
+/* ── Init ── */
+buildTop3();
+buildGrid();
+buildTimeline();
+renderComments();
 
-    document.querySelectorAll('.reveal, .section-label').forEach(el => observer.observe(el));
-  </script>
-
+// Re-observe after dynamic content
+requestAnimationFrame(()=>{
+  document.querySelectorAll(".rv,.rl,.rr").forEach(el=>revObs.observe(el));
+  document.querySelectorAll(".t3c").forEach(c=>popObs.observe(c));
+});
+</script>
 </body>
 </html>
