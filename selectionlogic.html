@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>選出ロジック詳細 | 日本の歴史を彩る女性20人</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Montserrat:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --white: #fdf6ec;
+      --gold: #c8860a;
+      --amber: #d4863a;
+      --brown: #c47a3a;
+      --dark-brown: #8b5e2a;
+      --gray: #a08060;
+      --bg-dark: #2e1c0a;
+      --bg-mid: #3a2210;
+      --c1: #c8860a;
+      --c2: #6b9e5a;
+      --c3: #5a7ab0;
+      --c4: #9e6b9e;
+      --c5: #b07050;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg-dark);
+      color: var(--white);
+      font-family: 'Montserrat', 'Noto Serif JP', sans-serif;
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+
+    .site-header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(30,15,5,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(200,134,10,0.15);
+      padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 56px;
+    }
+    .site-header a { color: var(--gray); text-decoration: none; font-size: 0.68rem; letter-spacing: 0.25em; text-transform: uppercase; transition: color 0.3s; }
+    .site-header a:hover { color: var(--gold); }
+    .site-header .logo { color: var(--white); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-weight: 300; letter-spacing: 0.1em; }
+
+    .page-hero {
+      background: radial-gradient(ellipse at 50% 100%, rgba(200,134,10,0.15) 0%, transparent 55%),
+                  linear-gradient(180deg, #1e0c04 0%, #3a2210 100%);
+      padding: 6rem 2rem 4rem;
+      text-align: center;
+    }
+    .hero-eyebrow { font-size: 0.6rem; letter-spacing: 0.5em; text-transform: uppercase; color: var(--amber); margin-bottom: 1.5rem; }
+    .hero-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 300; line-height: 1.3; margin-bottom: 1rem; }
+    .hero-title em { font-style: italic; background: linear-gradient(135deg, var(--gold), var(--brown)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-desc { max-width: 560px; margin: 0 auto; font-size: 0.78rem; line-height: 2; color: var(--gray); }
+
+    .content-wrap { max-width: 960px; margin: 0 auto; padding: 5rem 2rem; }
+
+    .section-eyebrow { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--amber); margin-bottom: 0.75rem; }
+    .section-title { font-family: 'Cormorant Garamond', serif; font-size: 1.9rem; font-weight: 300; margin-bottom: 2.5rem; line-height: 1.25; }
+    .section-body { font-family: 'Noto Serif JP', serif; font-size: 0.82rem; line-height: 2.1; color: rgba(253,246,236,0.8); letter-spacing: 0.04em; margin-bottom: 1.5rem; }
+
+    .divider { height: 1px; background: linear-gradient(to right, transparent, rgba(200,134,10,0.18), transparent); margin: 4rem 0; }
+
+    .criteria-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    @media (max-width: 640px) { .criteria-grid { grid-template-columns: 1fr; } }
+
+    .criterion-card {
+      padding: 1.8rem;
+      background: linear-gradient(135deg, rgba(58,34,16,0.6), rgba(46,28,10,0.5));
+      border: 1px solid rgba(200,134,10,0.1);
+      border-top: 3px solid;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+    .criterion-card:hover { transform: translateY(-3px); }
+    .criterion-card:nth-child(1) { border-top-color: var(--c1); }
+    .criterion-card:nth-child(2) { border-top-color: var(--c2); }
+    .criterion-card:nth-child(3) { border-top-color: var(--c3); }
+    .criterion-card:nth-child(4) { border-top-color: var(--c4); }
+    .criterion-card:nth-child(5) { border-top-color: var(--c5); }
+
+    .criterion-num { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; opacity: 0.3; line-height: 1; margin-bottom: 0.5rem; }
+    .criterion-title { font-family: 'Noto Serif JP', serif; font-size: 0.9rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--white); }
+    .criterion-weight {
+      display: inline-block;
+      padding: 0.15rem 0.6rem;
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      margin-bottom: 0.75rem;
+      border-radius: 1px;
+    }
+    .criterion-card:nth-child(1) .criterion-weight { background: rgba(200,134,10,0.2); color: var(--c1); }
+    .criterion-card:nth-child(2) .criterion-weight { background: rgba(107,158,90,0.2); color: var(--c2); }
+    .criterion-card:nth-child(3) .criterion-weight { background: rgba(90,122,176,0.2); color: var(--c3); }
+    .criterion-card:nth-child(4) .criterion-weight { background: rgba(158,107,158,0.2); color: var(--c4); }
+    .criterion-card:nth-child(5) .criterion-weight { background: rgba(176,112,80,0.2); color: var(--c5); }
+
+    .criterion-desc { font-size: 0.72rem; line-height: 1.8; color: var(--gray); }
+
+    .weight-overview {
+      padding: 2rem;
+      background: rgba(200,134,10,0.04);
+      border: 1px solid rgba(200,134,10,0.1);
+      margin-bottom: 3rem;
+    }
+    .weight-title { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--amber); margin-bottom: 1.5rem; }
+    .weight-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem; }
+    .weight-label { font-size: 0.65rem; color: var(--gray); width: 12rem; flex-shrink: 0; letter-spacing: 0.04em; }
+    .weight-bar-track { flex: 1; height: 6px; background: rgba(200,134,10,0.1); border-radius: 3px; overflow: hidden; }
+    .weight-bar-fill { height: 100%; border-radius: 3px; transition: width 1.2s cubic-bezier(0.4,0,0.2,1); }
+    .weight-pct { font-size: 0.62rem; color: var(--white); width: 3rem; text-align: right; }
+
+    .score-section { margin-bottom: 4rem; }
+    .score-desc { font-size: 0.75rem; line-height: 1.9; color: var(--gray); margin-bottom: 2rem; letter-spacing: 0.04em; }
+
+    .score-table-wrap { overflow-x: auto; border: 1px solid rgba(200,134,10,0.12); }
+    .score-table { width: 100%; border-collapse: collapse; min-width: 700px; }
+    .score-table thead tr { background: rgba(200,134,10,0.08); }
+    .score-table thead th {
+      padding: 0.8rem 0.75rem;
+      font-size: 0.55rem; letter-spacing: 0.15em; text-transform: uppercase;
+      font-weight: 400; white-space: nowrap; text-align: center;
+      border-bottom: 1px solid rgba(200,134,10,0.18);
+    }
+    .score-table thead th:first-child { text-align: left; }
+    .score-table thead th:nth-child(2) { color: var(--c1); }
+    .score-table thead th:nth-child(3) { color: var(--c2); }
+    .score-table thead th:nth-child(4) { color: var(--c3); }
+    .score-table thead th:nth-child(5) { color: var(--c4); }
+    .score-table thead th:nth-child(6) { color: var(--c5); }
+
+    .score-table tbody tr { border-bottom: 1px solid rgba(200,134,10,0.06); transition: background 0.2s; }
+    .score-table tbody tr:hover { background: rgba(200,134,10,0.04); }
+    .score-table tbody td { padding: 0.65rem 0.75rem; font-size: 0.7rem; text-align: center; vertical-align: middle; }
+    .score-table tbody td:first-child { text-align: left; }
+
+    .td-person { display: flex; align-items: center; gap: 0.6rem; }
+    .td-rank-badge { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(200,134,10,0.4); min-width: 1.5rem; }
+    .td-person-name { font-family: 'Noto Serif JP', serif; font-size: 0.72rem; color: var(--white); }
+
+    .score-cell { display: flex; flex-direction: column; align-items: center; gap: 0.2rem; }
+    .score-num { font-family: 'Montserrat', sans-serif; font-size: 0.75rem; font-weight: 500; }
+    .score-mini-bar { width: 36px; height: 3px; background: rgba(255,255,255,0.1); border-radius: 2px; overflow: hidden; }
+    .score-mini-fill { height: 100%; border-radius: 2px; }
+
+    .total-cell { font-family: 'Montserrat', sans-serif; font-size: 0.8rem; font-weight: 500; color: var(--amber); }
+    .total-bar { display: flex; align-items: center; gap: 0.4rem; }
+    .total-bar-track { width: 60px; height: 4px; background: rgba(200,134,10,0.15); border-radius: 2px; overflow: hidden; }
+    .total-bar-fill { height: 100%; background: linear-gradient(to right, var(--gold), var(--amber)); border-radius: 2px; }
+
+    .person-breakdown { margin-bottom: 4rem; }
+    .breakdown-intro { font-size: 0.72rem; line-height: 1.9; color: var(--gray); margin-bottom: 2rem; }
+    .breakdown-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+
+    .breakdown-card {
+      padding: 1.5rem;
+      background: linear-gradient(135deg, rgba(58,34,16,0.5), rgba(46,28,10,0.4));
+      border: 1px solid rgba(200,134,10,0.1);
+    }
+    .bc-header { display: flex; align-items: baseline; gap: 0.6rem; margin-bottom: 1.2rem; }
+    .bc-rank { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: rgba(200,134,10,0.4); }
+    .bc-name { font-family: 'Noto Serif JP', serif; font-size: 0.85rem; font-weight: 700; color: var(--white); }
+
+    .bc-bars { display: flex; flex-direction: column; gap: 0.5rem; }
+    .bc-bar-row { display: flex; align-items: center; gap: 0.5rem; }
+    .bc-bar-label { font-size: 0.54rem; color: var(--gray); width: 5rem; flex-shrink: 0; letter-spacing: 0.03em; }
+    .bc-bar-track { flex: 1; height: 5px; background: rgba(255,255,255,0.06); border-radius: 3px; overflow: hidden; }
+    .bc-bar-fill { height: 100%; border-radius: 3px; transition: width 1s ease; }
+    .bc-bar-val { font-size: 0.58rem; color: var(--white); width: 1.2rem; text-align: right; }
+
+    .bc-total {
+      margin-top: 1rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid rgba(200,134,10,0.1);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .bc-total-label { font-size: 0.54rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gray); }
+    .bc-total-val { font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 500; color: var(--amber); }
+
+    .sources-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+    .sources-list li { display: flex; gap: 0.75rem; align-items: flex-start; }
+    .source-num { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: rgba(200,134,10,0.4); flex-shrink: 0; width: 1.5rem; }
+    .source-text { font-size: 0.72rem; line-height: 1.7; color: var(--gray); }
+    .source-text strong { color: var(--white); font-weight: 400; }
+
+    footer { background: linear-gradient(160deg,#1e1005,#261508); border-top: 1px solid rgba(200,134,10,0.12); padding: 2.5rem 2rem; text-align: center; }
+    .footer-links { display: flex; justify-content: center; gap: 2rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--gray); text-decoration: none; font-size: 0.6rem; letter-spacing: 0.25em; text-transform: uppercase; transition: color 0.3s; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-copy { font-size: 0.55rem; letter-spacing: 0.2em; color: #6b5030; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">Ryuzaburo</span>
+  <nav style="display:flex; gap:2rem; align-items:center;">
+    <a href="index.html">Portfolio</a>
+    <a href="women-history.html" data-en="Women's 20">女性20人</a>
+    <button id="langBtn" onclick="toggleLang()" style="background:none;border:1px solid rgba(200,134,10,0.4);border-radius:50px;padding:0.28rem 0.9rem;font-size:0.65rem;letter-spacing:0.12em;color:var(--gray);cursor:pointer;transition:all 0.3s;margin-right:0.5rem;">EN</button>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <p class="hero-eyebrow">Methodology</p>
+  <h1 class="hero-title" data-en-html="Selection &lt;em&gt;Logic&lt;/em&gt; &amp; Score Breakdown">選出<em>ロジック</em>と評価内訳</h1>
+  <p class="hero-desc">
+    <span class="hero-desc-text" data-en="Selection criteria for 20 figures — the 5 evaluation axes, their weightings, and the individual scores for all 20 people.">どのような基準で20名を選出したか——<br>
+    5項目の評価軸、各項目の重みづけ、および全20名の個別スコアを公開する。</span>
+  </p>
+</div>
+
+<div class="content-wrap">
+
+  <section>
+    <p class="section-eyebrow">Overview</p>
+    <h2 class="section-title" data-en="Overview of Selection Method">選出方法の概要</h2>
+    <p class="section-body">
+      本ランキングは「歴史的影響力」と「現代の認知度」を両軸として、40名以上の候補者を5つの評価項目で定量化し、上位20名を抽出した。
+      単一の人気投票や主観的な評価ではなく、学術的言及度・博物館展示・メディア露出など複数の客観指標を組み合わせることで、
+      時代バイアスや認知の偏りを最小化した。
+    </p>
+    <p class="section-body">
+      各項目は1〜10点で評価し、下記の重みを乗じて合計スコア（最大100点）を算出した。
+      世論調査の人気スコアは25%の重みを持つが、それだけで順位が決まるわけではなく、
+      史料上の評価や博物館での存在感も同等に重視している。
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <p class="section-eyebrow">Criteria</p>
+    <h2 class="section-title" data-en="5 Evaluation Criteria">5つの評価基準</h2>
+
+    <div class="criteria-grid">
+      <div class="criterion-card">
+        <div class="criterion-num">01</div>
+        <div class="criterion-title" data-en="Political &amp; Cultural Achievement">政治的・文化的業績</div>
+        <span class="criterion-weight" data-en="Weight 25%">重み 25%</span>
+        <p class="criterion-desc">
+          当該人物が歴史上に残した政策的決定、文化的創造物、社会変革の実績を評価。
+          政治権力の掌握度合い、文学・芸術作品の後世への影響度、思想的革新性を軸に採点した。
+        </p>
+      </div>
+      <div class="criterion-card">
+        <div class="criterion-num">02</div>
+        <div class="criterion-title" data-en="Historical Literature &amp; Research Citations">史料・研究での言及度</div>
+        <span class="criterion-weight" data-en="Weight 20%">重み 20%</span>
+        <p class="criterion-desc">
+          学術書・教科書・歴史学専門誌での言及回数と評価の質。
+          一次史料（古文書・日記・年代記等）に残る記述の豊富さと、
+          近代以降の歴史学研究で与えらろた位置づけを評価した。
+        </p>
+      </div>
+      <div class="criterion-card">
+        <div class="criterion-num">03</div>
+        <div class="criterion-title" data-en="General Public Recognition">一般の知名度</div>
+        <span class="criterion-weight" data-en="Weight 25%">重み 25%</span>
+        <p class="criterion-desc">
+          複数の世論調査・人気ランキング（PHPオンライン等）ね結果���集計・加重平均し数値化。
+          教科書への収録状況、大河ドラマでの主人公採用歴、紙幣・切手への採用実績も加点要素とした。
+        </p>
+      </div>
+      <div class="criterion-card">
+        <div class="criterion-num">04</div>
+        <div class="criterion-title" data-en="Museum &amp; Archive Presence">博物館・資料館での展示</div>
+        <span class="criterion-weight" data-en="Weight 15%">重み 15%</span>
+        <p class="criterion-desc">
+          国立・公立博物館での常設展示の有無、所蔵資料の量と質、
+          専用展示室・記念館の設置状況を評価。資料の真正性と保存状態も考慮した。
+        </p>
+      </div>
+      <div class="criterion-card" style="grid-column: span 2;">
+        <div class="criterion-num">05</div>
+        <div class="criterion-title" data-en="Media Coverage Frequency">メディア報道頻度</div>
+        <span class="criterion-weight" data-en="Weight 15%">重み 15%</span>
+        <p class="criterion-desc">
+          新聞・テレビ・Webメディアでの直近10年間の登場頻度。
+          映画・ドラマ・小説・漫画等フィクション作品での主人公・主要登場人物採用数、
+          および記念イベント・特別展の開催実績も評価対象とした。
+        </p>
+      </div>
+    </div>
+
+    <div class="weight-overview">
+      <p class="weight-title" data-en="Criterion Weightings">評価項目の重みづけ</p>
+      <div class="weight-row">
+        <span class="weight-label" data-en="① Achievement">① 政治的・文化的業績</span>
+        <div class="weight-bar-track"><div class="weight-bar-fill" style="width:100%; background:var(--c1);"></div></div>
+        <span class="weight-pct">25%</span>
+      </div>
+      <div class="weight-row">
+        <span class="weight-label" data-en="② Citations">② 史料・研究での言及度</span>
+        <div class="weight-bar-track"><div class="weight-bar-fill" style="width:80%; background:var(--c2);"></div></div>
+        <span class="weight-pct">20%</span>
+      </div>
+      <div class="weight-row">
+        <span class="weight-label" data-en="③ Recognition">③ 一般の知名度</span>
+        <div class="weight-bar-track"><div class="weight-bar-fill" style="width:100%; background:var(--c3);"></div></div>
+        <span class="weight-pct">25%</span>
+      </div>
+      <div class="weight-row">
+        <span class="weight-label" data-en="④ Museum">④ 博物館・資料館での展示</span>
+        <div class="weight-bar-track"><div class="weight-bar-fill" style="width:60%; background:var(--c4);"></div></div>
+        <span class="weight-pct">15%</span>
+      </div>
+      <div class="weight-row">
+        <span class="weight-label" data-en="⑤ Media">⑤ メディア報道頻度</span>
+        <div class="weight-bar-track"><div class="weight-bar-fill" style="width:60%; background:var(--c5);"></div></div>
+        <span class="weight-pct">15%</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="score-section">
+    <p class="section-eyebrow">Score Matrix</p>
+    <h2 class="section-title" data-en="Score Matrix — All 20 Figures">全20名の評価スコア一覧</h2>
+    <p class="score-desc">
+      各人物の5項目スコア（各10点満点）と、重みを掛けた加重合計点（100点満点）。
+      評価は文献調査・世論調査データ・博物館情報を組み合わせて算出した。
+      ※ 史料・実在が不確かな人物（卑弥呼・巴御前等）は、文献上の記述の豊富さと伝承の影響力を基に評価。
+    </p>
+    <div class="score-table-wrap">
+      <table class="score-table">
+        <thead>
+          <tr>
+            <th data-en="Name">氏名</th>
+            <th data-en-html="① Achiev.&lt;br&gt;&lt;small&gt;(×0.25)&lt;/small&gt;">① 業績<br><small>(×0.25)</small></th>
+            <th data-en-html="② Citations&lt;br&gt;&lt;small&gt;(×0.20)&lt;/small&gt;">② 言及度<br><small>(×0.20)</small></th>
+            <th data-en-html="③ Recognit.&lt;br&gt;&lt;small&gt;(×0.25)&lt;/small&gt;">③ 知名度<br><small>(×0.25)</small></th>
+            <th data-en-html="④ Museum&lt;br&gt;&lt;small&gt;(×0.15)&lt;/small&gt;">④ 博物館<br><small>(×0.15)</small></th>
+            <th data-en-html="⑤ Media&lt;br&gt;&lt;small&gt;(×0.15)&lt;/small&gt;">⑤ メディア<br><small>(×0.15)</small></th>
+            <th data-en="Total">合計点</th>
+          </tr>
+        </thead>
+        <tbody id="score-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="person-breakdown">
+    <p class="section-eyebrow">Individual Analysis</p>
+    <h2 class="section-title" data-en="Individual Score Breakdown">個別評価の詳細</h2>
+    <p class="breakdown-intro" data-en="Visual breakdown of each figure's score across 5 criteria. Bar length shows achievement relative to a maximum of 10 points per criterion.">
+      各人物の5項目スコアをビジュアル化した。棒の長さは各項目10点満点に対する達成度を示す。
+    </p>
+    <div class="breakdown-grid" id="breakdown-grid"></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <p class="section-eyebrow">Candidate Pool</p>
+    <h2 class="section-title" data-en="Candidate Pool &amp; Exclusion Reasons">候補者リストと選外の理由</h2>
+    <p class="section-body">
+      最終的に40名以上を候補とし、上位20名を選出した。以下は丷な選外候補と、
+      上位20名に入らなかった丷な理由を示す。
+    </p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;">
+      <div style="padding:1.5rem; border:1px solid rgba(200,134,10,0.1); background:rgba(58,34,16,0.3);">
+        <h3 style="font-family:'Noto Serif JP',serif; font-size:0.85rem; margin-bottom:1rem; color:var(--amber);">惜しくも選外となった主な人物</h3>
+        <ul style="list-style:none; font-size:0.72rem; line-height:2; color:var(--gray);">
+          <li>• 清少納言（枕草子）— 紫式部との重複を考慮</li>
+          <li>• 光明皇后 — 政治的実績は高いが認知度でやや劣か</li>
+          <li>• 藤原彰子 — 政治的影響は大きいが固有の業績が少ない</li>
+          <li>• 淀殿 — 悪役イメージが評価を複雑にする</li>
+          <li>• 和泉式部 — 文学的評価は高いが知名度で後塵を拝した</li>
+          <li>• 北里柴三郎妻 / 橋本雅邦 — 自己の業績が限定的</li>
+          <li>• 宮子内親王 — 史料が乏しい</li>
+        </ul>
+      </div>
+      <div style="padding:1.5rem; border:1px solid rgba(200,134,10,0.1); background:rgba(58,34,16,0.3);">
+        <h3 style="font-family:'Noto Serif JP',serif; font-size:0.85rem; margin-bottom:1rem; color:var(--amber);">選出のバランス方針</h3>
+        <ul style="list-style:none; font-size:0.72rem; line-height:2; color:var(--gray);">
+          <li>• 時代的偏りん防ぐせめ各時代から最低1名選出</li>
+          <li>• 政治・文学・芸術・教育・社会運動の各分野を網羅</li>
+          <li>• 明治期は教育者・文学者が多いため一部を統合評価</li>
+          <li>• 伝説的人物（巴御前等）は文化的影響力を重視</li>
+          <li>• 現代人は死去後の評価が固まった人物のみを対象</li>
+          <li>• 草間彌生は存命だが国際的影響力から例外的に選出</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <p class="section-eyebrow">Sources</p>
+    <h2 class="section-title" data-en="References &amp; Sources">引用・参考資料</h2>
+    <ul class="sources-list">
+      <li><span class="source-num">1</span><span class="source-text"><strong>PHPオンライン「好きな歴史上の女性人物ランキング」</strong><br>世論調査データ。卑弥呼16.1%、紫式部9.9%、北条政子7.4%ほか上位人物の認知度数値の出典。</span></li>
+      <li><span class="source-num">2</span><span class="source-text"><strong>国立国会図書館 電子展示会「近代日本人の肖像」</strong><br>津田梅子、与謝野晶子、新島八重ほか明治〜大正期女性の肖像写真・文献資料。</span></li>
+      <li><span class="source-num">3</span><span class="source-text"><strong>津田塾大学「津田梅子資料室」</strong><br>津田梅子の留学関連資料（許可証・書簡・卒業証書等）の所在と内容。</span></li>
+      <li><span class="source-num">4</span><span class="source-text"><strong>魏志倭人伝（三国志・魏書東夷伝）</strong><br>卑弥呼に関する最重要一次史料。「親魏倭王」任命記事等を含む中国正史。</span></li>
+      <li><span class="source-num">5</span><span class="source-text"><strong>吾妻鏡（鎌倉幕府公式記録）</strong><br>北条政子・承久の乱に関する一次史料。幕府武士団への演説記事を収録。</span></li>
+      <li><span class="source-num">6</span><span class="source-text"><strong>各都道府県立博物館・歴史資料館の公式サイト</strong><br>所蔵資料の真正性確認および展示情報の収集に使用。</span></li>
+      <li><span class="source-num">7</span><span class="source-text"><strong>イエズス会年報（Litterae Annual）</strong><br>細川ガラシャの洗礼・殉死に���するヨーロッパ側の一次史料。バチカン文書館所蔵。</span></li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html" data-en="← Portfolio Top">← Portfolio Top</a>
+    <a href="women-history.html" data-en="Women's 20 Profiles">女性20人のプロフィールへ</a>
+  </div>
+  <p class="footer-copy">&copy; 2026 Ryuzaburo — All rights reserved</p>
+</footer>
+
+<script>
+  const people = [
+    { rank:1,  name:"卑弥呼",       scores:[9,8,10,7,9]  },
+    { rank:2,  name:"紫式部",       scores:[10,10,9,9,10] },
+    { rank:3,  name:"北条政子",     scores:[9,9,8,7,9]   },
+    { rank:4,  name:"ねね（北政所）",scores:[8,7,8,8,8]   },
+    { rank:5,  name:"天璋院篤姫",   scores:[7,7,9,6,9]   },
+    { rank:6,  name:"小野小町",     scores:[8,7,8,5,8]   },
+    { rank:7,  name:"巴御前",       scores:[7,6,8,5,7]   },
+    { rank:8,  name:"新島八重",     scores:[7,7,7,7,8]   },
+    { rank:9,  name:"お市の方",     scores:[7,6,7,6,7]   },
+    { rank:9,  name:"細川ガラシャ", scores:[7,7,7,6,7]   },
+    { rank:11, name:"津田梅子",     scores:[8,8,7,8,7]   },
+    { rank:12, name:"与謝野晶子",   scores:[8,8,7,7,7]   },
+    { rank:13, name:"樋口一葉",     scores:[8,8,7,7,7]   },
+    { rank:14, name:"平塚らいてう", scores:[7,7,6,5,6]   },
+    { rank:15, name:"推古天皇",     scores:[9,7,6,5,6]   },
+    { rank:16, name:"川島芳子",     scores:[5,6,5,4,7]   },
+    { rank:17, name:"市川房枝",     scores:[7,6,6,5,6]   },
+    { rank:18, name:"石牟礼道子",   scores:[7,7,5,5,5]   },
+    { rank:19, name:"草間彌生",     scores:[9,7,6,8,8]   },
+    { rank:20, name:"大山捨松",     scores:[6,6,5,5,5]   },
+  ];
+
+  const weights   = [0.25, 0.20, 0.25, 0.15, 0.15];
+  const colors    = ['var(--c1)','var(--c2)','var(--c3)','var(--c4)','var(--c5)'];
+  const labels_ja = ['①業績','②言及度','③知名度','④博物館','⑤メディア'];
+  const labels_en = ['①Achiev.','②Citations','③Recognition','④Museum','⑤Media'];
+
+  function calcTotal(scores) {
+    return scores.reduce((sum, s, i) => sum + s * weights[i] * 10, 0).toFixed(1);
+  }
+
+  const tbody = document.getElementById('score-tbody');
+  people.forEach(p => {
+    const total = parseFloat(calcTotal(p.scores));
+    const pct = (total / 100 * 100).toFixed(0);
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><div class="td-person"><span class="td-rank-badge">${p.rank}</span><span class="td-person-name">${p.name}</span></div></td>
+      ${p.scores.map((s,i) => `<td><div class="score-cell"><span class="score-num" style="color:${colors[i]}">${s}</span><div class="score-mini-bar"><div class="score-mini-fill" style="width:${s*10}%; background:${colors[i]};"></div></div></div></td>`).join('')}
+      <td><div class="total-bar"><div class="total-bar-track"><div class="total-bar-fill" style="width:${pct}%"></div></div><span class="total-cell">${total}</span></div></td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  const grid = document.getElementById('breakdown-grid');
+  people.forEach(p => {
+    const total = calcTotal(p.scores);
+    const card = document.createElement('div');
+    card.className = 'breakdown-card';
+    card.innerHTML = `
+      <div class="bc-header"><span class="bc-rank">${String(p.rank).padStart(2,'0')}</span><span class="bc-name">${p.name}</span></div>
+      <div class="bc-bars">${p.scores.map((s,i) => `<div class="bc-bar-row"><span class="bc-bar-label" data-label-idx="${i}">${labels_ja[i]}</span><div class="bc-bar-track"><div class="bc-bar-fill" style="width:${s*10}%; background:${colors[i]};"></div></div><span class="bc-bar-val">${s}</span></div>`).join('')}</div>
+      <div class="bc-total"><span class="bc-total-label" data-en-total="Total Score">総合スコア</span><span class="bc-total-val">${total} / 100</span></div>
+    `;
+    grid.appendChild(card);
+  });
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.querySelectorAll('.bc-bar-fill, .score-mini-fill, .total-bar-fill, .weight-bar-fill').forEach(el => {
+          const w = el.style.width;
+          el.style.width = '0';
+          requestAnimationFrame(() => setTimeout(() => el.style.width = w, 50));
+        });
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.breakdown-card, .score-table-wrap, .weight-overview').forEach(el => observer.observe(el));
+
+  // ── Language Toggle ──
+  let currentLang = localStorage.getItem('lang') || 'ja';
+
+  function toggleLang() {
+    currentLang = currentLang === 'ja' ? 'en' : 'ja';
+    localStorage.setItem('lang', currentLang);
+    applyLang();
+  }
+
+  function applyLang() {
+    const isEN = currentLang === 'en';
+    const btn = document.getElementById('langBtn');
+    if (btn) btn.textContent = isEN ? 'JP' : 'EN';
+
+    document.querySelectorAll('[data-en]').forEach(el => {
+      if (!el.dataset.jaOriginal) el.dataset.jaOriginal = el.textContent.trim();
+      el.textContent = isEN ? el.dataset.en : el.dataset.jaOriginal;
+    });
+
+    document.querySelectorAll('[data-en-html]').forEach(el => {
+      if (!el.dataset.jaHtmlOriginal) el.dataset.jaHtmlOriginal = el.innerHTML;
+      el.innerHTML = isEN ? el.dataset.enHtml : el.dataset.jaHtmlOriginal;
+    });
+
+    // Breakdown bar labels
+    document.querySelectorAll('[data-label-idx]').forEach(el => {
+      const idx = parseInt(el.dataset.labelIdx);
+      el.textContent = isEN ? labels_en[idx] : labels_ja[idx];
+    });
+
+    // Breakdown total labels
+    document.querySelectorAll('[data-en-total]').forEach(el => {
+      el.textContent = isEN ? el.dataset.enTotal : '総合スコア';
+    });
+
+    document.title = isEN
+      ? 'Selection Logic & Score Breakdown — 20 Influential Women'
+      : '選出ロジックと評価内訳 — 女性20人';
+  }
+
+  applyLang();
+</script>
+
+</body>
+</html>
