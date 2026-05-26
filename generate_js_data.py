@@ -111,8 +111,8 @@ def main():
         with open(html_file, encoding='utf-8') as f:
             content = f.read()
 
-        # すでに外部化済みかチェック
-        if 'src="data.js"' in content:
+        # すでに外部化済みかチェック（?v=xxx キャッシュバスターも含む）
+        if 'src="data.js' in content:
             print(f"  ✅ {html_file} はすでに外部化済み → スキップ")
             continue
 
