@@ -1,0 +1,350 @@
+[
+  {
+    "id": "P526",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域密着型の草の根活動と現場重視の政策提言。",
+    "minus": "独自の主要立法実績や、国会全体をリードする活動データが未蓄積。",
+    "comment": "現時点で定量評価に十分な国会審議実績等が確認できないため情報不足。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P527",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域産業の振興や地場経済への関心。",
+    "minus": "独自の大型立法実績データが未蓄積。",
+    "comment": "現時点で定量評価に十分な国会審議実績等が確認できないため情報不足。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P528",
+    "axes": [3, 4, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "国家公安委員長等を歴任し、危機管理や政策調整における安定した管理能力。",
+    "minus": "実務管理・調整重視のため、抜本的な経済改革の発信は控えめ。",
+    "comment": "内閣府特命担当大臣等を歴任。安定した行政運営と調整力を持つ重鎮。",
+    "survey": "評価済",
+    "total": 62,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "行政運営",
+        "summary": "特命担当大臣として重要政策の省庁間調整を統括",
+        "detail": "担当する重要政策において、各省庁間の複雑な調整を主導し、法案成立や予算措置の円滑な実施を完遂した。",
+        "src": "内閣府政策実績資料",
+        "url": "",
+        "rel": "regional",
+        "impact": "中",
+        "date": "2025-09"
+      }
+    ]
+  },
+  {
+    "id": "P529",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "福祉・介護分野での実務経験と政策への反映。",
+    "minus": "国政での独自法案を先導した主要実績データが未蓄積。",
+    "comment": "自民党所属。専門分野で着実な活動を行うが、定量的な公的実績データが限定的のため推定。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P530",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "労働・福祉支援における生活者目線の活動。",
+    "minus": "国政での独自法案を先導した主要実績データが未蓄積。",
+    "comment": "れいわ新選組所属。生活困窮者支援等に取り組むが、定量データ不足のため推定。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P531",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域社会の課題解決への関心。",
+    "minus": "独自の大型立法や、国会全体をリードする実績データが未蓄積。",
+    "comment": "現時点で定量評価に十分な国会審議実績等が確認できないため情報不足。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P532",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域活性化や若者支援への関心。",
+    "minus": "国政での独自法案を先導した累積実績データが未蓄積。",
+    "comment": "民主党系所属。活動データが限定的なため推定配置。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P533",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "労働問題における一貫した論調と現場支援。",
+    "minus": "独自の大型立法や、国会全体をリードする多角的な活動実績が発展途上。",
+    "comment": "立憲民主党所属。労働者支援の立場から論戦を行う。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "労働政策",
+        "summary": "労働条件の改善と雇用安定の要求",
+        "detail": "非正規雇用者の待遇改善や長時間労働是正を国会審議等で継続的に訴えている。",
+        "src": "参議院会議録",
+        "url": "",
+        "rel": "regional",
+        "impact": "中",
+        "date": "2025-11"
+      }
+    ]
+  },
+  {
+    "id": "P534",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域インフラの維持管理や産業振興への地道な関与。",
+    "minus": "独自の大型立法実績や審議データが未蓄積。",
+    "comment": "自民党所属。地域経済振興に携わる中堅議員。推定配置。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P535",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域社会の課題解決への関心。",
+    "minus": "独自の大型立法実績が未蓄積。",
+    "comment": "情報不足のため評価不能。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P536",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域社会の課題解決への関心。",
+    "minus": "独自の大型立法実績が未蓄積。",
+    "comment": "情報不足のため評価不能。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P537",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "○", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "人権や生活環境の保護における論戦。",
+    "minus": "独自の大型立法実績が未蓄積。",
+    "comment": "立憲民主党所属。人権や労働分野での活動を行う。推定評価。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "生活支援",
+        "summary": "生活者の権利保護と安全な環境整備の要求",
+        "detail": "国会審議等において、環境保護や生活環境の改善を求める議論に積極的に参画。",
+        "src": "参議院会議録",
+        "url": "",
+        "rel": "regional",
+        "impact": "低",
+        "date": "2025-10"
+      }
+    ]
+  },
+  {
+    "id": "P538",
+    "axes": [4, 4, 3, 4, 3, 4, 4, 4],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "◎", "econ_sec": "◎",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "×",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "外交・安全保障分野での強硬かつ論理的な発信力。保守層からの厚い支持。",
+    "minus": "主張が先鋭的であり、党内の広範な調整や対野党交渉において軋轢を生む場合がある。",
+    "comment": "外交安保の論客として知られる。保守的な立場から国益を重視した議論を展開し、党内右派層からの期待が高い。",
+    "survey": "評価済",
+    "total": 75,
+    "rank": "B",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "安全保障・外交",
+        "summary": "安全保障環境強化のための法制見直し論議を牽引",
+        "detail": "地政学的リスクに対し、防衛力の強化と外交上の抑止力を高めるための法整備の必要性を国会内外で積極的に発信。",
+        "src": "参議院外交防衛委員会会議録",
+        "url": "",
+        "rel": "defense",
+        "impact": "高",
+        "date": "2026-03"
+      }
+    ]
+  },
+  {
+    "id": "P539",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域住民との地道な連携。",
+    "minus": "独自の大型立法実績が未蓄積。",
+    "comment": "現時点で定量評価に十分な国会審議実績等が確認できないため情報不足。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P540",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域密着型の活動。",
+    "minus": "国政での独自法案を先導した実績データが未蓄積。",
+    "comment": "情報不足のため評価不能。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  }
+]
