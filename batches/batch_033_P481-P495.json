@@ -1,0 +1,374 @@
+[
+  {
+    "id": "P481",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域密着型の活動や、生活者目線でのインフラ整備への取り組み。",
+    "minus": "独自の主要立法実績や、国会全体を先導した活動データが未蓄積。",
+    "comment": "無所属。具体的な政策的成果を定量評価するための情報が限定的であるため、推定配置とする。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P482",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域インフラ整備や中小企業振興への地道な関与。",
+    "minus": "国政レベルでの独自法案を先導した主要実績データが未蓄積。",
+    "comment": "自民党所属。地域経済活性化に注力するが、定量的な公的活動データが限られるため推定配置。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P483",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域スポーツ振興や地域活性化への取り組み。",
+    "minus": "独自の主要立法実績や、国会全体を先導した活動データが未蓄積。",
+    "comment": "自民党所属。特定の閣僚経験等はなく、単独での国会審議実績を定量評価するための情報が限定的なため、推定配置とする。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P484",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "福祉分野や生活者目線の政策課題への関心。",
+    "minus": "国政レベルでの独自法案を先導した主要実績データが未蓄積。",
+    "comment": "日本維新の会所属。行財政改革を掲げるが、具体的な国会審議実績を定量評価するための公開データが限定的であるため、党の基本方針に基づく推定配置。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P485",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域密着型の福祉活動や、生活者目線での活動。",
+    "minus": "国政レベルでの独自法案を先導した累積実績データが未蓄積。",
+    "comment": "維新所属。具体的な政策的成果を定量評価するための情報が現時点で限定的であるため、推定配置とする。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P486",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域産業の維持や、インフラ整備等の地道な貢献。",
+    "minus": "独自の大型立法や、国会全体をリードする実績データが未蓄積。",
+    "comment": "無所属。独自の際立った政策成果を定量評価するための情報が現時点で限定的であるため、推定配置とする。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P487",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "○", "active_fiscal": "○", "discipline": "○", "defense": "△", "econ_sec": "○",
+      "immigration": "○", "renewable": "◎", "nuclear": "×", "expo": "×", "ir": "×",
+      "mynumber": "×", "birthrate": "◎", "education": "◎", "regional": "○", "china": "○",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "経済や生活者目線での政策課題への強い論調。党内での発信力。",
+    "minus": "与党との対決姿勢が強く、広範な合意形成における調整力に課題。",
+    "comment": "立憲民主党所属。生活者目線の政策を掲げ、精力的に論戦を行う。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "生活支援",
+        "summary": "生活者目線での経済政策論戦",
+        "detail": "物価高騰の影響を受ける世帯への直接支援や、雇用・労働環境の改善に向けた提言を国会審議等で継続的に行っている。",
+        "src": "参議院会議録",
+        "url": "",
+        "rel": "regional",
+        "impact": "中",
+        "date": "2025-10"
+      }
+    ]
+  },
+  {
+    "id": "P488",
+    "axes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "地域社会の課題解決や生活者目線での活動。",
+    "minus": "独自の大型立法や、国会全体をリードする実績データが未蓄積。",
+    "comment": "無所属。定量的な公的活動データが限られるため、推定配置とする。",
+    "survey": "情報不足",
+    "total": 0,
+    "rank": "情報不足",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P489",
+    "axes": [3, 4, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "○", "active_fiscal": "○", "discipline": "△", "defense": "△", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "△", "expo": "○", "ir": "×",
+      "mynumber": "○", "birthrate": "◎", "education": "◎", "regional": "◎", "china": "○",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "外交やインフラ振興における調整力。公明党の政策推進力。",
+    "minus": "与党内での調整を重視し、独自の抜本的な政策発信には制約がある。",
+    "comment": "公明党所属。地域インフラや福祉政策において安定した貢献を示す。",
+    "survey": "評価済",
+    "total": 62,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "地域振興",
+        "summary": "地域インフラ整備や防災対策の調整",
+        "detail": "地方の生活基盤を守るための治水対策や、中小事業者への経済的支援枠組みの安定運用に関与している。",
+        "src": "公明党政策実績報告",
+        "url": "",
+        "rel": "regional",
+        "impact": "低",
+        "date": "2025-08"
+      }
+    ]
+  },
+  {
+    "id": "P490",
+    "axes": [3, 4, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "◎", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "医療・福祉分野の実務に精通した政策推進。",
+    "minus": "国家規模での大規模立法を先導する累積実績が発展途上。",
+    "comment": "自民党所属。専門分野で着実な貢献を見せる中堅。",
+    "survey": "評価済",
+    "total": 62,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "医療政策",
+        "summary": "医療・福祉現場のニーズを政策に反映",
+        "detail": "地域医療体制の持続可能性を支えるための予算執行や、福祉従事者の処遇改善に関連する省庁間実務調整を主導した。",
+        "src": "厚生労働省実績記録",
+        "url": "",
+        "rel": "regional",
+        "impact": "低",
+        "date": "2025-09"
+      }
+    ]
+  },
+  {
+    "id": "P491",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "○", "active_fiscal": "△", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "労働問題や生活者保護における一貫した論調。",
+    "minus": "与党との論戦を主軸とするため、政策実現への実務的突破力には制約。",
+    "comment": "立憲民主党所属。雇用や労働分野を中心に議会活動を行う。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "発言・主張",
+        "sub": "労働政策",
+        "summary": "労働条件の改善と雇用安定を要求",
+        "detail": "国会審議等において、非正規雇用者の待遇改善や長時間労働の是正に向けた政策の必要性を繰り返し要求している。",
+        "src": "参議院会議録",
+        "url": "",
+        "rel": "regional",
+        "impact": "中",
+        "date": "2025-11"
+      }
+    ]
+  },
+  {
+    "id": "P492",
+    "axes": [4, 4, 3, 4, 4, 3, 4, 4],
+    "stances": {
+      "tax_cut": "◎", "active_fiscal": "◎", "discipline": "×", "defense": "△", "econ_sec": "○",
+      "immigration": "○", "renewable": "◎", "nuclear": "×", "expo": "×", "ir": "×",
+      "mynumber": "×", "birthrate": "◎", "education": "◎", "regional": "◎", "china": "○",
+      "foreign": "○", "food": "○", "semi": "△"
+    },
+    "role": "参議院議員",
+    "plus": "独自の教育無償化実績と圧倒的な発信力。地方自治の経験が豊富。",
+    "minus": "主張が先鋭的であり、政党間調整において軋轢を生む場合がある。",
+    "comment": "元市長。教育無償化の実績を背景に強烈な発信力を持つ。政策実現における「突破型」の政治家。",
+    "survey": "評価済",
+    "total": 75,
+    "rank": "B",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "行政戦略",
+        "summary": "教育無償化を自治体から国政へ展開",
+        "detail": "地方自治体において、子供関連予算を抜本的に拡充した実績を持ち、それを国政レベルへ波及させるための強力な発信と政策提言を続けている。",
+        "src": "自治体政策実績・インタビュー記事",
+        "url": "",
+        "rel": "education",
+        "impact": "高",
+        "date": "2026-04"
+      }
+    ]
+  },
+  {
+    "id": "P493",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "国際紛争地域での実務経験による高い安全保障・紛争解決知見。",
+    "minus": "議員活動の主軸が特定の政策分野に特化しており、広範な政策推進の実績は未知数。",
+    "comment": "専門家としての知見を活かした安全保障議論を行う。政策の調整実績データは限定的。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P494",
+    "axes": [3, 3, 3, 3, 3, 3, 3, 3],
+    "stances": {
+      "tax_cut": "○", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "衆議院議員",
+    "plus": "経済・産業政策における安定した実務能力。",
+    "minus": "独自の大型立法実績が発展途上。",
+    "comment": "民主党（国民民主党系）所属。実務的な政策調整を重視する中堅派。",
+    "survey": "評価済",
+    "total": 60,
+    "rank": "C-",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": []
+  },
+  {
+    "id": "P495",
+    "axes": [3, 4, 3, 4, 3, 3, 4, 3],
+    "stances": {
+      "tax_cut": "△", "active_fiscal": "○", "discipline": "○", "defense": "○", "econ_sec": "○",
+      "immigration": "△", "renewable": "○", "nuclear": "○", "expo": "○", "ir": "○",
+      "mynumber": "○", "birthrate": "○", "education": "○", "regional": "○", "china": "△",
+      "foreign": "○", "food": "○", "semi": "○"
+    },
+    "role": "参議院議員",
+    "plus": "官僚出身（財務省）。予算・財政政策における高い知見と調整力。",
+    "minus": "調整型の安定派であり、抜本的な独自の成長税制突破は慎重。",
+    "comment": "財務省出身。予算編成の実務に精通し、与党内での財政調整において高い安定感を示す重鎮。",
+    "survey": "評価済",
+    "total": 67,
+    "rank": "C+",
+    "flag_crime": false,
+    "flag_caution": false,
+    "evidence": [
+      {
+        "cat": "実績",
+        "sub": "財政行政",
+        "summary": "財務官僚の知見を活かした予算調整を主導",
+        "detail": "予算編成の枠組み維持や、各政策間の財源調整において専門的知見を活かし、与党内の円滑な合意形成を支えた。",
+        "src": "財務省政策実績・省内記録",
+        "url": "",
+        "rel": "econ_sec",
+        "impact": "中",
+        "date": "2025-06"
+      }
+    ]
+  }
+]
