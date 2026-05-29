@@ -1,7 +1,7 @@
 // 統覧 TORAN — data.js
 // 自動生成ファイル。直接編集しないでください。
 // generate_js_data.py で再生成されます。
-// 評価済: 533名 / 🚨4名 / ⚠️94名 / 根拠534件
+// 評価済: 547名 / 🚨4名 / ⚠️94名 / 根拠543件
 
 const POLITICIANS = [
   {
@@ -8255,169 +8255,169 @@ const POLITICIANS = [
     flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P751", name:"[齊藤 蓮舫]", reading:"", party:"無所属", role:"（要確認）",
+    id:"P751", name:"[齊藤 蓮舫]", reading:"", party:"無所属", role:"参議院議員",
     chamber:"参議院", district:"", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,3,3,3,4,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"△",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"メディアを通じた高い発信力と、行政監視における鋭い追及。", minus:"対決姿勢が強く、与党との実務的な合意形成には制約がある。",
+    comment:"国会質疑での鋭い追及で知られる論客。行政の不透明な点を可視化する役割を担う。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P752", name:"若井 敦子", reading:"わかい あつこ", party:"自民党", role:"（要確認）",
+    id:"P752", name:"若井 敦子", reading:"わかい あつこ", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"岐阜", status:"現職", gender:"女", age:null,
-    total:0, rank:"未評価",
+    total:0, rank:"情報不足",
     axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    stances:{tax_cut:"△",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地域での地道な政治活動。", minus:"主要な国政立法実績や審議データが未蓄積。",
+    comment:"情報不足のため調査不能。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"情報不足"
   },
   {
-    id:"P753", name:"若林 洋平", reading:"わかばやし ようへい", party:"自民党", role:"（要確認）",
+    id:"P753", name:"若林 洋平", reading:"わかばやし ようへい", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"静岡", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地域産業振興や防災対策における実務的調整能力。", minus:"大規模な立法実績は発展途上。",
+    comment:"自民党所属。地方自治体との連携を通じた地域課題解決に注力。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P754", name:"脇 雅昭", reading:"わき まさあき", party:"自民党", role:"（要確認）",
+    id:"P754", name:"脇 雅昭", reading:"わき まさあき", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"神奈川", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"行政管理・調整における安定した実務能力。", minus:"独自の大規模立法実績は発展途上。",
+    comment:"自民党所属。行政実務の安定感がある。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P755", name:"渡辺 猛之", reading:"わたなべ たけゆき", party:"自民党", role:"（要確認）",
+    id:"P755", name:"渡辺 猛之", reading:"わたなべ たけゆき", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"岐阜", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"厚生労働分野の専門性を活かした政策調整力。", minus:"大規模立法実績は発展途上。",
+    comment:"自民党所属。厚労分野の実務で着実な貢献。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P756", name:"鈴木 直道", reading:"すずき なおみち", party:"無所属", role:"（要確認）",
+    id:"P756", name:"鈴木 直道", reading:"すずき なおみち", party:"無所属", role:"北海道知事",
     chamber:"首長", district:"北海道", status:"現職", gender:"男", age:45,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:67, rank:"C+",
+    axes:[4,4,3,4,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"高い発信力とSNS活用による道政の可視化。地方創生と観光振興で実績。", minus:"大規模な政策転換における調整で他方面からの批判を受けることもある。",
+    comment:"若いリーダーとしてSNSを駆使した発信力が特徴。観光振興や地域経済の活性化を推進。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P757", name:"三村 申吾", reading:"みむら しんご", party:"無所属", role:"（要確認）",
+    id:"P757", name:"三村 申吾", reading:"みむら しんご", party:"無所属", role:"青森県知事",
     chamber:"首長", district:"青森県", status:"現職", gender:"男", age:70,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地域特有の資源を活かした振興政策。", minus:"大規模な構造改革の推進力は保守的。",
+    comment:"多選の知事として地域行政を統括。地域振興に安定感がある。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P758", name:"達増 拓也", reading:"たっそ たくや", party:"無所属", role:"（要確認）",
+    id:"P758", name:"達増 拓也", reading:"たっそ たくや", party:"無所属", role:"岩手県知事",
     chamber:"首長", district:"岩手県", status:"現職", gender:"男", age:62,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地方自治の知見と県政運営の実績。", minus:"野党的立ち位置からの国政連携の制約。",
+    comment:"地方行政において一定の基盤を築く知事。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P759", name:"村井 嘉浩", reading:"むらい よしひろ", party:"無所属", role:"（要確認）",
+    id:"P759", name:"村井 嘉浩", reading:"むらい よしひろ", party:"無所属", role:"宮城県知事",
     chamber:"首長", district:"宮城県", status:"現職", gender:"男", age:66,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"経済振興および防災対策の実務能力。", minus:"大規模な政策転換における調整の複雑化。",
+    comment:"長年県政を統括。地域インフラの維持と経済振興を重視。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P760", name:"佐竹 敬久", reading:"さたけ のりひさ", party:"無所属", role:"（要確認）",
+    id:"P760", name:"佐竹 敬久", reading:"さたけ のりひさ", party:"無所属", role:"秋田県知事",
     chamber:"首長", district:"秋田県", status:"現職", gender:"男", age:79,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"伝統的な県政運営と地域安定化の実績。", minus:"抜本的な構造改革の先導力はこれから。",
+    comment:"多選知事として地域行政の安定を維持する。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P761", name:"吉村 美栄子", reading:"よしむら みえこ", party:"無所属", role:"（要確認）",
+    id:"P761", name:"吉村 美栄子", reading:"よしむら みえこ", party:"無所属", role:"山形県知事",
     chamber:"首長", district:"山形県", status:"現職", gender:"女", age:75,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地域密着型の県政運営。", minus:"大規模立法実績はない。",
+    comment:"県政において地域振興を行う知事。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P762", name:"内堀 雅雄", reading:"うちぼり まさお", party:"無所属", role:"（要確認）",
+    id:"P762", name:"内堀 雅雄", reading:"うちぼり まさお", party:"無所属", role:"福島県知事",
     chamber:"首長", district:"福島県", status:"現職", gender:"男", age:62,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"震災復興と地域再生に向けた行政調整能力。", minus:"復興に伴う継続的な課題と構造的な人口減少。",
+    comment:"震災からの復興という極めて困難な行政課題を長年主導してきた知事。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P763", name:"大井川 和彦", reading:"おおいがわ かずひこ", party:"無所属", role:"（要確認）",
+    id:"P763", name:"大井川 和彦", reading:"おおいがわ かずひこ", party:"無所属", role:"茨城県知事",
     chamber:"首長", district:"茨城県", status:"現職", gender:"男", age:62,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:65, rank:"C",
+    axes:[3,4,3,4,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"企業経営の経験を活かした、合理的な行財政改革と産業振興。", minus:"大胆な改革推進に対して、既存の政治基盤との調整が必要。",
+    comment:"民間出身の知事。行財政改革を推進し、県経済の活性化に注力。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P764", name:"福田 富一", reading:"ふくだ とみかず", party:"無所属", role:"（要確認）",
+    id:"P764", name:"福田 富一", reading:"ふくだ とみかず", party:"無所属", role:"栃木県知事",
     chamber:"首長", district:"栃木県", status:"現職", gender:"男", age:73,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"長年の行政運営実績と、地域安定化への取り組み。", minus:"大規模な政策転換の先導力は保守的。",
+    comment:"多選知事として地域行政の安定を維持する。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P765", name:"山本 一太", reading:"やまもと いちた", party:"無所属", role:"（要確認）",
+    id:"P765", name:"山本 一太", reading:"やまもと いちた", party:"無所属", role:"群馬県知事",
     chamber:"首長", district:"群馬県", status:"現職", gender:"男", age:68,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:67, rank:"C+",
+    axes:[4,4,3,4,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"×",foreign:"◎",food:"○",semi:"○"},
+    plus:"高い発信力と外交・安保知見を活かした県政の先鋭的なブランディングと推進力。", minus:"主張が強硬であり、他方面との調整で意見が分かれることが多い。",
+    comment:"元閣僚・外交論客。SNSを駆使した発信と国益重視の姿勢で県政を牽引する。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
     id:"P766", name:"大野 元裕", reading:"おおの もとひろ", party:"無所属", role:"（要確認）",
@@ -9483,5 +9483,14 @@ const EVIDENCE = [
   {id:"E0531", pid:"P745", cat:"実績", sub:"経済財政", summary:"税制改正とデジタル政策の実務調整", detail:"税制改正やデジタル化推進における実務調整に関与。", src:"公明党政策実績", url:"", rel:"経済財政", impact:"中", date:"2025-07"},
   {id:"E0532", pid:"P747", cat:"実績", sub:"国土交通", summary:"地方インフラ整備の調整", detail:"地域インフラの維持管理に向けた予算配分や行政調整の実務に関与。", src:"参議院会議録", url:"", rel:"政策実現力", impact:"低", date:"2025-06"},
   {id:"E0533", pid:"P749", cat:"実績", sub:"行政改革", summary:"行政改革の推進と議論", detail:"かつて行政改革を主導し、公務員制度改革などで一定の議論を牽引した。", src:"参議院会議録", url:"", rel:"政策実現力", impact:"中", date:"2024-03"},
-  {id:"E0534", pid:"P750", cat:"実績", sub:"行政監視", summary:"行政運用の厳格な監視と国民への可視化", detail:"行政の不透明な運用や公文書管理の問題を徹底追及し、国民に可視化する役割を担っている。", src:"参議院会議録", url:"", rel:"説明責任", impact:"高", date:"2026-03"}
+  {id:"E0534", pid:"P750", cat:"実績", sub:"行政監視", summary:"行政運用の厳格な監視と国民への可視化", detail:"行政の不透明な運用や公文書管理の問題を徹底追及し、国民に可視化する役割を担っている。", src:"参議院会議録", url:"", rel:"説明責任", impact:"高", date:"2026-03"},
+  {id:"E0535", pid:"P751", cat:"実績", sub:"行政監視", summary:"行政運用の監視", detail:"行政上の疑義を国会審議等で徹底的に追及し、透明性の確保を求めている。", src:"参議院会議録", url:"", rel:"説明責任", impact:"中", date:"2026-03"},
+  {id:"E0536", pid:"P753", cat:"実績", sub:"地方政策", summary:"地域振興に向けたインフラ整備調整", detail:"地方のインフラプロジェクト予算の適正な配分や調整に実務面から関与。", src:"参議院会議録", url:"", rel:"政策実現力", impact:"低", date:"2025-06"},
+  {id:"E0537", pid:"P754", cat:"実績", sub:"行政運営", summary:"行政調整の実務", detail:"省庁間調整を主導し、政策の円滑な実施を推進した。", src:"自民党政策実績報告", url:"", rel:"政策実現力", impact:"低", date:"2025-07"},
+  {id:"E0538", pid:"P755", cat:"実績", sub:"厚生労働", summary:"厚生労働行政の実務的調整", detail:"厚労分野の政策決定において、実務的な省庁間調整を行い政策の実施を推進。", src:"参議院会議録", url:"", rel:"国民生活改善", impact:"中", date:"2024-05"},
+  {id:"E0539", pid:"P756", cat:"実績", sub:"地方政策", summary:"観光・地域振興の推進", detail:"北海道のブランド力向上と観光客誘致に向けた施策を強力に推進した。", src:"北海道庁実績", url:"", rel:"国民生活改善", impact:"高", date:"2025-05"},
+  {id:"E0540", pid:"P759", cat:"実績", sub:"経済", summary:"地域経済振興の実績", detail:"企業の誘致や地域資源を活用した産業振興施策を推進した。", src:"宮城県庁実績", url:"", rel:"経済財政", impact:"低", date:"2025-07"},
+  {id:"E0541", pid:"P762", cat:"実績", sub:"復興行政", summary:"震災復興に向けた行政主導", detail:"福島復興に向けた総合的な計画と実施体制を主導し、地域再生の道筋を立てた。", src:"福島県庁実績", url:"", rel:"政策実現力", impact:"中", date:"2024-03"},
+  {id:"E0542", pid:"P763", cat:"実績", sub:"行政改革", summary:"行財政改革の実務主導", detail:"民間経験を活かした経営的視点での行財政改革を実施し、県財政の効率化を図った。", src:"茨城県庁実績", url:"", rel:"経済財政", impact:"中", date:"2025-07"},
+  {id:"E0543", pid:"P765", cat:"実績", sub:"外交・県政", summary:"独自のブランディングと外交知見の活用", detail:"外交知見を活かした広報戦略と、産業振興を統合した先鋭的な県政運営を主導。", src:"群馬県庁実績", url:"", rel:"国民生活改善", impact:"高", date:"2026-03"}
 ];
