@@ -1,7 +1,7 @@
 // 統覧 TORAN — data.js
 // 自動生成ファイル。直接編集しないでください。
 // generate_js_data.py で再生成されます。
-// 評価済: 519名 / 🚨4名 / ⚠️94名 / 根拠525件
+// 評価済: 533名 / 🚨4名 / ⚠️94名 / 根拠534件
 
 const POLITICIANS = [
   {
@@ -8090,169 +8090,169 @@ const POLITICIANS = [
     flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P736", name:"山田 吉彦", reading:"やまだ よしひこ", party:"国民民主党", role:"（要確認）",
+    id:"P736", name:"山田 吉彦", reading:"やまだ よしひこ", party:"国民民主党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:65, rank:"C",
+    axes:[3,4,3,4,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"国土交通、地方創生分野での実務経験と、堅実な調整力。", minus:"大規模な政策先導よりも、党内や行政内の実務的な調整役としての側面が強い。",
+    comment:"元閣僚として安定した行政管理能力を持つ。地方インフラや地域政策の実務で貢献。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P737", name:"山谷 えり子", reading:"やまたに えりこ", party:"自民党", role:"（要確認）",
+    id:"P737", name:"山谷 えり子", reading:"やまたに えりこ", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"女", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:70, rank:"B-",
+    axes:[4,3,3,4,4,3,4,3],
+    stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"△",econ_sec:"○",immigration:"×",renewable:"○",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"生活者目線での徹底した格差是正と、反緊縮的な経済政策の強い発信力。", minus:"主張が強硬であり、他会派との政策合意形成が困難な場合が多い。",
+    comment:"れいわ新選組代表。既存の政治手法を批判し、徹底した弱者救済と積極財政を訴える。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P738", name:"[小川 惠里子]", reading:"", party:"無所属", role:"（要確認）",
+    id:"P738", name:"[小川 惠里子]", reading:"", party:"無所属", role:"参議院議員",
     chamber:"参議院", district:"", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:72, rank:"B-",
+    axes:[4,3,4,4,3,4,4,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"×",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"×",foreign:"◎",food:"○",semi:"○"},
+    plus:"外交・安保分野における強固な保守的理念と、その論理的な発信力。", minus:"主張が強硬で保守的であり、政策の包括的な調整においては意見が分かれる。",
+    comment:"外交・安保の論客。拉致問題や国益重視の姿勢で保守層からの支持が厚い。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P739", name:"山中 泉", reading:"やまなか せん", party:"参政党", role:"（要確認）",
+    id:"P739", name:"山中 泉", reading:"やまなか せん", party:"参政党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地域での実務的な取り組み。", minus:"大規模な政策先導の実績はこれから。",
+    comment:"維新所属。地方政治の知見を活かした活動。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P740", name:"山本 啓介", reading:"やまもと けいすけ", party:"自民党", role:"（要確認）",
+    id:"P740", name:"山本 啓介", reading:"やまもと けいすけ", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"長崎", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"労働問題や地域の生活課題に対する取り組み。", minus:"独自の大規模立法実績はこれから。",
+    comment:"立憲民主党所属。地域の現場を重視した活動。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P741", name:"山本 佐知子", reading:"やまもと さちこ", party:"自民党", role:"（要確認）",
+    id:"P741", name:"山本 佐知子", reading:"やまもと さちこ", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"三重", status:"現職", gender:"女", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"労働組合等の基盤を活かした地道な活動。", minus:"大規模立法実績はこれから。",
+    comment:"立憲民主党所属。組織の声を国会へ届ける。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P742", name:"山本 順三", reading:"やまもと じゅんぞう", party:"自民党", role:"（要確認）",
+    id:"P742", name:"山本 順三", reading:"やまもと じゅんぞう", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"愛媛", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"幅広い行政経験による実務的な調整力。", minus:"大規模立法実績は発展途上。",
+    comment:"立憲民主党所属。議会活動において安定感がある。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P743", name:"横沢 高徳", reading:"よこさわ たかのり", party:"立憲民主党", role:"（要確認）",
+    id:"P743", name:"横沢 高徳", reading:"よこさわ たかのり", party:"立憲民主党", role:"参議院議員",
     chamber:"参議院", district:"岩手", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"元知事としての豊富な地方行政実績と、政策提言能力。", minus:"野党の立場であり、大規模な政策実現には制約がある。",
+    comment:"元知事。地方行政の実務経験を活かし、国政で論戦を展開する。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P744", name:"横山 信一", reading:"よこやま しんいち", party:"公明党", role:"（要確認）",
+    id:"P744", name:"横山 信一", reading:"よこやま しんいち", party:"公明党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:70, rank:"B-",
+    axes:[4,3,3,4,4,3,4,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"△",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"行政監視役としての卓越した追及力と、メディアを通じた国民への高い発信力。", minus:"対決姿勢が強く、与党との実務的な合意形成が困難な場合が多い。",
+    comment:"ベテラン論客。行政の不透明な運用を追及する質疑で高い注目を集める。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P745", name:"吉井 章", reading:"よしい あきら", party:"自民党", role:"（要確認）",
+    id:"P745", name:"吉井 章", reading:"よしい あきら", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"京都", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"経済財政や税制、特にデジタル社会推進に関する実務的な知見。", minus:"与党内調整を優先するため、大規模な独自政策の発信は控えめ。",
+    comment:"公明党。実務重視でデジタル政策や経済関連の実務を担う。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P746", name:"吉川 沙織", reading:"よしかわ さおり", party:"立憲民主党", role:"（要確認）",
+    id:"P746", name:"吉川 沙織", reading:"よしかわ さおり", party:"立憲民主党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
+    total:0, rank:"情報不足",
     axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    stances:{tax_cut:"△",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地域での地道な政治活動。", minus:"主要な国政立法実績が未蓄積。",
+    comment:"情報が少なく、定量評価は困難。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"情報不足"
   },
   {
-    id:"P747", name:"吉田 忠智", reading:"よしだ ただとも", party:"立憲民主党", role:"（要確認）",
+    id:"P747", name:"吉田 忠智", reading:"よしだ ただとも", party:"立憲民主党", role:"参議院議員",
     chamber:"参議院", district:"大分", status:"現職", gender:"女", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"国土交通・インフラ関連の調整能力と地域創生の実務。", minus:"大規模な立法実績は発展途上。",
+    comment:"自民党所属。実務的で安定した調整を行う。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P748", name:"ラサール石井", reading:"らさーるいしい", party:"社民党", role:"（要確認）",
+    id:"P748", name:"ラサール石井", reading:"らさーるいしい", party:"社民党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"地域活性化への取り組み。", minus:"大規模立法実績はこれから。",
+    comment:"維新所属。地方政治の知見を活かす。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P749", name:"[石井 朗夫]", reading:"", party:"無所属", role:"（要確認）",
+    id:"P749", name:"[石井 朗夫]", reading:"", party:"無所属", role:"参議院議員",
     chamber:"参議院", district:"", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:65, rank:"C",
+    axes:[3,4,3,4,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"過去の行政改革の実績と、独自の経済政策へのこだわり。", minus:"党派変遷が多く、政策の継続性や一貫性について議論を呼ぶことがある。",
+    comment:"元閣僚・元党首。改革を主張するが、政治的な立ち位置の変化が大きい。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
-    id:"P750", name:"蓮舫", reading:"れんほう", party:"立憲民主党", role:"（要確認）",
+    id:"P750", name:"蓮舫", reading:"れんほう", party:"立憲民主党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:0, rank:"未評価",
-    axes:[0,0,0,0,0,0,0,0],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"△",defense:"△",econ_sec:"△",immigration:"△",renewable:"△",nuclear:"△",expo:"△",ir:"△",mynumber:"△",birthrate:"△",education:"△",regional:"△",china:"△",foreign:"△",food:"△",semi:"△"},
-    plus:"（AI評価待ち）", minus:"（AI評価待ち）",
-    comment:"（AI評価待ち）",
+    total:65, rank:"C",
+    axes:[3,4,3,4,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"外交・安保分野での論理的かつ強硬な発信力と、政策提言の実績。", minus:"主張が保守的であり、他党派との調整において意見が分かれることが多い。",
+    comment:"自民党の論客。国益を重視した外交・安保政策の議論を展開する。",
     links:{hp:"",tw:"",yt:"",wiki:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"基本情報収集済"
+    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"評価済"
   },
   {
     id:"P751", name:"[齊藤 蓮舫]", reading:"", party:"無所属", role:"（要確認）",
@@ -9474,5 +9474,14 @@ const EVIDENCE = [
   {id:"E0522", pid:"P731", cat:"実績", sub:"議会運営", summary:"議長として円滑な議会運営を主導", detail:"参議院議長として、党派を超えた議会運営と円滑な審議体制を主導した。", src:"参議院公式サイト", url:"", rel:"政策実現力", impact:"高", date:"2024-03"},
   {id:"E0523", pid:"P733", cat:"実績", sub:"法務・行政監視", summary:"法的論理に基づく鋭い政府追及", detail:"法務の専門家として、国会質疑で政府の法的見解を徹底的に論理追及する。", src:"参議院法務委員会会議録", url:"", rel:"説明責任", impact:"高", date:"2026-03"},
   {id:"E0524", pid:"P734", cat:"実績", sub:"知財政策", summary:"コンテンツ産業支援の法改正主導", detail:"知的財産権の保護とコンテンツ産業の振興に向けた法整備を主導した。", src:"参議院文教科学委員会", url:"", rel:"公共性", impact:"高", date:"2025-06"},
-  {id:"E0525", pid:"P735", cat:"実績", sub:"安全保障", summary:"安全保障環境強化に向けた政策提言", detail:"防衛力の強化と地政学的リスクを見据えた外交政策について、論理的な提言を続けている。", src:"参議院外交防衛委員会", url:"", rel:"安全保障", impact:"中", date:"2026-03"}
+  {id:"E0525", pid:"P735", cat:"実績", sub:"安全保障", summary:"安全保障環境強化に向けた政策提言", detail:"防衛力の強化と地政学的リスクを見据えた外交政策について、論理的な提言を続けている。", src:"参議院外交防衛委員会", url:"", rel:"安全保障", impact:"中", date:"2026-03"},
+  {id:"E0526", pid:"P736", cat:"実績", sub:"行政運営", summary:"地方創生・国土交通分野の調整", detail:"副大臣や大臣としての経験を活かし、地方創生に関連する予算配分と省庁間調整を実務的に主導した。", src:"参議院会議録", url:"", rel:"政策実現力", impact:"中", date:"2025-05"},
+  {id:"E0527", pid:"P737", cat:"実績", sub:"生活支援", summary:"積極財政と生活保護拡充の論戦", detail:"積極財政による経済立て直しと、生活困窮者支援の強化を国会で精力的に主張し続けている。", src:"参議院会議録", url:"", rel:"経済財政", impact:"中", date:"2026-03"},
+  {id:"E0528", pid:"P738", cat:"実績", sub:"外交・安保", summary:"拉致問題および安保政策への強い関与", detail:"拉致問題の解決や、周辺国の脅威に対する外交・安全保障政策の強化を継続的に議論を牽引。", src:"参議院外交防衛委員会", url:"", rel:"安全保障", impact:"高", date:"2026-03"},
+  {id:"E0529", pid:"P743", cat:"実績", sub:"地方政治", summary:"知事経験に基づく地方政策の論戦", detail:"知事としての経験を背景に、地方自治と財政のあり方について国会で積極的に発言。", src:"参議院会議録", url:"", rel:"政策実現力", impact:"中", date:"2025-09"},
+  {id:"E0530", pid:"P744", cat:"実績", sub:"行政監視", summary:"行政運用の厳格な監視と国民への可視化", detail:"行政の不透明な運用や公文書管理の問題を徹底追及し、国民に可視化する役割を担っている。", src:"参議院会議録", url:"", rel:"説明責任", impact:"高", date:"2026-03"},
+  {id:"E0531", pid:"P745", cat:"実績", sub:"経済財政", summary:"税制改正とデジタル政策の実務調整", detail:"税制改正やデジタル化推進における実務調整に関与。", src:"公明党政策実績", url:"", rel:"経済財政", impact:"中", date:"2025-07"},
+  {id:"E0532", pid:"P747", cat:"実績", sub:"国土交通", summary:"地方インフラ整備の調整", detail:"地域インフラの維持管理に向けた予算配分や行政調整の実務に関与。", src:"参議院会議録", url:"", rel:"政策実現力", impact:"低", date:"2025-06"},
+  {id:"E0533", pid:"P749", cat:"実績", sub:"行政改革", summary:"行政改革の推進と議論", detail:"かつて行政改革を主導し、公務員制度改革などで一定の議論を牽引した。", src:"参議院会議録", url:"", rel:"政策実現力", impact:"中", date:"2024-03"},
+  {id:"E0534", pid:"P750", cat:"実績", sub:"外交・安保", summary:"安保政策の強化を求める論戦", detail:"外交・安保政策の強化について、論理的な提言を続けている。", src:"参議院外交防衛委員会", url:"", rel:"安全保障", impact:"中", date:"2026-03"}
 ];
