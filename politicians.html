@@ -531,6 +531,71 @@
       letter-spacing: 0.1em;
     }
 
+    /* ── RANKING CHIPS ── */
+    .ranking-section { padding: 0.75rem 2rem; border-bottom: 1px solid var(--border); background: rgba(22,32,64,0.5); }
+    .ranking-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    .ranking-label { font-size: 0.68rem; color: var(--gray); letter-spacing: 0.12em; text-transform: uppercase; margin-right: 0.25rem; white-space: nowrap; }
+    .rank-chip {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      padding: 0.28rem 0.75rem; border-radius: 20px; font-size: 0.72rem;
+      border: 1px solid var(--border); color: var(--gray); background: transparent;
+      cursor: pointer; transition: all 0.15s; white-space: nowrap;
+    }
+    .rank-chip:hover { border-color: var(--blue); color: var(--text); background: rgba(74,144,226,0.08); }
+    .rank-chip.active { border-color: var(--gold); color: var(--gold); background: rgba(245,200,66,0.1); }
+
+    /* ── STANCE FILTER ── */
+    .stance-filter-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    .filter-select-sm { padding: 0.45rem 0.6rem; background: var(--mid); border: 1px solid var(--border); color: var(--text); border-radius: 6px; font-size: 0.72rem; cursor: pointer; }
+    .filter-select-sm:focus { outline: none; border-color: var(--blue); }
+
+    /* ── MATCHING MODAL ── */
+    .match-modal-overlay {
+      position: fixed; inset: 0; background: rgba(5,10,20,0.88); backdrop-filter: blur(8px);
+      z-index: 200; display: flex; align-items: center; justify-content: center;
+      opacity: 0; pointer-events: none; transition: opacity 0.2s;
+    }
+    .match-modal-overlay.open { opacity: 1; pointer-events: all; }
+    .match-modal-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 2rem; max-width: 560px; width: 90%; max-height: 90vh; overflow-y: auto;
+    }
+    .match-title { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--gold); margin-bottom: 0.25rem; }
+    .match-subtitle { font-size: 0.75rem; color: var(--gray); margin-bottom: 1.5rem; }
+    .match-question { margin-bottom: 1.2rem; }
+    .match-q-label { font-size: 0.8rem; font-family: 'Noto Serif JP', serif; color: var(--text); margin-bottom: 0.5rem; }
+    .match-choices { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .match-choice {
+      padding: 0.3rem 0.85rem; border-radius: 20px; font-size: 0.78rem; cursor: pointer;
+      border: 1px solid var(--border); color: var(--gray); transition: all 0.15s;
+    }
+    .match-choice:hover { border-color: var(--blue); color: var(--text); }
+    .match-choice.sel-maru-maru { border-color: #4ac776; color: #4ac776; background: rgba(74,199,118,0.12); }
+    .match-choice.sel-maru { border-color: #5ba0e0; color: #5ba0e0; background: rgba(91,160,224,0.12); }
+    .match-choice.sel-sankaku { border-color: #f0a030; color: #f0a030; background: rgba(240,160,48,0.12); }
+    .match-choice.sel-batsu { border-color: #e6384f; color: #e6384f; background: rgba(230,56,79,0.12); }
+    .match-choice.sel-skip { border-color: var(--gray); color: var(--gray); background: rgba(128,144,184,0.1); }
+    .match-run-btn {
+      width: 100%; padding: 0.75rem; background: linear-gradient(135deg, var(--blue), #3a6fa0);
+      border: none; border-radius: 8px; color: white; font-size: 0.9rem; cursor: pointer;
+      margin-top: 0.5rem; font-family: 'Noto Serif JP', serif; transition: opacity 0.15s;
+    }
+    .match-run-btn:hover { opacity: 0.88; }
+    .match-results { margin-top: 1.5rem; }
+    .match-result-item {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.65rem 0.85rem; border: 1px solid var(--border); border-radius: 8px;
+      margin-bottom: 0.5rem; cursor: pointer; transition: background 0.15s;
+    }
+    .match-result-item:hover { background: rgba(74,144,226,0.06); }
+    .match-pct { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 600; min-width: 3.2rem; text-align: right; }
+    .match-pct-bar-wrap { flex: 1; height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; }
+    .match-pct-bar { height: 100%; border-radius: 2px; background: linear-gradient(90deg, var(--blue), var(--green)); }
+    .match-name { font-family: 'Noto Serif JP', serif; font-size: 0.85rem; min-width: 5rem; }
+    .match-modal-close { float: right; background: none; border: none; color: var(--gray); font-size: 1.2rem; cursor: pointer; padding: 0; }
+    .match-back-btn { background: none; border: 1px solid var(--border); color: var(--gray); padding: 0.4rem 1rem; border-radius: 6px; font-size: 0.75rem; cursor: pointer; margin-top: 1rem; transition: all 0.15s; }
+    .match-back-btn:hover { color: var(--text); border-color: var(--blue); }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       .site-header { padding: 0 1rem; }
@@ -565,7 +630,7 @@
 <section class="hero">
   <p class="hero-eyebrow">Japan Political Intelligence Database</p>
   <h1 class="hero-title">政治家 <span>総覧</span></h1>
-  <p class="hero-tagline">813人の政治家データベース — 実績・発言・疑惑を根拠に基づき評価する</p>
+  <p class="hero-tagline">816人の政治家データベース — 実績・発言・疑惑を根拠に基づき評価する</p>
   <div class="stats-grid">
     <div class="stat-item">
       <div class="stat-num blue" id="stat-surveyed">—</div>
@@ -585,6 +650,20 @@
     </div>
   </div>
 </section>
+
+<!-- RANKING CHIPS (①) -->
+<div class="ranking-section">
+  <div class="ranking-row">
+    <span class="ranking-label">クイック</span>
+    <button class="rank-chip" data-preset="top20">🏆 総合TOP20</button>
+    <button class="rank-chip" data-preset="bottom20">📉 最下位20</button>
+    <button class="rank-chip" data-preset="s-rank">✨ S・Aランク</button>
+    <button class="rank-chip" data-preset="caution">🚨 要注意・犯罪</button>
+    <button class="rank-chip" data-preset="opposition">🔵 野党TOP</button>
+    <button class="rank-chip" data-preset="ldp">🔴 自民TOP</button>
+    <button class="rank-chip" data-preset="reset">↺ リセット</button>
+  </div>
+</div>
 
 <!-- FILTER BAR -->
 <div class="filter-bar">
@@ -620,7 +699,20 @@
       <option value="C">C</option>
       <option value="D">D</option>
     </select>
+    <select class="filter-select" id="filter-district">
+      <option value="">すべての選挙区</option>
+    </select>
+    <select class="filter-select-sm" id="filter-stance-key">
+      <option value="">政策テーマ…</option>
+    </select>
+    <select class="filter-select-sm" id="filter-stance-val" style="display:none">
+      <option value="◎">◎ 強く支持</option>
+      <option value="○">○ 支持</option>
+      <option value="△">△ 中立</option>
+      <option value="×">× 反対</option>
+    </select>
     <button class="filter-toggle" id="toggle-caution">⚠️ 要注意のみ</button>
+    <button class="filter-toggle" id="btn-match" style="border-color:var(--gold);color:var(--gold)">🎯 マッチング</button>
     <button class="btn-guide" id="btn-guide">❓ 評価基準</button>
   </div>
   <div class="result-count" id="result-count"></div>
@@ -738,6 +830,19 @@
   </div>
 </div>
 
+<!-- MATCHING MODAL (⑤) -->
+<div class="match-modal-overlay" id="match-modal">
+  <div class="match-modal-box">
+    <button class="match-modal-close" id="match-modal-close">✕</button>
+    <div class="match-title">🎯 政策マッチング</div>
+    <div class="match-subtitle">あなたの政策スタンスを選んでください。一致度が高い議員TOP10を表示します。</div>
+    <div id="match-questions"></div>
+    <button class="match-run-btn" id="match-run">マッチング結果を見る →</button>
+    <div class="match-results" id="match-results" style="display:none"></div>
+    <button class="match-back-btn" id="match-back" style="display:none">← 質問に戻る</button>
+  </div>
+</div>
+
 <!-- FOOTER -->
 <footer class="site-footer">
   © 2026 統覧 TORAN | Ryuzaburo —
@@ -781,11 +886,59 @@ function partyBadge(party) {
   return `<span class="party-badge" style="background:${color}">${party}</span>`;
 }
 
+/* ── DISTRICT EXTRACTION (②) ── */
+function extractBlock(district) {
+  if (!district) return null;
+  if (/比例|全国/.test(district)) return district.replace(/ブロック$/, '');
+  const m = district.match(/^([^\d]+)/);
+  return m ? m[1].replace(/[都道府県]$/, '') : null;
+}
+(function buildDistrictDropdown() {
+  const blocks = new Set();
+  const prefs  = new Set();
+  POLITICIANS.forEach(p => {
+    if (!p.district) return;
+    if (/比例|全国/.test(p.district)) blocks.add(p.district.replace(/ブロック$/, ''));
+    else {
+      const m = p.district.match(/^([^\d]+)/);
+      if (m) prefs.add(m[1].replace(/[都道府県]$/, ''));
+    }
+  });
+  const sel = document.getElementById('filter-district');
+  if (blocks.size) {
+    const og1 = document.createElement('optgroup'); og1.label = '比例ブロック';
+    [...blocks].sort().forEach(b => { const o = new Option(b, 'block:'+b); og1.appendChild(o); });
+    sel.appendChild(og1);
+  }
+  if (prefs.size) {
+    const og2 = document.createElement('optgroup'); og2.label = '都道府県';
+    [...prefs].sort().forEach(p => { const o = new Option(p, 'pref:'+p); og2.appendChild(o); });
+    sel.appendChild(og2);
+  }
+})();
+
+/* ── STANCE DROPDOWN (③) ── */
+(function buildStanceDropdown() {
+  const sel = document.getElementById('filter-stance-key');
+  STANCE_ITEMS.forEach(s => sel.appendChild(new Option(s.label, s.key)));
+  sel.addEventListener('change', e => {
+    const sv = document.getElementById('filter-stance-val');
+    sv.style.display = e.target.value ? 'inline-block' : 'none';
+    if (!e.target.value) { filters.stanceKey = ''; filters.stanceVal = ''; applyFilters(); }
+  });
+  document.getElementById('filter-stance-val').addEventListener('change', e => {
+    filters.stanceKey = document.getElementById('filter-stance-key').value;
+    filters.stanceVal = e.target.value;
+    applyFilters();
+  });
+})();
+
 /* ── STATE ── */
 let sortCol = 'total';
 let sortDir = 'desc';
-let filters = { search:'', chamber:'', party:'', rank:'', caution: false };
+let filters = { search:'', chamber:'', party:'', rank:'', caution: false, district:'', stanceKey:'', stanceVal:'', preset:'' };
 let filtered = [...POLITICIANS];
+let presetLimit = 0;
 
 /* ── STATS ── */
 function updateStats() {
@@ -796,6 +949,7 @@ function updateStats() {
 }
 
 /* ── RENDER ── */
+const OPPOSITION = ['中道改革連合','立憲民主党','日本維新の会','国民民主党','日本共産党','れいわ新選組','参政党'];
 function applyFilters() {
   const q = filters.search.toLowerCase();
   filtered = POLITICIANS.filter(p => {
@@ -804,9 +958,24 @@ function applyFilters() {
     if(filters.party && p.party !== filters.party) return false;
     if(filters.rank && !p.rank.startsWith(filters.rank)) return false;
     if(filters.caution && !p.flag_caution && !p.flag_crime) return false;
+    if(filters.district) {
+      const [type, val] = filters.district.split(':');
+      if(type === 'block') { if(!(p.district||'').includes(val)) return false; }
+      else { const m = (p.district||'').match(/^([^\d]+)/); if(!m || m[1].replace(/[都道府県]$/,'') !== val) return false; }
+    }
+    if(filters.stanceKey && filters.stanceVal) {
+      if((p.stances||{})[filters.stanceKey] !== filters.stanceVal) return false;
+    }
+    // preset filters
+    if(filters.preset === 'caution') { if(!p.flag_caution && !p.flag_crime) return false; }
+    if(filters.preset === 'opposition') { if(!OPPOSITION.includes(p.party)) return false; }
+    if(filters.preset === 'ldp') { if(p.party !== '自民党') return false; }
+    if(filters.preset === 's-rank') { if(!p.rank.startsWith('S') && !p.rank.startsWith('A')) return false; }
+    if(p.survey === '情報不足' || p.survey === '未評価') return false;
     return true;
   });
   applySort();
+  if(presetLimit > 0) filtered = filtered.slice(0, presetLimit);
   render();
 }
 
@@ -889,22 +1058,32 @@ document.getElementById('search').addEventListener('input', e => {
   filters.search = e.target.value;
   applyFilters();
 });
-document.getElementById('filter-chamber').addEventListener('change', e => {
-  filters.chamber = e.target.value;
-  applyFilters();
-});
-document.getElementById('filter-party').addEventListener('change', e => {
-  filters.party = e.target.value;
-  applyFilters();
-});
-document.getElementById('filter-rank').addEventListener('change', e => {
-  filters.rank = e.target.value;
-  applyFilters();
-});
+document.getElementById('filter-chamber').addEventListener('change', e => { filters.chamber = e.target.value; applyFilters(); });
+document.getElementById('filter-party').addEventListener('change', e => { filters.party = e.target.value; applyFilters(); });
+document.getElementById('filter-rank').addEventListener('change', e => { filters.rank = e.target.value; applyFilters(); });
+document.getElementById('filter-district').addEventListener('change', e => { filters.district = e.target.value; applyFilters(); });
 document.getElementById('toggle-caution').addEventListener('click', function() {
   filters.caution = !filters.caution;
   this.classList.toggle('active', filters.caution);
   applyFilters();
+});
+
+/* ── RANKING CHIPS (①) ── */
+document.querySelectorAll('.rank-chip').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const preset = this.dataset.preset;
+    document.querySelectorAll('.rank-chip').forEach(b => b.classList.remove('active'));
+    if(preset === 'reset') {
+      filters.preset = ''; presetLimit = 0; sortCol = 'total'; sortDir = 'desc';
+    } else {
+      this.classList.add('active');
+      filters.preset = preset;
+      if(preset === 'top20')    { presetLimit = 20; sortCol='total'; sortDir='desc'; }
+      else if(preset === 'bottom20') { presetLimit = 20; sortCol='total'; sortDir='asc'; }
+      else { presetLimit = 20; sortCol='total'; sortDir='desc'; }
+    }
+    applyFilters();
+  });
 });
 
 document.querySelectorAll('th[data-col]').forEach(th => {
@@ -923,6 +1102,94 @@ document.querySelectorAll('th[data-col]').forEach(th => {
 /* ── INIT ── */
 updateStats();
 applyFilters();
+
+/* ── マッチング機能 (⑤) ── */
+(function() {
+  const MATCH_QUESTIONS = [
+    { key:'tax_cut',      label:'消費税を減税・廃止すべき' },
+    { key:'active_fiscal',label:'積極的な財政出動で経済成長を' },
+    { key:'defense',      label:'防衛費増額・安保強化が必要' },
+    { key:'nuclear',      label:'原発を活用すべき' },
+    { key:'immigration',  label:'移民・外国人労働者の受け入れ拡大' },
+    { key:'renewable',    label:'再エネ推進に積極的に投資すべき' },
+    { key:'mynumber',     label:'マイナンバーの活用を推進すべき' },
+    { key:'discipline',   label:'財政規律を優先すべき' },
+  ];
+  const STANCE_VALS = ['◎','○','△','×'];
+  const SEL_CLASS = {'◎':'sel-maru-maru','○':'sel-maru','△':'sel-sankaku','×':'sel-batsu'};
+  let userStances = {};
+
+  // Build questions
+  const qContainer = document.getElementById('match-questions');
+  MATCH_QUESTIONS.forEach(q => {
+    const div = document.createElement('div');
+    div.className = 'match-question';
+    div.innerHTML = `<div class="match-q-label">${q.label}</div><div class="match-choices" data-key="${q.key}">
+      ${STANCE_VALS.map(v => `<button class="match-choice" data-val="${v}">${v}</button>`).join('')}
+      <button class="match-choice sel-skip" data-val="">こだわらない</button>
+    </div>`;
+    qContainer.appendChild(div);
+  });
+  qContainer.querySelectorAll('.match-choices').forEach(group => {
+    group.querySelectorAll('.match-choice').forEach(btn => {
+      btn.addEventListener('click', function() {
+        group.querySelectorAll('.match-choice').forEach(b => b.className = 'match-choice' + (b.dataset.val===''?' sel-skip':''));
+        const sc = SEL_CLASS[this.dataset.val] || 'sel-skip';
+        this.className = 'match-choice ' + sc;
+        userStances[group.dataset.key] = this.dataset.val;
+      });
+    });
+  });
+
+  document.getElementById('match-run').addEventListener('click', function() {
+    const keys = Object.keys(userStances).filter(k => userStances[k] !== '');
+    if(keys.length === 0) { alert('少なくとも1つ選択してください'); return; }
+    const scored = POLITICIANS
+      .filter(p => p.survey === '評価済')
+      .map(p => {
+        let match = 0, total = 0;
+        keys.forEach(k => {
+          total++;
+          const pv = (p.stances||{})[k];
+          const uv = userStances[k];
+          if(pv === uv) match += 2;
+          else if((pv==='◎'&&uv==='○')||(pv==='○'&&uv==='◎')) match += 1.5;
+          else if((pv==='◎'&&uv==='△')||(pv==='△'&&uv==='◎')) match += 0.5;
+          else if((pv==='×'&&(uv==='◎'||uv==='○'))||(uv==='×'&&(pv==='◎'||pv==='○'))) match -= 1;
+        });
+        const pct = total > 0 ? Math.round((match / (total * 2)) * 100) : 0;
+        return { p, pct: Math.max(0, Math.min(100, pct)) };
+      })
+      .sort((a,b) => b.pct - a.pct)
+      .slice(0, 10);
+
+    const resDiv = document.getElementById('match-results');
+    const rc = p => { if(p.rank.startsWith('S')) return '#f5c842'; if(p.rank.startsWith('A')) return '#4ac776'; if(p.rank.startsWith('B')) return '#4a8fd4'; if(p.rank.startsWith('C')) return '#f0a030'; return '#e6384f'; };
+    resDiv.innerHTML = '<div style="font-size:0.75rem;color:var(--gray);margin-bottom:0.75rem">あなたの政策スタンスと一致度が高い議員 TOP10</div>' +
+      scored.map(({p, pct}) => `
+        <div class="match-result-item" onclick="window.location='politician.html?id=${p.id}'">
+          <div class="match-pct" style="color:${rc(p)}">${pct}%</div>
+          <div class="match-pct-bar-wrap"><div class="match-pct-bar" style="width:${pct}%"></div></div>
+          <div class="match-name">${p.name}</div>
+          <div>${partyBadge(p.party)}</div>
+          <span style="font-size:0.72rem;color:var(--gray)">${p.rank}</span>
+        </div>`).join('');
+    resDiv.style.display = 'block';
+    document.getElementById('match-run').style.display = 'none';
+    document.getElementById('match-back').style.display = 'inline-block';
+  });
+
+  document.getElementById('match-back').addEventListener('click', function() {
+    document.getElementById('match-results').style.display = 'none';
+    document.getElementById('match-run').style.display = 'block';
+    this.style.display = 'none';
+  });
+
+  const overlay = document.getElementById('match-modal');
+  document.getElementById('btn-match').addEventListener('click', () => { overlay.classList.add('open'); document.body.style.overflow='hidden'; });
+  document.getElementById('match-modal-close').addEventListener('click', () => { overlay.classList.remove('open'); document.body.style.overflow=''; });
+  overlay.addEventListener('click', e => { if(e.target===overlay) { overlay.classList.remove('open'); document.body.style.overflow=''; } });
+})();
 
 /* ── 評価基準モーダル ── */
 (function() {
