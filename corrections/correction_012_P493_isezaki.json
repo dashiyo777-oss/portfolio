@@ -2,6 +2,13 @@
   {
     "id": "P493",
     "_action": "update",
+    "_changelog_entry": {
+      "date": "2026-05-29",
+      "summary": "安全保障5・長期国益4に上方修正。30年紛争実務・国連PKO統括・『新国防論』著者として唯一無二の実績を反映。ウクライナ発言は賛否両論として政治倫理2に緩和。",
+      "before_total": 60,
+      "after_total": 62
+    },
+    "links": {"tw": "https://x.com/isezakikenji", "hp": "", "yt": "", "wiki": "https://ja.wikipedia.org/wiki/伊勢崎賢治"},
     "role": "れいわ新選組 参議院議員（比例区）、参議院国会対策委員長、東京外国語大学名誉教授、元国連職員（国連平和維持軍統括）、『新国防論』著者",
     "axes": [2, 2, 5, 4, 3, 4, 3, 2],
     "total": 62,

@@ -41,6 +41,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "survey": "評価済",
+    "links": {"tw": "https://x.com/kharaguchi", "hp": "https://haraguti.com", "yt": "", "wiki": "https://ja.wikipedia.org/wiki/原口一博"},
+    "_changelog_entry": {
+      "date": "2026-05-29",
+      "summary": "新規追加。元総務大臣・10回当選・ゆうこく連合代表。落選中の前職として816名目に追加。",
+      "before_total": 0,
+      "after_total": 62
+    },
     "evidence": [
       {
         "cat": "実績",

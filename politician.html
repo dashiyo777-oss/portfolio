@@ -351,6 +351,24 @@
   }
 
   /* ── LINKS ── */
+  /* ── CHANGELOG ── */
+  .changelog-item {
+    display: flex; gap: 1rem; align-items: flex-start;
+    padding: 0.85rem 0; border-bottom: 1px solid var(--border);
+  }
+  .changelog-item:last-child { border-bottom: none; }
+  .changelog-date { font-size: 0.72rem; color: var(--gray); min-width: 5.5rem; padding-top: 0.1rem; white-space: nowrap; }
+  .changelog-body { flex: 1; }
+  .changelog-summary { font-size: 0.82rem; color: var(--text); line-height: 1.6; }
+  .changelog-score {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-family: 'Cormorant Garamond', serif; font-size: 0.85rem;
+    margin-top: 0.3rem;
+  }
+  .changelog-score .arrow { color: var(--gray); }
+  .score-before { color: var(--gray); }
+  .score-after { font-weight: 600; }
+
   .links-grid { display: flex; gap: 0.6rem; flex-wrap: wrap; }
   .link-btn {
     display: inline-flex; align-items: center; gap: 0.35rem;
@@ -574,6 +592,14 @@
     </div>
 
     <!-- Links -->
+    <div class="section-card" id="card-changelog" style="display:none">
+      <div class="section-head">
+        <span class="section-head-icon">📝</span>
+        <span class="section-head-title">評価変更履歴</span>
+      </div>
+      <div id="changelog-list"></div>
+    </div>
+
     <div class="section-card" id="card-links" style="display:none">
       <div class="section-head">
         <span class="section-head-icon">🔗</span>
@@ -949,6 +975,28 @@ function buildPage(p) {
     ];
     const validLinks = pairs.filter(lk => p.links[lk.key]);
     if (validLinks.length > 0) {
+      // ── 評価変更履歴 (⑥) ──
+      const logs = (typeof CHANGELOG !== 'undefined') ? CHANGELOG.filter(c => c.pid === p.id) : [];
+      if (logs.length > 0) {
+        document.getElementById('card-changelog').style.display = '';
+        document.getElementById('changelog-list').innerHTML = logs.map(c => {
+          const scoreHtml = (c.before_total !== null && c.after_total !== null)
+            ? `<div class="changelog-score">
+                <span class="score-before">${c.before_total}点</span>
+                <span class="arrow">→</span>
+                <span class="score-after" style="color:${c.after_total >= c.before_total ? 'var(--green)' : 'var(--red)'}">${c.after_total}点</span>
+               </div>` : '';
+          const actionLabel = c.action === 'add' ? '🆕 新規追加' : '✏️ 評価更新';
+          return `<div class="changelog-item">
+            <div class="changelog-date">${c.date}<br><span style="font-size:0.68rem">${actionLabel}</span></div>
+            <div class="changelog-body">
+              <div class="changelog-summary">${c.summary}</div>
+              ${scoreHtml}
+            </div>
+          </div>`;
+        }).join('');
+      }
+
       document.getElementById('card-links').style.display = '';
       document.getElementById('links-grid').innerHTML = validLinks.map(lk =>
         `<a class="link-btn" href="${p.links[lk.key]}" target="_blank" rel="noopener">

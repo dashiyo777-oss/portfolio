@@ -7,7 +7,7 @@ politicians.html / politician.html は data.js を外部読み込みするため
 バッチ更新時は data.js の1ファイルだけをアップロードすれば OK。
 """
 
-import json, os, re
+import json, os, re, glob
 
 BASE_FILE    = 'output/politicians_base.json'
 DATA_JS      = 'data.js'
@@ -85,6 +85,31 @@ def main():
     ev_js = "const EVIDENCE = [\n" + ",\n".join(evidence_to_js(e) for e in evidence_items) + "\n];"
     print(f"📋 根拠: {len(evidence_items)}件")
 
+    # CHANGELOG 収集（correction_*.json の _changelog_entry を集約）
+    changelog_items = []
+    for cf in sorted(glob.glob('corrections/correction_*.json')):
+        with open(cf, encoding='utf-8') as f:
+            corrections = json.load(f)
+        for item in corrections:
+            entry = item.get('_changelog_entry')
+            if entry:
+                changelog_items.append({
+                    'pid': item.get('id',''),
+                    'date': entry.get('date',''),
+                    'summary': entry.get('summary',''),
+                    'before_total': entry.get('before_total', None),
+                    'after_total': entry.get('after_total', None),
+                    'action': item.get('_action','update')
+                })
+    def changelog_to_js(c):
+        bt = str(c['before_total']) if c['before_total'] is not None else 'null'
+        at = str(c['after_total']) if c['after_total'] is not None else 'null'
+        return (f"  {{pid:{fmt_val(c['pid'])}, date:{fmt_val(c['date'])}, "
+                f"summary:{fmt_val(c['summary'])}, before_total:{bt}, after_total:{at}, "
+                f"action:{fmt_val(c['action'])}}}")
+    changelog_js = "const CHANGELOG = [\n" + ",\n".join(changelog_to_js(c) for c in changelog_items) + "\n];"
+    print(f"📝 変更履歴: {len(changelog_items)}件")
+
     # ── data.js を出力 ──
     evaluated   = sum(1 for p in politicians if p.get('total', 0) > 0)
     crime_flags = sum(1 for p in politicians if p.get('flag_crime'))
@@ -98,6 +123,8 @@ def main():
 {pols_js}
 
 {ev_js}
+
+{changelog_js}
 """
     with open(DATA_JS, 'w', encoding='utf-8') as f:
         f.write(data_js_content)
