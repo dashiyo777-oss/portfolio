@@ -31164,7 +31164,13 @@
         "date": "2022-03",
         "pid": "P493"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/isezakikenji",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/伊勢崎賢治"
+    }
   },
   {
     "id": "P494",
@@ -49818,7 +49824,13 @@
         "date": "2026-01",
         "pid": "P814"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kharaguchi",
+      "hp": "https://haraguti.com",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/原口一博"
+    }
   },
   {
     "id": "P815",
@@ -49908,7 +49920,13 @@
         "date": "2024-01",
         "pid": "P815"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/oishiakiko",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/大石晃子"
+    }
   },
   {
     "id": "P816",
