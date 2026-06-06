@@ -331,7 +331,7 @@ def main():
     # ── 既存 correction ファイルの最大番号を取得 ─────────────
     import glob
     existing = glob.glob("corrections/correction_*.json")
-    max_num = 11  # 既存は001〜011
+    max_num = 0
     for f in existing:
         m = re.search(r'correction_(\d+)', f)
         if m:
