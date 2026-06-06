@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>統覧 TORAN — 国益貢献ランキング（歴史編）</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Montserrat:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg:     #0d1525;
+      --card:   #162040;
+      --mid:    #1c2a4a;
+      --red:    #e6384f;
+      --blue:   #5ba0e0;
+      --gold:   #f5c842;
+      --green:  #4ac776;
+      --orange: #f0a030;
+      --text:   #e8edf8;
+      --gray:   #8090b8;
+      --border: rgba(74,144,226,0.20);
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Montserrat', 'Noto Serif JP', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(13,21,37,0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem; height: 60px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { display: flex; align-items: baseline; gap: 0.6rem; text-decoration: none; }
+    .logo-ja { font-family: 'Noto Serif JP', serif; font-size: 1.2rem; font-weight: 600; color: var(--text); letter-spacing: 0.12em; }
+    .logo-en { font-family: 'Cormorant Garamond', serif; font-size: 0.85rem; font-weight: 300; color: var(--gray); letter-spacing: 0.25em; text-transform: uppercase; }
+    .header-nav { display: flex; align-items: center; gap: 1.5rem; }
+    .nav-link { font-size: 0.75rem; color: var(--gray); text-decoration: none; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-link:hover { color: var(--text); }
+    .nav-link.back::before { content: '← '; }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 4rem 2rem 3rem; text-align: center;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(245,200,66,0.08) 0%, transparent 100%);
+    }
+    .hero-eyebrow { font-size: 0.7rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 1rem; font-family: 'Montserrat', sans-serif; font-weight: 400; }
+    .hero-title { font-family: 'Noto Serif JP', serif; font-size: clamp(1.6rem, 3.5vw, 2.6rem); font-weight: 600; color: var(--text); letter-spacing: 0.08em; margin-bottom: 0.5rem; }
+    .hero-title span { font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--gold); font-size: 1.1em; }
+    .hero-tagline { font-size: 0.85rem; color: var(--gray); letter-spacing: 0.06em; margin-bottom: 2rem; font-family: 'Noto Serif JP', serif; }
+    .hero-note {
+      display: inline-block; max-width: 680px;
+      background: rgba(245,200,66,0.06); border: 1px solid rgba(245,200,66,0.2);
+      border-radius: 8px; padding: 1rem 1.4rem;
+      font-size: 0.78rem; color: var(--gray); line-height: 1.8; text-align: left;
+    }
+
+    /* ── FORMULA ── */
+    .formula-section {
+      max-width: 860px; margin: 3rem auto; padding: 0 2rem;
+    }
+    .formula-section h2 {
+      font-family: 'Noto Serif JP', serif; font-size: 1rem; font-weight: 600;
+      color: var(--blue); letter-spacing: 0.15em; text-transform: uppercase;
+      margin-bottom: 1.2rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border);
+    }
+    .formula-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 1.4rem 1.8rem; display: flex; gap: 2rem; flex-wrap: wrap; align-items: center;
+      margin-bottom: 1.2rem;
+    }
+    .formula-item { text-align: center; }
+    .formula-score { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 600; }
+    .formula-score.gold { color: var(--gold); }
+    .formula-score.blue { color: var(--blue); }
+    .formula-score.green { color: var(--green); }
+    .formula-score.orange { color: var(--orange); }
+    .formula-label { font-size: 0.7rem; color: var(--gray); letter-spacing: 0.1em; margin-top: 0.2rem; }
+    .formula-plus { font-size: 1.4rem; color: var(--gray); align-self: center; }
+    .axis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.8rem; }
+    .axis-card {
+      background: var(--mid); border: 1px solid var(--border); border-radius: 8px;
+      padding: 0.9rem 1.1rem;
+    }
+    .axis-title { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; margin-bottom: 0.4rem; }
+    .axis-title.gold { color: var(--gold); }
+    .axis-title.blue { color: var(--blue); }
+    .axis-title.green { color: var(--green); }
+    .axis-desc { font-size: 0.72rem; color: var(--gray); line-height: 1.6; }
+
+    /* ── RANKING ── */
+    .ranking-section { max-width: 960px; margin: 0 auto 4rem; padding: 0 2rem; }
+    .section-title {
+      font-family: 'Noto Serif JP', serif; font-size: 0.85rem; font-weight: 600;
+      color: var(--gray); letter-spacing: 0.2em; text-transform: uppercase;
+      margin-bottom: 1.2rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border);
+    }
+
+    .rank-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 1.4rem 1.6rem; margin-bottom: 1rem;
+      display: grid; grid-template-columns: 52px 1fr; gap: 1.2rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .rank-card:hover { border-color: rgba(74,144,226,0.4); box-shadow: 0 4px 20px rgba(74,144,226,0.08); }
+    .rank-card.top1 { border-color: rgba(245,200,66,0.5); background: linear-gradient(135deg, rgba(245,200,66,0.06), var(--card)); }
+    .rank-card.top2 { border-color: rgba(192,192,192,0.4); background: linear-gradient(135deg, rgba(192,192,192,0.04), var(--card)); }
+    .rank-card.top3 { border-color: rgba(180,120,60,0.4); background: linear-gradient(135deg, rgba(180,120,60,0.05), var(--card)); }
+
+    .rank-num {
+      font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600;
+      line-height: 1; color: var(--gray); text-align: center; padding-top: 0.3rem;
+    }
+    .rank-card.top1 .rank-num { color: var(--gold); }
+    .rank-card.top2 .rank-num { color: #c0c0c0; }
+    .rank-card.top3 .rank-num { color: #b4783c; }
+
+    .rank-body { min-width: 0; }
+    .rank-header { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.8rem; }
+    .rank-name { font-family: 'Noto Serif JP', serif; font-size: 1.15rem; font-weight: 600; color: var(--text); letter-spacing: 0.06em; }
+    .rank-era { font-size: 0.7rem; color: var(--gray); padding: 0.2rem 0.6rem; background: var(--mid); border-radius: 4px; letter-spacing: 0.06em; }
+    .conf-badge { font-size: 0.65rem; padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 500; letter-spacing: 0.06em; }
+    .conf-high { background: rgba(74,199,118,0.15); color: var(--green); border: 1px solid rgba(74,199,118,0.3); }
+    .conf-mid  { background: rgba(240,160,48,0.15); color: var(--orange); border: 1px solid rgba(240,160,48,0.3); }
+
+    /* Score bar */
+    .score-row { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.6rem; flex-wrap: wrap; }
+    .total-score {
+      font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 600;
+      color: var(--gold); min-width: 52px; line-height: 1;
+    }
+    .score-bars { flex: 1; min-width: 200px; }
+    .bar-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem; }
+    .bar-label { font-size: 0.62rem; color: var(--gray); width: 60px; flex-shrink: 0; letter-spacing: 0.04em; }
+    .bar-track { flex: 1; height: 5px; background: rgba(255,255,255,0.07); border-radius: 3px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 3px; transition: width 0.6s ease; }
+    .bar-fill.achievement { background: linear-gradient(90deg, #5ba0e0, #7bc4f0); }
+    .bar-fill.longterm    { background: linear-gradient(90deg, #f5c842, #f8d870); }
+    .bar-fill.reliability { background: linear-gradient(90deg, #4ac776, #6fe096); }
+    .bar-val { font-size: 0.65rem; color: var(--gray); width: 22px; text-align: right; flex-shrink: 0; }
+
+    .rank-contributions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.6rem; }
+    .contrib { font-size: 0.68rem; padding: 0.25rem 0.7rem; border-radius: 4px; line-height: 1.4; }
+    .contrib.plus  { background: rgba(74,199,118,0.10); color: #6fe096; border: 1px solid rgba(74,199,118,0.2); }
+    .contrib.minus { background: rgba(230,56,79,0.10); color: #f07080; border: 1px solid rgba(230,56,79,0.2); }
+    .contrib::before { font-weight: 700; margin-right: 0.2rem; }
+    .contrib.plus::before  { content: '+'; color: var(--green); }
+    .contrib.minus::before { content: '−'; color: var(--red); }
+
+    /* ── ALT AXIS TABLE ── */
+    .alt-section { max-width: 860px; margin: 0 auto 4rem; padding: 0 2rem; }
+    .alt-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    .alt-table th { text-align: left; padding: 0.6rem 0.8rem; color: var(--gray); font-weight: 400; letter-spacing: 0.08em; border-bottom: 1px solid var(--border); font-size: 0.7rem; text-transform: uppercase; }
+    .alt-table td { padding: 0.7rem 0.8rem; border-bottom: 1px solid rgba(74,144,226,0.08); vertical-align: top; line-height: 1.5; }
+    .alt-table tr:hover td { background: rgba(74,144,226,0.04); }
+    .alt-axis { color: var(--blue); font-weight: 500; }
+    .up-names { color: var(--green); }
+    .down-names { color: #f07080; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border); padding: 2rem; text-align: center;
+      font-size: 0.72rem; color: var(--gray); letter-spacing: 0.1em;
+    }
+    footer a { color: var(--blue); text-decoration: none; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .rank-card { grid-template-columns: 40px 1fr; gap: 0.8rem; padding: 1rem; }
+      .rank-num { font-size: 1.8rem; }
+      .total-score { font-size: 1.5rem; min-width: 40px; }
+      .formula-box { flex-direction: column; gap: 0.8rem; }
+      .hero { padding: 2.5rem 1.2rem 2rem; }
+      .site-header { padding: 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a class="logo" href="politicians.html">
+    <span class="logo-ja">統覧</span>
+    <span class="logo-en">TORAN</span>
+  </a>
+  <nav class="header-nav">
+    <a class="nav-link back" href="politicians.html">現役議員ランキング</a>
+    <a class="nav-link back" href="index.html">Portfolio</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-eyebrow">National Interest Contribution Ranking · Historical Edition</p>
+  <h1 class="hero-title">国益貢献ランキング<br><span>歴史篇</span></h1>
+  <p class="hero-tagline">人気・知名度ではなく「国家への長期貢献」で評価した、明治以降の政治家30名</p>
+  <div class="hero-note">
+    このランキングは人気投票ではありません。法律・条約・組織改革・外交秩序など、<strong style="color:var(--text)">「今も動いている国家基盤」</strong>を誰が作ったかを、実績60点・長期波及20点・信頼性20点の計100点満点で評価します。最近の政治家は政策の観測期間が短いため構造的に不利です。スコアは一次資料（国立国会図書館・衆議院・外務省・内閣府統計）に基づきます。
+  </div>
+</section>
+
+<!-- FORMULA -->
+<section class="formula-section">
+  <h2>評価方式</h2>
+  <div class="formula-box">
+    <div class="formula-item">
+      <div class="formula-score gold">100</div>
+      <div class="formula-label">総合点</div>
+    </div>
+    <div class="formula-plus">=</div>
+    <div class="formula-item">
+      <div class="formula-score blue">実績 60</div>
+      <div class="formula-label">政策ユニット評価（上位12件）</div>
+    </div>
+    <div class="formula-plus">+</div>
+    <div class="formula-item">
+      <div class="formula-score gold">長期波及 20</div>
+      <div class="formula-label">持続性・波及領域・先見性</div>
+    </div>
+    <div class="formula-plus">+</div>
+    <div class="formula-item">
+      <div class="formula-score green">信頼性 20</div>
+      <div class="formula-label">法治・廉潔性・説明責任</div>
+    </div>
+  </div>
+  <div class="axis-grid">
+    <div class="axis-card">
+      <div class="axis-title blue">実績60の補正係数</div>
+      <div class="axis-desc">責任度（0.5〜1.0）× 影響規模（0.7〜1.3）× 持続年数（0.6〜1.2）× 反事実性（0.85〜1.15）× 証拠確度（0.75〜1.0）</div>
+    </div>
+    <div class="axis-card">
+      <div class="axis-title gold">長期波及20の内訳</div>
+      <div class="axis-desc">Durability（持続15年以上の国家効果）8点 + Breadth（波及領域数）6点 + Foresight（先見性・時代先取り）6点</div>
+    </div>
+    <div class="axis-card">
+      <div class="axis-title green">信頼性20の内訳</div>
+      <div class="axis-desc">Rule of law（法治・議会統制）8点 + Integrity（汚職・私物化の有無）6点 + Transparency（説明責任・文書管理）6点</div>
+    </div>
+  </div>
+</section>
+
+<!-- RANKING 1–15 -->
+<section class="ranking-section">
+  <p class="section-title">Rank 1 – 15</p>
+
+  <!-- 1 -->
+  <div class="rank-card top1">
+    <div class="rank-num">1</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">伊藤 博文</span>
+        <span class="rank-era">明治</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">92</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:91.7%"></div></div><span class="bar-val">55</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:95%"></div></div><span class="bar-val">19</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:90%"></div></div><span class="bar-val">18</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">内閣制度創設・憲法制定・議会政治の基本枠組み</span>
+        <span class="contrib minus">対韓政策・帝国拡張の負の遺産</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="rank-card top2">
+    <div class="rank-num">2</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">大久保 利通</span>
+        <span class="rank-era">明治</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">91</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:90%"></div></div><span class="bar-val">54</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:95%"></div></div><span class="bar-val">19</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:90%"></div></div><span class="bar-val">18</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">廃藩置県・地租改正・殖産興業の推進</span>
+        <span class="contrib minus">強権集権と反発誘発</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="rank-card top3">
+    <div class="rank-num">3</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">吉田 茂</span>
+        <span class="rank-era">昭和（戦後）</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">88</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:86.7%"></div></div><span class="bar-val">52</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:90%"></div></div><span class="bar-val">18</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:90%"></div></div><span class="bar-val">18</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">講和・独立回復・戦後復興路線・対米基軸の安保設計</span>
+        <span class="contrib minus">対米依存の固定化という副作用</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="rank-card">
+    <div class="rank-num">4</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">後藤 新平</span>
+        <span class="rank-era">明治〜大正</span>
+        <span class="conf-badge conf-mid">確信度：中</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">86</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:83.3%"></div></div><span class="bar-val">50</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:90%"></div></div><span class="bar-val">18</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:90%"></div></div><span class="bar-val">18</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">公衆衛生・台湾民政・帝都復興計画・都市交通構想</span>
+        <span class="contrib minus">植民地統治・シベリア出兵関与</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="rank-card">
+    <div class="rank-num">5</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">佐藤 栄作</span>
+        <span class="rank-era">昭和</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">85</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:81.7%"></div></div><span class="bar-val">49</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:90%"></div></div><span class="bar-val">18</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:90%"></div></div><span class="bar-val">18</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">沖縄返還・非核三原則・戦後安保の安定化</span>
+        <span class="contrib minus">基地負担の根本解消まで届かず</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="rank-card">
+    <div class="rank-num">6</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">池田 勇人</span>
+        <span class="rank-era">昭和</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">84</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:81.7%"></div></div><span class="bar-val">49</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:90%"></div></div><span class="bar-val">18</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">所得倍増計画・高度成長の政策転換</span>
+        <span class="contrib minus">公害・都市集中への後手対応</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="rank-card">
+    <div class="rank-num">7</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">原 敬</span>
+        <span class="rank-era">大正</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">82</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:78.3%"></div></div><span class="bar-val">47</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:90%"></div></div><span class="bar-val">18</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">本格的政党内閣の確立・政党政治の標準化</span>
+        <span class="contrib minus">利益誘導型政治の原型も残した</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8 -->
+  <div class="rank-card">
+    <div class="rank-num">8</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">松方 正義</span>
+        <span class="rank-era">明治</span>
+        <span class="conf-badge conf-mid">確信度：中</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">81</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:78.3%"></div></div><span class="bar-val">47</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:85%"></div></div><span class="bar-val">17</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">日本銀行創設・金本位制確立・近代財政国家の骨格形成</span>
+        <span class="contrib minus">松方デフレの農村痛・収縮痛</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9 -->
+  <div class="rank-card">
+    <div class="rank-num">9</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">中曽根 康弘</span>
+        <span class="rank-era">昭和</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">80</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:76.7%"></div></div><span class="bar-val">46</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:85%"></div></div><span class="bar-val">17</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">国鉄改革・電電公社改革・行財政改革</span>
+        <span class="contrib minus">地方線・雇用・地域に大きな痛み</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10 -->
+  <div class="rank-card">
+    <div class="rank-num">10</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">高橋 是清</span>
+        <span class="rank-era">大正〜昭和</span>
+        <span class="conf-badge conf-mid">確信度：中</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">79</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:75%"></div></div><span class="bar-val">45</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:85%"></div></div><span class="bar-val">17</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">日露戦費調達・高橋財政・軍事費抑制</span>
+        <span class="contrib minus">政策継続前に中断、制度化が不十分</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 11 -->
+  <div class="rank-card">
+    <div class="rank-num">11</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">岸 信介</span>
+        <span class="rank-era">昭和</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">77</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:73.3%"></div></div><span class="bar-val">44</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:80%"></div></div><span class="bar-val">16</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">新安保条約・自民党長期体制の骨格整備</span>
+        <span class="contrib minus">60年安保の強行採決で民主的正統性を損傷</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 12 -->
+  <div class="rank-card">
+    <div class="rank-num">12</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">西園寺 公望</span>
+        <span class="rank-era">明治〜大正</span>
+        <span class="conf-badge conf-mid">確信度：中</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">76</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:71.7%"></div></div><span class="bar-val">43</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:80%"></div></div><span class="bar-val">16</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">政友会総裁・最後の元老として政党政治への橋渡し</span>
+        <span class="contrib minus">軍部抑制の制度化までは届かず</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 13 -->
+  <div class="rank-card">
+    <div class="rank-num">13</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">井上 毅</span>
+        <span class="rank-era">明治</span>
+        <span class="conf-badge conf-mid">確信度：中</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">75</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:71.7%"></div></div><span class="bar-val">43</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:85%"></div></div><span class="bar-val">17</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:75%"></div></div><span class="bar-val">15</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">憲法起草・国会開設勅諭・法制国家の設計</span>
+        <span class="contrib minus">教育勅語など硬直的国家観の側面</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 14 -->
+  <div class="rank-card">
+    <div class="rank-num">14</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">鳩山 一郎</span>
+        <span class="rank-era">昭和</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">74</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:71.7%"></div></div><span class="bar-val">43</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:80%"></div></div><span class="bar-val">16</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:75%"></div></div><span class="bar-val">15</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">保守合同・自民党初代総裁・日ソ国交回復</span>
+        <span class="contrib minus">滝川事件関与など自由主義への傷</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 15 -->
+  <div class="rank-card">
+    <div class="rank-num">15</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">石橋 湛山</span>
+        <span class="rank-era">昭和</span>
+        <span class="conf-badge conf-mid">確信度：中</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">73</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:68.3%"></div></div><span class="bar-val">41</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:80%"></div></div><span class="bar-val">16</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:80%"></div></div><span class="bar-val">16</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">小日本主義・自由貿易と対外協調の先見性</span>
+        <span class="contrib minus">首相在任が短く実装は限定的</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RANKING 16–30 -->
+<section class="ranking-section">
+  <p class="section-title">Rank 16 – 30</p>
+
+  <!-- 16 -->
+  <div class="rank-card">
+    <div class="rank-num">16</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">田中 角栄</span>
+        <span class="rank-era">昭和</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">72</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:71.7%"></div></div><span class="bar-val">43</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:70%"></div></div><span class="bar-val">14</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:75%"></div></div><span class="bar-val">15</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">日本列島改造論・全国新幹線法・高速交通・地方インフラ投資</span>
+        <span class="contrib minus">金権政治と資源配分の歪み</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 17 -->
+  <div class="rank-card">
+    <div class="rank-num">17</div>
+    <div class="rank-body">
+      <div class="rank-header">
+        <span class="rank-name">幣原 喜重郎</span>
+        <span class="rank-era">大正〜昭和</span>
+        <span class="conf-badge conf-high">確信度：高</span>
+      </div>
+      <div class="score-row">
+        <div class="total-score">71</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:66.7%"></div></div><span class="bar-val">40</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:75%"></div></div><span class="bar-val">15</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:80%"></div></div><span class="bar-val">16</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">国際協調外交・戦後憲法移行期の安定運営</span>
+        <span class="contrib minus">対中不干渉外交の限界</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 18〜30 condensed cards -->
+  <div class="rank-card">
+    <div class="rank-num">18</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">大平 正芳</span><span class="rank-era">昭和</span><span class="conf-badge conf-mid">確信度：中</span></div>
+      <div class="score-row">
+        <div class="total-score">70</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:66.7%"></div></div><span class="bar-val">40</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:75%"></div></div><span class="bar-val">15</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:75%"></div></div><span class="bar-val">15</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">環太平洋連帯構想・対太平洋外交の先駆</span>
+        <span class="contrib minus">短期政権で制度への定着は限定</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">19</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">福田 赳夫</span><span class="rank-era">昭和</span><span class="conf-badge conf-high">確信度：高</span></div>
+      <div class="score-row">
+        <div class="total-score">69</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:65%"></div></div><span class="bar-val">39</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:75%"></div></div><span class="bar-val">15</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:75%"></div></div><span class="bar-val">15</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">福田ドクトリン・日ASEAN関係の信頼基盤</span>
+        <span class="contrib minus">国内構造改革の実績は限定的</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">20</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">犬養 毅</span><span class="rank-era">大正〜昭和</span><span class="conf-badge conf-high">確信度：高</span></div>
+      <div class="score-row">
+        <div class="total-score">68</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:63.3%"></div></div><span class="bar-val">38</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:75%"></div></div><span class="bar-val">15</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:75%"></div></div><span class="bar-val">15</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">政党政治擁護・軍部進出への最後の防波堤</span>
+        <span class="contrib minus">満洲事変以後の統治対応は不十分</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">21</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">小渕 恵三</span><span class="rank-era">平成</span><span class="conf-badge conf-high">確信度：高</span></div>
+      <div class="score-row">
+        <div class="total-score">67</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:65%"></div></div><span class="bar-val">39</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:70%"></div></div><span class="bar-val">14</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:70%"></div></div><span class="bar-val">14</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">IT基本法・金融安定化・経済戦略会議</span>
+        <span class="contrib minus">財政拡張の持続性には課題</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">22</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">宮沢 喜一</span><span class="rank-era">平成</span><span class="conf-badge conf-high">確信度：高</span></div>
+      <div class="score-row">
+        <div class="total-score">66</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:63.3%"></div></div><span class="bar-val">38</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:70%"></div></div><span class="bar-val">14</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:70%"></div></div><span class="bar-val">14</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">PKO協力法で国際協力を法的に常態化</span>
+        <span class="contrib minus">不良債権処理・政治改革の主導力は弱い</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">23</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">大隈 重信</span><span class="rank-era">明治〜大正</span><span class="conf-badge conf-mid">確信度：中</span></div>
+      <div class="score-row">
+        <div class="total-score">65</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:61.7%"></div></div><span class="bar-val">37</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:70%"></div></div><span class="bar-val">14</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:70%"></div></div><span class="bar-val">14</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">政党政治の発展・早稲田系の人材基盤</span>
+        <span class="contrib minus">内閣基盤が不安定で継続性に弱い</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">24</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">安倍 晋三</span><span class="rank-era">平成〜令和</span><span class="conf-badge conf-mid">確信度：中</span></div>
+      <div class="score-row">
+        <div class="total-score">63</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:60%"></div></div><span class="bar-val">36</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:75%"></div></div><span class="bar-val">15</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:60%"></div></div><span class="bar-val">12</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">国家安全保障会議・平和安全法制・安保司令塔の整備</span>
+        <span class="contrib minus">公文書問題と説明責任の毀損・長期の豊かさ改善は観測不足</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">25</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">陸奥 宗光</span><span class="rank-era">明治</span><span class="conf-badge conf-mid">確信度：中</span></div>
+      <div class="score-row">
+        <div class="total-score">62</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:60%"></div></div><span class="bar-val">36</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:75%"></div></div><span class="bar-val">15</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:55%"></div></div><span class="bar-val">11</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">条約改正を前進させ、対等条約化へ道筋</span>
+        <span class="contrib minus">勢力均衡外交の負の連鎖も残す</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">26</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">細川 護熙</span><span class="rank-era">平成</span><span class="conf-badge conf-mid">確信度：中</span></div>
+      <div class="score-row">
+        <div class="total-score">60</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:55%"></div></div><span class="bar-val">33</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:70%"></div></div><span class="bar-val">14</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:65%"></div></div><span class="bar-val">13</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">政治改革関連法・小選挙区比例代表並立制導入</span>
+        <span class="contrib minus">政党助成・政党システムの副作用が大きい</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">27</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">菅 義偉</span><span class="rank-era">令和</span><span class="conf-badge conf-mid">確信度：中</span></div>
+      <div class="score-row">
+        <div class="total-score">58</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:53.3%"></div></div><span class="bar-val">32</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:65%"></div></div><span class="bar-val">13</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:65%"></div></div><span class="bar-val">13</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">デジタル庁発足・行政DXの司令塔創設</span>
+        <span class="contrib minus">短期政権で長期成果は未確定</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">28</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">小泉 純一郎</span><span class="rank-era">平成</span><span class="conf-badge conf-high">確信度：高</span></div>
+      <div class="score-row">
+        <div class="total-score">57</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:51.7%"></div></div><span class="bar-val">31</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:65%"></div></div><span class="bar-val">13</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:65%"></div></div><span class="bar-val">13</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">不良債権処理・郵政民営化・政治主導の実行力</span>
+        <span class="contrib minus">非正規拡大・地方疲弊の副作用</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">29</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">橋本 龍太郎</span><span class="rank-era">平成</span><span class="conf-badge conf-high">確信度：高</span></div>
+      <div class="score-row">
+        <div class="total-score">56</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:51.7%"></div></div><span class="bar-val">31</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:60%"></div></div><span class="bar-val">12</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:65%"></div></div><span class="bar-val">13</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">行革会議・中央省庁再編・金融ビッグバンの土台</span>
+        <span class="contrib minus">1997年の同時負担増で景気悪化を深めた</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-num">30</div>
+    <div class="rank-body">
+      <div class="rank-header"><span class="rank-name">尾崎 行雄</span><span class="rank-era">明治〜昭和</span><span class="conf-badge conf-mid">確信度：中</span></div>
+      <div class="score-row">
+        <div class="total-score">55</div>
+        <div class="score-bars">
+          <div class="bar-row"><span class="bar-label">実績</span><div class="bar-track"><div class="bar-fill achievement" style="width:50%"></div></div><span class="bar-val">30</span></div>
+          <div class="bar-row"><span class="bar-label">長期波及</span><div class="bar-track"><div class="bar-fill longterm" style="width:65%"></div></div><span class="bar-val">13</span></div>
+          <div class="bar-row"><span class="bar-label">信頼性</span><div class="bar-track"><div class="bar-fill reliability" style="width:60%"></div></div><span class="bar-val">12</span></div>
+        </div>
+      </div>
+      <div class="rank-contributions">
+        <span class="contrib plus">第一次護憲運動・議会主義の規範形成</span>
+        <span class="contrib minus">制度実装の直接責任は限定</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALT AXIS -->
+<section class="alt-section">
+  <h2 style="font-family:'Noto Serif JP',serif;font-size:1rem;font-weight:600;color:var(--blue);letter-spacing:.15em;text-transform:uppercase;margin-bottom:1.2rem;padding-bottom:.6rem;border-bottom:1px solid var(--border)">軸を変えるとどう動くか</h2>
+  <table class="alt-table">
+    <thead>
+      <tr><th>評価軸</th><th>上がりやすい人物</th><th>下がりやすい人物</th><th>理由</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="alt-axis">経済重視</td>
+        <td class="up-names">池田・中曽根・高橋是清・田中・小泉</td>
+        <td class="down-names">井上毅・尾崎・幣原</td>
+        <td>長期成長・金融安定・インフラ・実行力をより重く見るため</td>
+      </tr>
+      <tr>
+        <td class="alt-axis">安全保障重視</td>
+        <td class="up-names">吉田・佐藤・岸・安倍</td>
+        <td class="down-names">池田・田中・石橋湛山</td>
+        <td>講和・同盟・沖縄返還・安保制度の加点が増えるため</td>
+      </tr>
+      <tr>
+        <td class="alt-axis">政策実行重視</td>
+        <td class="up-names">中曽根・小泉・橋本・菅・細川</td>
+        <td class="down-names">石橋湛山・尾崎・陸奥</td>
+        <td>制度実装のスピードと突破力を高く評価するため</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="margin-top:1rem;font-size:0.72rem;color:var(--gray);line-height:1.8">
+    ※ このランキングは<strong style="color:var(--text)">国家基盤の持続性（strict軸）</strong>を最優先とした初期試算です。「よい制度を長く残したか」を中心に評価しています。2点差以内は同点帯とみなし、実績→信頼性→観測期間の長さでタイブレーク。最近の政治家は政策の観測期間が10年未満のため構造的に低スコアになります。
+  </p>
+</section>
+
+<footer>
+  <p>統覧 TORAN — <a href="politicians.html">現役議員ランキングへ</a> | 評価方法論は <a href="selection-logic.html">こちら</a></p>
+  <p style="margin-top:0.5rem">スコアは一次資料（国立国会図書館・衆議院・外務省・内閣府統計）に基づく試算です。</p>
+</footer>
+
+</body>
+</html>
