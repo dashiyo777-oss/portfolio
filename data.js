@@ -419,7 +419,7 @@ const POLITICIANS = [
     stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"医療・介護事業の経営経験を活かした社会保障制度の見直し提言。", minus:"歳出削減や身を切る改革に偏る反面、中長期の成長投資戦略が薄いとの指摘。",
     comment:"維新の会に所属し、医療DXや現役世代の負担軽減、徹底的な行財政改革の必要性を訴える。活動情報が限られるため、党方針から推定した指標を含む。",
-    links:{tw:"https://x.com/ichitani_yuichi",hp:"https://ichitani-yuichiro.com/",wiki:"https://ja.wikipedia.org/wiki/一谷勇一郎",yt:""},
+    links:{tw:"https://x.com/ichitani_yuichi",hp:"",wiki:"https://ja.wikipedia.org/wiki/一谷勇一郎",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.05", survey:"情報不足"
   },
   {
