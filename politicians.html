@@ -942,7 +942,7 @@ let presetLimit = 0;
 
 /* ── STATS ── */
 function updateStats() {
-  document.getElementById('stat-surveyed').textContent = POLITICIANS.filter(p=>p.survey==='評価済').length + '人';
+  document.getElementById('stat-surveyed').textContent = POLITICIANS.filter(p=>p.total>0).length + '人';
   document.getElementById('stat-a-plus').textContent = POLITICIANS.filter(p=>p.rank.startsWith('A')||p.rank.startsWith('S')).length + '人';
   document.getElementById('stat-caution').textContent = POLITICIANS.filter(p=>p.flag_caution||p.flag_crime).length + '人';
   document.getElementById('stat-evidence').textContent = EVIDENCE.length + '件';
@@ -1145,7 +1145,7 @@ applyFilters();
     const keys = Object.keys(userStances).filter(k => userStances[k] !== '');
     if(keys.length === 0) { alert('少なくとも1つ選択してください'); return; }
     const scored = POLITICIANS
-      .filter(p => p.survey === '評価済')
+      .filter(p => p.total > 0)
       .map(p => {
         let match = 0, total = 0;
         keys.forEach(k => {
