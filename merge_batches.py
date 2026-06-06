@@ -175,9 +175,12 @@ def main():
                     # 指定フィールドのみ上書き
                     for key in ['total','rank','axes','stances','role',
                                 'plus','minus','comment','survey','party',
-                                'flag_crime','flag_caution','updated','links']:
+                                'flag_crime','flag_caution','updated']:
                         if key in item:
                             p[key] = item[key]
+                    # links はフィールドごとにマージ（既存tw/wikiを消さない）
+                    if 'links' in item:
+                        p.setdefault('links', {}).update(item['links'])
                     # evidence は replace_all=true のとき全置換
                     if item.get('_replace_evidence'):
                         p['evidence'] = item.get('evidence', [])
