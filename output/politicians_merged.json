@@ -455,7 +455,13 @@
         "date": "2020-12-11",
         "pid": "P007"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/AKBhyogo2ku",
+      "wiki": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E7%BE%BD%E4%B8%80%E5%98%89",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P008",
@@ -517,7 +523,13 @@
         "date": "2024-04-04",
         "pid": "P008"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/tayosei_hosetsu",
+      "wiki": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E9%96%93%E4%BA%8C%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P009",
@@ -703,7 +715,13 @@
         "date": "2024-11-20",
         "pid": "P011"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/asano__satoshi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B5%85%E9%87%8E%E5%93%B2",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P012",
@@ -6293,7 +6311,13 @@
         "date": "2023-01",
         "pid": "P097"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/masaozaki",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B0%BE%EF%A8%91%E6%AD%A3%E7%9B%B4",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P098",
@@ -6402,7 +6426,13 @@
         "date": "2023-01",
         "pid": "P099"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ozato_yasuhiro",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%87%8C%E6%B3%B0%E5%BC%98",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P100",
@@ -6502,7 +6532,13 @@
         "date": "2023-01",
         "pid": "P101"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/odawarakiyoshi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%94%B0%E5%8E%9F%E6%BD%94",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P102",
@@ -6568,7 +6604,13 @@
         "date": "2023-01",
         "pid": "P102"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kharaguchi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E8%90%BD%E5%90%88%E8%B2%B4%E4%B9%8B",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P103",
@@ -13424,7 +13466,13 @@
         "date": "2024-04",
         "pid": "P214"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/jyunji_suzuki",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E6%B7%B3%E5%8F%B8",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P215",
@@ -13622,7 +13670,13 @@
         "date": "2024-05",
         "pid": "P217"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/norikazu_0130",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E6%86%B2%E5%92%8C",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P218",
@@ -20852,7 +20906,13 @@
         "date": "2023-11",
         "pid": "P326"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/iT2id4lCBHRq1l5",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%87%8E%E9%96%93%E5%81%A5",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P327",
@@ -20996,7 +21056,13 @@
         "date": "2022-09",
         "pid": "P328"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/hagiuda_ko1",
+      "wiki": "https://ja.wikipedia.org/wiki/%E8%90%A9%E7%94%9F%E7%94%B0%E5%85%89%E4%B8%80",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P329",
@@ -21128,7 +21194,13 @@
         "date": "2023-06",
         "pid": "P330"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ga9_h",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%A9%8B%E6%9C%AC%E5%B2%B3",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P331",
@@ -21260,7 +21332,13 @@
         "date": "2025-05",
         "pid": "P332"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/HasegawaJunji",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%95%B7%E8%B0%B7%E5%B7%9D%E6%B7%B3%E4%BA%8C",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P333",
@@ -28480,7 +28558,13 @@
         "date": "2024-03",
         "pid": "P445"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/rina_chinen_",
+      "wiki": "https://ja.wikipedia.org/wiki/%E7%9F%A5%E5%BF%B5%E9%87%8C%E5%A5%88",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P446",
@@ -28546,7 +28630,13 @@
         "date": "2025-06",
         "pid": "P446"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/26740",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E7%BE%8A",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P447",
@@ -34922,7 +35012,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/kitamuraoffice",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%8C%97%E6%9D%91%E7%B5%8C%E5%A4%AB",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P557",
@@ -34988,7 +35084,13 @@
         "date": "2025-07",
         "pid": "P557"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kitamuratube",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%8C%97%E6%9D%91%E6%99%B4%E7%94%B7",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P558",
@@ -35040,7 +35142,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/ekidoguchi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%88%B8%E5%8F%A3%E8%8B%B1%E5%8F%B8",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P559",
@@ -35106,7 +35214,13 @@
         "date": "2025-10",
         "pid": "P559"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/reiwashinsen",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%9D%91%E8%8B%B1%E5%AD%90",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P560",
@@ -38102,7 +38216,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/daichi55",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E5%A4%A7%E5%9C%B0",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P613",
@@ -38168,7 +38288,13 @@
         "date": "2024-02",
         "pid": "P613"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/KorsunskySergiy",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E5%AE%97%E7%94%B7",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P614",
@@ -38272,7 +38398,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/sekiguchi0229",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%96%A2%E5%8F%A3%E6%98%8C%E4%B8%80",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P616",
@@ -38338,7 +38470,13 @@
         "date": "2025-05-14",
         "pid": "P616"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/mikishidaimon",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%96%80%E5%AE%9F%E7%B4%80%E5%8F%B2",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P617",
@@ -38404,7 +38542,13 @@
         "date": "2016-07-10",
         "pid": "P617"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/takagikouhou",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E4%BD%B3%E4%BF%9D%E9%87%8C",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P618",
@@ -38522,7 +38666,13 @@
         "date": "2022-07-08",
         "pid": "P619"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/TakagiMari",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E7%9C%9F%E7%90%86",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P620",
@@ -43774,7 +43924,13 @@
         "date": "2025-07",
         "pid": "P710"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/miura_nobuhiro",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B5%A6%E4%BF%A1%E7%A5%90",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P711",
@@ -43826,7 +43982,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/erimikami0611",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%89%E4%B8%8A%E7%B5%B5%E9%87%8C",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P712",
@@ -43930,7 +44092,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/mizuokakouenkai",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%B2%A1%E4%BF%8A%E4%B8%80",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P714",
@@ -43982,7 +44150,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/mizuno_koichi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E9%87%8E%E5%AD%9D%E4%B8%80",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P715",
@@ -48884,7 +49058,13 @@
         "date": "2025-07",
         "pid": "P795"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Seitaro_hattori",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%8D%E9%83%A8%E8%AA%A0%E5%A4%AA%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P796",
@@ -49002,7 +49182,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/youjikinsan",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9F%B3%E8%B3%A2%E5%90%BE",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P798",
