@@ -325,7 +325,13 @@
         "date": "2024-01-30",
         "pid": "P005"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ao_shu_office",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%9D%92%E5%B1%B1%E5%91%A8%E5%B9%B3_(%E6%94%BF%E6%B2%BB%E5%AE%B6)"
+    }
   },
   {
     "id": "P006",
@@ -591,7 +597,13 @@
         "date": "2022-12-27",
         "pid": "P009"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/akibakenya",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E8%B3%A2%E4%B9%9F"
+    }
   },
   {
     "id": "P010",
@@ -783,7 +795,13 @@
         "date": "2024-03-12",
         "pid": "P012"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/azuma0217",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%9B%BD%E5%B9%B9"
+    }
   },
   {
     "id": "P013",
@@ -845,7 +863,13 @@
         "date": "2023-06-05",
         "pid": "P013"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/toru_azuma",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%BE%B9_(%E6%94%BF%E6%B2%BB%E5%AE%B6)"
+    }
   },
   {
     "id": "P014",
@@ -907,7 +931,13 @@
         "date": "2024-04-04",
         "pid": "P014"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E7%95%A6%E5%85%83%E5%B0%86%E5%90%BE",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P015",
@@ -969,7 +999,13 @@
         "date": "2021-10-01",
         "pid": "P015"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Aso_Tarou",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%BA%BB%E7%94%9F%E5%A4%AA%E9%83%8E"
+    }
   },
   {
     "id": "P016",
@@ -1093,7 +1129,13 @@
         "date": "2023-06-02",
         "pid": "P017"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/abe2kasa",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%98%BF%E9%83%A8%E5%8F%B8"
+    }
   },
   {
     "id": "P018",
@@ -1155,7 +1197,13 @@
         "date": "2025-02-15",
         "pid": "P018"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/abetoshiko",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%98%BF%E9%83%A8%E4%BF%8A%E5%AD%90"
+    }
   },
   {
     "id": "P019",
@@ -1217,7 +1265,13 @@
         "date": "2024-02-10",
         "pid": "P019"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/HirokiAbe1961",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%98%BF%E9%83%A8%E5%BC%98%E6%A8%B9"
+    }
   },
   {
     "id": "P020",
@@ -1279,7 +1333,13 @@
         "date": "2022-04-12",
         "pid": "P020"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/aritayoshifu",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%89%E7%94%B0%E8%8A%B3%E7%94%9F"
+    }
   },
   {
     "id": "P021",
@@ -1341,7 +1401,13 @@
         "date": "2024-04-04",
         "pid": "P021"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/AndoTakao1959",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/VFlanEmTZbCTfw51U"
+    }
   },
   {
     "id": "P022",
@@ -1403,7 +1469,13 @@
         "date": "2020-07-30",
         "pid": "P022"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/iizumik_comeon",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E6%B3%89%E5%98%89%E9%96%80"
+    }
   },
   {
     "id": "P023",
@@ -1465,7 +1537,13 @@
         "date": "2024-02-15",
         "pid": "P023"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/igakiyo1969",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/yM9yw6pUVPliR5LwR"
+    }
   },
   {
     "id": "P024",
@@ -1527,7 +1605,13 @@
         "date": "2023-09-22",
         "pid": "P024"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/iketaku_0410",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/X1Nen5V2auVR8PIjp"
+    }
   },
   {
     "id": "P025",
@@ -1589,7 +1673,13 @@
         "date": "2023-11-08",
         "pid": "P025"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/VGZ20ydBf5ouj4c",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B1%A0%E7%95%91%E6%B5%A9%E5%A4%AA%E6%9C%97"
+    }
   },
   {
     "id": "P026",
@@ -1651,7 +1741,13 @@
         "date": "2023-04-01",
         "pid": "P026"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/isashinichi",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/jjYP0v8IfTBsrtkLl"
+    }
   },
   {
     "id": "P027",
@@ -1713,7 +1809,13 @@
         "date": "2018-12-14",
         "pid": "P027"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/keiichi_ishii_",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/JNaaID3EvC2wayQlg"
+    }
   },
   {
     "id": "P028",
@@ -1775,7 +1877,13 @@
         "date": "2023-12-14",
         "pid": "P028"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/takuishii",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/fbVvhv1TjFfq7Uyq4"
+    }
   },
   {
     "id": "P029",
@@ -1837,7 +1945,13 @@
         "date": "2024-04-04",
         "pid": "P029"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/iakimasa1",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/9pxuKh2X47lo8PvWT"
+    }
   },
   {
     "id": "P030",
@@ -2031,7 +2145,13 @@
         "date": "2019-06",
         "pid": "P032"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ishidamasatoshi",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/whsaM5Qug8XeBVcVS"
+    }
   },
   {
     "id": "P033",
@@ -2109,7 +2229,13 @@
         "date": "2014-09",
         "pid": "P033"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/shigeruishiba",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/edVZW03Nr4n7VgT63"
+    }
   },
   {
     "id": "P034",
@@ -2241,7 +2367,13 @@
         "date": "2024-04",
         "pid": "P035"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ishiharahirotak",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/LirvVYD5F07QU3RtF"
+    }
   },
   {
     "id": "P036",
@@ -2373,7 +2505,13 @@
         "date": "2022-09",
         "pid": "P037"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/izmkenta",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/INsn5euLC8DMERRie"
+    }
   },
   {
     "id": "P038",
@@ -2505,7 +2643,13 @@
         "date": "2023-06",
         "pid": "P039"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ichimura_staff",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/4YTPNETkVX5mrWOJM"
+    }
   },
   {
     "id": "P040",
@@ -2576,7 +2720,13 @@
         "date": "2024-04-04",
         "pid": "P040"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/yousei_ide",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://share.google/nsC7dxwNKtmLg7C44"
+    }
   },
   {
     "id": "P041",
@@ -2840,7 +2990,13 @@
         "date": "2023-12",
         "pid": "P044"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ShintaroIto1121",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E4%BF%A1%E5%A4%AA%E9%83%8E"
+    }
   },
   {
     "id": "P045",
@@ -2906,7 +3062,13 @@
         "date": "2024-04-04",
         "pid": "P045"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/tadahiko_itoh",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E4%BF%A1%E5%A4%AA%E9%83%8E"
+    }
   },
   {
     "id": "P046",
@@ -2972,7 +3134,13 @@
         "date": "2022-11",
         "pid": "P046"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/tatsuyaito0501",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E9%81%94%E4%B9%9F"
+    }
   },
   {
     "id": "P047",
@@ -3038,7 +3206,13 @@
         "date": "2021-12",
         "pid": "P047"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/nobuhisaito11",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E6%9D%B1%E4%BF%A1%E4%B9%85"
+    }
   },
   {
     "id": "P048",
@@ -3104,7 +3278,13 @@
         "date": "2024-04",
         "pid": "P048"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kouhou_sousei",
+      "hp": "",
+      "yt": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E6%9D%B1%E8%89%AF%E5%AD%9D"
+    }
   },
   {
     "id": "P049",
@@ -3170,7 +3350,13 @@
         "date": "2024-04",
         "pid": "P049"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/dento_to_souzo",
+      "wiki": "https://ja.wikipedia.org/wiki/%E7%A8%B2%E7%94%B0%E6%9C%8B%E7%BE%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P050",
@@ -3367,7 +3553,13 @@
         "date": "2024-04",
         "pid": "P052"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BA%95%E9%87%8E%E4%BF%8A%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P053",
@@ -3433,7 +3625,13 @@
         "date": "2021-06",
         "pid": "P053"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BA%95%E4%B8%8A%E4%BF%A1%E6%B2%BB",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P054",
@@ -3499,7 +3697,13 @@
         "date": "2024-02",
         "pid": "P054"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BA%95%E4%B8%8A%E8%B2%B4%E5%8D%9A_(%E6%94%BF%E6%B2%BB%E5%AE%B6)",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P055",
@@ -3565,7 +3769,13 @@
         "date": "2023-06",
         "pid": "P055"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/HIDETAKAINOUE",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BA%95%E4%B8%8A%E8%8B%B1%E5%AD%9D",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P056",
@@ -3631,7 +3841,13 @@
         "date": "2023-04",
         "pid": "P056"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/T_Ibayashi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BA%95%E6%9E%97%E8%BE%B0%E6%86%B2",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P057",
@@ -3696,7 +3912,13 @@
         "date": "2024-04",
         "pid": "P057"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/takumi_ihara",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BA%95%E5%8E%9F%E5%B7%A7",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P058",
@@ -3836,7 +4058,13 @@
         "date": "2024-02",
         "pid": "P059"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/imaeda_soichiro",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%8A%E6%9E%9D%E5%AE%97%E4%B8%80%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P060",
@@ -4042,7 +4270,13 @@
         "date": "2024-02",
         "pid": "P062"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Kazuchika_Iwata",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E7%94%B0%E5%92%8C%E8%A6%AA",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P063",
@@ -4108,7 +4342,13 @@
         "date": "2023-06",
         "pid": "P063"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Iwatani_Ryohei",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E8%B0%B7%E8%89%AF%E5%B9%B3",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P064",
@@ -4174,7 +4414,13 @@
         "date": "2025-10",
         "pid": "P064"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%B1%8B%E6%AF%85",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P065",
@@ -4248,7 +4494,13 @@
         "date": "2024-04-04",
         "pid": "P065"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/uesugi_jimusyo",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E6%9D%89%E8%AC%99%E5%A4%AA%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P066",
@@ -5020,7 +5272,13 @@
         "date": "2024-02",
         "pid": "P076"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/urumageorge",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%BC%86%E9%96%93%E8%AD%B2%E5%8F%B8",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P077",
@@ -5086,7 +5344,13 @@
         "date": "2015-03",
         "pid": "P077"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ETO_Akinori",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B1%9F%E6%B8%A1%E8%81%A1%E5%BE%B3",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P078",
@@ -5152,7 +5416,13 @@
         "date": "2024-01",
         "pid": "P078"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/etoh_taku",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B1%9F%E8%97%A4%E6%8B%93",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P079",
@@ -5271,7 +5541,13 @@
         "date": "2024-04",
         "pid": "P080"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/eri_arfiya",
+      "wiki": "https://ja.wikipedia.org/wiki/%E8%8B%B1%E5%88%A9%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A3%E3%83%A4",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P081",
@@ -5337,7 +5613,13 @@
         "date": "2024-03",
         "pid": "P081"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%81%A0%E8%97%A4%E6%95%AC",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P082",
@@ -5403,7 +5685,13 @@
         "date": "2021-11",
         "pid": "P082"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/endohiroaki1121",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%81%A0%E8%97%A4%E5%AF%9B%E6%98%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P083",
@@ -5469,7 +5757,13 @@
         "date": "2024-04",
         "pid": "P083"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/OookaToshitaka",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B2%A1%E6%95%8F%E5%AD%9D",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P084",
@@ -5535,7 +5829,13 @@
         "date": "2023-06",
         "pid": "P084"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Ogushi_Masaki",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B8%B2%E6%AD%A3%E6%A8%B9",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P085",
@@ -5675,7 +5975,13 @@
         "date": "2024-03",
         "pid": "P086"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ozorakoki",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A9%BA%E5%B9%B8%E6%98%9F",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P087",
@@ -5741,7 +6047,13 @@
         "date": "2021-05",
         "pid": "P087"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/otsukataku",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P088",
@@ -5860,7 +6172,13 @@
         "date": "2024-01",
         "pid": "P089"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/keitaro_ohno",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P090",
@@ -6079,7 +6397,13 @@
         "date": "2023-01",
         "pid": "P093"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/okamoto3nari",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P094",
@@ -6179,7 +6503,13 @@
         "date": "2024-01",
         "pid": "P095"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/junyaog",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P096",
@@ -6245,7 +6575,13 @@
         "date": "2023-01",
         "pid": "P096"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/okutake10",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P097",
@@ -6676,7 +7012,13 @@
         "date": "2023-01",
         "pid": "P103"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/onikidon",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P104",
@@ -6754,7 +7096,13 @@
         "date": "2023-01",
         "pid": "P104"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/itsunori510",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P105",
@@ -6936,7 +7284,13 @@
         "date": "2024-04",
         "pid": "P107"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/asako_omi",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P108",
@@ -7002,7 +7356,13 @@
         "date": "2023-05",
         "pid": "P108"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kasai_koichi",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P109",
@@ -7102,7 +7462,13 @@
         "date": "2021-10",
         "pid": "P110"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kajiyamahiroshi",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P111",
@@ -7168,7 +7534,13 @@
         "date": "2024-10",
         "pid": "P111"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Kashiwakura_Y",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P112",
@@ -7234,7 +7606,13 @@
         "date": "2024-04",
         "pid": "P112"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/takaaki_katsu",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P113",
@@ -7300,7 +7678,13 @@
         "date": "2024-10",
         "pid": "P113"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/KatsumeYasushi",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P114",
@@ -7413,7 +7797,13 @@
         "date": "2024-04",
         "pid": "P115"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/katoayuko_and_s",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P116",
@@ -7495,7 +7885,13 @@
         "date": "2018-06",
         "pid": "P116"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/KatsunobuKato1",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P117",
@@ -7629,7 +8025,13 @@
         "date": "2024-04-04",
         "pid": "P119"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Katoryusho",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P120",
@@ -7695,7 +8097,13 @@
         "date": "2024-04-04",
         "pid": "P120"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kado_support",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P121",
@@ -7832,7 +8240,13 @@
         "date": "2023-05",
         "pid": "P122"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kanekomegumioff",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P123",
@@ -7898,7 +8312,13 @@
         "date": "2021-07",
         "pid": "P123"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/nekotanchan",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P124",
@@ -8035,7 +8455,13 @@
         "date": "2023-06",
         "pid": "P125"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kanemura_you",
+      "wiki": "",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P126",
@@ -8113,7 +8539,13 @@
         "date": "2024-01",
         "pid": "P126"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Kamikawa_Yoko",
+      "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E5%B7%9D%E9%99%BD%E5%AD%90",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P127",
@@ -8179,7 +8611,13 @@
         "date": "2023-11",
         "pid": "P127"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kamiyahokkaido",
+      "wiki": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E8%B0%B7%E8%A3%95",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P128",
@@ -8386,7 +8824,13 @@
         "date": "2023-05",
         "pid": "P131"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kawasaki_hideto",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%B4%8E%E7%A7%80%E4%BA%BA",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P132",
@@ -8452,7 +8896,13 @@
         "date": "2024-04",
         "pid": "P132"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/mkawano2416",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B2%B3%E9%87%8E%E6%AD%A3%E7%BE%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P133",
@@ -8636,7 +9086,13 @@
         "date": "2012-04",
         "pid": "P135"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kawamura758",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B2%B3%E6%9D%91%E3%81%9F%E3%81%8B%E3%81%97",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P136",
@@ -8702,7 +9158,13 @@
         "date": "2024-04",
         "pid": "P136"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kanke_ichirou",
+      "wiki": "https://ja.wikipedia.org/wiki/%E8%8F%85%E5%AE%B6%E4%B8%80%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P137",
@@ -8768,7 +9230,13 @@
         "date": "2023-10",
         "pid": "P137"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/Jun1CanDo",
+      "wiki": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E7%94%B0%E6%BD%A4%E4%B8%80",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P138",
@@ -8846,7 +9314,13 @@
         "date": "2024-05",
         "pid": "P138"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/minoru_kiuchi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%9F%8E%E5%86%85%E5%AE%9F",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P139",
@@ -8912,7 +9386,13 @@
         "date": "2022-05",
         "pid": "P139"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kikawadahitoshi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E9%BB%84%E5%B7%9D%E7%94%B0%E4%BB%81%E5%BF%97",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P140",
@@ -8978,7 +9458,13 @@
         "date": "2024-03",
         "pid": "P140"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kikuta_official",
+      "wiki": "https://ja.wikipedia.org/wiki/%E8%8F%8A%E7%94%B0%E7%9C%9F%E7%B4%80%E5%AD%90",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P141",
@@ -9127,7 +9613,13 @@
         "date": "2023-05",
         "pid": "P142"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kishida230",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B2%B8%E7%94%B0%E6%96%87%E9%9B%84",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P143",
@@ -9240,7 +9732,13 @@
         "date": "2024-02",
         "pid": "P144"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kitagamikeiro",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%8C%97%E7%A5%9E%E5%9C%AD%E6%9C%97",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P145",
@@ -9353,7 +9851,13 @@
         "date": "2023-06",
         "pid": "P146"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kihara_seiji",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E5%8E%9F%E8%AA%A0%E4%BA%8C",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P147",
@@ -9419,7 +9923,13 @@
         "date": "2023-12",
         "pid": "P147"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kihara_minoru",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E5%8E%9F%E7%A8%94",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P148",
@@ -9485,7 +9995,13 @@
         "date": "2024-04",
         "pid": "P148"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/jiro_kimura_",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%A8%E6%9D%91%E6%AC%A1%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P149",
@@ -9645,7 +10161,13 @@
         "date": "2024-04",
         "pid": "P151"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kudoshozo_aichi",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B7%A5%E8%97%A4%E5%BD%B0%E4%B8%89",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P152",
@@ -9744,7 +10266,13 @@
         "date": "2023-04",
         "pid": "P153"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kunisadaisato",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%AE%9A%E5%8B%87%E4%BA%BA",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P154",
@@ -9810,7 +10338,13 @@
         "date": "2021-04",
         "pid": "P154"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ToruKunishige",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%9C%8B%E9%87%8D%E5%BE%B9",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P155",
@@ -9876,7 +10410,13 @@
         "date": "2021-11",
         "pid": "P155"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ayano_kunimitsu",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%85%89%E6%96%87%E4%B9%83",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P156",
@@ -9942,7 +10482,13 @@
         "date": "2024-04",
         "pid": "P156"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kumada_aichi1",
+      "wiki": "https://ja.wikipedia.org/wiki/%E7%86%8A%E7%94%B0%E8%A3%95%E9%80%9A",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P157",
@@ -10140,7 +10686,13 @@
         "date": "2021-05",
         "pid": "P161"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/shinjirokoiz",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%B3%89%E9%80%B2%E6%AC%A1%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P162",
@@ -10206,7 +10758,13 @@
         "date": "2024-05",
         "pid": "P162"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%B3%89%E9%BE%8D%E5%8F%B8",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P163",
@@ -10272,7 +10830,13 @@
         "date": "2024-03",
         "pid": "P163"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/konotarogomame",
+      "wiki": "https://ja.wikipedia.org/wiki/%E6%B2%B3%E9%87%8E%E5%A4%AA%E9%83%8E",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P164",
@@ -10338,7 +10902,13 @@
         "date": "2022-08",
         "pid": "P164"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高村正大",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P165",
@@ -10437,7 +11007,13 @@
         "date": "2022-03",
         "pid": "P166"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古賀篤",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P167",
@@ -10503,7 +11079,13 @@
         "date": "2024-04",
         "pid": "P167"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/國場幸之助",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P168",
@@ -10569,7 +11151,13 @@
         "date": "2024-02",
         "pid": "P168"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/輿水恵一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P169",
@@ -10635,7 +11223,13 @@
         "date": "2024-04-04",
         "pid": "P169"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小寺裕雄",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P170",
@@ -10701,7 +11295,13 @@
         "date": "2022-10",
         "pid": "P170"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/後藤茂之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P171",
@@ -10767,7 +11367,13 @@
         "date": "2024-02",
         "pid": "P171"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/後藤祐一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P172",
@@ -10866,7 +11472,13 @@
         "date": "2024-04-04",
         "pid": "P173"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小林茂樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P174",
@@ -10965,7 +11577,13 @@
         "date": "2022-05",
         "pid": "P175"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kobahawk",
+      "wiki": "https://ja.wikipedia.org/wiki/小林鷹之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P176",
@@ -11031,7 +11649,13 @@
         "date": "2022-06",
         "pid": "P176"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/fumiaki_kobashi",
+      "wiki": "https://ja.wikipedia.org/wiki/小林史明",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P177",
@@ -11667,7 +12291,13 @@
         "date": "2022-09",
         "pid": "P186"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/斎藤洋明",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P187",
@@ -11799,7 +12429,13 @@
         "date": "2021-04",
         "pid": "P188"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/坂井学",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P189",
@@ -11865,7 +12501,13 @@
         "date": "2024-05",
         "pid": "P189"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/坂本哲志",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P190",
@@ -11997,7 +12639,13 @@
         "date": "2024-04",
         "pid": "P191"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/笹川博義",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P192",
@@ -12063,7 +12711,13 @@
         "date": "2024-04",
         "pid": "P192"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/佐々木紀",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P193",
@@ -12195,7 +12849,13 @@
         "date": "2023-03",
         "pid": "P194"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/佐藤英道",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P195",
@@ -12327,7 +12987,13 @@
         "date": "2024-03",
         "pid": "P196"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/塩川鉄也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P197",
@@ -12393,7 +13059,13 @@
         "date": "2024-05",
         "pid": "P197"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/塩崎彰久",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P198",
@@ -12459,7 +13131,13 @@
         "date": "2024-11",
         "pid": "P198"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/重徳和彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P199",
@@ -12525,7 +13203,13 @@
         "date": "2024-04",
         "pid": "P199"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/繁本護",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P200",
@@ -12591,7 +13275,13 @@
         "date": "2023-11",
         "pid": "P200"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/階猛",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P201",
@@ -12657,7 +13347,13 @@
         "date": "2024-04-04",
         "pid": "P201"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/柴山昌彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P202",
@@ -12723,7 +13419,13 @@
         "date": "2022-03",
         "pid": "P202"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/島尻安伊子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P203",
@@ -12933,7 +13635,13 @@
         "date": "2022-09",
         "pid": "P205"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/下村博文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P206",
@@ -12999,7 +13707,13 @@
         "date": "2023-09",
         "pid": "P206"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/庄子賢一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P207",
@@ -13131,7 +13845,13 @@
         "date": "2023-05",
         "pid": "P208"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/新谷正義",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P209",
@@ -13197,7 +13917,13 @@
         "date": "2023-11",
         "pid": "P209"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/新藤義孝",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P210",
@@ -13263,7 +13989,13 @@
         "date": "2021-06",
         "pid": "P210"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/菅原一秀",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P211",
@@ -13329,7 +14061,13 @@
         "date": "2024-04",
         "pid": "P211"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鈴木英敬",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P212",
@@ -13395,7 +14133,13 @@
         "date": "2024-02",
         "pid": "P212"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鈴木馨祐",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P213",
@@ -13461,7 +14205,13 @@
         "date": "2023-12",
         "pid": "P213"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鈴木俊一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P214",
@@ -13599,7 +14349,13 @@
         "date": "2022-03",
         "pid": "P215"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鈴木貴子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P216",
@@ -13803,7 +14559,13 @@
         "date": "2023-05",
         "pid": "P218"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鈴木隼人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P219",
@@ -13935,7 +14697,13 @@
         "date": "2023-11",
         "pid": "P220"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鈴木義弘",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P221",
@@ -14067,7 +14835,13 @@
         "date": "2023-06",
         "pid": "P222"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/住吉寛紀",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P223",
@@ -14133,7 +14907,13 @@
         "date": "2024-10",
         "pid": "P223"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/関健一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P224",
@@ -14199,7 +14979,13 @@
         "date": "2024-04",
         "pid": "P224"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/関芳弘",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P225",
@@ -14331,7 +15117,13 @@
         "date": "2024-04",
         "pid": "P226"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/SekoHiroshige",
+      "wiki": "https://ja.wikipedia.org/wiki/世耕弘成",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P227",
@@ -14397,7 +15189,13 @@
         "date": "2024-04",
         "pid": "P227"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/瀬戸隆一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P228",
@@ -14529,7 +15327,13 @@
         "date": "2022-11",
         "pid": "P229"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/TAIRAMASAaki",
+      "wiki": "https://ja.wikipedia.org/wiki/平将明",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P230",
@@ -14607,7 +15411,13 @@
         "date": "2026-05",
         "pid": "P230"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/takaichi_sanae",
+      "wiki": "https://ja.wikipedia.org/wiki/高市早苗",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P231",
@@ -14673,7 +15483,13 @@
         "date": "2022-02",
         "pid": "P231"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高階恵美子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P232",
@@ -14739,7 +15555,13 @@
         "date": "2024-04",
         "pid": "P232"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高木啓",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P233",
@@ -14805,7 +15627,13 @@
         "date": "2024-04",
         "pid": "P233"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高木宏壽",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P234",
@@ -14937,7 +15765,13 @@
         "date": "2024-04",
         "pid": "P235"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高鳥修一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P236",
@@ -15279,7 +16113,13 @@
         "date": "2021-06",
         "pid": "P240"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/武井俊輔",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P241",
@@ -15345,7 +16185,13 @@
         "date": "2024-04",
         "pid": "P241"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/武田良太",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P242",
@@ -15411,7 +16257,13 @@
         "date": "2024-04",
         "pid": "P242"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/武部新",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P243",
@@ -15477,7 +16329,13 @@
         "date": "2024-04",
         "pid": "P243"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/武村展英",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P244",
@@ -15543,7 +16401,13 @@
         "date": "2023-04",
         "pid": "P244"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田嶋要",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P245",
@@ -15609,7 +16473,13 @@
         "date": "2023-11",
         "pid": "P245"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/橘慶一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P246",
@@ -15675,7 +16545,13 @@
         "date": "2023-11",
         "pid": "P246"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/辰巳孝太郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P247",
@@ -15741,7 +16617,13 @@
         "date": "2024-04",
         "pid": "P247"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田所嘉徳",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P248",
@@ -15807,7 +16689,13 @@
         "date": "2020-09",
         "pid": "P248"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田中和徳",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P249",
@@ -15873,7 +16761,13 @@
         "date": "2024-10",
         "pid": "P249"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田中健",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P250",
@@ -16017,7 +16911,13 @@
         "date": "2021-03",
         "pid": "P251"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田中良生",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P252",
@@ -16083,7 +16983,13 @@
         "date": "2021-06",
         "pid": "P252"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/棚橋泰文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P253",
@@ -16149,7 +17055,13 @@
         "date": "2024-04",
         "pid": "P253"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/谷公一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P254",
@@ -16281,7 +17193,13 @@
         "date": "2024-04",
         "pid": "P255"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/谷川とむ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P256",
@@ -16347,7 +17265,13 @@
         "date": "2024-04",
         "pid": "P256"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田野瀬太道",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P257",
@@ -16413,7 +17337,13 @@
         "date": "2023-11",
         "pid": "P257"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田畑裕明",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P258",
@@ -16479,7 +17409,13 @@
         "date": "2024-11",
         "pid": "P258"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/tamakiyuichiro",
+      "wiki": "https://ja.wikipedia.org/wiki/玉木雄一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P259",
@@ -16623,7 +17559,13 @@
         "date": "2024-03",
         "pid": "P260"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/tamutomojcp",
+      "wiki": "https://ja.wikipedia.org/wiki/田村智子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P261",
@@ -16689,7 +17631,13 @@
         "date": "2021-06",
         "pid": "P261"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田村憲久",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P262",
@@ -16899,7 +17847,13 @@
         "date": "2022-03",
         "pid": "P264"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/辻清人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P265",
@@ -17097,7 +18051,13 @@
         "date": "2021-05",
         "pid": "P267"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/津島淳",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P268",
@@ -17241,7 +18201,13 @@
         "date": "2024-02",
         "pid": "P269"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/土屋品子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P270",
@@ -17307,7 +18273,13 @@
         "date": "2023-03",
         "pid": "P270"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/角田秀穂",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P271",
@@ -17373,7 +18345,13 @@
         "date": "2022-11",
         "pid": "P271"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/寺田稔",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P272",
@@ -17439,7 +18417,13 @@
         "date": "2020-02",
         "pid": "P272"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/土井亨",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P273",
@@ -17505,7 +18489,13 @@
         "date": "2018-04",
         "pid": "P273"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/渡海紀三朗",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P274",
@@ -17571,7 +18561,13 @@
         "date": "2023-12",
         "pid": "P274"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/冨樫博之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P275",
@@ -17703,7 +18699,13 @@
         "date": "2024-02",
         "pid": "P276"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/土橋章宏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P277",
@@ -17769,7 +18771,13 @@
         "date": "2022-03",
         "pid": "P277"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/豊田真由子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P278",
@@ -18099,7 +19107,13 @@
         "date": "2022-05",
         "pid": "P282"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中川康洋",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P283",
@@ -18237,7 +19251,13 @@
         "date": "2021-12",
         "pid": "P284"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/長澤興祐",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P285",
@@ -18717,7 +19737,13 @@
         "date": "2010-05",
         "pid": "P291"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中司宏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P292",
@@ -18849,7 +19875,13 @@
         "date": "2021-03",
         "pid": "P293"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/長友慎治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P294",
@@ -18915,7 +19947,13 @@
         "date": "2023-08",
         "pid": "P294"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中西健治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P295",
@@ -19047,7 +20085,13 @@
         "date": "2024-04",
         "pid": "P296"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中野英幸",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P297",
@@ -19113,7 +20157,13 @@
         "date": "2023-06",
         "pid": "P297"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中野洋昌",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P298",
@@ -19179,7 +20229,13 @@
         "date": "2024-03",
         "pid": "P298"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/長野春信",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P299",
@@ -19311,7 +20367,13 @@
         "date": "2021-03",
         "pid": "P300"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中村裕之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P301",
@@ -19443,7 +20505,13 @@
         "date": "2021-03",
         "pid": "P302"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中山展宏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P303",
@@ -19509,7 +20577,13 @@
         "date": "2021-03",
         "pid": "P303"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中山泰秀",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P304",
@@ -19641,7 +20715,13 @@
         "date": "2022-05",
         "pid": "P305"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/仁木博文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P306",
@@ -19707,7 +20787,13 @@
         "date": "2023-11",
         "pid": "P306"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西岡秀子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P307",
@@ -19839,7 +20925,13 @@
         "date": "2024-10",
         "pid": "P308"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西園勝秀",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P309",
@@ -19905,7 +20997,13 @@
         "date": "2023-06",
         "pid": "P309"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西田薫",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P310",
@@ -19971,7 +21069,13 @@
         "date": "2024-04",
         "pid": "P310"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西田昭二",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P311",
@@ -20037,7 +21141,13 @@
         "date": "2023-08",
         "pid": "P311"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西野太亮",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P312",
@@ -20103,7 +21213,13 @@
         "date": "2024-04",
         "pid": "P312"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西村明宏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P313",
@@ -20169,7 +21285,13 @@
         "date": "2024-03",
         "pid": "P313"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西村智奈美",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P314",
@@ -20235,7 +21357,13 @@
         "date": "2024-04",
         "pid": "P314"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西村康稔",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P315",
@@ -20301,7 +21429,13 @@
         "date": "2022-03",
         "pid": "P315"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西銘恒三郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P316",
@@ -20499,7 +21633,13 @@
         "date": "2021-02",
         "pid": "P318"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/丹羽秀樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P319",
@@ -20565,7 +21705,13 @@
         "date": "2024-05",
         "pid": "P319"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/額賀福志郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P320",
@@ -20631,7 +21777,13 @@
         "date": "2025-03",
         "pid": "P320"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/沼崎満子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P321",
@@ -20763,7 +21915,13 @@
         "date": "2024-04",
         "pid": "P322"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/根本幸典",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P323",
@@ -20829,7 +21987,13 @@
         "date": "2022-03",
         "pid": "P323"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/野田聖子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P324",
@@ -20895,7 +22059,13 @@
         "date": "2024-05",
         "pid": "P324"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/nodasouri",
+      "wiki": "https://ja.wikipedia.org/wiki/野田佳彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P325",
@@ -20961,7 +22131,13 @@
         "date": "2024-04",
         "pid": "P325"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/野中厚",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P326",
@@ -21387,7 +22563,13 @@
         "date": "2026-04",
         "pid": "P331"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/橋本幹彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P332",
@@ -21591,7 +22773,13 @@
         "date": "2024-04",
         "pid": "P334"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鳩山二郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P335",
@@ -21657,7 +22845,13 @@
         "date": "2022-11",
         "pid": "P335"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/葉梨康弘",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P336",
@@ -21723,7 +22917,13 @@
         "date": "2024-05",
         "pid": "P336"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/baba_ishin",
+      "wiki": "https://ja.wikipedia.org/wiki/馬場伸幸",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P337",
@@ -21789,7 +22989,13 @@
         "date": "2023-08",
         "pid": "P337"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/浜田靖一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P338",
@@ -21855,7 +23061,13 @@
         "date": "2022-11",
         "pid": "P338"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/浜地雅一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P339",
@@ -21987,7 +23199,13 @@
         "date": "2025-12",
         "pid": "P340"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/hayashi0024",
+      "wiki": "https://ja.wikipedia.org/wiki/林芳正",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P341",
@@ -22251,7 +23469,13 @@
         "date": "2024-10",
         "pid": "P344"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/日野紗里亜",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P345",
@@ -22317,7 +23541,13 @@
         "date": "2021-09",
         "pid": "P345"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/平井卓也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P346",
@@ -22383,7 +23613,13 @@
         "date": "2024-04",
         "pid": "P346"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/平口洋",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P347",
@@ -22647,7 +23883,13 @@
         "date": "2024-08",
         "pid": "P350"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/広瀬建",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P351",
@@ -22779,7 +24021,13 @@
         "date": "2024-10",
         "pid": "P352"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/深澤陽一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P353",
@@ -22845,7 +24093,13 @@
         "date": "2025-11",
         "pid": "P353"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/福重隆浩",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P354",
@@ -22911,7 +24165,13 @@
         "date": "2022-05",
         "pid": "P354"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/福田徹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P355",
@@ -22977,7 +24237,13 @@
         "date": "2011-12",
         "pid": "P355"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/福田かおる",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P356",
@@ -23043,7 +24309,13 @@
         "date": "2021-03",
         "pid": "P356"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/福田達夫",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P357",
@@ -23109,7 +24381,13 @@
         "date": "2024-05",
         "pid": "P357"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/福原淳嗣",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P358",
@@ -23175,7 +24453,13 @@
         "date": "2024-04",
         "pid": "P358"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤井比早之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P359",
@@ -23241,7 +24525,13 @@
         "date": "2023-06",
         "pid": "P359"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤沢忠盛",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P360",
@@ -23307,7 +24597,13 @@
         "date": "2022-12",
         "pid": "P360"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤田ひかる",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P361",
@@ -23373,7 +24669,13 @@
         "date": "2024-05",
         "pid": "P361"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/fujita_fumitake",
+      "wiki": "https://ja.wikipedia.org/wiki/藤田文武",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P362",
@@ -23571,7 +24873,13 @@
         "date": "2025-03",
         "pid": "P364"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤丸敏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P365",
@@ -23637,7 +24945,13 @@
         "date": "2025-06",
         "pid": "P365"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤原崇",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P366",
@@ -23769,7 +25083,13 @@
         "date": "2025-06",
         "pid": "P367"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/船田元",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P368",
@@ -24045,7 +25365,13 @@
         "date": "2024-11",
         "pid": "P371"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古川元久",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P372",
@@ -24111,7 +25437,13 @@
         "date": "2025-05",
         "pid": "P372"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古川康",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P373",
@@ -24177,7 +25509,13 @@
         "date": "2023-04",
         "pid": "P373"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古川禎久",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P374",
@@ -24243,7 +25581,13 @@
         "date": "2013-12",
         "pid": "P374"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古屋圭司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P375",
@@ -24309,7 +25653,13 @@
         "date": "2025-09",
         "pid": "P375"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/穂坂泰",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P376",
@@ -24375,7 +25725,13 @@
         "date": "2026-05",
         "pid": "P376"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/星野剛士",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P377",
@@ -24441,7 +25797,13 @@
         "date": "2025-04",
         "pid": "P377"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/細田健一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P378",
@@ -25077,7 +26439,13 @@
         "date": "2024-04",
         "pid": "P386"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松島みどり",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P387",
@@ -25143,7 +26511,13 @@
         "date": "2024-04",
         "pid": "P387"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松野博一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P388",
@@ -25275,7 +26649,13 @@
         "date": "2025-10",
         "pid": "P389"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松本尚",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P390",
@@ -25341,7 +26721,13 @@
         "date": "2025-06",
         "pid": "P390"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松本洋平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P391",
@@ -25473,7 +26859,13 @@
         "date": "2021-07",
         "pid": "P392"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/丸川珠代",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P393",
@@ -25605,7 +26997,13 @@
         "date": "2024-05",
         "pid": "P394"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/三木圭恵",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P395",
@@ -25737,7 +27135,13 @@
         "date": "2025-06",
         "pid": "P396"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/三反園訓",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P397",
@@ -25803,7 +27207,13 @@
         "date": "2024-03",
         "pid": "P397"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/三谷英弘",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P398",
@@ -25869,7 +27279,13 @@
         "date": "2024-04",
         "pid": "P398"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/三ッ林裕巳",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P399",
@@ -26001,7 +27417,13 @@
         "date": "2024-05",
         "pid": "P400"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/美延映夫",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P401",
@@ -26067,7 +27489,13 @@
         "date": "2024-04",
         "pid": "P401"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/御法川信英",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P402",
@@ -26199,7 +27627,13 @@
         "date": "2025-09",
         "pid": "P403"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宮内秀樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P404",
@@ -26265,7 +27699,13 @@
         "date": "2025-06",
         "pid": "P404"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宮崎政久",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P405",
@@ -26331,7 +27771,13 @@
         "date": "2025-09",
         "pid": "P405"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宮路拓馬",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P406",
@@ -26397,7 +27843,13 @@
         "date": "2024-04",
         "pid": "P406"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宮下一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P407",
@@ -26619,7 +28071,13 @@
         "date": "2025-06",
         "pid": "P410"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/武藤容治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P411",
@@ -26685,7 +28143,13 @@
         "date": "2024-04",
         "pid": "P411"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宗清皇一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P412",
@@ -26751,7 +28215,13 @@
         "date": "2023-04",
         "pid": "P412"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/村井英樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P413",
@@ -26817,7 +28287,13 @@
         "date": "2026-05",
         "pid": "P413"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/村岡敏英",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P414",
@@ -26883,7 +28359,13 @@
         "date": "2024-03",
         "pid": "P414"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/村上誠一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P415",
@@ -27067,7 +28549,13 @@
         "date": "2024-03",
         "pid": "P417"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/茂木敏充",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P418",
@@ -27133,7 +28621,13 @@
         "date": "2025-06",
         "pid": "P418"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/森英介",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P419",
@@ -27383,7 +28877,13 @@
         "date": "2026-04",
         "pid": "P422"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/森山裕",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P423",
@@ -27449,7 +28949,13 @@
         "date": "2024-05",
         "pid": "P423"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/盛山正仁",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P424",
@@ -27553,7 +29059,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/簗和生",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P426",
@@ -27605,7 +29117,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山岡達丸",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P427",
@@ -27671,7 +29189,13 @@
         "date": "2022-10",
         "pid": "P427"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山際大志郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P428",
@@ -27723,7 +29247,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山口俊一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P429",
@@ -27775,7 +29305,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山口晋",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P430",
@@ -27841,7 +29377,13 @@
         "date": "2023-04",
         "pid": "P430"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山口壯",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P431",
@@ -28011,7 +29553,13 @@
         "date": "2023-04",
         "pid": "P433"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山下貴司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P434",
@@ -28129,7 +29677,13 @@
         "date": "2024-04",
         "pid": "P435"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山田賢司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P436",
@@ -28195,7 +29749,13 @@
         "date": "2025-04",
         "pid": "P436"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山田美樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P437",
@@ -28247,7 +29807,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山田基靖",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P438",
@@ -28351,7 +29917,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本左近",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P440",
@@ -28403,7 +29975,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本ジョージ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P441",
@@ -28507,7 +30085,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本大地",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P443",
@@ -28573,7 +30157,13 @@
         "date": "2024-05",
         "pid": "P443"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本裕三",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P444",
@@ -28835,7 +30425,13 @@
         "date": "2026-05",
         "pid": "P447"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/吉田宣弘",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P448",
@@ -28887,7 +30483,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/吉田有理",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P449",
@@ -28953,7 +30555,13 @@
         "date": "2025-09",
         "pid": "P449"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/吉村悠",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P450",
@@ -29057,7 +30665,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/笠浩史",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P452",
@@ -29161,7 +30775,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/若林健太",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P454",
@@ -29213,7 +30833,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/若宮健嗣",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P455",
@@ -29369,7 +30995,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/早稲田ゆき",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P458",
@@ -29435,7 +31067,13 @@
         "date": "2026-05",
         "pid": "P458"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/和田政宗",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P459",
@@ -29487,7 +31125,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/和田義明",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P460",
@@ -29605,7 +31249,13 @@
         "date": "2024-03",
         "pid": "P461"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/渡辺勝幸",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P462",
@@ -29671,7 +31321,13 @@
         "date": "2025-05",
         "pid": "P462"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/渡辺孝一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P463",
@@ -29723,7 +31379,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/渡辺真太朗",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P464",
@@ -29893,7 +31555,13 @@
         "date": "2025-06",
         "pid": "P466"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/青木愛",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P467",
@@ -29945,7 +31613,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/青木一彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P468",
@@ -29997,7 +31671,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/青島健太",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P469",
@@ -30063,7 +31743,13 @@
         "date": "2025-06",
         "pid": "P469"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/KenAkamatsu",
+      "wiki": "https://ja.wikipedia.org/wiki/赤松健",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P470",
@@ -30129,7 +31815,13 @@
         "date": "2025-04",
         "pid": "P470"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/秋野公造",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P471",
@@ -30181,7 +31873,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/浅尾慶一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P472",
@@ -30247,7 +31945,13 @@
         "date": "2025-11",
         "pid": "P472"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/浅田均",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P473",
@@ -30299,7 +32003,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/asahi_kentarou",
+      "wiki": "https://ja.wikipedia.org/wiki/朝日健太郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P474",
@@ -30365,7 +32075,13 @@
         "date": "2025-05",
         "pid": "P474"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/阿達雅志",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P475",
@@ -30417,7 +32133,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/足立康史",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P476",
@@ -30535,7 +32257,13 @@
         "date": "2024-05",
         "pid": "P477"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/有村治子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P478",
@@ -30587,7 +32315,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/安藤裕",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P479",
@@ -30653,7 +32387,13 @@
         "date": "2026-04",
         "pid": "P479"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/安野貴博",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P480",
@@ -31231,7 +32971,13 @@
         "date": "2025-08",
         "pid": "P489"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/石川博崇",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P490",
@@ -31297,7 +33043,13 @@
         "date": "2025-09",
         "pid": "P490"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/石田昌宏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P491",
@@ -31363,7 +33115,13 @@
         "date": "2025-11",
         "pid": "P491"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/石橋通宏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P492",
@@ -31429,7 +33187,13 @@
         "date": "2026-04",
         "pid": "P492"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/泉房穂",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P493",
@@ -31613,7 +33377,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/礒崎哲史",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P495",
@@ -31679,7 +33449,13 @@
         "date": "2025-06",
         "pid": "P495"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/磯崎仁彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P496",
@@ -31731,7 +33507,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/伊藤孝江",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P497",
@@ -31783,7 +33565,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/伊藤孝恵",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P498",
@@ -31901,7 +33689,13 @@
         "date": "2022-09",
         "pid": "P499"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/井上義行",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P500",
@@ -31967,7 +33761,13 @@
         "date": "2024-05",
         "pid": "P500"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/猪口邦子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P501",
@@ -32033,7 +33833,13 @@
         "date": "2025-06",
         "pid": "P501"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/inosenaoki",
+      "wiki": "https://ja.wikipedia.org/wiki/猪瀬直樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P502",
@@ -32099,7 +33905,13 @@
         "date": "2026-02",
         "pid": "P502"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/伊波洋一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P503",
@@ -32151,7 +33963,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/Eriko_imai",
+      "wiki": "https://ja.wikipedia.org/wiki/今井絵理子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P504",
@@ -32217,7 +34035,13 @@
         "date": "2025-11",
         "pid": "P504"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/岩渕友",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P505",
@@ -32269,7 +34093,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/岩本剛人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P506",
@@ -32543,7 +34373,13 @@
         "date": "2025-06",
         "pid": "P510"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/上田勇",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P511",
@@ -32609,7 +34445,13 @@
         "date": "2025-05",
         "pid": "P511"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/上田清司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P512",
@@ -32779,7 +34621,13 @@
         "date": "2025-09",
         "pid": "P514"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/上野通子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P515",
@@ -32949,7 +34797,13 @@
         "date": "2025-08",
         "pid": "P517"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/臼井正一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P518",
@@ -33015,7 +34869,13 @@
         "date": "2025-11",
         "pid": "P518"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/打越さく良",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P519",
@@ -33119,7 +34979,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/梅村みずほ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P521",
@@ -33185,7 +35051,13 @@
         "date": "2025-07",
         "pid": "P521"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/江島潔",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P522",
@@ -33355,7 +35227,13 @@
         "date": "2025-07",
         "pid": "P524"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/大家敏志",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P525",
@@ -33421,7 +35299,13 @@
         "date": "2026-02",
         "pid": "P525"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/大島九州男",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P526",
@@ -33591,7 +35475,13 @@
         "date": "2025-09",
         "pid": "P528"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/岡田直樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P529",
@@ -33643,7 +35533,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小川克巳",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P530",
@@ -33695,7 +35591,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/奥田ふみよ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P531",
@@ -33799,7 +35701,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/奥村祥大",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P533",
@@ -33865,7 +35773,13 @@
         "date": "2025-11",
         "pid": "P533"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小沢雅仁",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P534",
@@ -33917,7 +35831,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/越智俊之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P535",
@@ -34087,7 +36007,13 @@
         "date": "2025-10",
         "pid": "P537"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鬼木誠",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P538",
@@ -34153,7 +36079,13 @@
         "date": "2026-03",
         "pid": "P538"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/onoda_kimi",
+      "wiki": "https://ja.wikipedia.org/wiki/小野田紀美",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P539",
@@ -34427,7 +36359,13 @@
         "date": "2025-10",
         "pid": "P543"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/嘉田由紀子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P544",
@@ -34493,7 +36431,13 @@
         "date": "2024-03",
         "pid": "P544"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/katayama_s",
+      "wiki": "https://ja.wikipedia.org/wiki/片山さつき",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P545",
@@ -34545,7 +36489,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/片山大介",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P546",
@@ -34597,7 +36547,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/勝部賢志",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P547",
@@ -34649,7 +36605,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/加藤明良",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P548",
@@ -34701,7 +36663,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/金子道仁",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P549",
@@ -34753,7 +36721,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/かまやち敏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P550",
@@ -34805,7 +36779,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[釜萢敏]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P551",
@@ -34871,7 +36851,13 @@
         "date": "2026-02",
         "pid": "P551"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/jamiya_sohei",
+      "wiki": "https://ja.wikipedia.org/wiki/神谷宗幣",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P552",
@@ -34923,7 +36909,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/神谷政幸",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P553",
@@ -34975,7 +36967,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/川合孝典",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P554",
@@ -35027,7 +37025,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/川村雄大",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P555",
@@ -35093,7 +37097,13 @@
         "date": "2025-11",
         "pid": "P555"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/岸真紀子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P556",
@@ -35405,7 +37415,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/木村義雄",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P561",
@@ -35471,7 +37487,13 @@
         "date": "2025-11",
         "pid": "P561"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kirayoshiko",
+      "wiki": "https://ja.wikipedia.org/wiki/吉良佳子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P562",
@@ -35537,7 +37559,13 @@
         "date": "2025-11",
         "pid": "P562"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[吉良佳子]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P563",
@@ -35603,7 +37631,13 @@
         "date": "2025-08",
         "pid": "P563"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/串田誠一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P564",
@@ -35655,7 +37689,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/窪田哲也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P565",
@@ -35707,7 +37747,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/熊谷裕人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P566",
@@ -35825,7 +37871,13 @@
         "date": "2026-03",
         "pid": "P567"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/koike_akira",
+      "wiki": "https://ja.wikipedia.org/wiki/小池晃",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P568",
@@ -35877,7 +37929,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/上月良祐",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P569",
@@ -36033,7 +38091,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古賀千景",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P572",
@@ -36085,7 +38149,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古賀友一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P573",
@@ -36137,7 +38207,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古賀之士",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P574",
@@ -36189,7 +38265,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小島とも子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P575",
@@ -36397,7 +38479,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/後藤斎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P579",
@@ -36463,7 +38551,13 @@
         "date": "2026-02",
         "pid": "P579"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小西洋之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P580",
@@ -36515,7 +38609,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小林一大",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P581",
@@ -36567,7 +38667,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/小林孝一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P582",
@@ -36737,7 +38843,13 @@
         "date": "2025-06",
         "pid": "P584"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/こやり隆史",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P585",
@@ -37159,7 +39271,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/佐々木雅文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P592",
@@ -37211,7 +39329,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/佐々木りえ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P593",
@@ -37315,7 +39439,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/佐藤啓",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P595",
@@ -37367,7 +39497,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/里見隆治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P596",
@@ -37485,7 +39621,13 @@
         "date": "2025-11",
         "pid": "P597"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/shiomura",
+      "wiki": "https://ja.wikipedia.org/wiki/塩村文夏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P598",
@@ -37589,7 +39731,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/柴愼一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P600",
@@ -37641,7 +39789,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/柴田巧",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P601",
@@ -37707,7 +39861,13 @@
         "date": "2024-04",
         "pid": "P601"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/自見はなこ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P602",
@@ -37811,7 +39971,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/清水真人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P604",
@@ -37877,7 +40043,13 @@
         "date": "2025-09",
         "pid": "P604"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/下野六太",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P605",
@@ -37943,7 +40115,13 @@
         "date": "2025-11",
         "pid": "P605"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/白川容子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P606",
@@ -37995,7 +40173,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/進藤金日子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P607",
@@ -38047,7 +40231,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/shimbakatsuya",
+      "wiki": "https://ja.wikipedia.org/wiki/榛葉賀津也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P608",
@@ -38113,7 +40303,13 @@
         "date": "2024-03",
         "pid": "P608"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/末松信介",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P609",
@@ -38179,7 +40375,13 @@
         "date": "2025-07",
         "pid": "P609"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/杉久武",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P610",
@@ -38245,7 +40447,13 @@
         "date": "2026-02",
         "pid": "P610"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/杉尾秀哉",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P611",
@@ -38479,7 +40687,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/石平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P615",
@@ -38857,7 +41071,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高橋克法",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P621",
@@ -38923,7 +41143,13 @@
         "date": "2019-07-21",
         "pid": "P621"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高橋はるみ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P622",
@@ -38975,7 +41201,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高橋光男",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P623",
@@ -39027,7 +41259,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/高良沙哉",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P624",
@@ -39145,7 +41383,13 @@
         "date": "2019-06-30",
         "pid": "P625"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/滝波宏文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P626",
@@ -39197,7 +41441,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/竹内真二",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P627",
@@ -39263,7 +41513,13 @@
         "date": "2024-01-01",
         "pid": "P627"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/竹詰仁",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P628",
@@ -39329,7 +41585,13 @@
         "date": "2022-07-10",
         "pid": "P628"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/竹谷とし子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P629",
@@ -39447,7 +41709,13 @@
         "date": "2025-07-17",
         "pid": "P630"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田島麻衣子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P631",
@@ -39499,7 +41767,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田名部匡代",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P632",
@@ -39565,7 +41839,13 @@
         "date": "2025-07",
         "pid": "P632"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/谷合正明",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P633",
@@ -39617,7 +41897,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田村まみ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P634",
@@ -39721,7 +42007,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/司隆史",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P636",
@@ -39787,7 +42079,13 @@
         "date": "2026-02",
         "pid": "P636"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/tsujimotokiyomi",
+      "wiki": "https://ja.wikipedia.org/wiki/辻元清美",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P637",
@@ -39853,7 +42151,13 @@
         "date": "2024-03",
         "pid": "P637"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鶴保庸介",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P638",
@@ -39957,7 +42261,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/寺田静",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P640",
@@ -40023,7 +42333,13 @@
         "date": "2026-03",
         "pid": "P640"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/天畠大輔",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P641",
@@ -40075,7 +42391,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/堂込麻紀子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P642",
@@ -40127,7 +42449,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/徳永エリ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P643",
@@ -40245,7 +42573,13 @@
         "date": "2024-05",
         "pid": "P644"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/友納理緒",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P645",
@@ -40415,7 +42749,13 @@
         "date": "2025-10",
         "pid": "P647"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/ながえ孝子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P648",
@@ -40481,7 +42821,13 @@
         "date": "2025-10",
         "pid": "P648"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[永江孝子]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P649",
@@ -40533,7 +42879,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中条きよし",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P650",
@@ -40651,7 +43003,13 @@
         "date": "2024-03",
         "pid": "P651"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中曽根弘文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P652",
@@ -40769,7 +43127,13 @@
         "date": "2025-06",
         "pid": "P653"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中西祐介",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P654",
@@ -40821,7 +43185,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/長浜博行",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P655",
@@ -40873,7 +43243,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/新実彰平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P656",
@@ -40939,7 +43315,13 @@
         "date": "2026-02",
         "pid": "P656"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西田昌司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P657",
@@ -40991,7 +43373,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西田英範",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P658",
@@ -41057,7 +43445,13 @@
         "date": "2025-07",
         "pid": "P658"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西田実仁",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P659",
@@ -41123,7 +43517,13 @@
         "date": "2025-10",
         "pid": "P659"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/仁比聡平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P660",
@@ -41241,7 +43641,13 @@
         "date": "2025-06",
         "pid": "P661"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/野上浩太郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P662",
@@ -41307,7 +43713,13 @@
         "date": "2024-05",
         "pid": "P662"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/野村哲郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P663",
@@ -41359,7 +43771,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/芳賀道也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P664",
@@ -41477,7 +43895,13 @@
         "date": "2024-05",
         "pid": "P665"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/橋本聖子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P666",
@@ -41595,7 +44019,13 @@
         "date": "2026-02",
         "pid": "P667"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/長谷川岳",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P668",
@@ -41647,7 +44077,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/長谷川英晴",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P669",
@@ -41699,7 +44135,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/羽田次郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P670",
@@ -41751,7 +44193,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/馬場成志",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P671",
@@ -41817,7 +44265,13 @@
         "date": "2025-07",
         "pid": "P671"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/浜口誠",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P672",
@@ -41869,7 +44323,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/浜野喜史",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P673",
@@ -41921,7 +44381,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/原田大二郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P674",
@@ -41973,7 +44439,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/原田秀一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P675",
@@ -42025,7 +44497,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/東野秀樹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P676",
@@ -42447,7 +44925,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/福士珠美",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P683",
@@ -42513,7 +44997,13 @@
         "date": "2025-11",
         "pid": "P683"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/fukushimamizuho",
+      "wiki": "https://ja.wikipedia.org/wiki/福島瑞穂",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P684",
@@ -42631,7 +45121,13 @@
         "date": "2026-03",
         "pid": "P685"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/fuku_tetsu",
+      "wiki": "https://ja.wikipedia.org/wiki/福山哲郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P686",
@@ -42683,7 +45179,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/福山守",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P687",
@@ -42735,7 +45237,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤井一博",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P688",
@@ -42787,7 +45295,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤川政人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P689",
@@ -42839,7 +45353,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/藤木眞也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P690",
@@ -42891,7 +45411,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/船橋利実",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P691",
@@ -42957,7 +45483,13 @@
         "date": "2026-02",
         "pid": "P691"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/舟山康江",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P692",
@@ -43023,7 +45555,13 @@
         "date": "2025-10",
         "pid": "P692"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古川俊治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P693",
@@ -43075,7 +45613,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/星北斗",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P694",
@@ -43127,7 +45671,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/堀井巌",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P695",
@@ -43179,7 +45729,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/本田顕子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P696",
@@ -43231,7 +45787,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/舞立昇治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P697",
@@ -43297,7 +45859,13 @@
         "date": "2025-07",
         "pid": "P697"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/牧野たかお",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P698",
@@ -43349,7 +45917,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[牧野京夫]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P699",
@@ -43401,7 +45975,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/牧山ひろえ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P700",
@@ -43453,7 +46033,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[牧山弘惠]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P701",
@@ -43519,7 +46105,13 @@
         "date": "2026-03",
         "pid": "P701"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松川るい",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P702",
@@ -43637,7 +46229,13 @@
         "date": "2025-06",
         "pid": "P703"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松沢成文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P704",
@@ -43689,7 +46287,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松下新平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P705",
@@ -43755,7 +46359,13 @@
         "date": "2026-02",
         "pid": "P705"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松田学",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P706",
@@ -43807,7 +46417,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松野明美",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P707",
@@ -43925,7 +46541,13 @@
         "date": "2024-05",
         "pid": "P708"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松村祥史",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P709",
@@ -43991,7 +46613,13 @@
         "date": "2024-03",
         "pid": "P709"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/松山政司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P710",
@@ -44355,7 +46983,13 @@
         "date": "2024-05",
         "pid": "P715"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/三原じゅん子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P716",
@@ -44459,7 +47093,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宮崎勝",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P718",
@@ -44525,7 +47165,13 @@
         "date": "2024-03",
         "pid": "P718"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宮沢洋一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P719",
@@ -44747,7 +47393,13 @@
         "date": "2025-07",
         "pid": "P722"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/宮本周司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P723",
@@ -44799,7 +47451,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/村田享子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P724",
@@ -44917,7 +47575,13 @@
         "date": "2024-03",
         "pid": "P725"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/森まさこ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P726",
@@ -45035,7 +47699,13 @@
         "date": "2026-03",
         "pid": "P727"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/森ゆうこ",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P728",
@@ -45087,7 +47757,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[森裕子]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P729",
@@ -45139,7 +47815,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/森本真治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P730",
@@ -45257,7 +47939,13 @@
         "date": "2024-03",
         "pid": "P731"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山崎正昭",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P732",
@@ -45309,7 +47997,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山下雄平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P733",
@@ -45375,7 +48069,13 @@
         "date": "2026-03",
         "pid": "P733"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山添拓",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P734",
@@ -45441,7 +48141,13 @@
         "date": "2025-06",
         "pid": "P734"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山田太郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P735",
@@ -45507,7 +48213,13 @@
         "date": "2026-03",
         "pid": "P735"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山田宏",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P736",
@@ -45573,7 +48285,13 @@
         "date": "2025-05",
         "pid": "P736"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山田吉彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P737",
@@ -45651,7 +48369,13 @@
         "date": "2022-09",
         "pid": "P737"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山谷えり子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P738",
@@ -45717,7 +48441,13 @@
         "date": "2026-03",
         "pid": "P738"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[小川惠里子]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P739",
@@ -45769,7 +48499,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山中泉",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P740",
@@ -45821,7 +48557,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本啓介",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P741",
@@ -45873,7 +48615,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本佐知子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P742",
@@ -45925,7 +48673,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本順三",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P743",
@@ -45991,7 +48745,13 @@
         "date": "2025-09",
         "pid": "P743"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/横沢高徳",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P744",
@@ -46057,7 +48817,13 @@
         "date": "2026-03",
         "pid": "P744"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/横山信一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P745",
@@ -46123,7 +48889,13 @@
         "date": "2025-07",
         "pid": "P745"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/吉井章",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P746",
@@ -46241,7 +49013,13 @@
         "date": "2025-06",
         "pid": "P747"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/吉田忠智",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P748",
@@ -46293,7 +49071,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/ラサール石井",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P749",
@@ -46359,7 +49143,13 @@
         "date": "2024-03",
         "pid": "P749"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[石井朗夫]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P750",
@@ -46437,7 +49227,13 @@
         "date": "2022-06",
         "pid": "P750"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/renho_sha",
+      "wiki": "https://ja.wikipedia.org/wiki/蓮舫",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P751",
@@ -46503,7 +49299,13 @@
         "date": "2026-03",
         "pid": "P751"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/[齊藤蓮舫]",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P752",
@@ -46621,7 +49423,13 @@
         "date": "2025-06",
         "pid": "P753"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/若林洋平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P754",
@@ -46687,7 +49495,13 @@
         "date": "2025-07",
         "pid": "P754"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/脇雅昭",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P755",
@@ -46753,7 +49567,13 @@
         "date": "2024-05",
         "pid": "P755"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/渡辺猛之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P756",
@@ -46819,7 +49639,13 @@
         "date": "2025-05",
         "pid": "P756"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/suzukinaomichi",
+      "wiki": "https://ja.wikipedia.org/wiki/鈴木直道",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P757",
@@ -46871,7 +49697,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/三村申吾",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P758",
@@ -46923,7 +49755,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/tasso_iwate",
+      "wiki": "https://ja.wikipedia.org/wiki/達増拓也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P759",
@@ -46989,7 +49827,13 @@
         "date": "2025-07",
         "pid": "P759"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/murai_yoshihiro",
+      "wiki": "https://ja.wikipedia.org/wiki/村井嘉浩",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P760",
@@ -47041,7 +49885,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/佐竹敬久",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P761",
@@ -47093,7 +49943,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "https://x.com/yoshimura_mieko",
+      "wiki": "https://ja.wikipedia.org/wiki/吉村美栄子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P762",
@@ -47159,7 +50015,13 @@
         "date": "2024-03",
         "pid": "P762"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/uchibori_masao",
+      "wiki": "https://ja.wikipedia.org/wiki/内堀雅雄",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P763",
@@ -47499,7 +50361,13 @@
         "date": "2026-02",
         "pid": "P767"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kumagai_chiba",
+      "wiki": "https://ja.wikipedia.org/wiki/熊谷俊人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P768",
@@ -47577,7 +50445,13 @@
         "date": "2024-04",
         "pid": "P768"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ecoyuri",
+      "wiki": "https://ja.wikipedia.org/wiki/小池百合子",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P769",
@@ -47643,7 +50517,13 @@
         "date": "2025-07",
         "pid": "P769"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/kuroiwayuji",
+      "wiki": "https://ja.wikipedia.org/wiki/黒岩祐治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P770",
@@ -47695,7 +50575,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/花角英世",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P771",
@@ -47747,7 +50633,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/新田八朗",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P772",
@@ -47813,7 +50705,13 @@
         "date": "2026-03",
         "pid": "P772"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/hasehiroshi",
+      "wiki": "https://ja.wikipedia.org/wiki/馳浩",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P773",
@@ -47865,7 +50763,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/杉本達治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P774",
@@ -47931,7 +50835,13 @@
         "date": "2025-07",
         "pid": "P774"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/長崎幸太郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P775",
@@ -47983,7 +50893,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/阿部守一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P776",
@@ -48035,7 +50951,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/古田肇",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P777",
@@ -48087,7 +51009,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/川勝平太",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P778",
@@ -48153,7 +51081,13 @@
         "date": "2025-07",
         "pid": "P778"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/hideaki_ohmura",
+      "wiki": "https://ja.wikipedia.org/wiki/大村秀章",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P779",
@@ -48205,7 +51139,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/一見勝之",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P780",
@@ -48257,7 +51197,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/三日月大造",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P781",
@@ -48323,7 +51269,13 @@
         "date": "2026-02",
         "pid": "P781"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/西脇隆俊",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P782",
@@ -48389,7 +51341,13 @@
         "date": "2026-04",
         "pid": "P782"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/hiroyoshimura",
+      "wiki": "https://ja.wikipedia.org/wiki/吉村洋文",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P783",
@@ -48455,7 +51413,13 @@
         "date": "2026-01",
         "pid": "P783"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/motohikosaitoH",
+      "wiki": "https://ja.wikipedia.org/wiki/斎藤元彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P784",
@@ -48507,7 +51471,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/荒井正吾",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P785",
@@ -48573,7 +51543,13 @@
         "date": "2025-07",
         "pid": "P785"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/岸本周平",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P786",
@@ -48625,7 +51601,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/平井伸治",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P787",
@@ -48677,7 +51659,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/丸山達也",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P788",
@@ -48743,7 +51731,13 @@
         "date": "2025-06",
         "pid": "P788"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/伊原木隆太",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P789",
@@ -48809,7 +51803,13 @@
         "date": "2025-10",
         "pid": "P789"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/湯﨑英彦",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P790",
@@ -48875,7 +51875,13 @@
         "date": "2025-07",
         "pid": "P790"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/村岡嗣政",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P791",
@@ -48927,7 +51933,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/飯泉嘉門",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P792",
@@ -48993,7 +52005,13 @@
         "date": "2025-06",
         "pid": "P792"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/池田豊人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P793",
@@ -49059,7 +52077,13 @@
         "date": "2025-07",
         "pid": "P793"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/中村時広",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P794",
@@ -49125,7 +52149,13 @@
         "date": "2025-07",
         "pid": "P794"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/濵田省司",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P795",
@@ -49263,7 +52293,13 @@
         "date": "2025-01",
         "pid": "P796"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山口祥義",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P797",
@@ -49387,7 +52423,13 @@
         "date": "2024-05",
         "pid": "P798"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/蒲島郁夫",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P799",
@@ -49439,7 +52481,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/広瀬勝貞",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P800",
@@ -49491,7 +52539,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/河野俊嗣",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P801",
@@ -49543,7 +52597,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/塩田康一",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P802",
@@ -49609,7 +52669,13 @@
         "date": "2026-03",
         "pid": "P802"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/玉城デニー",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P803",
@@ -49661,7 +52727,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/浜田聡",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P804",
@@ -49713,7 +52785,13 @@
     "flag_crime": false,
     "flag_caution": false,
     "updated": "2026.06",
-    "survey": "評価済"
+    "survey": "評価済",
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/深田萌絵",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P805",
@@ -49831,7 +52909,13 @@
         "date": "2025-07",
         "pid": "P806"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/shinji_ishimaru",
+      "wiki": "https://ja.wikipedia.org/wiki/石丸伸二",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P807",
@@ -49897,7 +52981,13 @@
         "date": "2024-05",
         "pid": "P807"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/hashimoto_lo",
+      "wiki": "https://ja.wikipedia.org/wiki/橋下徹",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P808",
@@ -49963,7 +53053,13 @@
         "date": "2024-05",
         "pid": "P808"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/田中康夫",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P809",
@@ -50029,7 +53125,13 @@
         "date": "2024-05",
         "pid": "P809"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/higashi_kokuba",
+      "wiki": "https://ja.wikipedia.org/wiki/東国原英夫",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P810",
@@ -50095,7 +53197,13 @@
         "date": "2024-03",
         "pid": "P810"
       }
-    ]
+    ],
+    "links": {
+      "tw": "https://x.com/ozawa_j",
+      "wiki": "https://ja.wikipedia.org/wiki/小沢一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P811",
@@ -50161,7 +53269,13 @@
         "date": "1956-10",
         "pid": "P811"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/鳩山一郎",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P812",
@@ -50227,7 +53341,13 @@
         "date": "1996-01",
         "pid": "P812"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/菅直人",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P813",
@@ -50293,7 +53413,13 @@
         "date": "2000-07",
         "pid": "P813"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/森喜朗",
+      "hp": "",
+      "yt": ""
+    }
   },
   {
     "id": "P814",
@@ -50587,6 +53713,12 @@
         "date": "2026-02",
         "pid": "P816"
       }
-    ]
+    ],
+    "links": {
+      "tw": "",
+      "wiki": "https://ja.wikipedia.org/wiki/山本譲司",
+      "hp": "",
+      "yt": ""
+    }
   }
 ]
