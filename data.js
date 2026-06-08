@@ -5980,8 +5980,8 @@ const POLITICIANS = [
   {
     id:"P544", name:"片山 さつき", reading:"かたやま さつき", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:75, rank:"B",
-    axes:[4,4,3,4,4,4,4,3],
+    total:70, rank:"B-",
+    axes:[4,4,3,4,3,3,4,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"内閣府特命担当大臣等を歴任。経済財政政策や男女共同参画の実務に精通。", minus:"公開情報からは特筆すべき課題を確認できなかった。",
     comment:"元経済財政担当相。経済政策や男女共同参画で積極的な発信を行う重鎮。",
