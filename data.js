@@ -5983,7 +5983,7 @@ const POLITICIANS = [
     total:70, rank:"B-",
     axes:[4,4,3,4,3,3,4,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"内閣府特命担当大臣等を歴任。経済財政政策や男女共同参画の実務に精通。", minus:"主張が強硬であり、党内調整において軋轢を生む場合がある。",
+    plus:"内閣府特命担当大臣等を歴任。経済財政政策や男女共同参画の実務に精通。", minus:"公開情報からは特筆すべき課題を確認できなかった。",
     comment:"元経済財政担当相。経済政策や男女共同参画で積極的な発信を行う重鎮。",
     links:{hp:"https://www.google.com/search?q=%E7%89%87%E5%B1%B1%20%E3%81%95%E3%81%A4%E3%81%8D%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"https://x.com/katayama_s",wiki:"https://ja.wikipedia.org/wiki/片山さつき",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
