@@ -173,7 +173,7 @@ def main():
                     print(f"  🔄 修正RESET: {pid} {p['name']}")
                 else:
                     # 指定フィールドのみ上書き
-                    for key in ['total','rank','axes','stances','role',
+                    for key in ['total','rank','axes','stances','role','chamber',
                                 'plus','minus','comment','survey','party',
                                 'flag_crime','flag_caution','updated','gender','district','status']:
                         if key in item:

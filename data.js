@@ -8894,7 +8894,7 @@ const POLITICIANS = [
   },
   {
     id:"P809", name:"東国原 英夫", reading:"ひがしこくばる ひでお", party:"無所属", role:"元宮崎県知事（第52代・2007〜2011年）、元衆議院議員（日本維新の会・2012〜2014年）",
-    chamber:"候補", district:"", status:"元職", gender:"男", age:null,
+    chamber:"首長", district:"", status:"元職", gender:"男", age:null,
     total:70, rank:"B-",
     axes:[4,4,3,3,3,3,4,4],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
