@@ -7,7 +7,7 @@ const POLITICIANS = [
   {
     id:"P001", name:"逢沢 一郎", reading:"あいさわ いちろう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"岡山1", status:"現職", gender:"男", age:null,
-    total:63, rank:"B-",
+    total:62, rank:"C-",
     axes:[3,3,3,4,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"衆院規則委員長などの要職を歴任し、議会運営に貢献。", minus:"ベテランとしての独自のリーダーシップが見えにくいとの声。",
@@ -29,7 +29,7 @@ const POLITICIANS = [
   {
     id:"P003", name:"青柳 仁士", reading:"あおやぎ ひとし", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"大阪14", status:"現職", gender:"男", age:null,
-    total:68, rank:"B",
+    total:67, rank:"C+",
     axes:[3,4,3,3,4,4,3,3],
     stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"国連職員やJICAの経歴を活かした国際協力を提唱。", minus:"所属政党の枠組みを超えた広範な政策実現力は発展途上。",
@@ -51,7 +51,7 @@ const POLITICIANS = [
   {
     id:"P005", name:"青山 周平", reading:"あおやま しゅうへい", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"愛知12", status:"現職", gender:"男", age:null,
-    total:58, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"文部科学分野や幼児教育の無償化推進への関与。", minus:"政治資金問題に関連した報道による信頼面での課題。",
@@ -73,7 +73,7 @@ const POLITICIANS = [
   {
     id:"P007", name:"赤羽 一嘉", reading:"あかば かずよし", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"男", age:null,
-    total:73, rank:"B+",
+    total:72, rank:"B-",
     axes:[4,3,3,4,4,3,4,4],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"△",defense:"△",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"×",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"○",foreign:"○",food:"○",semi:"○"},
     plus:"国土交通大臣としての災害対応や観光支援の実績。", minus:"連立与党内での調整に終始し、独自の経済成長戦略が薄い。",
@@ -84,7 +84,7 @@ const POLITICIANS = [
   {
     id:"P008", name:"あかま 二郎", reading:"あかま じろう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"神奈川14", status:"現職", gender:"男", age:null,
-    total:59, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"国土交通副大臣や総務副大臣などの実務経験。", minus:"政治資金問題に伴う党内役職停止などの影響。",
@@ -95,7 +95,7 @@ const POLITICIANS = [
   {
     id:"P009", name:"秋葉 賢也", reading:"あきば けんや", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東北", status:"現職", gender:"男", age:null,
-    total:56, rank:"C+",
+    total:52, rank:"D",
     axes:[3,2,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"復興大臣として東日本大震災の復興事業を統括。", minus:"閣僚在任中の公職選挙法関連の疑惑と更迭劇。",
@@ -117,7 +117,7 @@ const POLITICIANS = [
   {
     id:"P011", name:"浅野 哲", reading:"あさの さとし", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"茨城5", status:"現職", gender:"男", age:null,
-    total:71, rank:"B+",
+    total:70, rank:"B-",
     axes:[4,4,3,4,3,4,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"◎"},
     plus:"民間（日立製作所）出身で、科学技術や産業政策に強み。", minus:"野党議員としての法案可決実績の絶対数が限定的。",
@@ -128,7 +128,7 @@ const POLITICIANS = [
   {
     id:"P012", name:"東 国幹", reading:"あずま くによし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"北海道6", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,3,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"◎",semi:"○"},
     plus:"北海道の農林水産業や食料安全保障の強化を牽引。", minus:"全国区のテーマにおける知名度や独自政策の提示に課題。",
@@ -139,7 +139,7 @@ const POLITICIANS = [
   {
     id:"P013", name:"東 徹", reading:"あずま とおる", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"大阪3", status:"現職", gender:"男", age:null,
-    total:70, rank:"B+",
+    total:70, rank:"B-",
     axes:[3,4,3,4,4,3,4,3],
     stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"身を切る改革の徹底や、社会保障制度の効率化を推進。", minus:"既得権益批判に偏り、中長期の成長投資へのビジョンが弱い。",
@@ -150,7 +150,7 @@ const POLITICIANS = [
   {
     id:"P014", name:"畦元 将吾", reading:"あぜもと しょうご", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"東京6", status:"現職", gender:"男", age:null,
-    total:57, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"診療放射線技師の経験を活かした医療インフラ整備。", minus:"政治資金関連の不記載処分によるガバナンス面の懸念。",
@@ -183,7 +183,7 @@ const POLITICIANS = [
   {
     id:"P017", name:"阿部 司", reading:"あべ つかさ", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東京", status:"現職", gender:"男", age:null,
-    total:65, rank:"B",
+    total:65, rank:"C",
     axes:[3,4,3,3,4,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"若手現役世代の負担軽減や税制改革の積極提言。", minus:"法案の成立を主導する党内影響力はこれからの段階。",
@@ -194,7 +194,7 @@ const POLITICIANS = [
   {
     id:"P018", name:"あべ 俊子", reading:"あべ としこ", party:"自民党", role:"文部科学大臣",
     chamber:"衆議院", district:"比例・中国", status:"現職", gender:"女", age:null,
-    total:70, rank:"B+",
+    total:70, rank:"B-",
     axes:[4,3,3,4,3,4,4,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"文部科学大臣などの閣僚経験、医療・教育に高い専門性。", minus:"既存の社会保障・医療利権からの脱却への懸念。",
@@ -205,7 +205,7 @@ const POLITICIANS = [
   {
     id:"P019", name:"阿部 弘樹", reading:"あべ ひろき", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,3,3,3,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"医師としての知見を活かした地域医療・福祉政策。", minus:"政治資金を巡る過去の不記載報道が倫理面で課題。",
@@ -216,7 +216,7 @@ const POLITICIANS = [
   {
     id:"P020", name:"有田 芳生", reading:"ありた よしふ", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東北", status:"現職", gender:"男", age:null,
-    total:62, rank:"B-",
+    total:62, rank:"C-",
     axes:[3,2,2,3,4,3,4,4],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"×",defense:"×",econ_sec:"△",immigration:"○",renewable:"◎",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"○",education:"○",regional:"△",china:"○",foreign:"△",food:"○",semi:"△"},
     plus:"拉致問題への長年の取り組みや、カルト宗教問題の追及。", minus:"経済政策の具体策や財政成長戦略のビジョンが乏しい。",
@@ -227,7 +227,7 @@ const POLITICIANS = [
   {
     id:"P021", name:"安藤 たかお", reading:"あんどう たかお", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"東京28", status:"現職", gender:"男", age:null,
-    total:59, rank:"C+",
+    total:57, rank:"D",
     axes:[4,3,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"医療法人理事長としての現場発のコロナ対策提言。", minus:"政治資金問題に伴う党からの処分歴による不信感。",
@@ -238,7 +238,7 @@ const POLITICIANS = [
   {
     id:"P022", name:"飯泉 嘉門", reading:"いいずみ かもん", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・四国", status:"現職", gender:"男", age:null,
-    total:71, rank:"B+",
+    total:72, rank:"B-",
     axes:[4,4,3,4,3,4,4,3],
     stances:{tax_cut:"○",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"徳島県知事5期の行政実績、全国知事会長の経験。", minus:"中央官僚・知事歴が長く、国政での斬新な野党色の薄さ。",
@@ -249,7 +249,7 @@ const POLITICIANS = [
   {
     id:"P023", name:"五十嵐 清", reading:"いがらし きよし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"栃木2", status:"現職", gender:"男", age:null,
-    total:57, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"栃木県議時代からの地域密着の行政インフラ整備。", minus:"派閥の政治資金問題による国民の説明責任批判。",
@@ -260,7 +260,7 @@ const POLITICIANS = [
   {
     id:"P024", name:"池下 卓", reading:"いけした たく", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"大阪10", status:"現職", gender:"男", age:null,
-    total:63, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,4,3,3,3,3,3,2],
     stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"税理士としての知見を活かした税制是正の提言。", minus:"地元議員秘書の給与肩代わり報道などのトラブル。",
@@ -271,7 +271,7 @@ const POLITICIANS = [
   {
     id:"P025", name:"池畑 浩太朗", reading:"いけはた こうたろう", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"男", age:null,
-    total:64, rank:"B-",
+    total:62, rank:"C-",
     axes:[3,4,3,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"◎",semi:"○"},
     plus:"岡山・倉敷の被災地復興や防災インフラの推進。", minus:"全国的な政策議論における独自の存在感がやや希薄。",
@@ -293,7 +293,7 @@ const POLITICIANS = [
   {
     id:"P027", name:"石井 啓一", reading:"いしい けいいち", party:"無所属", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:75, rank:"A-",
+    total:75, rank:"B",
     axes:[4,3,3,5,4,3,4,4],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"△",defense:"△",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"○",foreign:"○",food:"○",semi:"○"},
     plus:"国土交通大臣を4年務めた、高い実務・インフラ管理力。", minus:"個人の強力な経済ビジョンに欠ける。",
@@ -304,7 +304,7 @@ const POLITICIANS = [
   {
     id:"P028", name:"石井 拓", reading:"いしい たく", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"愛知13", status:"現職", gender:"男", age:null,
-    total:56, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"愛知県議出身としての自動車・ものづくり産業への理解。", minus:"政治資金パーティーの不記載による国民への説明不足。",
@@ -315,7 +315,7 @@ const POLITICIANS = [
   {
     id:"P029", name:"石川 昭政", reading:"いしかわ あきまさ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:58, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,3,3,2,3,3,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"経済産業副大臣としてエネルギー・DX政策の推進。", minus:"派閥の政治資金不記載問題に関与、説明の誠実さに懸念。",
@@ -359,7 +359,7 @@ const POLITICIANS = [
   {
     id:"P033", name:"石破 茂", reading:"いしば しげる", party:"自民党", role:"衆議院議員（第102代・103代内閣総理大臣）",
     chamber:"衆議院", district:"鳥取1", status:"現職", gender:"男", age:null,
-    total:82, rank:"A-",
+    total:85, rank:"A",
     axes:[4,4,5,4,4,5,4,4],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"◎",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"○",regional:"◎",china:"△",foreign:"◎",food:"○",semi:"◎"},
     plus:"第102・103代首相。防衛相を4期歴任、安全保障政策の第一人者。地方創生担当相として地域活性化を推進。", minus:"党内基盤が脆弱で長年リーダー候補に留まり続けた。発信力に比べ調整力への評価が分かれる。",
@@ -524,7 +524,7 @@ const POLITICIANS = [
   {
     id:"P048", name:"伊東 良孝", reading:"いとう よしたか", party:"自民党", role:"衆議院議員（元農林水産副大臣）",
     chamber:"衆議院", district:"比例・北海道", status:"現職", gender:"男", age:null,
-    total:62, rank:"D",
+    total:62, rank:"C-",
     axes:[3,3,3,4,2,4,4,2],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"×",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"×",foreign:"○",food:"◎",semi:"○"},
     plus:"北海道選出として水産業・酪農業の保護や、北方領土元島民への支援、地域防災への注力。", minus:"自民党派閥の政治資金収支報告書不記載問題において党から処分を受けたことによる信頼性懸念。",
@@ -579,7 +579,7 @@ const POLITICIANS = [
   {
     id:"P053", name:"井上 信治", reading:"いのうえ しんじ", party:"自民党", role:"衆議院議員（元国際博覧会担当大臣）",
     chamber:"衆議院", district:"東京25", status:"現職", gender:"男", age:null,
-    total:75, rank:"B-",
+    total:75, rank:"B",
     axes:[3,4,4,4,3,4,4,4],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"◎"},
     plus:"万博担当相や科学技術担当相を歴任。先端技術投資や宇宙開発、知財戦略の推進。", minus:"大型プロジェクトの進捗管理が主であり、庶民の物価高対策の独自発信が薄い点。",
@@ -722,7 +722,7 @@ const POLITICIANS = [
   {
     id:"P066", name:"上田 英俊", reading:"うえだ えいしゅん", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"富山2", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,2,2,4,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"障がい者雇用支援センター誘致・海岸防災林整備など具体的な政策実現実績あり。政務官3つ兼務で行政手腕を発揮。県議22年の豊富な地方行政経験。", minus:"経済・財政・安全保障分野での独自政策が見えない。国政での政策発信力・存在感がやや薄い。",
@@ -766,7 +766,7 @@ const POLITICIANS = [
   {
     id:"P070", name:"浮島 智子", reading:"うきしま ともこ", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北海道", status:"現職", gender:"女", age:null,
-    total:72, rank:"B-",
+    total:70, rank:"B-",
     axes:[4,3,3,4,3,3,4,4],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"△",defense:"△",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"×",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"○",foreign:"○",food:"○",semi:"○"},
     plus:"文部科学副大臣等の経験。給付型奨学金の拡充や文化芸術振興への多大な貢献。", minus:"連立与党の枠組み内の調整を優先する立ち位置から、独自の抜本税制改革に制限。",
@@ -777,7 +777,7 @@ const POLITICIANS = [
   {
     id:"P071", name:"宇佐美 登", reading:"うさみ のぼる", party:"チームみらい", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東京", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,2,4,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"◎",immigration:"○",renewable:"◎",nuclear:"△",expo:"○",ir:"△",mynumber:"◎",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"◎"},
     plus:"1993年26歳初当選。携帯電話自由化・PL法・障害者基本法・情報公開法の成立に尽力。", minus:"長い落選期間あり。チームみらいでの新たな実績はこれから。",
@@ -788,7 +788,7 @@ const POLITICIANS = [
     {
     id:"P072", name:"臼木 秀剛", reading:"うすき ひでたけ", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北海道", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,3,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"長年の秘書・党職員経験を活かし、初当選から政治改革関連法案の提出者・国対委員長代理・国土交通委員会理事として即戦力を発揮。予算審議の賛成討論など幅広く活躍。", minus:"比例当選のため地元地盤が弱い。政策の独自ブランド確立がこれからの課題。",
@@ -799,7 +799,7 @@ const POLITICIANS = [
   {
     id:"P073", name:"内山 こう", reading:"うちやま こう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"新潟1", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,2,2,4,3,3,3,4],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"市議3期11年でJR上所駅開業への貢献・スケートボードパーク創設・住民バス実証実験・条例制定など具体的な地域課題解決の実績多数。子どもへのボランティア塾も主宰する公益意識の高さ。", minus:"国政での政策立案実績はまだ蓄積段階。経済・安全保障分野での国家的ビジョンが見えにくい。",
@@ -865,7 +865,7 @@ const POLITICIANS = [
   {
     id:"P079", name:"衛藤 博昭", reading:"えとう ひろあき", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"大分1", status:"現職", gender:"男", age:null,
-    total:57, rank:"C+",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"慶應大→三菱重工業9年の民間経験を活かした経済・産業政策への提言。アドベンチャーツーリズム推進・DX支援など先進的地域施策を提唱。積極財政・減税・東九州インフラ投資の明確なビジョン。", minus:"県議2期での具体的な政策成果（法令化等）の確認が限定的。国政1期目でこれから実績を積む段階。",
@@ -931,7 +931,7 @@ const POLITICIANS = [
   {
     id:"P085", name:"大島 敦", reading:"おおしま あつし", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,2,4,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"求職者支援制度を議員立法で創設。内閣府副大臣・総務副大臣歴任。核融合推進議連会長。", minus:"長年野党議員で政策実現が限定的。",
@@ -964,7 +964,7 @@ const POLITICIANS = [
   {
     id:"P088", name:"大西 洋平", reading:"おおにし ようへい", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"東京16", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,2,3,4,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"◎",food:"○",semi:"○"},
     plus:"東京23区初のインターネット健全利用促進条例を議員発議で実現。外務大臣政務官として日本の経済外交・アフリカ外交（ジブチ・ウガンダ等）を推進し実績を蓄積。", minus:"国内経済・財政政策での独自の提言が見えにくい。国政1期目でさらなる政策立案実績が求められる。",
@@ -986,7 +986,7 @@ const POLITICIANS = [
   {
     id:"P090", name:"大森 江里子", reading:"おおもり えりこ", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東京", status:"現職", gender:"女", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"税理士として中小企業経営救済の実務。予算委で確定申告期限延長・事業承継税制を提言。", minus:"国政1期目。",
@@ -1008,7 +1008,7 @@ const POLITICIANS = [
     {
     id:"P092", name:"岡野 純子", reading:"おかの じゅんこ", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・南関東", status:"現職", gender:"女", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"浦安市議12年で病児保育施設設立を実現した具体的実績あり。元NHKアナとしての発信力と医療・子育ての専門知識を活かし、厚労委で周産期医療改革・医師偏在解消・サプライチェーン適正化を積極的に質疑。", minus:"安保分野での独自政策が薄い。比例復活当選が続いており地盤強化が課題。",
@@ -1030,7 +1030,7 @@ const POLITICIANS = [
   {
     id:"P094", name:"岡本 康宏", reading:"おかもと やすひろ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"愛知5", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,2,1,3,3,3,4,3],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"◎",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"名大医学博士・小牧市民病院歯科口腔外科部長・厚労省特別医療指導監査官・保護司という多重専門家経歴。厚生労働委員会での専門的質問活動で医療保険制度改善に貢献。", minus:"安全保障・外交・経済財政分野での政策発信が極めて薄い。医療分野に特化した専門家型議員の限界がある。",
@@ -1096,7 +1096,7 @@ const POLITICIANS = [
     {
     id:"P100", name:"小竹 凱", reading:"おだけ かい", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北陸信越", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,2,2,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"26歳で初当選した若手の星。大林組での建設現場経験を政策に直結させ、103万の壁撤廃・手取り増加を積極発信。石川県連代表として地方組織を牽引し、2期目でキャリアを着実に積み上げる。", minus:"2期目ながら国会での具体的な立法実績はまだ少ない。建設・経済分野への特化が強く政策の幅が課題。",
@@ -1151,7 +1151,7 @@ const POLITICIANS = [
   {
     id:"P105", name:"尾花 瑛仁", reading:"おばな あきひと", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"埼玉6", status:"現職", gender:"男", age:null,
-    total:57, rank:"C+",
+    total:57, rank:"D",
     axes:[3,2,2,4,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"上尾市議・埼玉県議・衆議院議員と段階的に経験を積んだインフラ推進型議員。ブルーインパルス誘致成功・上尾道路整備推進・首都高延伸・5か年計画への埼玉の役割明記など具体的な成果。", minus:"経済・財政・安全保障分野での国家的ビジョンが見えにくい。地域密着型の実績中心で国政全体への貢献はこれから。",
@@ -1591,7 +1591,7 @@ const POLITICIANS = [
   {
     id:"P145", name:"木下 敏之", reading:"きのした としゆき", party:"参政党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"◎",econ_sec:"○",immigration:"×",renewable:"×",nuclear:"○",expo:"△",ir:"△",mynumber:"×",birthrate:"◎",education:"○",regional:"○",china:"×",foreign:"○",food:"◎",semi:"○"},
     plus:"佐賀市長2期（入札電子化・行政改革断行）。福岡大教授13年（地域経済・九州産業の海外展開研究）。", minus:"参政党の政策（移民×・再エネ×）に縛られる部分あり。",
@@ -1635,7 +1635,7 @@ const POLITICIANS = [
   {
     id:"P149", name:"金城 泰邦", reading:"きんじょう やすくに", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,2,3,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"文科大臣政務官（石破内閣）。学校働き方改革を主導。インクルーシブ教育を自身の子育て経験から推進。", minus:"沖縄離島振興は地元寄りの側面も。",
@@ -1646,7 +1646,7 @@ const POLITICIANS = [
   {
     id:"P150", name:"草間 剛", reading:"くさま つよし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"神奈川19", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,2,2,4,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"横浜市議3期12年で7本の議員提案条例制定・マニフェスト大賞グランプリ3回受賞・地下鉄延伸合意形成。地方議員選挙ビラ配布解禁という公職選挙法改正を実現させた政策実現力。", minus:"国政1期目でこれからの段階。自民党内改革や地方議会との連携以外での国家的政策ビジョンが不明確。",
@@ -1723,7 +1723,7 @@ const POLITICIANS = [
   {
     id:"P157", name:"栗原 渉", reading:"くりはら わたる", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"福岡5", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,2,2,4,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"◎",semi:"○"},
     plus:"福岡県議11年（第69代議長就任）という豊富な地方行政経験。九州北部豪雨の復興支援に現地視察を重ねて対応。農林水産委員会委員長・農協組合長歴任。厚生労働大臣政務官に就任し社会保障政策を担当。", minus:"経済財政・安全保障分野での独自政策が見えにくい。地方重視・地域密着型で国政全体のビジョン発信がやや薄い。",
@@ -1745,7 +1745,7 @@ const POLITICIANS = [
   {
     id:"P159", name:"黒田 征樹", reading:"くろだ まさき", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"大阪16", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,3,3,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"堺市議4期（議員報酬2割カット・不祥事追及・行財政改革）。2026年公明との最激戦区を2連覇。", minus:"国政2期目で立法実績はまだ積み上げ中。",
@@ -1756,7 +1756,7 @@ const POLITICIANS = [
   {
     id:"P160", name:"小池 正昭", reading:"こいけ まさあき", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"千葉10", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,2,3,3,2,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"×",food:"◎",semi:"○"},
     plus:"市議4期・県議4期（計8期）の豊富な地方議員経験。北千葉道路建設推進議員連盟事務局長として道路インフラ整備を推進。「海業」による水産・観光融合型地域振興を牽引。", minus:"国政1期目で国家レベルの政策立案実績はまだ限定的。安全保障・外交分野での独自提言が見えない。",
@@ -1888,7 +1888,7 @@ const POLITICIANS = [
     {
     id:"P172", name:"許斐 亮太郎", reading:"このみ りょうたろう", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"◎",semi:"○"},
     plus:"NHK25年のカメラマン経験を活かした現場主義の政策立案。18歳の壁・年少扶養控除・自動車ユーザー負担軽減・政党ガバナンス強化等の議員立法を複数提出し実績を積む。農林水産業支援でも積極的に陳情。", minus:"安保分野での政策発信が薄い。比例復活当選が続いており地盤強化が課題。",
@@ -1954,7 +1954,7 @@ const POLITICIANS = [
   {
     id:"P178", name:"今 洋佑", reading:"こん ようすけ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北陸信越", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"△",food:"◎",semi:"○"},
     plus:"33歳での大野市副市長就任、CWP創設による水資源活用型地域振興モデルの確立。東ティモールへの国際貢献で国土交通大臣賞受賞。官民学連携による政策実装能力が高い。", minus:"国政1期目で国会での立法実績はこれから。内閣府官僚出身としての財政・経済政策への踏み込みはまだ見えない。",
@@ -1987,7 +1987,7 @@ const POLITICIANS = [
   {
     id:"P181", name:"斉木 武志", reading:"さいき たけし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"福井2", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,2,3,4,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"NHKアナウンサー出身の鋭い追及力で「三ツ星国会議員」を複数回受賞。東京五輪業務委託費の不透明な高額費用を暴露するなど権力監視機能を発揮。地元福井の道路・雇用・医療政策での成果も実績。", minus:"日本維新の会から自民党会派への党籍変更は政治信念の一貫性に疑問符。安全保障分野での独自政策立案は限定的。",
@@ -1998,7 +1998,7 @@ const POLITICIANS = [
   {
     id:"P182", name:"西條 昌良", reading:"さいじょう まさよし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,2,3,3,2,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"×",food:"○",semi:"○"},
     plus:"茨城県議8期（約32年）、県議会議長・自民党茨城県連幹事長を歴任した地方政治のベテラン。鹿島開発の継承とカーボンニュートラル対応など地域産業の近代化を推進。", minus:"国政1期目で国会での実績はこれから。高齢での国政転身であり中長期的な貢献への課題あり。",
@@ -2504,7 +2504,7 @@ const POLITICIANS = [
   {
     id:"P228", name:"園崎 弘道", reading:"そのさき ひろみち", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"京都6", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,2,3,3,2,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"城陽市議2期・京都府議4期（計17年）の地方議員経験。日本パラ・パワーリフティング連盟会長としてパラスポーツ振興を牽引。京都大学公共政策大学院で政策を学び直す向学心。", minus:"国政1期目で立法・政策立案の実績はこれから。地域中心の活動が多く、国政での独自の存在感はまだ弱い。",
@@ -2570,7 +2570,7 @@ const POLITICIANS = [
     {
     id:"P234", name:"高沢 一基", reading:"たかざわ かずもと", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東京", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,3,2,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"○",defense:"◎",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"板橋区議4期・監査委員として地方行政を深く理解し、住民相談2,000件超の地域密着実績。予備自衛官3等陸曹という防衛現場の経験を持ち、安保政策を独自の視点で推進。", minus:"国政初当選したばかりで立法実績はこれから。板橋区域外での知名度・影響力が限定的。",
@@ -3076,7 +3076,7 @@ const POLITICIANS = [
   {
     id:"P280", name:"中川 貴元", reading:"なかがわ たかもと", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東海", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,2,4,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"◎",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"名古屋市議7期（議長・指定都市議長会会長）という圧倒的な地方議会経験。総務大臣政務官として地方自治・消防担当で行政手腕を発揮。デジタル庁での地方DX推進にも従事。", minus:"財務金融委員会理事を務めるが経済・財政分野での独自政策提言は見えにくい。安全保障分野への関与も限定的。",
@@ -3087,7 +3087,7 @@ const POLITICIANS = [
   {
     id:"P281", name:"中川 宏昌", reading:"なかがわ ひろまさ", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北陸信越", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"長野銀行18年・長野県議3期。防災庁設置法審議で積極質問。民間ボランティア登録制度を提言。", minus:"国政1期目。",
@@ -3142,7 +3142,7 @@ const POLITICIANS = [
   {
     id:"P286", name:"中曽根 康隆", reading:"なかそね やすたか", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"群馬1", status:"現職", gender:"男", age:null,
-    total:62, rank:"B-",
+    total:62, rank:"C-",
     axes:[3,3,4,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"×",foreign:"×",food:"○",semi:"○"},
     plus:"JPモルガン証券出身の財務・経済知識に加え、防衛大臣政務官・安全保障委員会理事として防衛力強化に貢献。自民党青年局長として台湾などとの青年外交を牽引。", minus:"安全保障以外の政策分野（経済財政・社会保障）での独自立法・政策実績が薄い。祖父・父からの政治的地盤を継いだ側面もある。",
@@ -3153,7 +3153,7 @@ const POLITICIANS = [
   {
     id:"P287", name:"中田 宏", reading:"なかだ ひろし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"富山1", status:"現職", gender:"男", age:null,
-    total:70, rank:"B+",
+    total:70, rank:"B-",
     axes:[4,4,3,4,3,4,3,3],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"横浜市長2期（2002〜2010年）で約1兆円の市債削減・G30ごみ40%削減を実現した行政改革の実績は際立つ。事業仕分けの先駆けとなる外部評価・民活推進でも先導。国土規制法の議員立法提出。", minus:"複数政党にまたがる政治キャリアにより一貫した政策路線が見えにくい場面も。国政での立法実績は横浜市政の実績と比較すると限定的。",
@@ -3373,7 +3373,7 @@ const POLITICIANS = [
   {
     id:"P307", name:"西岡 義高", reading:"にしおか よしたか", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・南関東", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,3,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"地方制度調査会事務局長として「特別市」法案化を主導。高専卒業生の学位授与実現を推進。", minus:"初当選で国政実績の積み上げはこれから。",
@@ -3472,7 +3472,7 @@ const POLITICIANS = [
   {
     id:"P316", name:"西山 尚利", reading:"にしやま なおとし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"福島1", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,2,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"×",food:"○",semi:"○"},
     plus:"約30年の福島県議経験と県議会議長歴任。東日本大震災復興の現場で地域の声を県政に反映し続けた実績。全国都道府県議長会での地方自治推進活動も評価。", minus:"国政1期目で国会での立法・政策立案はこれから。地元中心の活動が多く、国家レベルの政策への本格的な関与はまだ見えない。",
@@ -3527,7 +3527,7 @@ const POLITICIANS = [
   {
     id:"P321", name:"根本 拓", reading:"ねもと たく", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"福島2", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,2,2,3,3,3,3,4],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"△",food:"◎",semi:"○"},
     plus:"国会初当選ながら台湾の福島産食品輸入規制「完全撤廃」を直接交渉で引き出し食料安全保障に貢献。除染土壌の安全な再生利用に向けた政府基本方針への文言反映。東大首席卒業・ハーバードLL.M.・OECD勤務・国際弁護士の卓越した知的基盤。", minus:"国政1期目で実績はまだ限られる。父（根本匠元厚労相）の地盤に依拠した当選の側面もある。",
@@ -3593,7 +3593,7 @@ const POLITICIANS = [
   {
     id:"P327", name:"野村 美穂", reading:"のむら みほ", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東海", status:"現職", gender:"女", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,2,2,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"岐阜県議5期。性暴力被害者支援センター設立主導。SDGs推進課設置に貢献。", minus:"国政初当選で立法実績はこれから。",
@@ -3615,7 +3615,7 @@ const POLITICIANS = [
   {
     id:"P329", name:"萩原 佳", reading:"はぎはら けい", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"大阪9", status:"現職", gender:"女", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,3,2,2,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"公認会計士・税理士。税制改革への専門的提言。現代家族形態に合わせた法案提出。", minus:"具体的な立法実現の詳細が少ない。",
@@ -3824,7 +3824,7 @@ const POLITICIANS = [
   {
     id:"P348", name:"平沼 正二郎", reading:"ひらぬま しょうじろう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・中国", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,3,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"×",foreign:"×",food:"○",semi:"○"},
     plus:"IT企業（リブート株式会社）の創業・経営経験を持つ実業家出身。内閣府大臣政務官として国土強靱化・防災を担当。自民党青年局長として台湾との安保・経済対話を強化。", minus:"政務官は担当したが、独自の大型政策立案への貢献はまだ見えにくい。農業・第一次産業振興への掲げる政策はまだ発信段階。",
@@ -4154,7 +4154,7 @@ const POLITICIANS = [
   {
     id:"P378", name:"細野 豪志", reading:"ほその ごうし", party:"自民党", role:"衆議院議員（元環境大臣）",
     chamber:"衆議院", district:"静岡5", status:"現職", gender:"男", age:null,
-    total:65, rank:"C+",
+    total:65, rank:"C",
     axes:[4,4,4,4,2,2,2,4],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"×",foreign:"◎",food:"○",semi:"◎"},
     plus:"環境相等の閣僚経験。外交・安保分野での論理的かつ説得力ある発信力。", minus:"民進党→希望の党→無所属→自民党と4度の党籍変更を繰り返し、野党分裂・崩壊を加速させた。「小池百合子が嫌いで合流した」と言われるほど個人的思惑を優先。野党が政権交代の受け皿となる機会を逸する一因となった。",
@@ -4484,7 +4484,7 @@ const POLITICIANS = [
   {
     id:"P408", name:"向山 好一", reading:"むこやま こういち", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"男", age:null,
-    total:60, rank:"B-",
+    total:60, rank:"C-",
     axes:[3,3,3,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"神戸市議2期・兵庫県議2期。国対委員長代理。尖閣3度視察等、安保・拉致問題に積極的。", minus:"国土交通・環境委中心で経済安保等の新領域は課題。",
@@ -4561,7 +4561,7 @@ const POLITICIANS = [
   {
     id:"P415", name:"村上 智信", reading:"むらかみ とものぶ", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"経産省21年（医療福祉機器産業室長・IT政策）。青森・消費者庁等への出向経験豊富。", minus:"比例復活2期目で地元地盤は薄い。",
@@ -4605,7 +4605,7 @@ const POLITICIANS = [
   {
     id:"P419", name:"森 ようすけ", reading:"もり ようすけ", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東京", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"環境省官僚→企業経営者。年少扶養控除復活法案提出。初当選から30回超の国会質疑。", minus:"1期目で政策実現はこれから。",
@@ -4616,7 +4616,7 @@ const POLITICIANS = [
   {
     id:"P420", name:"森下 千里", reading:"もりした ちさと", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"宮城4", status:"現職", gender:"女", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,2,2,3,3,2,4,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"環境大臣政務官として環境政策の推進に携わる。安住淳10期連続当選を破った選挙力。宮城移住後の地道な辻立ちと対話集会で地域密着型の政治基盤を確立。", minus:"タレント出身の知名度先行であり、独自の政策立案実績が薄い。環境政策以外の分野での政治的存在感は限定的。",
@@ -4660,7 +4660,7 @@ const POLITICIANS = [
   {
     id:"P424", name:"保岡 宏武", reading:"やすおか ひろたけ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[2,2,3,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"○",immigration:"×",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"×",foreign:"×",food:"○",semi:"○"},
     plus:"安全保障委員会与党理事として防衛力強化・離島防衛を推進。再審法改正で検察抗告制限に関する重要な法務省答弁を引き出し、冤罪救済の法的前進に貢献。奄美群島振興のパイプ役。", minus:"国政での総合的な政策立案実績はまだ限定的。鹿児島・奄美という地域色が強く、国家レベルの存在感は発展途上。",
@@ -4737,7 +4737,7 @@ const POLITICIANS = [
   {
     id:"P431", name:"山崎 正恭", reading:"やまさき まさやす", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・四国", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,2,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"中学教員24年。COCOLOプランに自身の主張を反映。不登校対策・デジタル教科書負担軽減を実現。", minus:"国政での実績は比例のみの経験。",
@@ -4814,7 +4814,7 @@ const POLITICIANS = [
   {
     id:"P438", name:"山本 香苗", reading:"やまもと かなえ", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"女", age:null,
-    total:62, rank:"B-",
+    total:62, rank:"C-",
     axes:[3,3,3,4,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"外務省キャリア（トルコ語・カザフ語等4か国語）。厚労副大臣。困難女性支援法・造血幹細胞法など議員立法16本以上。", minus:"公明党から中道改革連合への移行で求心力に変化。",
@@ -4847,7 +4847,7 @@ const POLITICIANS = [
   {
     id:"P441", name:"山本 深", reading:"やまもと しん", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"広島5", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[2,3,3,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"×",foreign:"△",food:"○",semi:"○"},
     plus:"財務省で世界銀行担当として50億ドル超のウクライナ支援スキームを実現。広島市×世界銀行パートナーシップを自ら企画・半年で締結させた構想力と実行力。ロシア制裁・G7協調の実務担当。", minus:"国政1期目かつ財務省在籍は約4年と短く、政策立案の幅広い実績はまだ限定的。短期間での国政転身で地元基盤も浅い。",
@@ -4880,7 +4880,7 @@ const POLITICIANS = [
   {
     id:"P444", name:"横田 光弘", reading:"よこた みつひろ", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"比例・南関東", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[2,3,3,2,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"松下政経塾2期生。神奈川県議2期。IT会社代表。外務委で中国の南極資源問題を提起。", minus:"政経塾後の長いキャリアを経て国政は初当選。",
@@ -5012,7 +5012,7 @@ const POLITICIANS = [
   {
     id:"P456", name:"鷲尾 英一郎", reading:"わしお えいいちろう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"新潟4", status:"現職", gender:"男", age:null,
-    total:65, rank:"B",
+    total:65, rank:"C",
     axes:[3,4,3,4,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"◎",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"×",foreign:"△",food:"◎",semi:"○"},
     plus:"公認会計士・税理士の専門知識を活かし行政改革推進本部副本部長・政務調査会長代理など財政・税制分野で貢献。菅内閣で外務副大臣を歴任し国際保健での日本の存在感向上に貢献。農水政務官・環境委員長も歴任した多分野の実績。", minus:"柏崎刈羽原発再稼働推進などエネルギー政策での地元利害と国益のバランスが課題。安全保障分野での独自の大型政策立案は限定的。",
@@ -5100,7 +5100,7 @@ const POLITICIANS = [
   {
     id:"P464", name:"渡辺 創", reading:"わたなべ そう", party:"中道改革連合", role:"衆議院議員",
     chamber:"衆議院", district:"宮崎1", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"毎日新聞政治部記者→宮崎県議3期。農林水産委で「地域計画」課題に大臣答弁を引き出す。保守王国宮崎で小選挙区3連覇。", minus:"農業・地方政策以外の分野は手薄。",
@@ -5232,7 +5232,7 @@ const POLITICIANS = [
   {
     id:"P476", name:"安達 悠司", reading:"あだち ゆうじ", party:"参政党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[2,2,3,3,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"◎",econ_sec:"○",immigration:"×",renewable:"×",nuclear:"○",expo:"△",ir:"△",mynumber:"×",birthrate:"◎",education:"○",regional:"○",china:"×",foreign:"○",food:"◎",semi:"○"},
     plus:"京大法卒の弁護士。法務委・憲法審査会幹事。「創憲」活動で市民の憲法議論を促進。", minus:"参政党の排他的政策（移民×・マイナ×）が制約。",
@@ -5474,7 +5474,7 @@ const POLITICIANS = [
   {
     id:"P498", name:"伊藤 辰夫", reading:"いとう たつお", party:"国民民主党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"愛知県議5期18年（議会運営委員長・幹事長・監査委員歴任）。名古屋港管理組合要職。", minus:"国政1期目で具体的な政策実績はこれから。",
@@ -5793,7 +5793,7 @@ const POLITICIANS = [
   {
     id:"P527", name:"岡崎 太", reading:"おかざき ふとし", party:"日本維新の会", role:"参議院議員",
     chamber:"参議院", district:"大阪", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"大阪市議4期14年（吉村同期）。大阪市債5兆→2兆台に半減。大阪メトロ民営化に関与。", minus:"国政1期目。地方議員として実績を積んだが国政でのリーダーシップはこれから。",
@@ -5925,7 +5925,7 @@ const POLITICIANS = [
   {
     id:"P539", name:"かごしま 彰宏", reading:"かごしま あきひろ", party:"国民民主党", role:"参議院議員",
     chamber:"参議院", district:"神奈川", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"農水省キャリア→OECD政策アナリスト→WWF。農林水産委員会理事として農業政策を即戦力で担う。", minus:"国政1期目。",
@@ -5947,7 +5947,7 @@ const POLITICIANS = [
   {
     id:"P541", name:"梶原 大介", reading:"かじはら だいすけ", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,2,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"高知県議4期（副議長）の地方行政経験に加え、総務大臣政務官として情報インフラ・地方DXを担当。国会議員唯一の高専（土木）出身として防災・国土強靱化の専門的知見を持つ。", minus:"政務官以外の独自の大型政策実績はまだ見えない。高知・地方行政中心で国家レベルの政策立案への貢献はこれから。",
@@ -5958,7 +5958,7 @@ const POLITICIANS = [
     {
     id:"P542", name:"加田 裕之", reading:"かだ ひろゆき", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"兵庫", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"◎",semi:"○"},
     plus:"兵庫県議4期16年（副議長・農政環境委員長等）と法務大臣政務官の実績。経産委理事として産業競争力強化・レアアース調達多角化等の政策に関与。物価高や農業対策を精力的に訴える地域密着型議員。", minus:"安保分野での独自政策が見えない。国政での政策発信力・存在感が地方比較でやや薄い。",
@@ -6222,7 +6222,7 @@ const POLITICIANS = [
     {
     id:"P566", name:"見坂 茂範", reading:"けんざか しげのり", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"比例", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[2,3,3,2,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"国交省30年で建設DX・i-Construction主導・近畿地方整備局長として能登半島地震TEC-FORCE迅速派遣など行政での高い実績。参院でも予算委で公共事業執行の適正チェックを行うなど専門性を発揮。", minus:"初当選1年未満で国政での立法実績はまだ少ない。職域代表色が強く幅広い国民受けする政策発信は今後の課題。",
@@ -6332,7 +6332,7 @@ const POLITICIANS = [
     {
     id:"P576", name:"古庄 玄知", reading:"こしょう はるとも", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"大分", status:"現職", gender:"男", age:null,
-    total:55, rank:"C+",
+    total:55, rank:"D",
     axes:[3,2,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"大分県弁護士会会長・日弁連常務理事として司法改革をリード。民事介入暴力対策委員として治安維持に貢献。法務委員会理事・憲法審査会幹事として弁護士としての専門性を国政で発揮。", minus:"法律分野への特化が強く経済・財政面での独自政策が薄い。大分選出ながら地域課題（農業・観光）への踏み込みが少ない。",
@@ -7102,7 +7102,7 @@ const POLITICIANS = [
     {
     id:"P646", name:"永井 学", reading:"ながい まなぶ", party:"自民党", role:"参議院議員",
     chamber:"参議院", district:"山梨", status:"現職", gender:"男", age:null,
-    total:57, rank:"B-",
+    total:57, rank:"D",
     axes:[3,3,2,3,3,3,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"◎",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
     plus:"山梨県議3期11年の地域経験と国交大臣政務官（高市内閣）として港湾政策・建設人材育成・防災等を主導。リニア早期開通・GIGAスクール・リカレント教育など長期国益を見据えた政策を推進。", minus:"安保分野での独自政策が見えにくい。山梨という内陸県の特性から安保・外交での存在感は限定的。",
