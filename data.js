@@ -3021,7 +3021,7 @@ const POLITICIANS = [
   {
     id:"P275", name:"とかしきなおみ", reading:"とかしき なおみ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"男", age:null,
-    total:67, rank:"B",
+    total:67, rank:"C+",
     axes:[4,3,2,4,3,4,4,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"HPVワクチン積極的勧奨の2022年再開実現に尽力し、子宮頸がん予防という長期的な国民健康改善に貢献。厚生労働・環境両副大臣を歴任した行政手腕。薬剤師の専門知識を活かした医療DX推進。", minus:"安全保障・外交分野での政策立案は限定的。経済財政分野での独自提言も薄い。",
@@ -3054,7 +3054,7 @@ const POLITICIANS = [
   {
     id:"P278", name:"永岡 桂子", reading:"ながおか けいこ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"女", age:null,
-    total:67, rank:"B",
+    total:67, rank:"C+",
     axes:[4,3,2,4,3,4,4,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"◎",regional:"○",china:"△",foreign:"△",food:"◎",semi:"○"},
     plus:"文部科学大臣として生成AI教育ガイドラインの策定（日本初）、給食費無償化に向けた全国調査・課題整理を推進。文科・厚労副大臣・農水政務官と幅広い行政経験。", minus:"大臣在任期間（約1年）は短く主要政策の仕上げまで至らなかった案件も多い。防衛・外交分野の政策立案への関与は薄い。",
@@ -3241,7 +3241,7 @@ const POLITICIANS = [
   {
     id:"P295", name:"中根 一幸", reading:"なかね かずゆき", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:67, rank:"B",
+    total:67, rank:"C+",
     axes:[3,3,4,4,3,4,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"×",foreign:"×",food:"○",semi:"○"},
     plus:"外務副大臣・内閣府副大臣・衆院国土交通委員長を歴任。安倍内閣で外交の最前線に立ち日本のプレゼンス向上に貢献。自民党主要部会長（総務・国土交通・内閣）複数歴任で政策立案に深く関与。", minus:"外交の成果が見えにくく、地元インフラ整備が中心の地域型政治家の側面も。少子化・社会保障分野での独自政策立案は限定的。",
@@ -3813,7 +3813,7 @@ const POLITICIANS = [
   {
     id:"P347", name:"平沢 勝栄", reading:"ひらさわ かつえい", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"東京17", status:"現職", gender:"男", age:null,
-    total:67, rank:"B",
+    total:67, rank:"C+",
     axes:[3,3,4,4,3,4,3,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"○",immigration:"×",renewable:"△",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"×",foreign:"×",food:"○",semi:"○"},
     plus:"北朝鮮拉致問題特別委員長・拉致議連事務局長として長年被害者救済に尽力。警察庁保安課長時代にパチンコ業界への全国共通プリペイドカード導入で脱税・暴力団資金遮断を実現。第11代復興大臣として被災地復興を主導。", minus:"1996年初当選から30年近い長期議員だが、経済・財政分野での独自の国家政策立案は限定的。復興大臣への初入閣が70代近くと遅かった。",
@@ -4748,7 +4748,7 @@ const POLITICIANS = [
   {
     id:"P432", name:"山下 史守朗", reading:"やました しずお", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"愛知16", status:"現職", gender:"男", age:null,
-    total:67, rank:"B",
+    total:67, rank:"C+",
     axes:[4,4,2,4,3,3,4,3],
     stances:{tax_cut:"○",active_fiscal:"○",discipline:"◎",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"35歳で全国最年少の政令市クラス市長（小牧市）に就任し4期15年間で保育料0〜2歳完全無償化・子ども医療費18歳まで拡大・財政黒字維持などを実現。子育て支援の先進的モデル市として全国から注目。", minus:"国政1期目で国家レベルの政策立案はこれから。安全保障・外交分野での知見は限定的。",
@@ -5111,7 +5111,7 @@ const POLITICIANS = [
   {
     id:"P465", name:"渡辺 博道", reading:"わたなべ ひろみち", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"千葉6", status:"現職", gender:"男", age:null,
-    total:67, rank:"B",
+    total:67, rank:"C+",
     axes:[3,3,3,4,3,4,4,3],
     stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"△",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"△",food:"○",semi:"○"},
     plus:"復興大臣を2度歴任（第4次安倍改造・第2次岸田改造）し、FURE（福島国際研究教育機構）設立推進・被災者コミュニティ再生など創造的復興に貢献。経産副大臣・委員長複数歴任の豊富な行政経験。", minus:"復興大臣2度という重い役職を担ったが、経済・財政分野での独自の国家政策立案は限定的。長期議員ながら経済・安全保障分野での独自提言が薄い。",
