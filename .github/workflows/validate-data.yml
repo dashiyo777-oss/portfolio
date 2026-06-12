@@ -45,7 +45,7 @@ jobs:
 
       - name: Check politician count
         run: |
-          COUNT=$(grep -c '"id":"P' data.js || true)
+          COUNT=$(grep -c 'id:"P' data.js || true)
           echo "Politician entries found: $COUNT"
           if [ "$COUNT" -lt 800 ]; then
             echo "❌ ERROR: Too few politicians ($COUNT). Expected >= 800."
