@@ -1052,12 +1052,8 @@ function applySort() {
 }
 
 // 最新のデータ更新日を計算（初回のみ）
-const _latestUpdated = (() => {
-  const dates = POLITICIANS
-    .filter(p => p.updated)
-    .map(p => p.updated)
-    .sort()
-    .reverse();
+const _latestUpdated = (typeof DATA_UPDATED_AT !== 'undefined') ? DATA_UPDATED_AT : (() => {
+  const dates = POLITICIANS.filter(p => p.updated).map(p => p.updated).sort().reverse();
   return dates[0] || '';
 })();
 
