@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCSL9TRH2T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MCSL9TRH2T');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>政党別 平均スコア比較 | 統覧 TORAN</title>
+  <meta name="description" content="衆参国会議員の政党別平均スコアを比較。8つの評価軸ごとの強み・弱みを可視化。統覧 TORAN。">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="統覧 TORAN">
+  <meta property="og:title" content="政党別 平均スコア比較 | 統覧 TORAN">
+  <meta property="og:description" content="衆参国会議員の政党別平均スコアを比較。8つの評価軸ごとの強み・弱みを可視化。">
+  <meta property="og:url" content="https://dashiyo777-oss.github.io/parties.html">
+  <meta name="twitter:card" content="summary">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Montserrat:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg:     #0d1525;
+      --card:   #162040;
+      --mid:    #1c2a4a;
+      --blue:   #5ba0e0;
+      --gold:   #f5c842;
+      --green:  #4ac776;
+      --orange: #f0a030;
+      --red:    #e6384f;
+      --text:   #e8edf8;
+      --gray:   #8090b8;
+      --border: rgba(74,144,226,0.20);
+    }
+
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Montserrat','Noto Serif JP',sans-serif; font-weight:300; min-height:100vh; }
+
+    /* ── HEADER ── */
+    .site-header {
+      position: sticky; top:0; z-index:100;
+      background: rgba(13,21,37,0.96); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem; height: 60px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { display:flex; align-items:baseline; gap:0.6rem; text-decoration:none; }
+    .logo-ja { font-family:'Noto Serif JP',serif; font-size:1.2rem; font-weight:600; color:var(--text); letter-spacing:0.12em; }
+    .logo-en { font-family:'Cormorant Garamond',serif; font-size:0.85rem; font-weight:300; color:var(--gray); letter-spacing:0.25em; text-transform:uppercase; }
+    .header-nav { display:flex; align-items:center; gap:1.5rem; }
+    .nav-link { font-size:0.78rem; color:var(--gray); text-decoration:none; letter-spacing:0.1em; transition:color 0.2s; }
+    .nav-link:hover { color:var(--text); }
+    .nav-link.active { color:var(--gold); }
+
+    /* ── HERO ── */
+    .page-hero {
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+    }
+    .page-hero-title {
+      font-family: 'Cormorant Garamond',serif;
+      font-size: 2rem; font-weight:300; letter-spacing:0.15em;
+      color: var(--text); margin-bottom: 0.5rem;
+    }
+    .page-hero-sub { font-size:0.78rem; color:var(--gray); letter-spacing:0.08em; }
+
+    /* ── MAIN ── */
+    .main-wrap { max-width:1100px; margin:0 auto; padding:2rem 1.5rem 4rem; }
+
+    /* ── SECTION TITLE ── */
+    .section-title {
+      font-family:'Cormorant Garamond',serif; font-size:1.1rem; font-weight:600;
+      letter-spacing:0.15em; color:var(--gold);
+      border-bottom:1px solid var(--border); padding-bottom:0.5rem; margin-bottom:1.2rem;
+    }
+
+    /* ── RANKING BARS ── */
+    .rank-table { width:100%; border-collapse:collapse; }
+    .rank-table tr { border-bottom:1px solid var(--border); cursor:pointer; transition:background 0.15s; }
+    .rank-table tr:hover { background:rgba(74,144,226,0.06); }
+    .rank-table td { padding:0.6rem 0.5rem; vertical-align:middle; }
+    .td-num { font-family:'Cormorant Garamond',serif; font-size:1rem; color:var(--gray); width:2rem; text-align:center; }
+    .td-party { font-family:'Noto Serif JP',serif; font-size:0.88rem; font-weight:600; white-space:nowrap; }
+    .party-badge { display:inline-block; padding:0.15rem 0.55rem; border-radius:3px; font-size:0.75rem; font-weight:500; color:#fff; }
+    .td-count { font-size:0.72rem; color:var(--gray); width:4rem; text-align:right; white-space:nowrap; }
+    .td-bar { width:40%; padding:0 0.8rem; }
+    .bar-bg { background:rgba(255,255,255,0.06); border-radius:2px; height:10px; overflow:hidden; }
+    .bar-fill { height:100%; border-radius:2px; transition:width 0.6s ease; }
+    .td-score { font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-weight:600; width:4rem; text-align:right; white-space:nowrap; }
+    .td-rank-dist { width:8rem; }
+    .rank-dist { display:flex; gap:2px; flex-wrap:wrap; }
+    .rd-pill {
+      font-size:0.58rem; padding:0.08rem 0.28rem; border-radius:2px;
+      font-family:'Montserrat',sans-serif; font-weight:500; white-space:nowrap;
+    }
+
+    /* ── AXES SECTION ── */
+    .axes-section { margin-top:2.5rem; }
+    .axes-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:1.2rem; }
+    .party-card {
+      background:var(--card); border:1px solid var(--border); border-radius:8px;
+      padding:1.2rem; cursor:pointer; transition:border-color 0.2s;
+    }
+    .party-card:hover { border-color:rgba(74,144,226,0.45); }
+    .party-card.selected { border-color:var(--blue); background:rgba(91,160,224,0.08); }
+    .card-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:0.9rem; }
+    .card-score { font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:600; }
+    .axes-bars { display:flex; flex-direction:column; gap:0.35rem; }
+    .ax-row { display:grid; grid-template-columns:7rem 1fr 2rem; align-items:center; gap:0.5rem; }
+    .ax-label { font-size:0.65rem; color:var(--gray); font-family:'Noto Serif JP',serif; text-align:right; }
+    .ax-bar-bg { background:rgba(255,255,255,0.06); border-radius:2px; height:7px; overflow:hidden; }
+    .ax-bar-fill { height:100%; border-radius:2px; }
+    .ax-val { font-size:0.7rem; color:var(--gray); text-align:right; font-family:'Montserrat',sans-serif; }
+
+    /* ── FILTER TABS ── */
+    .filter-tabs { display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1.2rem; }
+    .tab-pill {
+      padding:0.3rem 0.8rem; border-radius:20px; border:1px solid var(--border);
+      font-size:0.72rem; cursor:pointer; transition:all 0.15s; color:var(--gray);
+      font-family:'Montserrat',sans-serif;
+    }
+    .tab-pill.active { background:var(--blue); border-color:var(--blue); color:#fff; }
+    .tab-pill:hover:not(.active) { border-color:rgba(91,160,224,0.5); color:var(--text); }
+
+    /* ── NOTE ── */
+    .note { font-size:0.68rem; color:var(--gray); margin-top:1rem; line-height:1.6; }
+
+    @media (max-width:640px) {
+      .site-header { padding:0 1rem; }
+      .td-bar { display:none; }
+      .td-rank-dist { display:none; }
+      .axes-grid { grid-template-columns:1fr; }
+      .ax-row { grid-template-columns:5.5rem 1fr 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="politicians.html">
+    <span class="logo-ja">統覧</span>
+    <span class="logo-en">TORAN</span>
+  </a>
+  <nav class="header-nav">
+    <a class="nav-link" href="politicians.html">ランキング</a>
+    <a class="nav-link active" href="parties.html">政党比較</a>
+    <a class="nav-link" href="index.html">← PORTFOLIO</a>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-title">政党別 評価ランキング</div>
+  <div class="page-hero-sub" id="hero-sub">評価済み議員の8軸スコアを政党単位で集計・比較</div>
+</div>
+
+<div class="main-wrap">
+
+  <!-- ① 総合スコアランキング -->
+  <div class="section-title">総合スコア ランキング</div>
+  <div class="filter-tabs" id="chamber-tabs">
+    <div class="tab-pill active" data-chamber="all">全議員</div>
+    <div class="tab-pill" data-chamber="衆議院">衆議院</div>
+    <div class="tab-pill" data-chamber="参議院">参議院</div>
+  </div>
+  <table class="rank-table" id="rank-table"></table>
+  <p class="note" id="rank-note"></p>
+
+  <!-- ② 8軸別スコア -->
+  <div class="axes-section">
+    <div class="section-title">8軸スコア 政党別内訳</div>
+    <div class="axes-grid" id="axes-grid"></div>
+  </div>
+
+</div>
+
+<script src="data.js"></script>
+<script>
+const AXES_JA = ['国民生活改善','経済・財政','安全保障','政策実現力','説明責任','長期国益','公共性','政治倫理'];
+
+const PARTY_COLORS = {
+  '自民党':'#c8102e','立憲民主党':'#003f8a','日本維新の会':'#f2a100',
+  '公明党':'#9b59b6','国民民主党':'#7ac143','日本共産党':'#e4002b',
+  'れいわ新選組':'#ff69b4','参政党':'#ff8c00','無所属':'#808080',
+  '中道改革連合':'#2196f3','チームみらい':'#00bcd4','社民党':'#e91e63',
+  '日本保守党':'#795548','沖縄社会大衆党':'#009688','減税日本・ゆうこく連合':'#607d8b',
+  'NHKから国民を守る党':'#9e9e9e'
+};
+
+function rankColor(r) {
+  if (!r) return '#6878a0';
+  if (r.startsWith('S'))  return '#f5c842';
+  if (r.startsWith('A'))  return '#4ac776';
+  if (r.startsWith('B'))  return '#4a8fd4';
+  if (r.startsWith('C'))  return '#f0a030';
+  return '#e6384f';
+}
+function scoreColor(t) {
+  if (t >= 80) return '#4ac776';
+  if (t >= 70) return '#4a8fd4';
+  if (t >= 60) return '#f0a030';
+  return '#e6384f';
+}
+
+function buildStats(chamber) {
+  const src = chamber === 'all'
+    ? POLITICIANS.filter(p => p.survey === '評価済')
+    : POLITICIANS.filter(p => p.survey === '評価済' && p.chamber === chamber);
+
+  const map = {};
+  src.forEach(p => {
+    if (!map[p.party]) map[p.party] = { count:0, totalSum:0, axes:[0,0,0,0,0,0,0,0], ranks:{} };
+    const d = map[p.party];
+    d.count++;
+    d.totalSum += p.total;
+    p.axes.forEach((v,i) => d.axes[i] += v);
+    d.ranks[p.rank] = (d.ranks[p.rank]||0) + 1;
+  });
+
+  return Object.entries(map)
+    .map(([name, d]) => ({
+      name,
+      count: d.count,
+      avg: Math.round(d.totalSum / d.count),
+      axes: d.axes.map(v => Math.round(v / d.count * 10) / 10),
+      ranks: d.ranks
+    }))
+    .filter(p => p.count >= 1)
+    .sort((a,b) => b.avg - a.avg);
+}
+
+const RANK_ORDER = ['S','A+','A','A-','B+','B','B-','C+','C','C-','D'];
+
+function renderRankDist(ranks, count) {
+  return RANK_ORDER
+    .filter(r => ranks[r])
+    .map(r => `<span class="rd-pill" style="background:${rankColor(r)}22;color:${rankColor(r)};border:1px solid ${rankColor(r)}44">${r}:${ranks[r]}</span>`)
+    .join('');
+}
+
+let currentChamber = 'all';
+
+function renderTable(data) {
+  const max = data[0]?.avg || 100;
+  const table = document.getElementById('rank-table');
+  table.innerHTML = data.map((d, i) => {
+    const pc = PARTY_COLORS[d.name] || '#666';
+    const sc = scoreColor(d.avg);
+    const pct = Math.round(d.avg / 100 * 100);
+    return `<tr>
+      <td class="td-num">${i+1}</td>
+      <td class="td-party">
+        <span class="party-badge" style="background:${pc}">${d.name}</span>
+      </td>
+      <td class="td-count">${d.count}人</td>
+      <td class="td-bar">
+        <div class="bar-bg">
+          <div class="bar-fill" style="width:${pct}%;background:${sc}"></div>
+        </div>
+      </td>
+      <td class="td-score" style="color:${sc}">${d.avg}</td>
+      <td class="td-rank-dist"><div class="rank-dist">${renderRankDist(d.ranks, d.count)}</div></td>
+    </tr>`;
+  }).join('');
+
+  const total = data.reduce((s,d) => s+d.count, 0);
+  document.getElementById('rank-note').textContent =
+    `※ 評価済み ${total}名（survey:"評価済"）を集計。平均は整数四捨五入。`;
+}
+
+function renderAxes(data) {
+  const grid = document.getElementById('axes-grid');
+  grid.innerHTML = data.filter(d => d.count >= 3).map(d => {
+    const pc = PARTY_COLORS[d.name] || '#666';
+    const sc = scoreColor(d.avg);
+    const maxAx = 5;
+    const axRows = AXES_JA.map((label, i) => {
+      const val = d.axes[i];
+      const pct = Math.round(val / maxAx * 100);
+      const col = val >= 4 ? '#4ac776' : val >= 3 ? '#4a8fd4' : val >= 2 ? '#f0a030' : '#e6384f';
+      return `<div class="ax-row">
+        <div class="ax-label">${label}</div>
+        <div class="ax-bar-bg"><div class="ax-bar-fill" style="width:${pct}%;background:${col}"></div></div>
+        <div class="ax-val">${val}</div>
+      </div>`;
+    }).join('');
+    return `<div class="party-card">
+      <div class="card-header">
+        <span class="party-badge" style="background:${pc};font-size:0.8rem;padding:0.2rem 0.65rem">${d.name}</span>
+        <div>
+          <div class="card-score" style="color:${sc}">${d.avg}</div>
+          <div style="font-size:0.62rem;color:var(--gray);text-align:right">${d.count}名</div>
+        </div>
+      </div>
+      <div class="axes-bars">${axRows}</div>
+    </div>`;
+  }).join('');
+}
+
+function render(chamber) {
+  const data = buildStats(chamber);
+  renderTable(data);
+  renderAxes(data);
+}
+
+// Tab click
+document.getElementById('chamber-tabs').querySelectorAll('.tab-pill').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab-pill').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentChamber = tab.dataset.chamber;
+    render(currentChamber);
+  });
+});
+
+render('all');
+</script>
+</body>
+</html>
