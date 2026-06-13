@@ -390,6 +390,52 @@
     .data-updated::before {
       content: "🗓 最終更新: ";
     }
+    .changelog-btn {
+      font-size: 0.68rem; color: var(--gray); background: none;
+      border: 1px solid rgba(128,144,184,0.3); border-radius: 4px;
+      padding: 0.15rem 0.55rem; cursor: pointer; font-family: inherit;
+      transition: all 0.15s; white-space: nowrap;
+    }
+    .changelog-btn:hover { border-color: var(--blue); color: var(--blue); }
+    .changelog-panel {
+      position: fixed; top: 70px; right: 1.5rem; z-index: 200;
+      width: 360px; max-width: calc(100vw - 2rem);
+    }
+    .changelog-panel-inner {
+      background: var(--card); border: 1px solid var(--border-h);
+      border-radius: 8px; box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      overflow: hidden;
+    }
+    .changelog-panel-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.7rem 1rem; background: var(--mid);
+      font-size: 0.8rem; font-weight: 500; color: var(--text);
+      border-bottom: 1px solid var(--border);
+    }
+    .changelog-panel-header button {
+      background: none; border: none; color: var(--gray);
+      cursor: pointer; font-size: 0.9rem; padding: 0.1rem 0.3rem;
+      transition: color 0.15s;
+    }
+    .changelog-panel-header button:hover { color: var(--text); }
+    #changelog-panel-body { padding: 0.8rem 1rem; max-height: 70vh; overflow-y: auto; }
+    .cl-item { margin-bottom: 1rem; }
+    .cl-date {
+      font-size: 0.68rem; color: var(--gold); letter-spacing: 0.08em;
+      font-family: 'Montserrat',sans-serif; margin-bottom: 0.25rem;
+    }
+    .cl-label {
+      font-size: 0.72rem; color: var(--gray); margin-bottom: 0.35rem;
+    }
+    .cl-entries { list-style: none; padding: 0; }
+    .cl-entries li {
+      font-size: 0.73rem; color: var(--text); line-height: 1.6;
+      padding: 0.15rem 0 0.15rem 0.8rem; position: relative;
+    }
+    .cl-entries li::before {
+      content: "・"; position: absolute; left: 0; color: var(--gray);
+    }
+    .cl-divider { border: none; border-top: 1px solid var(--border); margin: 0.8rem 0; }
 
     /* ── TABLE SECTION ── */
     .table-section {
@@ -749,6 +795,18 @@
   <div class="result-count" id="result-count">
     <span id="result-count-text"></span>
     <span class="data-updated" id="data-updated"></span>
+    <button class="changelog-btn" id="changelog-btn" title="更新履歴を見る">📋 更新履歴</button>
+  </div>
+</div>
+
+<!-- 更新履歴パネル -->
+<div id="changelog-panel" class="changelog-panel" style="display:none">
+  <div class="changelog-panel-inner">
+    <div class="changelog-panel-header">
+      <span>📋 更新履歴</span>
+      <button id="changelog-close">✕</button>
+    </div>
+    <div id="changelog-panel-body"></div>
   </div>
 </div>
 
@@ -903,6 +961,7 @@ window.addEventListener('error', function(e) {
 }, true);
 </script>
 <script src="data.js?v=4"></script>
+<script src="changelog.js"></script>
 <script>
 /* ── DATA ── */
 const AXES_JA = ['国民生活改善','経済・財政','安全保障','政策実現力','説明責任','長期国益','公共性','政治倫理'];
@@ -1250,6 +1309,40 @@ applyFilters();
   document.getElementById('btn-match').addEventListener('click', () => { overlay.classList.add('open'); document.body.style.overflow='hidden'; });
   document.getElementById('match-modal-close').addEventListener('click', () => { overlay.classList.remove('open'); document.body.style.overflow=''; });
   overlay.addEventListener('click', e => { if(e.target===overlay) { overlay.classList.remove('open'); document.body.style.overflow=''; } });
+})();
+
+/* ── 更新履歴パネル ── */
+(function() {
+  const btn   = document.getElementById('changelog-btn');
+  const panel = document.getElementById('changelog-panel');
+  const close = document.getElementById('changelog-close');
+  const body  = document.getElementById('changelog-panel-body');
+
+  function buildBody() {
+    if (typeof SITE_CHANGELOG === 'undefined' || !SITE_CHANGELOG.length) {
+      body.innerHTML = '<p style="font-size:0.75rem;color:var(--gray)">履歴データがありません。</p>';
+      return;
+    }
+    body.innerHTML = SITE_CHANGELOG.map((c, i) => `
+      ${i > 0 ? '<hr class="cl-divider">' : ''}
+      <div class="cl-item">
+        <div class="cl-date">${c.date}</div>
+        <div class="cl-label">${c.label}</div>
+        <ul class="cl-entries">${c.entries.map(e => `<li>${e}</li>`).join('')}</ul>
+      </div>
+    `).join('');
+  }
+
+  btn.addEventListener('click', () => {
+    const isOpen = panel.style.display !== 'none';
+    if (isOpen) { panel.style.display = 'none'; return; }
+    buildBody();
+    panel.style.display = 'block';
+  });
+  close.addEventListener('click', () => { panel.style.display = 'none'; });
+  document.addEventListener('click', e => {
+    if (!panel.contains(e.target) && e.target !== btn) panel.style.display = 'none';
+  });
 })();
 
 /* ── 評価基準モーダル ── */
