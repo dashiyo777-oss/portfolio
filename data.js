@@ -19,14 +19,14 @@ const POLITICIANS = [
   },
   {
     id:"P002", name:"青木 ひとみ", reading:"あおき ひとみ", party:"参政党", role:"衆議院議員",
-    chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:45, rank:"D",
-    axes:[2,2,2,3,2,2,3,2],
-    stances:{tax_cut:"◎",active_fiscal:"○",discipline:"×",defense:"△",econ_sec:"○",immigration:"×",renewable:"△",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"○",china:"×",foreign:"△",food:"◎",semi:"○"},
-    plus:"委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"Wikipediaの公開情報のみでは詳細な課題を特定できなかった。",
-    comment:"Wikipedia基礎評価。青木 ひとみ（あおき ひとみ、1981年〈昭和56年〉5月11日 - ）は、日本の政治家、看護師。参政党所属の衆議院議員（1期）。",
-    links:{tw:"",wiki:"https://ja.wikipedia.org/wiki/%E9%9D%92%E6%9C%A8%E3%81%B2%E3%81%A8%E3%81%BF",hp:"https://sanseito.jp/",yt:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"Wikipedia基礎評価"
+    chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"女", age:null,
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"×",renewable:"△",nuclear:"◎",expo:"△",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"○",china:"◎",foreign:"○",food:"◎",semi:"○"},
+    plus:"看護師・キャリアカウンセラーの現場経験を活かした医療・処遇改善政策への具体的提言。国会質疑でも看護師目線を発揮している。", minus:"参政党のワクチン批判・陰謀論的スタンスとの親和性が懸念される。1期生で立法実績はこれから。",
+    comment:"看護師・キャリアカウンセラーから政治家へ転身した1期生。医療現場の声を国政に届ける発信力があるが、党のワクチン批判路線との距離感が問われる。",
+    links:{hp:"https://sanseito.jp/",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E9%9D%92%E6%9C%A8%E3%81%B2%E3%81%A8%E3%81%BF",yt:""},
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P003", name:"青柳 仁士", reading:"あおやぎ ひとし", party:"日本維新の会", role:"衆議院議員",
@@ -108,13 +108,13 @@ const POLITICIANS = [
   {
     id:"P010", name:"浅田 眞澄美", reading:"あさだ ますみ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"女", age:null,
-    total:45, rank:"D",
-    axes:[2,2,2,3,2,2,3,2],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"Wikipediaの公開情報のみでは詳細な課題を特定できなかった。",
-    comment:"Wikipedia基礎評価。浅田 ますみ（浅田 眞澄美、あさだ ますみ、1966年〈昭和41年〉9月12日 - ）は、日本の政治家。自由民主党所属の衆議院議員（1期）。長崎県議会議員（5期）、長崎県議会予算決算委員会委員長、議会運営委員会委員長、監査委員などを歴任。",
+    total:62, rank:"C-",
+    axes:[3,4,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"長崎県議5期20年で予算決算・議会運営委員長など要職を歴任。地方行政の実務経験と地域密着の政策推進力は高い。", minus:"衆院では小選挙区落選・比例復活当選で地盤が弱い。中央政治・外交・安全保障は未経験。",
+    comment:"FM長崎プロデューサー・県議5期のベテランが国政へ転じた実務派。地方創生・福祉・DX推進に実績あり。衆院での国政立法能力はこれから問われる。",
     links:{hp:"https://www.google.com/search?q=%E6%B5%85%E7%94%B0%20%E7%9C%9E%E6%BE%84%E7%BE%8E%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E6%B5%85%E7%94%B0%E3%81%BE%E3%81%99%E3%81%BF",yt:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"Wikipedia基礎評価"
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P011", name:"浅野 哲", reading:"あさの さとし", party:"国民民主党", role:"衆議院議員",
@@ -174,13 +174,13 @@ const POLITICIANS = [
   {
     id:"P016", name:"阿部 圭史", reading:"あべ けいし", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"兵庫2", status:"現職", gender:"男", age:null,
-    total:47, rank:"D",
-    axes:[3,2,2,3,2,2,3,2],
-    stances:{tax_cut:"◎",active_fiscal:"○",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"2期当選の議員経験。委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"Wikipediaの公開情報のみでは詳細な課題を特定できなかった。",
-    comment:"Wikipedia基礎評価。阿部 圭史（あべ けいし、1986年5月26日 - ）は、日本の政治家、医師、元厚生労働官僚。日本維新の会所属の衆議院議員（2期）。",
+    total:67, rank:"C+",
+    axes:[3,4,4,3,4,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"○",education:"◎",regional:"○",china:"○",foreign:"○",food:"○",semi:"○"},
+    plus:"医師・厚労官僚・WHO職員を歴任した圧倒的な実務専門性。国際医療・危機管理・感染症政策で一線級の知見を立法活動に直結できる。", minus:"党内役職（代表幹事）で個人の専門性を活かす時間が限られる懸念。維新の党勢後退の影響も受ける。",
+    comment:"医師・官僚・国際機関職員という異色の経歴を持つ2期生。維新代表幹事として党の要職も担い、医療・公衆衛生・安全保障分野で高い専門性を発揮できる実力派議員。",
     links:{hp:"https://www.google.com/search?q=%E9%98%BF%E9%83%A8%20%E5%9C%AD%E5%8F%B2%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E9%98%BF%E9%83%A8%E5%9C%AD%E5%8F%B2",yt:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"Wikipedia基礎評価"
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P017", name:"阿部 司", reading:"あべ つかさ", party:"日本維新の会", role:"衆議院議員",
@@ -328,24 +328,24 @@ const POLITICIANS = [
   {
     id:"P030", name:"石川 勝", reading:"いしかわ まさる", party:"参政党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"男", age:null,
-    total:45, rank:"D",
-    axes:[2,2,2,3,2,2,3,2],
-    stances:{tax_cut:"◎",active_fiscal:"○",discipline:"×",defense:"△",econ_sec:"○",immigration:"×",renewable:"△",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"○",china:"×",foreign:"△",food:"◎",semi:"○"},
-    plus:"委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"Wikipediaの公開情報のみでは詳細な課題を特定できなかった。",
-    comment:"Wikipedia基礎評価。石川 勝（いしかわ まさる、1968年〈昭和43年〉8月3日 - ）は、日本の政治家。参政党所属の衆議院議員（1期）。元大阪府吹田市議会議員（4期）。",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"×",renewable:"△",nuclear:"◎",expo:"△",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"○",china:"◎",foreign:"○",food:"◎",semi:"○"},
+    plus:"吹田市議4期の地方行政経験と地域密着の実績。保険代理店経営の現場視点から財政・地方行政を語れる。", minus:"市長選落選経歴あり。国政での専門政策立案能力はこれから問われる。",
+    comment:"地方議員4期を経て国政へ転じた参政党1期生。吹田市での草の根活動の経験があるが、国政での立法活動の実力はこれから。地域行政の現場感が武器。",
     links:{hp:"https://www.google.com/search?q=%E7%9F%B3%E5%B7%9D%20%E5%8B%9D%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E5%8B%9D",yt:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"Wikipedia基礎評価"
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P031", name:"石坂 太", reading:"いしざか まさる", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"栃木4", status:"現職", gender:"男", age:null,
-    total:45, rank:"D",
-    axes:[2,2,2,3,2,3,2,2],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"大臣・長官職としての行政経験（詳細は公式記録を参照）。委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"Wikipediaの公開情報のみでは詳細な課題を特定できなかった。",
-    comment:"Wikipedia基礎評価。石坂 太（いしざか まさる、1980年〈昭和55年〉12月23日 - ）は、日本の政治家。自由民主党所属の衆議院議員（1期）。栃木県議会議員（2期）を務めた。",
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"大臣秘書官・政策担当秘書として総務・安全保障分野の行政実務を学んだ。栃木県議2期で地盤を固めた実務派。", minus:"政治家一家の二世で地盤・看板への依存が懸念される。国政での独自政策立案はこれから。",
+    comment:"秘書・秘書官として行政実務に精通し、県議2期を経て国政へ。総務・行政改革分野での実力発揮が期待される新人議員。",
     links:{hp:"https://www.google.com/search?q=%E7%9F%B3%E5%9D%82%20%E5%A4%AA%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9D%82%E5%A4%AA",yt:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"Wikipedia基礎評価"
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P032", name:"石田 真敏", reading:"いしだ まさとし", party:"自民党", role:"衆議院議員",
@@ -372,13 +372,13 @@ const POLITICIANS = [
   {
     id:"P034", name:"石橋 林太郎", reading:"いしばし りんたろう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"広島3", status:"現職", gender:"男", age:null,
-    total:50, rank:"D",
-    axes:[3,2,3,3,2,3,3,1],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"3期当選の議員経験。大臣・長官職としての行政経験（詳細は公式記録を参照）。委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"政治資金・不記載・統一教会関係等の問題が報道されている（Wikipedia）。",
-    comment:"Wikipedia基礎評価。石橋 林太郎（いしばし りんたろう、1978年〈昭和53年〉5月2日 - ）は、日本の政治家。自由民主党所属の衆議院議員（3期）、自由民主党副幹事長、自由民主党政務調査会外交部会長代理。国土交通大臣政務官。",
-    links:{tw:"https://x.com/R_Ishibashi0306",hp:"https://ishibashi-rintaro.com/",wiki:"https://ja.wikipedia.org/wiki/%E7%9F%B3%E6%A9%8B%E6%9E%97%E5%A4%AA%E9%83%8E",yt:""},
-    flag_crime:false, flag_caution:true, updated:"2026.05", survey:"Wikipedia基礎評価"
+    total:65, rank:"C",
+    axes:[3,3,3,4,4,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"国土交通大臣政務官（岸田・石破両内閣）で行政経験。外務委員会理事・外交部会長代理として外交・安保・拉致問題に精通。", minus:"大阪外大中退・スリランカ留学と異色の学歴で政策の幅が独特。比例から小選挙区に転じた地盤形成が課題。",
+    comment:"広島県議2期を経て3期目の中堅議員。政務官として実務経験を積み、外交・安保・拉致問題に積極的に取り組む保守系実力派。",
+    links:{hp:"https://ishibashi-rintaro.com/",tw:"https://x.com/R_Ishibashi0306",wiki:"https://ja.wikipedia.org/wiki/%E7%9F%B3%E6%A9%8B%E6%9E%97%E5%A4%AA%E9%83%8E",yt:""},
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P035", name:"石原 宏高", reading:"いしはら ひろたか", party:"自民党", role:"衆議院議員（東京3区・7期）、環境大臣兼内閣府特命担当大臣（原子力防災）、元内閣総理大臣補佐官（国家安全保障・核軍縮不拡散担当・岸田内閣）、元衆議院環境委員長、元外務大臣政務官",
@@ -394,13 +394,13 @@ const POLITICIANS = [
   {
     id:"P036", name:"石原 正敬", reading:"いしはら まさたか", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"三重3", status:"現職", gender:"男", age:null,
-    total:45, rank:"D",
-    axes:[3,2,2,3,2,2,3,1],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"2期当選の議員経験。委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"政治資金・不記載・統一教会関係等の問題が報道されている（Wikipedia）。",
-    comment:"Wikipedia基礎評価。石原 正敬（いしはら まさたか、1971年11月29日 - ）は、日本の政治家。自由民主党所属の衆議院議員（2期）。三重県菰野町長（3期）、三重県議会議員（1期）を務めた。",
-    links:{tw:"https://x.com/masa_ishihara",hp:"https://ishihara-masataka.com/",wiki:"https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%8E%9F%E6%AD%A3%E6%95%AC",yt:""},
-    flag_crime:false, flag_caution:true, updated:"2026.05", survey:"Wikipedia基礎評価"
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"菰野町長3期の自治体行政経験豊富。環境・財政・地方創生に精通。岡田克也を小選挙区で退けた突破力も持つ。", minus:"旧統一教会関連団体（敬世会）との関係・推薦確認書署名が問題視される。2024年落選経歴もある。",
+    comment:"地方行政3期の実績を持つ自治体出身議員。環境・中小企業政策に通じ岡田克也に勝利した実力派だが、旧統一教会関連団体との関係が懸念材料として残る。",
+    links:{hp:"https://ishihara-masataka.com/",tw:"https://x.com/masa_ishihara",wiki:"https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%8E%9F%E6%AD%A3%E6%95%AC",yt:""},
+    flag_crime:false, flag_caution:true, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P037", name:"泉 健太", reading:"いずみ けんた", party:"中道改革連合", role:"衆議院議員",
@@ -416,13 +416,13 @@ const POLITICIANS = [
   {
     id:"P038", name:"一谷 勇一郎", reading:"いちたに ゆういちろう", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"男", age:null,
-    total:47, rank:"D",
-    axes:[3,2,2,3,2,2,3,2],
-    stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"2期当選の議員経験。委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"Wikipediaの公開情報のみでは詳細な課題を特定できなかった。",
-    comment:"Wikipedia基礎評価。一谷 勇一郎（いちたに ゆういちろう、1975年1月22日 - ）は、日本の政治家。日本維新の会所属の衆議院議員（2期）。",
-    links:{tw:"https://x.com/ichitani_yuichi",hp:"",wiki:"https://ja.wikipedia.org/wiki/%E4%B8%80%E8%B0%B7%E5%8B%87%E4%B8%80%E9%83%8E",yt:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"Wikipedia基礎評価"
+    total:57, rank:"D",
+    axes:[3,3,3,2,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"○",education:"◎",regional:"○",china:"○",foreign:"○",food:"○",semi:"○"},
+    plus:"柔道整復師・医療介護経営20年という現場経験を持ち、医療DX・社会保障改革で具体的提言が可能な実務派。", minus:"大学非進学で法律・財政の専門知識は独学。外交・安保などは実績薄く、2024年落選もある。",
+    comment:"ゴルファー・柔道整復師・医療介護経営者という異色の経歴を持つ維新議員。医療DXに現場感覚を活かすが、幅広い政策対応力は未知数。",
+    links:{hp:"",tw:"https://x.com/ichitani_yuichi",wiki:"https://ja.wikipedia.org/wiki/%E4%B8%80%E8%B0%B7%E5%8B%87%E4%B8%80%E9%83%8E",yt:""},
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P039", name:"市村 浩一郎", reading:"いちむら こういちろう", party:"日本維新の会", role:"衆議院議員",
