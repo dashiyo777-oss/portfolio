@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Check data.js file size
         run: |
@@ -56,3 +58,20 @@ jobs:
       - name: Check total/rank consistency
         run: |
           python3 scripts/validate_data.py
+
+      - name: Check changelog.js was updated
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+            CHANGED=$(git diff --name-only "$BASE"...HEAD | grep '^changelog.js$' || true)
+          else
+            CHANGED=$(git diff --name-only HEAD~1 HEAD | grep '^changelog.js$' || true)
+          fi
+          if [ -z "$CHANGED" ]; then
+            echo "❌ ERROR: data.js が変更されましたが changelog.js が更新されていません。"
+            echo ""
+            echo "data.js を更新した場合は必ず changelog.js も同じ PR で更新してください。"
+            echo "書き方は CLAUDE.md の「changelog.js 必須更新ルール」を参照。"
+            exit 1
+          fi
+          echo "✅ changelog.js updated OK"
