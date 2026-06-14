@@ -9,12 +9,12 @@ const POLITICIANS = [
   {
     id:"P001", name:"逢沢 一郎", reading:"あいさわ いちろう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"岡山1", status:"現職", gender:"男", age:null,
-    total:62, rank:"C-",
-    axes:[3,3,3,4,3,3,3,3],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"衆院規則委員長などの要職を歴任し、議会運営に貢献。", minus:"ベテランとしての独自のリーダーシップが見えにくいとの声。",
-    comment:"国会対策や議会運営の安定感は評価されるが、構造改革や独自の経済政策発信においては慎重な姿勢が目立つ。",
-    links:{tw:"https://x.com/ichiroaisawa",wiki:"https://ja.wikipedia.org/wiki/%E9%80%A2%E6%B2%A2%E4%B8%80%E9%83%8E",hp:"https://www.aisawa.jp/",yt:""},
+    total:75, rank:"B",
+    axes:[5,4,4,3,3,4,4,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"14期・松下政経塾1期生の超ベテラン。外務副大臣・国対委員長・議院運営委員長・予算委員長など国会運営の要職を歴任し、全方位の人脈と調整力は党屈指。", minus:"14期在職で大臣（閣僚）経験がなく独自の政策イニシアティブが薄い。穏健保守・調整型で政策発信力が抑えめで存在感が問われる。",
+    comment:"自民党の「国会運営の匠」。14期40年の超ベテランとして議院運営・外交・党内調整を支えてきた。大臣未経験は特徴的だが、それを補うほどの幅広い行政・議会経験と人脈が国会の安定を支える。",
+    links:{hp:"https://www.aisawa.jp/",tw:"https://x.com/ichiroaisawa",wiki:"https://ja.wikipedia.org/wiki/%E9%80%A2%E6%B2%A2%E4%B8%80%E9%83%8E",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -1560,13 +1560,13 @@ const POLITICIANS = [
   {
     id:"P142", name:"岸田 文雄", reading:"きしだ ふみお", party:"自民党", role:"衆議院議員（第100・101代内閣総理大臣）",
     chamber:"衆議院", district:"広島1", status:"現職", gender:"男", age:null,
-    total:70, rank:"B-",
-    axes:[3,4,5,5,2,4,3,2],
-    stances:{tax_cut:"△",active_fiscal:"△",discipline:"◎",defense:"◎",econ_sec:"◎",immigration:"○",renewable:"○",nuclear:"◎",expo:"○",ir:"○",mynumber:"○",birthrate:"◎",education:"○",regional:"○",china:"△",foreign:"◎",food:"○",semi:"◎"},
-    plus:"防衛費増額、日米同盟の抑止力強化、G7サミット開催等の多大な外交・安保実績。", minus:"所属派閥の政治資金問題における党トップとしての指導力や説明責任への厳しい批判。",
-    comment:"内閣総理大臣（第100・101代）などを歴任。経済安全保障推進法の成立や最低賃金引き上げ合意などレガシーを残した一方、裏金問題に端を発するガバナンス不全により退陣に追い込まれた。",
+    total:77, rank:"B+",
+    axes:[5,4,4,3,5,3,4,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"防衛費GDP比2%への倍増決定・経済安全保障推進法制定・G7広島サミット議長など歴史的な大方針転換を主導。外交・安保分野での対話重視スタイルで日米韓連携を強化した。", minus:"安倍派裏金問題の対応が後手に回り政治不信を拡大させて退陣。「異次元の少子化対策」など掛け声倒れの政策が多く、岸田派自体の不記載問題も加わりガバナンス不全を招いた。",
+    comment:"在任1094日で防衛費倍増・経済安保・G7議長という歴史的な政策転換を主導した第100・101代首相。裏金問題の収拾に失敗したが外交・安保面の実績は次政権への確かな遺産。退陣後も広島1区で政治活動を継続している。",
     links:{hp:"https://www.google.com/search?q=%E5%B2%B8%E7%94%B0%20%E6%96%87%E9%9B%84%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"https://x.com/kishida230",wiki:"https://ja.wikipedia.org/wiki/%E5%B2%B8%E7%94%B0%E6%96%87%E9%9B%84",yt:""},
-    flag_crime:false, flag_caution:true, updated:"2026.06", survey:"評価済"
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P143", name:"喜多 義典", reading:"きた よしのり", party:"日本維新の会", role:"衆議院議員",
@@ -1582,11 +1582,11 @@ const POLITICIANS = [
   {
     id:"P144", name:"北神 圭朗", reading:"きたがみ けいろう", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"京都4", status:"現職", gender:"男", age:null,
-    total:72, rank:"B-",
-    axes:[4,4,4,3,4,4,3,3],
-    stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"◎",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"×",foreign:"○",food:"○",semi:"○"},
-    plus:"大蔵・財務官僚出身の知見。現実的な経済安全保障・減税政策の論理的補強。", minus:"所属政党の枠組みを超えて単独で大規模法案を単独可決させる党内基盤は途上。",
-    comment:"財務官僚の専門性を活かし、党が掲げる「手取りを増やす」政策の構成に関与。地政学的リスクを見据えたサプライチェーン国内回帰や経済安全保障を重視する実務派として動く。",
+    total:67, rank:"C+",
+    axes:[4,3,4,3,4,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"財務省・金融庁・総理秘書官補から経産政務官・内閣総理大臣補佐官まで財政・金融・原子力分野に精通した行政実務家。6期の議員経験も積んだ。", minus:"民主→みんな→維新→無所属→国民民主→自民と6度の党籍変更は信念の一貫性への疑問を招く。小選挙区での地盤が脆弱で政治的安定性に課題。",
+    comment:"財務省出身の財政金融専門家が政党遍歴を重ねながらも政策実務で存在感を示してきた。総理補佐官・経産政務官の行政経験は確かで、自民党内で経済安保・財政政策に貢献できる立場にある。",
     links:{hp:"https://www.google.com/search?q=%E5%8C%97%E7%A5%9E%20%E5%9C%AD%E6%9C%97%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"https://x.com/kitagamikeiro",wiki:"https://ja.wikipedia.org/wiki/%E5%8C%97%E7%A5%9E%E5%9C%AD%E6%9C%97",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
@@ -2066,12 +2066,12 @@ const POLITICIANS = [
   {
     id:"P188", name:"坂井 学", reading:"さかい まなぶ", party:"自民党", role:"国家公安委員会委員長",
     chamber:"衆議院", district:"神奈川5", status:"現職", gender:"男", age:null,
-    total:60, rank:"C-",
-    axes:[3,3,3,3,2,3,3,4],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"内閣府副大臣や官房副長官の経験。治安維持、危機管理分野での安定した職務執行。", minus:"過去の一部グループ会合をめぐり、党内統治の観点から批判を浴びた経緯。",
-    comment:"官房副長官などの要職を経験し、現在は国家公安委員長（兼内閣府特命担当大臣）を務める実務派。手堅い手腕を持つ一方、強力な独自の成長マクロ経済アピールは控えめ。",
-    links:{hp:"https://www.google.com/search?q=%E5%9D%82%E4%BA%95%20%E5%AD%A6%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/坂井学",yt:""},
+    total:70, rank:"B-",
+    axes:[4,3,4,3,4,3,3,4],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"菅内閣の官房副長官・石破内閣の国家公安委員長兼内閣府特命担当大臣と官邸の中枢を歴任。東大法・松下政経塾出身の政策立案能力と災害対応・治安維持の実績が強み。", minus:"菅義偉の側近グループとして党内独自路線が薄く、大臣業務は実務中心で独自の政策発信力は控えめ。",
+    comment:"松下政経塾・東大法卒のエリートが菅内閣の官房副長官として官邸中枢を支え、石破内閣で大臣ポストに就いた実力派。国会運営・災害対応・治安維持の幅広い行政経験を持つ安定した実務家型議員。",
+    links:{hp:"https://www.google.com/search?q=%E5%9D%82%E4%BA%95%20%E5%AD%A6%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E5%9D%82%E4%BA%95%E5%AD%A6",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2099,13 +2099,13 @@ const POLITICIANS = [
   {
     id:"P191", name:"笹川 博義", reading:"ささがわ ひろよし", party:"自民党", role:"衆議院議員（元環境副大臣）",
     chamber:"衆議院", district:"群馬3", status:"現職", gender:"男", age:null,
-    total:55, rank:"D",
-    axes:[3,3,3,3,2,3,3,2],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"◎",semi:"○"},
-    plus:"環境副大臣等の経験。群馬の農林水産業振興や鳥獣害対策への地道な尽力。", minus:"二階派の政治資金不記載問題に関与したことによる党からの処分履歴。",
-    comment:"地方議員出身。環境副大臣などを務め、地方の環境インフラ整備や脱炭素推進に発言が多いが、所属した二階派の政治資金パーティーをめぐる不記載で処分を受け、倫理面で減点となった。",
-    links:{hp:"https://www.google.com/search?q=%E7%AC%B9%E5%B7%9D%20%E5%8D%9A%E7%BE%A9%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/笹川博義",yt:""},
-    flag_crime:false, flag_caution:true, updated:"2026.06", survey:"評価済"
+    total:65, rank:"C",
+    axes:[4,3,3,3,3,3,3,4],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"環境副大臣・農水副大臣と2分野の副大臣を歴任し、農水委員長も担う環境・農業政策の専門家。スキャンダルなくクリーンな姿勢で地域行政から国政へ着実に実績を積んでいる。", minus:"政治家三代目の世襲色が強く独自政策路線の打ち出しが難しい。2024年衆院選での214票差という僅差当選が示す地盤の脆さが課題。",
+    comment:"笹川家3代目として群馬3区の地盤を継ぎ、環境・農水分野で副大臣を歴任した実務派。世襲議員ながらスキャンダルなく着実に政策実績を積み上げており、農林水産・環境政策での貢献が期待される。",
+    links:{hp:"https://www.google.com/search?q=%E7%AC%B9%E5%B7%9D%20%E5%8D%9A%E7%BE%A9%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E7%AC%B9%E5%B7%9D%E5%8D%9A%E7%BE%A9",yt:""},
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P192", name:"佐々木 紀", reading:"ささき はじめ", party:"自民党", role:"衆議院議員（元国土交通政務官）",
@@ -2134,10 +2134,10 @@ const POLITICIANS = [
     chamber:"衆議院", district:"比例・北海道", status:"現職", gender:"男", age:null,
     total:67, rank:"C+",
     axes:[4,3,3,3,3,3,4,4],
-    stances:{tax_cut:"○",active_fiscal:"○",discipline:"△",defense:"△",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"△",expo:"○",ir:"×",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"○",foreign:"○",food:"○",semi:"○"},
-    plus:"農水副大臣等の経験。北海道選出として一次産業保護や過疎・雪害対策の実務。", minus:"与党連立の枠組み内調整を最優先するため、独自の強力な税制突破力に制約。",
-    comment:"公明党選出の議員。農林水産副大臣を経験。北海道の中山間地域直接支払制度の維持や、酪農家への飼料高騰対策、冬季の除排雪費用の財政支援措置など福祉・農業実務で手堅い貢献を示した。",
-    links:{hp:"https://www.google.com/search?q=%E4%BD%90%E8%97%A4%20%E8%8B%B1%E9%81%93%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/佐藤英道",yt:""},
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"◎",nuclear:"△",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"◎",china:"△",foreign:"○",food:"◎",semi:"○"},
+    plus:"農水政務官・厚労副大臣・公明国対委員長と多分野の要職を歴任した6期のベテラン。北海道農業・酪農問題を国政に持ち込む現場感覚と食料安保への精通が強み。", minus:"公明党離党→中道改革連合移籍という政治的転身が基盤の弱体化を招く。比例単独での当選で選挙区地盤なし。",
+    comment:"公明党で農水・厚労の行政実務を担ったベテランが新党移籍という転機を迎えた。北海道農業・食料安保・社会保障に軸足を置く実務家として、新たな政治基盤の構築が課題となる。",
+    links:{hp:"https://www.google.com/search?q=%E4%BD%90%E8%97%A4%20%E8%8B%B1%E9%81%93%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E4%BD%90%E8%97%A4%E8%8B%B1%E9%81%93",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2154,12 +2154,12 @@ const POLITICIANS = [
   {
     id:"P196", name:"塩川 鉄也", reading:"しおかわ てつや", party:"日本共産党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:65, rank:"C",
-    axes:[4,2,1,4,4,3,4,4],
-    stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"×",defense:"×",econ_sec:"×",immigration:"○",renewable:"◎",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"◎",china:"○",foreign:"×",food:"◎",semi:"×"},
-    plus:"綿密な資料分析に基づく、行政監視や利権追及に関する鋭い質問力。", minus:"防衛関係予算への全面反対など、現実的な対外抑止視点の不足への指摘。",
-    comment:"日本共産党の論客として長年活動。徹底した追及姿勢や、労働者の最低賃金引き上げ、消費税減税・廃止論の提唱で知られる。",
-    links:{hp:"https://www.google.com/search?q=%E5%A1%A9%E5%B7%9D%20%E9%89%84%E4%B9%9F%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/塩川鉄也",yt:""},
+    total:70, rank:"B-",
+    axes:[4,4,4,3,3,4,3,3],
+    stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"×",defense:"×",econ_sec:"△",immigration:"◎",renewable:"◎",nuclear:"×",expo:"×",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"○",china:"×",foreign:"○",food:"○",semi:"△"},
+    plus:"10期・現職衆院議員中で委員会発言数トップという圧倒的な国会活動量。行政監視・裏金問題追及・統一教会問題追及など野党の役割を徹底的に果たす論客として評価される。", minus:"共産党一筋で与党行政経験なく政策実現力に限界。少子化・経済成長への現実的な政策提案は広い支持を得にくい党路線に縛られる。",
+    comment:"10期連続当選・委員会発言数現職トップという稀有な国会実績を持つ共産党の論客。徹底した行政監視と政府追及で民主主義の安全弁機能を果たすが、政権担当能力・現実的な政策実現はシステム上の制約がある。",
+    links:{hp:"https://www.google.com/search?q=%E5%A1%A9%E5%B7%9D%20%E9%89%84%E4%B9%9F%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E5%A1%A9%E5%B7%9D%E9%89%84%E4%B9%9F",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2242,12 +2242,12 @@ const POLITICIANS = [
   {
     id:"P204", name:"島村 かおる", reading:"しまむら かおる", party:"参政党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・中国", status:"現職", gender:"女", age:null,
-    total:50, rank:"D",
-    axes:[2,2,2,2,3,3,3,3],
-    stances:{tax_cut:"○",active_fiscal:"△",discipline:"○",defense:"◎",econ_sec:"○",immigration:"×",renewable:"×",nuclear:"○",expo:"△",ir:"△",mynumber:"×",birthrate:"◎",education:"○",regional:"○",china:"×",foreign:"○",food:"◎",semi:"○"},
-    plus:"介護福祉士・ケアマネ資格保有。介護付き高齢者住宅施設長として福祉現場を経験。", minus:"政治経験なし。政策立案能力は未知数。",
-    comment:"介護・福祉現場の経験は貴重。国政での活動実績はこれから。",
-    links:{tw:"",hp:"",wiki:"https://ja.wikipedia.org/wiki/%E5%B3%B6%E6%9D%91%E8%96%AB",yt:""},
+    total:60, rank:"C-",
+    axes:[3,3,3,3,3,3,3,3],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"×",renewable:"△",nuclear:"◎",expo:"△",ir:"×",mynumber:"×",birthrate:"◎",education:"◎",regional:"○",china:"◎",foreign:"○",food:"◎",semi:"○"},
+    plus:"介護福祉士・ケアマネジャー資格を持つ現場経験者として、医療・介護政策に現実感ある視点を持ち込める希少な存在。健康事業の経営経験も政策立案の素地になる。", minus:"政治経験は市議選落選のみで国会活動実績はゼロ。参政党の支持基盤が限定的で政策実現力に制約がある。",
+    comment:"介護福祉の現場・健康事業経営から政界入りした参政党1期生。ケアマネ資格を持つ議員は希少で医療・介護分野での発言に説得力があるが、国会実績はこれから。",
+    links:{hp:"",tw:"",wiki:"",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2286,12 +2286,12 @@ const POLITICIANS = [
   {
     id:"P208", name:"新谷 正義", reading:"しんたに まさよし", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"広島4", status:"現職", gender:"男", age:null,
-    total:72, rank:"B-",
-    axes:[4,4,3,4,3,4,4,3],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"○",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"医師・医学博士。総務副大臣などの経験に基づく医療DXやマイナカードの推進。", minus:"中堅であり、国家全体の財政構造そのものを変革する強力な主導権発揮は途上。",
-    comment:"総務副大臣や厚労政務官、財務政務官を歴任。医療現場のデジタル変革やオンライン資格確認のインフラ導入、少子化対策関連の省庁間実務調整で高い事務能力を発揮した政策通中堅。",
-    links:{hp:"https://www.google.com/search?q=%E6%96%B0%E8%B0%B7%20%E6%AD%A3%E7%BE%A9%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/新谷正義",yt:""},
+    total:70, rank:"B-",
+    axes:[4,3,4,3,4,4,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"医師免許を持つ議員として医療・社会保障政策に説得力ある専門性を発揮。厚労政務官・総務副大臣・厚労委員長と複数の要職を重ね、医療DX・デジタル行政の実務に精通する。", minus:"6選ながら閣僚（大臣）未経験。2024年衆院選で小選挙区落選・比例単独当選と地盤の弱さが課題として残る。",
+    comment:"医師×政務官×副大臣×委員長の実績を積んだ実力派。厚労・総務の両分野で政策立案に貢献し、医療DX・地方通信インフラにも実績あり。小選挙区での地盤回復が今後の課題。",
+    links:{hp:"https://www.google.com/search?q=%E6%96%B0%E8%B0%B7%20%E6%AD%A3%E7%BE%A9%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E6%96%B0%E8%B0%B7%E6%AD%A3%E7%BE%A9",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2385,12 +2385,12 @@ const POLITICIANS = [
   {
     id:"P217", name:"鈴木 憲和", reading:"すずき のりかず", party:"自民党", role:"衆議院議員（山形2区）、農林水産大臣（2025年10月〜）、元農林水産副大臣、元復興副大臣、元自民党青年局長、農林水産省出身",
     chamber:"衆議院", district:"山形2", status:"現職", gender:"男", age:null,
-    total:75, rank:"B",
-    axes:[4,4,3,5,3,4,4,3],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"×",foreign:"○",food:"◎",semi:"○"},
-    plus:"農水官僚出身の実務型政治家。元農水副大臣・復興副大臣を経て2025年10月に農林水産大臣に就任。食料・農業・農村基本法の四半世紀ぶり改正を主導。2027年度始動の次期水田政策を策定・具体化し、節水型乾田直播など革新農業技術の現場普及を率先垂範。フィリピンとの農業協力覚書署名・農産物輸出拡大・木育推進など多面的な農政改革を実行。", minus:"農業・食料分野への特化が強く、他分野での独自実績は限定的。次期水田政策は2027年度始動予定で最終的な成果は今後の評価待ち。",
-    comment:"農水官僚出身の現場主義で食料安全保障・スマート農業・輸出拡大を着実に推進する実務型政治家。大臣として農政改革の全体指揮を執る段階に入っており、今後の政策実現が注目される。",
-    links:{hp:"https://norikazu.jp",tw:"https://x.com/norikazu_0130",wiki:"https://ja.wikipedia.org/wiki/鈴木憲和",yt:""},
+    total:72, rank:"B-",
+    axes:[4,4,4,3,4,3,3,4],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"開成・東大法・農水省キャリアの知的バックグラウンドを持ち、農水大臣（現職）としてコメ政策・農業所得向上・スマート農業を主導。農業一筋の深い専門知識が強み。", minus:"農水一筋で外交・安保・財政等の政策領域が手薄。過去の公職選挙法違反疑惑報道が懸念材料として残る。",
+    comment:"東大法卒の農水官僚から農水大臣まで農業政策一筋で駆け上がったエリート実務家。若くして農水大臣に就任し、食料安全保障・スマート農業・農業所得向上の実現が問われる正念場にある。",
+    links:{hp:"https://norikazu.jp",tw:"https://x.com/norikazu_0130",wiki:"https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E6%86%B2%E5%92%8C",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2418,12 +2418,12 @@ const POLITICIANS = [
   {
     id:"P220", name:"鈴木 義弘", reading:"すずき よしひろ", party:"国民民主党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・北関東", status:"現職", gender:"男", age:null,
-    total:72, rank:"B-",
-    axes:[4,4,3,3,4,3,4,4],
-    stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"民間企業（製造業）出身。科学技術投資、電気料金引き下げ等の家計負担軽減の提言。", minus:"野党議員の立場もあり、独自の減税関連法案を単独成立させた累積実績は発展途上。",
-    comment:"地方議員を経て国政へ。国民民主党の「手取りを増やす」方針を支持。暫定税率の凍結解除によるガソリン減税や、年収の壁打破を叫び、中小ものづくり企業の生産性向上を訴える。",
-    links:{hp:"https://www.google.com/search?q=%E9%88%B4%E6%9C%A8%20%E7%BE%A9%E5%BC%98%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/鈴木義弘",yt:""},
+    total:65, rank:"C",
+    axes:[4,3,3,3,3,3,4,3],
+    stances:{tax_cut:"◎",active_fiscal:"◎",discipline:"△",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"△",ir:"△",mynumber:"○",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"○"},
+    plus:"県議4期+衆院5期・党副代表・決算行政監視委員長という豊富なキャリア。エネルギー・産業政策での国会質問能力が高く、103万円の壁打破・ガソリン減税など経済政策に具体的な提言力を持つ。", minus:"自民系→維新→国民民主の党籍変遷がある。比例単独が多く選挙区での個人票獲得が2024年まで課題だった。",
+    comment:"長年の県議+衆院キャリアを持つ国民民主党の中堅議員。決算行政監視委員長を経験し国政実務に精通。手取り増・エネルギー政策の現場感ある提言が持ち味の実務派。",
+    links:{hp:"https://www.google.com/search?q=%E9%88%B4%E6%9C%A8%20%E7%BE%A9%E5%BC%98%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E7%BE%A9%E5%BC%98",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2440,12 +2440,12 @@ const POLITICIANS = [
   {
     id:"P222", name:"住吉 寛紀", reading:"すみよし ひろき", party:"日本維新の会", role:"衆議院議員",
     chamber:"衆議院", district:"比例・近畿", status:"現職", gender:"男", age:null,
-    total:67, rank:"C+",
-    axes:[3,4,3,3,4,3,4,3],
-    stances:{tax_cut:"◎",active_fiscal:"△",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"◎",ir:"◎",mynumber:"○",birthrate:"○",education:"◎",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"地方議会（兵庫県議）出身。行財政改革や「身を切る改革」の徹底的な推進姿勢。", minus:"歳出削減や行革を重視する反面、中長期の大規模産業投資ビジョンが地味な点。",
-    comment:"日本維新の会に所属。国会議員の定数削減、旧文通費（調査研究広報滞在費）の領収書添付による使途完全義務化を厳しく要求し、行政の無駄遣い削減を強く叫ぶ。",
-    links:{hp:"https://www.google.com/search?q=%E4%BD%8F%E5%90%89%20%E5%AF%9B%E7%B4%80%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/住吉寛紀",yt:""},
+    total:62, rank:"C-",
+    axes:[3,3,3,3,3,3,3,4],
+    stances:{tax_cut:"○",active_fiscal:"△",discipline:"◎",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"◎",ir:"◎",mynumber:"◎",birthrate:"○",education:"◎",regional:"○",china:"○",foreign:"○",food:"○",semi:"○"},
+    plus:"東大院工学・証券・起業・県議という多彩な経歴から身を切る改革・行政コスト削減に理論的根拠を持って取り組む。議員定数削減・旧文通費の使途完全義務化など維新改革路線を体現。", minus:"2期目とまだキャリアが浅く国会立法実績は限定的。兵庫11区での連続落選（比例復活）で選挙区地盤が未確立。",
+    comment:"工学者・金融・起業家経験を持つ維新の若手実務派。行政コスト削減・議員改革の論理的な推進役として2期目を迎えるが、政策立案から実現への道のりはこれから。",
+    links:{hp:"https://www.google.com/search?q=%E4%BD%8F%E5%90%89%20%E5%AF%9B%E7%B4%80%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E4%BD%8F%E5%90%89%E5%AF%9B%E7%B4%80",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2627,23 +2627,23 @@ const POLITICIANS = [
   {
     id:"P239", name:"高山 聡史", reading:"たかやま さとし", party:"チームみらい", role:"衆議院議員",
     chamber:"衆議院", district:"比例・東京", status:"現職", gender:"男", age:null,
-    total:45, rank:"D",
-    axes:[2,2,2,3,2,2,3,2],
-    stances:{tax_cut:"◎",active_fiscal:"○",discipline:"○",defense:"△",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"×",expo:"×",ir:"×",mynumber:"△",birthrate:"○",education:"○",regional:"◎",china:"○",foreign:"○",food:"○",semi:"△"},
-    plus:"委員会委員長・党幹部職の経験（詳細は公式記録を参照）。", minus:"Wikipediaの公開情報のみでは詳細な課題を特定できなかった。",
-    comment:"Wikipedia基礎評価。高山 聡史（たかやま さとし、1986年〈昭和61年〉9月21日 -）は、日本の政治家、コンサルタント。チームみらい所属の衆議院議員（1期）。チームみらい幹事長兼人事本部長。",
-    links:{hp:"https://www.google.com/search?q=%E9%AB%98%E5%B1%B1%20%E8%81%A1%E5%8F%B2%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/高山聡史",yt:""},
-    flag_crime:false, flag_caution:false, updated:"2026.05", survey:"Wikipedia基礎評価"
+    total:65, rank:"C",
+    axes:[3,3,3,3,3,4,3,4],
+    stances:{tax_cut:"○",active_fiscal:"○",discipline:"△",defense:"○",econ_sec:"◎",immigration:"○",renewable:"◎",nuclear:"△",expo:"△",ir:"△",mynumber:"◎",birthrate:"◎",education:"◎",regional:"○",china:"△",foreign:"○",food:"○",semi:"◎"},
+    plus:"BCG出身・AI分野の専門性を持つ幹事長として、チームみらいの政策言語化・広報・党組織運営を担う。テクノロジー・AI政策でのビジョン提示力が際立つ。", minus:"初当選1期生で立法実績なし。台風上陸日に官僚への対面レク要求問題はデジタル化推進姿勢との一貫性に疑問を残す。組織基盤が弱く比例依存。",
+    comment:"灘・慶應・BCGというエリートコースからAI分野の先端に身を置いた1期生。チームみらい幹事長としてテクノロジー政策のビジョンを示すが、実際の政策実現はこれからが本番。",
+    links:{hp:"https://www.google.com/search?q=%E9%AB%98%E5%B1%B1%20%E8%81%A1%E5%8F%B2%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B1%B1%E8%81%A1%E5%8F%B2",yt:""},
+    flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
     id:"P240", name:"武井 俊輔", reading:"たけい しゅんすけ", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"比例・九州", status:"現職", gender:"男", age:null,
-    total:57, rank:"D",
-    axes:[3,4,3,3,2,3,3,2],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"○",renewable:"○",nuclear:"△",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"◎",food:"○",semi:"○"},
-    plus:"外務副大臣等の外交経験。インバウンド誘致や国際観光立国の推進。", minus:"過去の乗車車両をめぐる不祥事報道履歴に伴う、道義的ガバナンスへの批判。",
-    comment:"観光庁出身で、外務副大臣などを歴任。親中派・国際協調路線を重視し、観光立国の推進に努める。しかし、過去の車両接触事故等の報道により倫理面・危機管理での減点要因を抱える。",
-    links:{hp:"https://www.google.com/search?q=%E6%AD%A6%E4%BA%95%20%E4%BF%8A%E8%BC%94%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/武井俊輔",yt:""},
+    total:60, rank:"C-",
+    axes:[3,3,3,2,4,3,3,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"4期・外務政務官→外務副大臣と外交・国際協調路線での実務経験を積んだ。観光立国推進・日本ブランド発信での知見も持つ。", minus:"秘書が運転する無車検・無保険車による当て逃げ事故（書類送検・不起訴）と元私設秘書の酒気帯び事故と2度の秘書問題が倫理管理面での大きな課題。",
+    comment:"宮崎県議から外務副大臣まで外交・観光分野で実績を積んだ中堅議員。しかし2度の秘書関連事故（無車検・無保険当て逃げ・酒気帯び）が政治倫理面の懸念材料として残る。",
+    links:{hp:"https://www.google.com/search?q=%E6%AD%A6%E4%BA%95%20%E4%BF%8A%E8%BC%94%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E6%AD%A6%E4%BA%95%E4%BF%8A%E8%BC%94",yt:""},
     flag_crime:false, flag_caution:true, updated:"2026.06", survey:"評価済"
   },
   {
@@ -2759,12 +2759,12 @@ const POLITICIANS = [
   {
     id:"P251", name:"田中 良生", reading:"たなか りょうせい", party:"自民党", role:"衆議院議員",
     chamber:"衆議院", district:"埼玉15", status:"現職", gender:"男", age:null,
-    total:62, rank:"C-",
-    axes:[3,4,3,3,3,3,3,3],
-    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"○",econ_sec:"○",immigration:"△",renewable:"○",nuclear:"○",expo:"○",ir:"○",mynumber:"○",birthrate:"○",education:"○",regional:"◎",china:"△",foreign:"○",food:"○",semi:"○"},
-    plus:"内閣府副大臣や経済産業政務官を歴任。中小企業支援や地域産業活性化の実務。", minus:"実務調整型の政策派である一方、国家規模での強力な独自減税戦略の発信は地味。",
-    comment:"内閣府副大臣等として、ものづくり補助金などの小規模事業者支援策や、埼玉・首都圏の防災インフラ強化に携わった経歴を持つ。一部指標は党の方針を勘案した推定配置。",
-    links:{hp:"https://www.google.com/search?q=%E7%94%B0%E4%B8%AD%20%E8%89%AF%E7%94%9F%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/田中良生",yt:""},
+    total:65, rank:"C",
+    axes:[4,3,3,3,3,3,4,3],
+    stances:{tax_cut:"△",active_fiscal:"○",discipline:"○",defense:"◎",econ_sec:"◎",immigration:"△",renewable:"△",nuclear:"◎",expo:"○",ir:"○",mynumber:"◎",birthrate:"○",education:"○",regional:"○",china:"○",foreign:"○",food:"○",semi:"◎"},
+    plus:"内閣府副大臣×2回（地方創生・経済財政）と政調副会長を務めたベテラン。ものづくり補助金など中小企業支援策の実務経験と埼玉の防災・交通インフラ整備実績。", minus:"6期在職で全国的な政策インパクトは地元密着型が中心。知名度が低く中央政治での独自の発信力が乏しい。",
+    comment:"内閣府副大臣を2期務め経済財政・地方創生の行政実務を熟知する6期生。地元埼玉のインフラ・中小企業支援を地道に実現してきた実務型議員で、派手さはないが着実な政策の積み上げが強み。",
+    links:{hp:"https://www.google.com/search?q=%E7%94%B0%E4%B8%AD%20%E8%89%AF%E7%94%9F%20%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8",tw:"",wiki:"https://ja.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E8%89%AF%E7%94%9F",yt:""},
     flag_crime:false, flag_caution:false, updated:"2026.06", survey:"評価済"
   },
   {
