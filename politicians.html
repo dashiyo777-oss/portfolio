@@ -707,7 +707,7 @@
 <section class="hero">
   <p class="hero-eyebrow">Japan Political Intelligence Database</p>
   <h1 class="hero-title">政治家 <span>総覧</span></h1>
-  <p class="hero-tagline">816人の政治家データベース — 実績・発言・疑惑を根拠に基づき評価する</p>
+  <p class="hero-tagline"><span id="hero-total">—</span>人の政治家データベース — 実績・発言・疑惑を根拠に基づき評価する</p>
   <div class="stats-grid">
     <div class="stat-item">
       <div class="stat-num blue" id="stat-surveyed">—</div>
@@ -1052,6 +1052,7 @@ let presetLimit = 0;
 
 /* ── STATS ── */
 function updateStats() {
+  document.getElementById('hero-total').textContent = POLITICIANS.length;
   document.getElementById('stat-surveyed').textContent = POLITICIANS.filter(p=>p.total>0).length + '人';
   document.getElementById('stat-a-plus').textContent = POLITICIANS.filter(p=>p.rank.startsWith('A')||p.rank.startsWith('S')).length + '人';
   document.getElementById('stat-caution').textContent = POLITICIANS.filter(p=>p.flag_caution||p.flag_crime).length + '人';
